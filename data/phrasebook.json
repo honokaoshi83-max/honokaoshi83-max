@@ -1,0 +1,5868 @@
+[
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WelcomeBack.1",
+    "before": "嗨 %driver%，欢迎回来。",
+    "after": "欢迎回来。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WelcomeBack.2",
+    "before": "欢迎回来，%driver%。",
+    "after": "欢迎回来。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.1",
+    "before": "我在线。我能为你做什么？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.2",
+    "before": "在的，%driver%？你叫我？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.4",
+    "before": "是的，我听到了。你需要什么？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.5",
+    "before": "信号清晰。我能怎么帮你？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.1",
+    "before": "收到，我会尽快回复你。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.2",
+    "before": "好的，稍等一下。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.3",
+    "before": "等一下。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.4",
+    "before": "我马上去查。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.5",
+    "before": "收到，请稍等。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.6",
+    "before": "好的，我马上就办。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.1",
+    "before": "好的，我会处理。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.2",
+    "before": "照做。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.3",
+    "before": "好的，明白了。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.4",
+    "before": "收到，明白。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "NotPossible.1",
+    "before": "现在做不到。",
+    "after": "目前无法执行。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "NotPossible.3",
+    "before": "现在不可能做这个。",
+    "after": "目前无法执行。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.1",
+    "before": "好的。准备好了随时叫我。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.2",
+    "before": "明白。我就在这里。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.3",
+    "before": "好的。但如果你需要我，我就在这里。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.4",
+    "before": "明白，没问题。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.1",
+    "before": "抱歉 %driver%，我没听清。能重复一遍吗？",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.2",
+    "before": "抱歉，我没明白。请重复。",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.3",
+    "before": "能请您重复一遍吗？",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Joke.1",
+    "before": "其实你应该专注于驾驶，不过好吧，听着。",
+    "after": "可以，听完继续专心开车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Joke.2",
+    "before": "行，但之后我希望看到你专注。",
+    "after": "可以，听完继续专心开车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "NoJoke.1",
+    "before": "抱歉，我现在没什么心情开玩笑。",
+    "after": "先专心开车，稍后再聊。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "NoJoke.2",
+    "before": "什么？你应该专注于你的驾驶。",
+    "after": "先专心开车，稍后再聊。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Time.1",
+    "before": "现在是 %time%。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Time.2",
+    "before": "现在是 %time% 整。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Time.3",
+    "before": "当前时间 %time%。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "NoInformation.1",
+    "before": "抱歉，我没有这个信息。",
+    "after": "暂时没有这项信息。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "NoInformation.2",
+    "before": "我找不到这个信息，抱歉。",
+    "after": "暂时没有这项信息。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherGood.1",
+    "before": "天气看起来很稳定。 ",
+    "after": "天气目前比较稳定。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherGood.2",
+    "before": "天气会没事的，别担心。 ",
+    "after": "天气目前比较稳定。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRain.1",
+    "before": "看起来前面要下雨了。 ",
+    "after": "预计接下来会下雨。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRain.2",
+    "before": "%driver%，我们得预计几分钟后会下雨。 ",
+    "after": "预计接下来会下雨。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherChange.1",
+    "before": "%driver%，看起来天气大约在 %minutes% 分钟后会有变化。我会持续关注。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，我会继续留意。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherChange.2",
+    "before": "我是 %name%。我刚收到最新的天气信息。也许我们需要换胎。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，我会继续留意。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherNoChange.1",
+    "before": "%driver%，看起来天气大约在 %minutes% 分钟后会有变化。但这么晚换胎可能不值得了。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，目前建议保持现有设置。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherNoChange.2",
+    "before": "我是 %name%。我刚收到最新的天气信息。前面天气会有变化，但我们用现在的设定也许能撑过去。",
+    "after": "预计约%minutes%分钟后天气会有变化，目前建议保持现有设置。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRainChange.1",
+    "before": "%driver%，我是 %name%。%minutes% 分钟后会开始下雨。我们应该尽快换上 %compound% 轮胎。",
+    "after": "预计约%minutes%分钟后开始下雨，建议准备换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRainChange.2",
+    "before": "我是 %name%。看起来几分钟后就要开始下雨了。我建议换胎。",
+    "after": "预计约%minutes%分钟后开始下雨，建议准备换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherDryChange.1",
+    "before": "%driver%，接下来 %minutes% 分钟赛道会变干。也许我们应该换成 %compound% 轮胎。",
+    "after": "预计约%minutes%分钟后雨会停，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherDryChange.2",
+    "before": "嘿，%minutes% 分钟后雨就要停了。我建议换胎。",
+    "after": "预计约%minutes%分钟后雨会停，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "TrackDryChange.1",
+    "before": "%driver%，赛道将在接下来的%minutes%分钟内变干。或许我们应该换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变干，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "TrackDryChange.2",
+    "before": "嘿，赛道将在接下来的%minutes%分钟内变干。我认为我们可以计划换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变干，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "TrackRainChange.1",
+    "before": "%driver%，%name%，赛道将在接下来的%minutes%分钟内变湿。我们应该尽快换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变湿，建议准备%compound%轮胎。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "TrackRainChange.2",
+    "before": "%name%，看起来赛道几分钟后就会变湿。我建议更换轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变湿，建议准备%compound%轮胎。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingIntro.1",
+    "before": "嗨 %driver%，我是 %name%。我会帮你留意其他赛车。",
+    "after": "我是芙宁娜，会帮你留意周围的赛车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingIntro.2",
+    "before": "我是 %name%。我会为你监控交通状况。",
+    "after": "我是芙宁娜，会帮你留意周围的赛车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingIntro.3",
+    "before": "嘿 %driver%，我是你的赛道观察员。",
+    "after": "我是芙宁娜，会帮你留意周围的赛车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingWeather.1",
+    "before": "当前气温 %air% 度，赛道温度 %track% 度，天气 %weather%。赛道是 %grip%。",
+    "after": "气温%air%度，赛道温度%track%度。%weather%。赛道抓地状态：%grip%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingWeather.2",
+    "before": "%weather%，气温 %air% 度，赛道温度 %track% 度。赛道是 %grip%。",
+    "after": "气温%air%度，赛道温度%track%度。%weather%。赛道抓地状态：%grip%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingPosition.1",
+    "before": "你的发车位是 P %position% %overall%。",
+    "after": "你排在第%position%位，%overall%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingPosition.2",
+    "before": "你的排位成绩是 P %position% %overall%。",
+    "after": "你排在第%position%位，%overall%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingPosition.3",
+    "before": "你当前在 P %position% %overall%。",
+    "after": "你排在第%position%位，%overall%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingDuration.1",
+    "before": "比赛将持续 %minutes% 分钟。即将亮起绿灯。",
+    "after": "比赛共%minutes%分钟，准备起步。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingDuration.2",
+    "before": "接下来是 %minutes% 分钟的激烈角逐。比赛即将开始。",
+    "after": "比赛共%minutes%分钟，准备起步。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingDuration.3",
+    "before": "我们还有 %minutes% 分钟。做好准备。",
+    "after": "比赛共%minutes%分钟，准备起步。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingLaps.1",
+    "before": "今天的比赛共 %laps% 圈。即将亮起绿灯。",
+    "after": "比赛共%laps%圈，准备起步。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingLaps.2",
+    "before": "前方还有 %laps% 圈。比赛即将开始。",
+    "after": "比赛共%laps%圈，准备起步。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Later.1",
+    "before": "现在说这个还太早。",
+    "after": "还需要一些数据，再跑一两圈看看。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Later.2",
+    "before": "太早了，先跑几圈再说。",
+    "after": "还需要一些数据，再跑一两圈看看。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmSaveSettings.1",
+    "before": "需要我保存所有设置用于下场比赛吗？",
+    "after": "要保存这次的设置吗？"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmSaveSettings.2",
+    "before": "哦，%driver%，需要我记录所有设置吗？",
+    "after": "要保存这次的设置吗？"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GoodStart.1",
+    "before": "起步不错，我们守住了发车位置。",
+    "after": "起步不错，守住位置了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GoodStart.2",
+    "before": "干得好。起步没有丢失位置。",
+    "after": "起步不错，守住位置了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreatStart.1",
+    "before": "起步太棒了，干得好。",
+    "after": "起步漂亮。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GreatStart.2",
+    "before": "那个起步非常出色。",
+    "after": "起步漂亮。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BadStart.1",
+    "before": "运气不太好，起步本可以更好。",
+    "after": "起步不太顺，先稳住节奏。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BadStart.2",
+    "before": "起步不太理想。",
+    "after": "起步不太顺，先稳住节奏。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "PositionsGained.1",
+    "before": "我们提升了 %positions% 个位置。",
+    "after": "上升了%positions%个位置。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "PositionsGained.2",
+    "before": "提升了 %positions% 个位置。",
+    "after": "上升了%positions%个位置。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "PositionsLost.1",
+    "before": "我们丢失了 %positions% 个位置。",
+    "after": "掉了%positions%个位置。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "PositionsLost.2",
+    "before": "丢失了 %positions% 个位置。",
+    "after": "掉了%positions%个位置。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Fight.1",
+    "before": "集中精神。",
+    "after": "稳住节奏，还有机会。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Fight.2",
+    "before": "你比这更强。",
+    "after": "稳住节奏，还有机会。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LastLaps.1",
+    "before": "好的，只剩最后几圈了。",
+    "after": "剩最后几圈了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LastLaps.2",
+    "before": "快完成了，只剩最后几圈。",
+    "after": "剩最后几圈了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Leader.1",
+    "before": "你处于领先位置。",
+    "after": "你现在领跑。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Leader.2",
+    "before": "我们是第一名。",
+    "after": "你现在领跑。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Position.1",
+    "before": "你当前在 P %position%。",
+    "after": "现在排第%position%位。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Position.2",
+    "before": "P %position%，还不错。",
+    "after": "现在排第%position%位。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BringItHome.1",
+    "before": "安全带回。",
+    "after": "稳稳跑完，别冒险。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BringItHome.2",
+    "before": "别冒险。我们需要积分。",
+    "after": "稳稳跑完，别冒险。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BringItHome.3",
+    "before": "这将是个好成绩。",
+    "after": "稳稳跑完，别冒险。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LastLapLeader.1",
+    "before": "领跑车进入最后一圈。",
+    "after": "领跑车开始最后一圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LastLapLeader.2",
+    "before": "领跑车最后一圈。",
+    "after": "领跑车开始最后一圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LastLapDriver.1",
+    "before": "你进入最后一圈。",
+    "after": "最后一圈了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Temperature.1",
+    "before": "我是 %name%。当前气温 %air% 度，赛道温度 %track% 度。",
+    "after": "气温%air%度，赛道温度%track%度。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Temperature.2",
+    "before": "我是 %name%。目前气温 %air% 度，赛道温度 %track% 度。",
+    "after": "气温%air%度，赛道温度%track%度。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "TemperatureRising.1",
+    "before": "温度在上升，当前气温 %air% 度，赛道温度 %track% 度。",
+    "after": "温度在上升。气温%air%度，赛道温度%track%度。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "TemperatureRising.2",
+    "before": "当前气温 %air% 度，赛道温度 %track% 度，仍在上升。",
+    "after": "温度在上升。气温%air%度，赛道温度%track%度。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "TemperatureFalling.1",
+    "before": "温度在下降，当前气温 %air% 度，赛道温度 %track% 度。",
+    "after": "温度在下降。气温%air%度，赛道温度%track%度。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "TemperatureFalling.2",
+    "before": "当前气温 %air% 度，赛道温度 %track% 度，仍在下降。",
+    "after": "温度在下降。气温%air%度，赛道温度%track%度。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "StintEnding.1",
+    "before": "注意，%driver%，你的驾驶时段即将结束，还剩 %laps% 圈。",
+    "after": "这个驾驶轮次还剩%laps%圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "StintEnding.2",
+    "before": "注意，%driver%，你的驾驶时段只剩 %laps% 圈。",
+    "after": "这个驾驶轮次还剩%laps%圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "StintEnding.3",
+    "before": "你的驾驶时段将在 %laps% 圈后结束。保持专注。",
+    "after": "这个驾驶轮次还剩%laps%圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeIntro.1",
+    "before": "比赛上半程结束。你当前在 P %position%。",
+    "after": "比赛过半，现在排第%position%位。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeIntro.2",
+    "before": "我们已完成半程比赛，你当前在 P %position%。",
+    "after": "比赛过半，现在排第%position%位。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeSession.1",
+    "before": "前方还有 %minutes% 分钟和约 %laps% 圈。",
+    "after": "比赛还剩%minutes%分钟，大约%laps%圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeSession.2",
+    "before": "但前方还有 %minutes% 分钟和 %laps% 圈。",
+    "after": "比赛还剩%minutes%分钟，大约%laps%圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeStint.1",
+    "before": "你的驾驶时段还剩 %minutes% 分钟。",
+    "after": "这个驾驶轮次还剩%minutes%分钟。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeStint.2",
+    "before": "你的驾驶时段还剩 %minutes% 分钟。",
+    "after": "这个驾驶轮次还剩%minutes%分钟。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeEnoughFuel.1",
+    "before": "剩余燃油预计还能跑 %laps% 圈。这应该没问题。",
+    "after": "油量足够跑到终点。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeEnoughFuel.2",
+    "before": "我们燃油足够跑完全程。",
+    "after": "油量足够跑到终点。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeNotEnoughFuel.1",
+    "before": "但剩余燃油预计只能跑 %laps% 圈。",
+    "after": "目前油量不够跑到终点。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "HalfTimeNotEnoughFuel.2",
+    "before": "但我们燃油不足以跑完全程。",
+    "after": "目前油量不够跑到终点。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "SessionEnding.1",
+    "before": "当前赛段还剩 %minutes% 分钟结束。",
+    "after": "本场还剩%minutes%分钟。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "SessionEnding.1",
+    "before": "当前赛段还剩 %minutes% 分钟。",
+    "after": "本场还剩%minutes%分钟。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LastLapPosition.1",
+    "before": "领跑车进入最后一圈，而你...",
+    "after": "领跑车开始最后一圈，你现在排"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LastLapLeader.1",
+    "before": "领跑车最后一圈。安全带回。",
+    "after": "领跑车开始最后一圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BestLap.1",
+    "before": "%minute% 分 %seconds% 秒。这是你目前的最快圈。",
+    "after": "本圈%minute%分%seconds%秒，刷新最快圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BestLap.2",
+    "before": "太棒了，%minute% 分 %seconds% 秒。你目前的最快圈。",
+    "after": "本圈%minute%分%seconds%秒，刷新最快圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderLapTime.1",
+    "before": "领跑车当前圈速 %minute% 分 %seconds% 秒。",
+    "after": "领跑车的圈速是%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderLapTime.2",
+    "before": "领跑车上圈成绩 %minute% 分 %seconds% 秒。",
+    "after": "领跑车的圈速是%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderLapTime.3",
+    "before": "领跑者 %forName% %surName% 当前圈速 %minute% 分 %seconds% 秒。",
+    "after": "领跑车的圈速是%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadLapTime.1",
+    "before": "你前一位赛车的当前圈速 %minute% 分 %seconds% 秒。",
+    "after": "前一名的当前圈速 %minute% 分 %seconds% 秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadLapTime.2",
+    "before": "你前一位赛车上圈成绩 %minute% 分 %seconds% 秒。",
+    "after": "前一名上圈成绩 %minute% 分 %seconds% 秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindLapTime.1",
+    "before": "你后一位赛车的当前圈速 %minute% 分 %seconds% 秒。",
+    "after": "后一名的当前圈速 %minute% 分 %seconds% 秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindLapTime.2",
+    "before": "你后一位赛车上圈成绩 %minute% 分 %seconds% 秒。",
+    "after": "后一名上圈成绩 %minute% 分 %seconds% 秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderBestLap.1",
+    "before": "领跑车刚做出 %minute% 分 %seconds% 秒。",
+    "after": "领跑车刷新最快圈，%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderBestLap.2",
+    "before": "领跑车的最快圈现在是 %minute% 分 %seconds% 秒。",
+    "after": "领跑车刷新最快圈，%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderBestLap.3",
+    "before": "领跑者 %forName% %surName% 刚做出 %minute% 分 %seconds% 秒的最快圈。",
+    "after": "领跑车刷新最快圈，%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadBestLap.1",
+    "before": "你前一位赛车刚做出 %minute% 分 %seconds% 秒。",
+    "after": "前一名刚做出 %minute% 分 %seconds% 秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadBestLap.2",
+    "before": "你前一位赛车的最快圈刷新为 %minute% 分 %seconds% 秒。",
+    "after": "前一名的最快圈刷新为 %minute% 分 %seconds% 秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindBestLap.1",
+    "before": "你后一位赛车刚做出 %minute% 分 %seconds% 秒。",
+    "after": "后一名刚做出 %minute% 分 %seconds% 秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindBestLap.2",
+    "before": "你后一位赛车刷新最快圈 %minute% 分 %seconds% 秒。",
+    "after": "后一名刷新最快圈 %minute% 分 %seconds% 秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusBestLap.1",
+    "before": "%indicator% 号赛车刚做出 %minute% 分 %seconds% 秒。",
+    "after": "%indicator%号车刷新最快圈，%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusBestLap.2",
+    "before": "%indicator% 号赛车刷新最快圈 %minute% 分 %seconds% 秒。",
+    "after": "%indicator%号车刷新最快圈，%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusBestLap.3",
+    "before": "%forName% %surName% 刚做出 %minute% 分 %seconds% 秒。",
+    "after": "%indicator%号车刷新最快圈，%minute%分%seconds%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderPitting.1",
+    "before": "领跑车现在进站。",
+    "after": "领跑车进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderPitting.3",
+    "before": "P1 进站了。",
+    "after": "领跑车进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LeaderPitting.4",
+    "before": "领跑者 %forName% %surName% 正在进站。",
+    "after": "领跑车进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadPitting.1",
+    "before": "你前一位赛车进站了。",
+    "after": "前一名进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadPitting.2",
+    "before": "你的直接对手现在进站了。",
+    "after": "前一名进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadPitting.3",
+    "before": "前方赛车进站了。",
+    "after": "前一名进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadPitting.4",
+    "before": "你前方一位的 %forName% %surName% 已进入维修站。",
+    "after": "前一名进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindPitting.1",
+    "before": "你后一位赛车进站了。",
+    "after": "后一名进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindPitting.2",
+    "before": "你的追击者进站了。",
+    "after": "后一名进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindPitting.3",
+    "before": "你身后的赛车现在进站了。",
+    "after": "后一名进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindPitting.4",
+    "before": "你后方一位的 %forName% %surName% 已进入维修站。",
+    "after": "后一名进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusPitting.1",
+    "before": "%indicator% 号赛车进站了。",
+    "after": "%indicator%号车进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusPitting.2",
+    "before": "%indicator% 号赛车现在进站了。",
+    "after": "%indicator%号车进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusPitting.3",
+    "before": "%forName% %surName% 正在维修站中。",
+    "after": "%indicator%号车进站了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadProblem.1",
+    "before": "你前一位赛车上圈慢了很多。可能出了问题。",
+    "after": "前一名上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadProblem.2",
+    "before": "看起来你前一位赛车出了问题。上圈非常慢。",
+    "after": "前一名上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadProblem.3",
+    "before": "你前一位赛车的上圈很慢。可能有问题。",
+    "after": "前一名上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "AheadProblem.4",
+    "before": "前一名的 %forName% %surName% 上圈慢了很多，可能遇到了问题。",
+    "after": "前一名上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindProblem.1",
+    "before": "你后一位赛车最近慢了很多。可能出了问题。",
+    "after": "后一名上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindProblem.2",
+    "before": "看起来你后一位赛车出了问题。上圈非常慢。",
+    "after": "后一名上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindProblem.3",
+    "before": "你后一位赛车的上圈很慢。可能有问题。",
+    "after": "后一名上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "BehindProblem.4",
+    "before": "后一名的 %forName% %surName% 最近速度明显下降，可能遇到了问题。",
+    "after": "后一名上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusProblem.1",
+    "before": "%indicator% 号赛车上圈慢了很多。可能出了问题。",
+    "after": "%indicator%号车上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusProblem.2",
+    "before": "看起来 %indicator% 号赛车出了问题。上圈非常慢。",
+    "after": "%indicator%号车上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusProblem.3",
+    "before": "%indicator% 号赛车的上圈很慢。可能有问题。",
+    "after": "%indicator%号车上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FocusProblem.4",
+    "before": "%forName% %surName% 上圈速度大幅下降，可能遇到了问题。",
+    "after": "%indicator%号车上圈明显变慢，可能遇到了问题。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FasterThan.1",
+    "before": "过去几圈你比 %indicator% 号赛车快 %lapTime% 秒。保持住。",
+    "after": "过去几圈，你每圈比%indicator%号车快%lapTime%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "FasterThan.2",
+    "before": "太棒了，你比 %indicator% 号赛车快 %lapTime% 秒。该车目前领先你 %delta% 秒。",
+    "after": "过去几圈，你每圈比%indicator%号车快%lapTime%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Cut.1",
+    "before": "%driver%，保持在赛道上。",
+    "after": "注意赛道边界。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Cut.2",
+    "before": "%driver%，别太过火。",
+    "after": "注意赛道边界。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Cut.3",
+    "before": "小心，保持在赛道上。",
+    "after": "注意赛道边界。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "RepeatedCut.1",
+    "before": "%driver%，你需要稳妥行事。我们不能冒险被罚。",
+    "after": "已经多次超出赛道边界，小心受罚。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "RepeatedCut.2",
+    "before": "小心。一次处罚会让我们损失惨重。",
+    "after": "已经多次超出赛道边界，小心受罚。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "RepeatedCut.3",
+    "before": "%driver%，冷静。被罚不值得。",
+    "after": "已经多次超出赛道边界，小心受罚。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Penalty.1",
+    "before": "该死，我们被罚 %penalty%。",
+    "after": "收到%penalty%处罚。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Penalty.2",
+    "before": "该死，%penalty% 处罚。这让我们损失很大。",
+    "after": "收到%penalty%处罚。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Disqualified.1",
+    "before": "我们被取消资格了。太遗憾了。",
+    "after": "我们被取消比赛资格了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "Disqualified.2",
+    "before": "该死，我们被取消资格了。",
+    "after": "我们被取消比赛资格了。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFront.1",
+    "before": "你正在追近前车，%deltaLaps% %laps% 内追回了 %gained% 秒。差距还有 %delta% 秒，但你单圈快 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%追回%gained%秒，目前落后前车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFront.2",
+    "before": "你在 %deltaLaps% %laps% 内追前车 %gained% 秒，但仍有 %delta% 秒差距。",
+    "after": "你在最近%deltaLaps%%laps%追回%gained%秒，目前落后前车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFront.3",
+    "before": "你正在接近 %forName% %surName%，过去 %deltaLaps% 圈追回了 %gained% 秒。虽然差距仍有 %delta% 秒，但你的圈速快了 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%追回%gained%秒，目前落后前车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "CanDoIt.1",
+    "before": "你能做到。继续推进。",
+    "after": "有机会，保持这个节奏。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "CanDoIt.2",
+    "before": "拿下他。",
+    "after": "有机会，保持这个节奏。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "CanDoIt.3",
+    "before": "干掉他。",
+    "after": "有机会，保持这个节奏。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "CantDoIt.1",
+    "before": "可能性不大，但保持住。",
+    "after": "差距还比较大，先保持节奏。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "CantDoIt.2",
+    "before": "通常不太可能，但保持专注，我们看看情况。",
+    "after": "差距还比较大，先保持节奏。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFront.1",
+    "before": "你落后前车，%deltaLaps% %laps% 内损失 %lost% 秒。差距已达 %delta% 秒，对手单圈快 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%被拉开%lost%秒，目前落后前车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFront.2",
+    "before": "你在 %deltaLaps% %laps% 内落后前一位赛车 %lost% 秒。",
+    "after": "你在最近%deltaLaps%%laps%被拉开%lost%秒，目前落后前车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFront.3",
+    "before": "你被 %forName% %surName% 拉开，过去 %deltaLaps% 圈损失了 %lost% 秒。差距已达 %delta% 秒，对手圈速比你快 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%被拉开%lost%秒，目前落后前车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LapDownDriver.1",
+    "before": "你前方的赛车至少慢一圈。让他知道你在这里。",
+    "after": "前车被套圈了，找安全的机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LapDownDriver.2",
+    "before": "前方有慢车。尽快通过。",
+    "after": "前车被套圈了，找安全的机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LapUpDriver.1",
+    "before": "你前方的赛车至少领先你一圈。你可以尝试解套。",
+    "after": "前车领先我们一圈，有机会可以解除套圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LapUpDriver.2",
+    "before": "如果你想，可以尝试解套，但要小心。",
+    "after": "前车领先我们一圈，有机会可以解除套圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostBehind.1",
+    "before": "你后方的赛车在 %deltaLaps% %laps% 内追近了 %lost% 秒，单圈快 %lapTime% 秒。注意。",
+    "after": "后车在最近%deltaLaps%%laps%追近%lost%秒，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostBehind.2",
+    "before": "你在 %deltaLaps% %laps% 内被后车追近 %lost% 秒。差距还有 %delta% 秒，但对手单圈快 %lapTime% 秒。",
+    "after": "后车在最近%deltaLaps%%laps%追近%lost%秒，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostBehind.3",
+    "before": "你后方的赛车正在逼近。%deltaLaps% %laps% 内你损失 %lost% 秒，对手单圈快 %lapTime% 秒。",
+    "after": "后车在最近%deltaLaps%%laps%追近%lost%秒，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostBehind.4",
+    "before": "%forName% %surName% 过去 %deltaLaps% 圈追近了 %lost% 秒，圈速比你快 %lapTime% 秒。注意防守。",
+    "after": "后车在最近%deltaLaps%%laps%追近%lost%秒，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedBehind.1",
+    "before": "你后方的赛车在 %deltaLaps% %laps% 内落后 %gained% 秒，单圈慢 %lapTime% 秒。干得好。",
+    "after": "你在最近%deltaLaps%%laps%把后车甩开%gained%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedBehind.2",
+    "before": "你在 %deltaLaps% %laps% 内甩开后车 %gained% 秒。差距已达 %delta% 秒，你单圈快 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%把后车甩开%gained%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedBehind.3",
+    "before": "你后一位赛车在掉队。%deltaLaps% %laps% 内你拉开 %gained% 秒。",
+    "after": "你在最近%deltaLaps%%laps%把后车甩开%gained%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedBehind.4",
+    "before": "%forName% %surName% 过去 %deltaLaps% 圈损失了 %gained% 秒，圈速比你慢 %lapTime% 秒。干得漂亮。",
+    "after": "你在最近%deltaLaps%%laps%把后车甩开%gained%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFocusFront.1",
+    "before": "你正在追近 %indicator% 号赛车，%deltaLaps% %laps% 内追回 %gained% 秒。差距还有 %delta% 秒，但你单圈快 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%追回%gained%秒，目前落后%indicator%号车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFocusFront.3",
+    "before": "你正在接近 %forName% %surName%，过去 %deltaLaps% 圈追回了 %gained% 秒。虽然差距仍有 %delta% 秒，但你的圈速快了 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%追回%gained%秒，目前落后%indicator%号车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFocusFront.1",
+    "before": "你落后 %indicator% 号赛车，%deltaLaps% %laps% 内损失 %lost% 秒。差距已达 %delta% 秒，他单圈快 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%被拉开%lost%秒，目前落后%indicator%号车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFocusFront.2",
+    "before": "你在 %deltaLaps% %laps% 内落后 %indicator% 号赛车 %lost% 秒。",
+    "after": "你在最近%deltaLaps%%laps%被拉开%lost%秒，目前落后%indicator%号车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFocusFront.3",
+    "before": "你被 %forName% %surName% 拉开，过去 %deltaLaps% 圈损失了 %lost% 秒。差距已达 %delta% 秒，他圈速比你快 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%被拉开%lost%秒，目前落后%indicator%号车%delta%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFocusBehind.1",
+    "before": "%indicator% 号赛车在 %deltaLaps% %laps% 内追近 %lost% 秒，单圈快 %lapTime% 秒。",
+    "after": "%indicator%号车在最近%deltaLaps%%laps%追近%lost%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFocusBehind.2",
+    "before": "你在 %deltaLaps% %laps% 内被 %indicator% 号赛车追近 %lost% 秒。差距还有 %delta% 秒，但他单圈快 %lapTime% 秒。",
+    "after": "%indicator%号车在最近%deltaLaps%%laps%追近%lost%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFocusBehind.3",
+    "before": "%indicator% 号赛车正在逼近。%deltaLaps% %laps% 内你损失 %lost% 秒，他单圈快 %lapTime% 秒。",
+    "after": "%indicator%号车在最近%deltaLaps%%laps%追近%lost%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "LostFocusBehind.4",
+    "before": "%forName% %surName% 过去 %deltaLaps% 圈追近了 %lost% 秒，圈速比你快 %lapTime% 秒。",
+    "after": "%indicator%号车在最近%deltaLaps%%laps%追近%lost%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFocusBehind.1",
+    "before": "%indicator% 号赛车在 %deltaLaps% %laps% 内落后 %gained% 秒，单圈慢 %lapTime% 秒。干得好。",
+    "after": "你在最近%deltaLaps%%laps%把%indicator%号车甩开%gained%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFocusBehind.2",
+    "before": "你在 %deltaLaps% %laps% 内甩开 %indicator% 号赛车 %gained% 秒。差距已达 %delta% 秒，你单圈快 %lapTime% 秒。",
+    "after": "你在最近%deltaLaps%%laps%把%indicator%号车甩开%gained%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFocusBehind.3",
+    "before": "%indicator% 号赛车在掉队。%deltaLaps% %laps% 内你拉开 %gained% 秒。",
+    "after": "你在最近%deltaLaps%%laps%把%indicator%号车甩开%gained%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Speaker Phrases]",
+    "key": "GainedFocusBehind.4",
+    "before": "%forName% %surName% 过去 %deltaLaps% 圈损失了 %gained% 秒，圈速比你慢 %lapTime% 秒。干得漂亮。",
+    "after": "你在最近%deltaLaps%%laps%把%indicator%号车甩开%gained%秒。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Green.2",
+    "before": "出发，绿灯了。",
+    "after": "绿灯，出发。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Green.3",
+    "before": "绿灯，油门踩到底。",
+    "after": "绿灯，出发。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Green.4",
+    "before": "绿灯，让他们见识你的实力。",
+    "after": "绿灯，出发。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Right.1",
+    "before": "注意右侧。",
+    "after": "右侧有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Right.3",
+    "before": "车在右边。",
+    "after": "右侧有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Left.1",
+    "before": "注意左侧。",
+    "after": "左侧有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Left.3",
+    "before": "车在左边。",
+    "after": "左侧有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Three.1",
+    "before": "三车并排，小心。",
+    "after": "三车并排，保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Three.2",
+    "before": "三车并排。",
+    "after": "三车并排，保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Side.1",
+    "before": "侧面有车。",
+    "after": "旁边还有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Side.2",
+    "before": "侧面有车，小心。",
+    "after": "旁边还有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Side.3",
+    "before": "在你侧面。",
+    "after": "旁边还有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Hold.2",
+    "before": "车还在。",
+    "after": "保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearAll.1",
+    "before": "全部安全。",
+    "after": "两侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearAll.2",
+    "before": "好的，安全了。",
+    "after": "两侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearAll.3",
+    "before": "全部安全。进攻。",
+    "after": "两侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearLeft.1",
+    "before": "左侧安全。",
+    "after": "左侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearLeft.2",
+    "before": "左侧安全。",
+    "after": "左侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearLeft.3",
+    "before": "左侧畅通。",
+    "after": "左侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearRight.1",
+    "before": "右侧安全。",
+    "after": "右侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearRight.2",
+    "before": "右侧安全。",
+    "after": "右侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClearRight.3",
+    "before": "右侧畅通。",
+    "after": "右侧已无车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Behind.2",
+    "before": "车在后方。",
+    "after": "后方有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Behind.3",
+    "before": "注意后方。",
+    "after": "后方有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BehindRight.1",
+    "before": "右后方。",
+    "after": "右后方有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BehindLeft.1",
+    "before": "左后方。",
+    "after": "左后方有车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAhead.1",
+    "before": "前方慢车。",
+    "after": "前方慢车，注意。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAhead.2",
+    "before": "注意，前方慢车。",
+    "after": "前方慢车，注意。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAhead.3",
+    "before": "赛道上有慢车。",
+    "after": "前方慢车，注意。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAheadDistance.1",
+    "before": "前方 %distance% %unit% 有慢车。",
+    "after": "前方%distance%%unit%有慢车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAheadDistance.2",
+    "before": "注意，%distance% %unit% 处有慢车。",
+    "after": "前方%distance%%unit%有慢车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAheadDistance.3",
+    "before": "%distance% %unit% 处赛道上有慢车。",
+    "after": "前方%distance%%unit%有慢车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAheadSide.1",
+    "before": "前方 %side% 侧 %distance% %unit% 有慢车。",
+    "after": "前方%side%，%distance%%unit%有慢车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAheadSide.2",
+    "before": "注意 %side% 侧 %distance% %unit% 处，慢车。",
+    "after": "前方%side%，%distance%%unit%有慢车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowCarAheadSide.3",
+    "before": "%distance% %unit% 处 %side% 侧有慢车。",
+    "after": "前方%side%，%distance%%unit%有慢车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentAhead.1",
+    "before": "注意，前方发生事故。",
+    "after": "前方事故，注意避让。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentAhead.2",
+    "before": "前方事故。",
+    "after": "前方事故，注意避让。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentAhead.3",
+    "before": "注意前方。",
+    "after": "前方事故，注意避让。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentAheadDriver.1",
+    "before": "注意，前方 %forName% %surName% 发生事故。",
+    "after": "前方发生事故，涉及%forName%%surName%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentAheadDriver.2",
+    "before": "前方事故，涉及 %forName% %surName%。",
+    "after": "前方发生事故，涉及%forName%%surName%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentAheadDistance.1",
+    "before": "注意，%distance% %unit% 处发生事故。",
+    "after": "前方%distance%%unit%发生事故。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentAheadDistance.2",
+    "before": "前方 %distance% %unit% 处事故。",
+    "after": "前方%distance%%unit%发生事故。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentAheadDistance.3",
+    "before": "注意 %distance% %unit% 处，事故。",
+    "after": "前方%distance%%unit%发生事故。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentBehind.2",
+    "before": "后方事故，这能给你一些喘息空间。",
+    "after": "后方发生事故。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentBehind.3",
+    "before": "后方有事故。这可能有助我们。",
+    "after": "后方发生事故。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentBehindDriver.1",
+    "before": "后方发生事故，涉及 %forName% %surName%。",
+    "after": "后方发生事故，涉及%forName%%surName%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentBehindDriver.2",
+    "before": "后方 %forName% %surName% 发生事故，这可能为你创造机会。",
+    "after": "后方发生事故，涉及%forName%%surName%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AccidentBehindDriver.3",
+    "before": "后方事故涉及 %forName% %surName%，这对我们可能有利。",
+    "after": "后方发生事故，涉及%forName%%surName%。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowFull.1",
+    "before": "全场黄旗，全场黄旗。",
+    "after": "全场黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowFull.2",
+    "before": "注意全场黄旗。",
+    "after": "全场黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowAll.1",
+    "before": "所有路段黄旗。",
+    "after": "各路段都有黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowAll.2",
+    "before": "注意所有路段黄旗。",
+    "after": "各路段都有黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowSector.1",
+    "before": "%sector% 路段黄旗。",
+    "after": "第%sector%段黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowSector.2",
+    "before": "注意 %sector% 路段，黄旗。",
+    "after": "第%sector%段黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowAhead.2",
+    "before": "注意前方黄旗。",
+    "after": "前方黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowDistance.1",
+    "before": "%distance% 米处黄旗。",
+    "after": "前方%distance%米有黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowDistance.2",
+    "before": "注意 %distance% 米处，黄旗。",
+    "after": "前方%distance%米有黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowDistance.3",
+    "before": "约 %distance% 米处 %sector% 路段黄旗。",
+    "after": "前方%distance%米有黄旗。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowClear.1",
+    "before": "赛道畅通。",
+    "after": "黄旗解除。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "YellowClear.3",
+    "before": "绿旗。",
+    "after": "黄旗解除。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Blue.1",
+    "before": "快车接近，注意让车。",
+    "after": "蓝旗，后方有快车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Blue.2",
+    "before": "你被出示蓝旗。",
+    "after": "蓝旗，后方有快车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Blue.3",
+    "before": "后方有快车。",
+    "after": "蓝旗，后方有快车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BlueForPosition.1",
+    "before": "快车正在接近，但你后方还有争夺位置的对手。",
+    "after": "蓝旗。后方有快车，也有争夺位置的对手。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BlueForPosition.2",
+    "before": "你有蓝旗，但注意你的直接对手。",
+    "after": "蓝旗。后方有快车，也有争夺位置的对手。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BlueForPosition.3",
+    "before": "后方有快车，但注意另一辆赛车。",
+    "after": "蓝旗。后方有快车，也有争夺位置的对手。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PitWindowOpen.1",
+    "before": "常规进站窗口现已开放。",
+    "after": "进站窗口开放。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PitWindowOpen.2",
+    "before": "维修区开放计划进站。",
+    "after": "进站窗口开放。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PitWindowOpen.3",
+    "before": "进站窗口现已开启。",
+    "after": "进站窗口开放。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PitWindowClosed.1",
+    "before": "常规进站窗口已关闭。",
+    "after": "进站窗口关闭。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PitWindowClosed.2",
+    "before": "进站窗口已关闭。",
+    "after": "进站窗口关闭。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PitWindowClosed.3",
+    "before": "维修区现已关闭常规进站。",
+    "after": "进站窗口关闭。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ProtectFaster.1",
+    "before": "你身后的慢车可能更快，但它能保护你免受直接对手攻击。尽量长时间把它挡在身后。",
+    "after": "后方被套圈的赛车暂时挡住了你的直接对手，但它似乎比你快。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ProtectFaster.2",
+    "before": "你身后的慢车在保护你免受直接对手攻击。它似乎更快，但尽量长时间把它挡在身后。",
+    "after": "后方被套圈的赛车暂时挡住了你的直接对手，但它似乎比你快。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ProtectSlower.1",
+    "before": "你前方有一辆慢车。尽快超越它，这样你身后就有空间了。",
+    "after": "前方有被套圈的赛车，尽快找机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ProtectSlower.2",
+    "before": "尽快超越你前方的赛车，把它挡在你和追击者之间。",
+    "after": "前方有被套圈的赛车，尽快找机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "LapDownFaster.1",
+    "before": "你身后的慢车更快。",
+    "after": "后车被套圈了，但圈速比你快。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "LapDownFaster.2",
+    "before": "你身后的赛车至少慢一圈，但它更快。",
+    "after": "后车被套圈了，但圈速比你快。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "LapUpFaster.1",
+    "before": "你後面的車更快。",
+    "after": "后车圈速更快，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "LapUpFaster.2",
+    "before": "你後面的車比你快。",
+    "after": "后车圈速更快，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Slipstream.1",
+    "before": "当他超过你时，紧贴住他。",
+    "after": "它超过后，可以跟住利用尾流。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Slipstream.2",
+    "before": "让他过去，利用他的尾流。",
+    "after": "它超过后，可以跟住利用尾流。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "Slipstream.3",
+    "before": "如果他超过你，你可以利用他的尾流。",
+    "after": "它超过后，可以跟住利用尾流。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AheadValid.1",
+    "before": "前方赛车在做计时圈。",
+    "after": "前车在做计时圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AheadValid.2",
+    "before": "你前方的赛车在做快圈。",
+    "after": "前车在做计时圈。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AheadInvalid.1",
+    "before": "前方赛车未做有效圈。你可以安全超越。",
+    "after": "前车这一圈无效，注意寻找超车机会。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "AheadInvalid.2",
+    "before": "你前方的赛车未做有效圈。他必须让你过去。",
+    "after": "前车这一圈无效，注意寻找超车机会。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BehindValid.1",
+    "before": "你身后的赛车在做快圈。你应该让他过去。",
+    "after": "后车在做计时圈，找合适的位置让开。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BehindValid.2",
+    "before": "后视镜里的赛车在做计时圈。远离赛车线。",
+    "after": "后车在做计时圈，找合适的位置让开。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BehindInvalid.1",
+    "before": "你身后的赛车未做计时圈。",
+    "after": "后车这一圈无效。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "BehindInvalid.2",
+    "before": "后视镜里的赛车未做有效圈。",
+    "after": "后车这一圈无效。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "GotHim.1",
+    "before": "你已经追上了。有机会就进攻。",
+    "after": "追上了，找机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "GotHim.2",
+    "before": "你现在就在他后视镜里了。让他紧张起来。",
+    "after": "追上了，找机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "GotHim.3",
+    "before": "干得好，你追上他了。超掉他。",
+    "after": "追上了，找机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClosingIn.1",
+    "before": "你现在会承受后方压力。别给他任何机会。",
+    "after": "后车追近了，注意防守。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClosingIn.2",
+    "before": "你后方的赛车可能要进攻了。保持专注。",
+    "after": "后车追近了，注意防守。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "UnsafeDriverFront.1",
+    "before": "但要小心，他不是最安全的车手。",
+    "after": "前车驾驶有些冒险，超车时留些余地。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "UnsafeDriverFront.2",
+    "before": "不过这不是最安全的车手，所以要小心。",
+    "after": "前车驾驶有些冒险，超车时留些余地。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "InconsistentDriverFront.1",
+    "before": "他开得很不稳，找准时机，小心行事。",
+    "after": "前车节奏不稳，找准机会再超。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "InconsistentDriverFront.2",
+    "before": "但他失误很多，等待合适时机，别卷入麻烦。",
+    "after": "前车节奏不稳，找准机会再超。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "InconsistentDriverFront.3",
+    "before": "他有几次切弯，因此要小心。",
+    "after": "前车节奏不稳，找准机会再超。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "UnsafeDriverBehind.1",
+    "before": "但要小心，他不是最安全的车手。",
+    "after": "后车驾驶有些冒险，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "UnsafeDriverBehind.2",
+    "before": "不过他不是最安全的车手，所以要小心。",
+    "after": "后车驾驶有些冒险，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "InconsistentDriverBehind.1",
+    "before": "他开得很不稳，注意后视镜。",
+    "after": "后车节奏不稳，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "InconsistentDriverBehind.2",
+    "before": "但他失误很多，注意后视镜。",
+    "after": "后车节奏不稳，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorFasterAhead.1",
+    "before": "你在 %sector% 路段快 %sectorTime% 秒。在那里尝试。",
+    "after": "你在第%sector%段快%sectorTime%秒，可以在那里找机会。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorFasterAhead.2",
+    "before": "你应该在 %sector% 路段尝试。你在那里快 %sectorTime% 秒。",
+    "after": "你在第%sector%段快%sectorTime%秒，可以在那里找机会。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorFasterAhead.3",
+    "before": "%sector% 路段是进攻的最佳机会。",
+    "after": "你在第%sector%段快%sectorTime%秒，可以在那里找机会。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorsFasterAhead.1",
+    "before": "你在 %sector1% 和 %sector2% 路段更快。在那里尝试。",
+    "after": "你在第%sector1%和第%sector2%段更快，可以找机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorsFasterAhead.2",
+    "before": "你应该在 %sector1% 或 %sector2% 路段尝试。你在那里更快。",
+    "after": "你在第%sector1%和第%sector2%段更快，可以找机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorsFasterAhead.3",
+    "before": "%sector1% 和 %sector2% 路段应该是进攻的好机会。",
+    "after": "你在第%sector1%和第%sector2%段更快，可以找机会超越。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorSlowerBehind.1",
+    "before": "你在 %sector% 路段慢 %sectorTime% 秒。他很可能会在那里进攻。",
+    "after": "后车在第%sector%段快%sectorTime%秒，注意防守。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorSlowerBehind.2",
+    "before": "他可能会在 %sector% 路段进攻你。他在那里快 %sectorTime% 秒。",
+    "after": "后车在第%sector%段快%sectorTime%秒，注意防守。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorSlowerBehind.3",
+    "before": "你很可能会在 %sector% 路段被攻击。",
+    "after": "后车在第%sector%段快%sectorTime%秒，注意防守。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorsSlowerBehind.1",
+    "before": "你在 %sector1% 和 %sector2% 路段更慢。他可能会在那里尝试。",
+    "after": "你在第%sector1%和第%sector2%段更慢，注意后车进攻。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorsSlowerBehind.2",
+    "before": "他可能会在 %sector1% 或 %sector2% 路段进攻你。你在那里慢很多。",
+    "after": "你在第%sector1%和第%sector2%段更慢，注意后车进攻。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SectorsSlowerBehind.3",
+    "before": "在 %sector1% 和 %sector2% 路段保持专注，因为他可能会在那里进攻。",
+    "after": "你在第%sector1%和第%sector2%段更慢，注意后车进攻。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "FasterClassBehind.1",
+    "before": "%class% 从后面驶来。小心。",
+    "after": "后方有%class%组别的快车，保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "FasterClassBehind.2",
+    "before": "注意，%class% 从后面驶来。",
+    "after": "后方有%class%组别的快车，保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "FasterClassBehind.3",
+    "before": "注意后视镜，%class% 在你后面。",
+    "after": "后方有%class%组别的快车，保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "FasterClassBehind.4",
+    "before": "%class% 的车在你后面。保持你的路线。",
+    "after": "后方有%class%组别的快车，保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowerClassAhead.1",
+    "before": "你前面有一个 %class%。小心。",
+    "after": "前方有%class%组别的慢车，超车时留些空间。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowerClassAhead.2",
+    "before": "注意，你前面有一个 %class%。请留出足够的空间。",
+    "after": "前方有%class%组别的慢车，超车时留些空间。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "SlowerClassAhead.3",
+    "before": "小心，你前面即将出现一个 %class%。",
+    "after": "前方有%class%组别的慢车，超车时留些空间。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClassLeaderAhead.1",
+    "before": "%class% 组别的第一名在你前面。小心点。",
+    "after": "前方是%class%组别的领跑车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClassLeaderAhead.2",
+    "before": "%class% 组别的第一名在你前面。请留出足够的空间。",
+    "after": "前方是%class%组别的领跑车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClassCarAhead.1",
+    "before": "%class% 组别的的 P %position% 在你前面。小心。",
+    "after": "前方是%class%组别第%position%位的赛车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClassCarAhead.2",
+    "before": "小心，位于 P %position% 的 %class% 在你前面。",
+    "after": "前方是%class%组别第%position%位的赛车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClassLeaderBehind.1",
+    "before": "%class% 组别的第一名在你后面。小心。",
+    "after": "后方是%class%组别的领跑车，保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClassLeaderBehind.2",
+    "before": "%class% 组别的第一名正从后面赶来。请保持在你的队伍中。",
+    "after": "后方是%class%组别的领跑车，保持线路。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClassCarBehind.1",
+    "before": "小心，%class% 组别的 P %position% 在你后面。",
+    "after": "后方是%class%组别第%position%位的赛车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "ClassCarBehind.2",
+    "before": "小心，位于 P %position% 的 %class% 正从后面赶来。",
+    "after": "后方是%class%组别第%position%位的赛车。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PositionFightAhead.1",
+    "before": "你前面的 %class% 正在争抢位置。超车时要小心。",
+    "after": "前方%class%组别的赛车正在争夺位置，超车时小心。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PositionFightAhead.2",
+    "before": "小心，你前面的 %class% 正在争抢位置。",
+    "after": "前方%class%组别的赛车正在争夺位置，超车时小心。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PositionFightAhead.3",
+    "before": "你前面正在争抢位置。小心。",
+    "after": "前方%class%组别的赛车正在争夺位置，超车时小心。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PositionFightBehind.1",
+    "before": "你身后的 %class% 辆车正在争夺位置。请远离它们。",
+    "after": "后方%class%组别的赛车正在争夺位置，注意后视镜。"
+  },
+  {
+    "role": "Race Spotter",
+    "section": "[Spotter Phrases]",
+    "key": "PositionFightBehind.2",
+    "before": "小心，你后视镜中速度更快的车辆正在争夺位置。",
+    "after": "后方%class%组别的赛车正在争夺位置，注意后视镜。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WelcomeBack.1",
+    "before": "嗨 %driver%，欢迎回来。",
+    "after": "欢迎回来。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WelcomeBack.2",
+    "before": "欢迎回来，%driver%。",
+    "after": "欢迎回来。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.1",
+    "before": "我在线。我能为你做什么？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.2",
+    "before": "在的，%driver%？你叫我？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.4",
+    "before": "是的，我听到了。你需要什么？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.5",
+    "before": "信号清晰。我能怎么帮你？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.1",
+    "before": "收到，我会尽快回复你。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.2",
+    "before": "好的，稍等一下。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.3",
+    "before": "等一下。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.4",
+    "before": "我马上去查。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.5",
+    "before": "收到，请稍等。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.6",
+    "before": "好的，我马上就办。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.1",
+    "before": "好的，我会处理。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.2",
+    "before": "照做。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.3",
+    "before": "好的，明白了。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.4",
+    "before": "收到，明白。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NotPossible.1",
+    "before": "现在做不到。",
+    "after": "目前无法执行。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NotPossible.3",
+    "before": "现在不可能做这个。",
+    "after": "目前无法执行。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.1",
+    "before": "好的。准备好了随时叫我。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.2",
+    "before": "明白。我就在这里。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.3",
+    "before": "好的。但如果你需要我，我就在这里。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.4",
+    "before": "明白，没问题。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.1",
+    "before": "抱歉 %driver%，我没听清。能重复一遍吗？",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.2",
+    "before": "抱歉，我没明白。请重复。",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.3",
+    "before": "能请您重复一遍吗？",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Joke.1",
+    "before": "其实你应该专注于驾驶，不过好吧，听着。",
+    "after": "可以，听完继续专心开车。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Joke.2",
+    "before": "行，但之后我希望看到你专注。",
+    "after": "可以，听完继续专心开车。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoJoke.1",
+    "before": "抱歉，我现在没什么心情开玩笑。",
+    "after": "先专心开车，稍后再聊。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoJoke.2",
+    "before": "什么？你应该专注于你的驾驶。",
+    "after": "先专心开车，稍后再聊。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Time.1",
+    "before": "现在是 %time%。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Time.2",
+    "before": "现在是 %time% 整。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Time.3",
+    "before": "当前时间 %time%。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoInformation.1",
+    "before": "抱歉，我没有这个信息。",
+    "after": "暂时没有这项信息。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoInformation.2",
+    "before": "我找不到这个信息，抱歉。",
+    "after": "暂时没有这项信息。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherGood.1",
+    "before": "天气看起来很稳定。 ",
+    "after": "天气目前比较稳定。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherGood.2",
+    "before": "天气会没事的，别担心。 ",
+    "after": "天气目前比较稳定。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRain.1",
+    "before": "看起来前面要下雨了。 ",
+    "after": "预计接下来会下雨。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRain.2",
+    "before": "%driver%，我们得预计几分钟后会下雨。 ",
+    "after": "预计接下来会下雨。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherChange.1",
+    "before": "%driver%，看起来天气大约在 %minutes% 分钟后会有变化。我会持续关注。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，我会继续留意。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherChange.2",
+    "before": "我是 %name%。我刚收到最新的天气信息。也许我们需要换胎。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，我会继续留意。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherNoChange.1",
+    "before": "%driver%，看起来天气大约在 %minutes% 分钟后会有变化。但这么晚换胎可能不值得了。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，目前建议保持现有设置。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherNoChange.2",
+    "before": "我是 %name%。我刚收到最新的天气信息。前面天气会有变化，但我们用现在的设定也许能撑过去。",
+    "after": "预计约%minutes%分钟后天气会有变化，目前建议保持现有设置。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRainChange.1",
+    "before": "%driver%，我是 %name%。%minutes% 分钟后会开始下雨。我们应该尽快换上 %compound% 轮胎。",
+    "after": "预计约%minutes%分钟后开始下雨，建议准备换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRainChange.2",
+    "before": "我是 %name%。看起来几分钟后就要开始下雨了。我建议换胎。",
+    "after": "预计约%minutes%分钟后开始下雨，建议准备换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherDryChange.1",
+    "before": "%driver%，接下来 %minutes% 分钟赛道会变干。也许我们应该换成 %compound% 轮胎。",
+    "after": "预计约%minutes%分钟后雨会停，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherDryChange.2",
+    "before": "嘿，%minutes% 分钟后雨就要停了。我建议换胎。",
+    "after": "预计约%minutes%分钟后雨会停，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TrackDryChange.1",
+    "before": "%driver%，赛道将在接下来的%minutes%分钟内变干。或许我们应该换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变干，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TrackDryChange.2",
+    "before": "嘿，赛道将在接下来的%minutes%分钟内变干。我认为我们可以计划换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变干，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TrackRainChange.1",
+    "before": "%driver%，%name%，赛道将在接下来的%minutes%分钟内变湿。我们应该尽快换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变湿，建议准备%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TrackRainChange.2",
+    "before": "%name%，看起来赛道几分钟后就会变湿。我建议更换轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变湿，建议准备%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingEngineer.1",
+    "before": "你好%driver%，我是工程师%name%，今天由我负责你的赛车调校。",
+    "after": "我是芙宁娜，会帮你留意赛车状态和油量。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingEngineer.2",
+    "before": "我是%name%，本节%session%由我全程监控你的赛车状态。",
+    "after": "我是芙宁娜，会帮你留意赛车状态和油量。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingEngineer.3",
+    "before": "这里是%name%，随时为你提供技术支持。",
+    "after": "我是芙宁娜，会帮你留意赛车状态和油量。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingEngineer.4",
+    "before": "我是%name%，负责保障今天赛车的最佳状态。",
+    "after": "我是芙宁娜，会帮你留意赛车状态和油量。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingStrategist.1",
+    "before": "策略师%strategist%也在。",
+    "after": "策略监控也已就绪。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingStrategist.2",
+    "before": "策略师%strategist%将为我们提供战术支持。",
+    "after": "策略监控也已就绪。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingStrategist.3",
+    "before": "策略师%strategist%已就位，随时提供战术建议。",
+    "after": "策略监控也已就绪。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "GreetingStrategist.4",
+    "before": "%strategist%在指挥台与我协同工作。",
+    "after": "策略监控也已就绪。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallUs.1",
+    "before": "随时通报赛车状态，祝你赛道顺利。",
+    "after": "有问题随时告诉我，祝你比赛顺利。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallUs.2",
+    "before": "任何问题立即通报，保持沟通。",
+    "after": "有问题随时告诉我，祝你比赛顺利。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallUs.3",
+    "before": "祝你在赛道上有出色表现。",
+    "after": "有问题随时告诉我，祝你比赛顺利。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallMe.1",
+    "before": "有技术疑问随时呼叫我，祝你驾驶顺利。",
+    "after": "需要帮助随时叫我。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallMe.2",
+    "before": "需要支持随时联系我。",
+    "after": "需要帮助随时叫我。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallMe.3",
+    "before": "祝你本节%session%取得好成绩。",
+    "after": "需要帮助随时叫我。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Later.1",
+    "before": "需要更多数据支撑，请一到两圈后再次询问。",
+    "after": "还需要一些数据，再跑一两圈看看。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Later.2",
+    "before": "系统正在处理数据（这老系统该升级了），稍等1分钟。",
+    "after": "还需要一些数据，再跑一两圈看看。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Later.3",
+    "before": "本轮遥测数据有异常，下圈重新采集后反馈。",
+    "after": "还需要一些数据，再跑一两圈看看。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "MoreChanges.1",
+    "before": "还有其他调整需求吗？",
+    "after": "还需要调整其他项目吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "MoreChanges.2",
+    "before": "需要修改哪些设置？",
+    "after": "还需要调整其他项目吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "MoreChanges.3",
+    "before": "是否有其他变更要求？",
+    "after": "还需要调整其他项目吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Laps.1",
+    "before": "剩余%laps%圈完赛。",
+    "after": "当前油量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowLaps.1",
+    "before": "油量紧张，仅够支撑%laps%圈。",
+    "after": "油量只够%laps%圈了，准备进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowLaps.2",
+    "before": "只剩%laps%圈油量，下圈准备进站加油。",
+    "after": "油量只够%laps%圈了，准备进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LapsAlready.1",
+    "before": "你已经完成%laps%圈。",
+    "after": "已经跑完%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LapsAlready.2",
+    "before": "%laps%圈已经在你身后。",
+    "after": "已经跑完%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LapsFuel.1",
+    "before": "剩余油量足够跑%laps%圈。",
+    "after": "剩余油量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LapsFuel.2",
+    "before": "油量还可维持%laps%圈。",
+    "after": "剩余油量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LapsStint.1",
+    "before": "但你的当前赛段只剩%laps%圈。",
+    "after": "这个驾驶轮次还剩%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LapsStint.2",
+    "before": "本节赛段剩余%laps%圈。",
+    "after": "这个驾驶轮次还剩%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LapsSession.1",
+    "before": "距离本节结束还有约%laps%圈。",
+    "after": "本场还剩大约%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LapsSession.2",
+    "before": "本节剩余赛程仅%laps%圈。",
+    "after": "本场还剩大约%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Fuel.1",
+    "before": "油箱剩余%fuel% %unit%燃油。",
+    "after": "还剩%fuel%%unit%燃油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Fuel.2",
+    "before": "还剩%fuel% %unit%油量。",
+    "after": "还剩%fuel%%unit%燃油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Fuel.3",
+    "before": "当前油量%fuel% %unit%。",
+    "after": "还剩%fuel%%unit%燃油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Pressures.1",
+    "before": "当前%type%胎压读数如下。",
+    "after": "%type%胎压如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Pressures.2",
+    "before": "获取到%type%胎压数据。",
+    "after": "%type%胎压如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Pressures.3",
+    "before": "%type%胎压状态报告。",
+    "after": "%type%胎压如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Temperatures.1",
+    "before": "各系统温度数据如下。",
+    "after": "各项温度如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Temperatures.2",
+    "before": "当前温度监控读数。",
+    "after": "各项温度如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Temperatures.3",
+    "before": "温度数据更新。",
+    "after": "各项温度如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WaterTemperature.1",
+    "before": "冷却液温度%value% %unit%，在正常范围。",
+    "after": "水温%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WaterTemperature.2",
+    "before": "水温稳定在%value% %unit%。",
+    "after": "水温%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "OilTemperature.1",
+    "before": "机油温度%value% %unit%，注意控制。",
+    "after": "油温%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "OilTemperature.2",
+    "before": "油温维持在%value% %unit%。",
+    "after": "油温%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreFL.1",
+    "before": "左前轮胎压%delta% %by% %value%。",
+    "after": "左前轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreFL.2",
+    "before": "左前轮当前胎压%delta% %by% %value% %unit%。",
+    "after": "左前轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreFL.3",
+    "before": "左前轮%delta% %by% %value% %unit%。",
+    "after": "左前轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreFR.1",
+    "before": "右前轮%delta% %by% %value%。",
+    "after": "右前轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreFR.2",
+    "before": "右前轮胎压%delta% %by% %value% %unit%。",
+    "after": "右前轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreFR.3",
+    "before": "右前轮%delta% %by% %value% %unit%。",
+    "after": "右前轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreRL.1",
+    "before": "左后轮%delta% %by% %value%。",
+    "after": "左后轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreRL.2",
+    "before": "左后轮胎压%delta% %by% %value% %unit%。",
+    "after": "左后轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreRL.3",
+    "before": "左后轮%delta% %by% %value% %unit%。",
+    "after": "左后轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreRR.1",
+    "before": "右后轮%delta% %by% %value%。",
+    "after": "右后轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreRR.2",
+    "before": "右后轮胎压%delta% %by% %value% %unit%。",
+    "after": "右后轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreRR.3",
+    "before": "右后轮%delta% %by% %value% %unit%。",
+    "after": "右后轮%delta%了%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeFL.2",
+    "before": "左前刹车系统%value% %unit%。",
+    "after": "左前刹车温度%value%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeFL.3",
+    "before": "左前刹车%value% %unit%。",
+    "after": "左前刹车温度%value%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeFR.2",
+    "before": "右前刹车系统%value% %unit%。",
+    "after": "右前刹车温度%value%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeFR.3",
+    "before": "右前刹车%value% %unit%。",
+    "after": "右前刹车温度%value%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeRL.2",
+    "before": "左后刹车系统%value% %unit%。",
+    "after": "左后刹车温度%value%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeRL.3",
+    "before": "左后刹车%value% %unit%。",
+    "after": "左后刹车温度%value%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeRR.2",
+    "before": "右后刹车系统%value% %unit%。",
+    "after": "右后刹车温度%value%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeRR.3",
+    "before": "右后刹车%value% %unit%。",
+    "after": "右后刹车温度%value%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Wear.1",
+    "before": "各部件损耗数据如下。",
+    "after": "轮胎磨损情况如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Wear.2",
+    "before": "当前损耗状态读数。",
+    "after": "轮胎磨损情况如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Wear.3",
+    "before": "损耗监控数据更新。",
+    "after": "轮胎磨损情况如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoData.1",
+    "before": "暂无相关数据。",
+    "after": "暂时没有相关数据。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoData.2",
+    "before": "当前没有此数据。",
+    "after": "暂时没有相关数据。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearFL.1",
+    "before": "左前轮胎纹余量%remaining%%。",
+    "after": "左前轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearFL.2",
+    "before": "左前轮已损耗%used%%。",
+    "after": "左前轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearFL.3",
+    "before": "左前轮磨损程度%used%%。",
+    "after": "左前轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearFR.1",
+    "before": "右前轮胎纹余量%remaining%%。",
+    "after": "右前轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearFR.2",
+    "before": "右前轮已损耗%used%%。",
+    "after": "右前轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearRL.1",
+    "before": "左后轮已损耗%used%%。",
+    "after": "左后轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearRL.2",
+    "before": "左后轮胎纹余量%remaining%%。",
+    "after": "左后轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearRR.1",
+    "before": "右后轮已损耗%used%%。",
+    "after": "右后轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WearRR.2",
+    "before": "右后轮胎纹余量%remaining%%。",
+    "after": "右后轮磨损百分之%used%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreWearWarning.1",
+    "before": "我是%name%，监测到轮胎异常磨损。",
+    "after": "轮胎磨损偏大，注意抓地力。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreWearWarning.2",
+    "before": "%driver%注意，%name%报告轮胎损耗超出预期。",
+    "after": "轮胎磨损偏大，注意抓地力。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreWearWarning.3",
+    "before": "%name%呼叫，建议尽快进站换胎，轮胎即将耗尽。",
+    "after": "轮胎磨损偏大，注意抓地力。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeWearWarning.1",
+    "before": "我是%name%，刹车片磨损异常。",
+    "after": "我是芙宁娜，刹车片磨损异常。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeWearWarning.2",
+    "before": "%driver%注意，%name%监测到刹车片高损耗。",
+    "after": "%driver%注意，芙宁娜监测到刹车片高损耗。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BrakeWearWarning.3",
+    "before": "%name%呼叫，刹车片厚度不足，建议下个窗口更换。",
+    "after": "芙宁娜呼叫，刹车片厚度不足，建议下个窗口更换。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowFuel.1",
+    "before": "我是%name%，油量仅够%laps%圈，注意控制油耗。",
+    "after": "油量偏低，预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowFuel.2",
+    "before": "%name%报告，燃油不足，仅剩%laps%圈用量。",
+    "after": "油量偏低，预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "VeryLowFuel.1",
+    "before": "警告！%laps%圈后燃油将耗尽！",
+    "after": "油量快耗尽了，只够%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "VeryLowFuel.2",
+    "before": "立即省油驾驶！燃油即将耗尽！",
+    "after": "油量快耗尽了，只够%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "VeryLowFuel.3",
+    "before": "警告！%laps%圈后就断油了！",
+    "after": "油量快耗尽了，只够%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowEnergy.1",
+    "before": "我是%name%，虚拟能量仅够%laps%圈，注意管理",
+    "after": "剩余能量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowEnergy.2",
+    "before": "我是%name%，虚拟能量储备不足，仅剩%laps%圈，留意一下",
+    "after": "剩余能量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "VeryLowEnergy.1",
+    "before": "警告！%laps%圈后虚拟能量即将耗尽",
+    "after": "能量快耗尽了，只够%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "VeryLowEnergy.2",
+    "before": "注意控制！虚拟能量即将耗尽",
+    "after": "能量快耗尽了，只够%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "VeryLowEnergy.3",
+    "before": "你在干什么！%laps%圈内虚拟能量就要用完了",
+    "after": "能量快耗尽了，只够%laps%圈。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowGrip.1",
+    "before": "%driver%，轮胎已达极限。请立即进站。",
+    "after": "轮胎抓地力不足，建议准备进站换胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowGrip.2",
+    "before": "%name%，轮胎磨损严重。请立即进站更换轮胎。",
+    "after": "轮胎抓地力不足，建议准备进站换胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowGrip.3",
+    "before": "%driver%，请立即更换轮胎。",
+    "after": "轮胎抓地力不足，建议准备进站换胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "SuspensionDamage.1",
+    "before": "%name%呼叫，事故导致悬架系统受损。",
+    "after": "悬架受损了。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "SuspensionDamage.2",
+    "before": "悬架数据异常，上起事故造成了损伤。",
+    "after": "悬架受损了。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "SuspensionDamage.3",
+    "before": "我是%name%，悬架系统出现异常读数。",
+    "after": "悬架受损了。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BodyworkDamage.1",
+    "before": "%name%呼叫，上起事故损伤了空气动力学套件。",
+    "after": "车身受损了，空气动力性能可能受到影响。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BodyworkDamage.2",
+    "before": "车身与空力部件受损，下压力受影响。",
+    "after": "车身受损了，空气动力性能可能受到影响。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BodyworkDamage.3",
+    "before": "我是%name%，车身损伤数据已确认。",
+    "after": "车身受损了，空气动力性能可能受到影响。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "EngineDamage.1",
+    "before": "%name%呼叫，引擎输出异常。",
+    "after": "发动机受损了。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "EngineDamage.2",
+    "before": "引擎动力流失，输出曲线不稳定。",
+    "after": "发动机受损了。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "EngineDamage.3",
+    "before": "我是%name%，引擎系统出现异常读数。",
+    "after": "发动机受损了。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BothDamage.1",
+    "before": "%name%紧急呼叫，悬架与车身同时受损。",
+    "after": "悬架和车身都有损伤。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BothDamage.2",
+    "before": "上起事故导致空力套件和悬架双重损伤。",
+    "after": "悬架和车身都有损伤。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BothDamage.3",
+    "before": "我是%name%，车身与悬架系统均受损伤。",
+    "after": "悬架和车身都有损伤。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "BothDamage.4",
+    "before": "悬架与车身受损，需要进一步评估。",
+    "after": "悬架和车身都有损伤。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "AllDamage.1",
+    "before": "严重碰撞！引擎及多系统受损。",
+    "after": "发动机和其他部件都有损伤。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "AllDamage.2",
+    "before": "%name%呼叫，包括引擎在内的多系统损伤。",
+    "after": "发动机和其他部件都有损伤。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DamageAnalysis.1",
+    "before": "正在分析损伤情况，稍后回报。",
+    "after": "正在评估损伤对圈速的影响。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DamageAnalysis.2",
+    "before": "尽快提供损伤评估报告。",
+    "after": "正在评估损伤对圈速的影响。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DamageAnalysis.3",
+    "before": "可能需要进站维修，正在收集数据。",
+    "after": "正在评估损伤对圈速的影响。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DamageAnalysis.4",
+    "before": "正在计算损伤影响，稍后回复。",
+    "after": "正在评估损伤对圈速的影响。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoDamageAnalysis.1",
+    "before": "当前圈速分析或维修已无实际意义。",
+    "after": "目前无法进一步评估维修收益。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoDamageAnalysis.2",
+    "before": "现阶段应避免任何不必要的维修。",
+    "after": "目前无法进一步评估维修收益。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairPitstop.1",
+    "before": "%driver%，损伤导致单圈损失%delta%秒，建议进站维修。",
+    "after": "损伤让单圈慢了%delta%秒，建议进站维修。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairPitstop.2",
+    "before": "%driver%，剩余%laps%圈将累计损失%delta%秒，建议立即维修。",
+    "after": "损伤让单圈慢了%delta%秒，建议进站维修。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairPitstop.3",
+    "before": "%driver%，损伤影响过大，剩余%laps%圈需进站维修。",
+    "after": "损伤让单圈慢了%delta%秒，建议进站维修。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairPitstopNotNeeded.1",
+    "before": "%driver%，圈速已恢复，虽仍有%delta%秒损失，但暂不需维修。",
+    "after": "单圈还有%delta%秒的损失，但目前建议继续跑。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairPitstopNotNeeded.2",
+    "before": "%driver%，损失%delta%秒/圈，但维修性价比不足。",
+    "after": "单圈还有%delta%秒的损失，但目前建议继续跑。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairPitstopNotNeeded.3",
+    "before": "%driver%，圈速恢复正常，可跳过维修。",
+    "after": "单圈还有%delta%秒的损失，但目前建议继续跑。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairPitstop.1",
+    "before": "%driver%，损失%delta%秒/圈，但暂不安排维修。",
+    "after": "单圈损失%delta%秒，目前没有安排维修。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairPitstop.2",
+    "before": "%driver%，损失%delta%秒/圈，当前维修非必要。",
+    "after": "单圈损失%delta%秒，目前没有安排维修。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairPitstop.3",
+    "before": "%driver%，损伤无显著影响，保持当前状态。",
+    "after": "单圈损失%delta%秒，目前没有安排维修。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoTimeLost.1",
+    "before": "%driver%，无圈速损失，表现完美。",
+    "after": "目前没有发现损伤导致的圈速损失。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoTimeLost.2",
+    "before": "%driver%，损伤未影响赛道表现。",
+    "after": "目前没有发现损伤导致的圈速损失。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoTimeLost.3",
+    "before": "%driver%，一切正常，保持当前节奏。",
+    "after": "目前没有发现损伤导致的圈速损失。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureLoss.1",
+    "before": "你的%tyre%轮胎出现漏气现象，正在分析原因。",
+    "after": "%tyre%轮胎正在掉压，注意。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureLoss.2",
+    "before": "%tyre%轮胎漏气，请谨慎控制转向。",
+    "after": "%tyre%轮胎正在掉压，注意。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureLoss.3",
+    "before": "%driver%，%tyre%轮胎漏气，正在制定应对方案。",
+    "after": "%tyre%轮胎正在掉压，注意。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoPitstop.1",
+    "before": "无需特别准备，随时可以进站。",
+    "after": "没有预设进站方案。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoPitstop.2",
+    "before": "按常规流程进站即可。",
+    "after": "没有预设进站方案。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoDriverSwap.1",
+    "before": "本次比赛没有换人计划。",
+    "after": "这次没有安排换人。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoDriverSwap.2",
+    "before": "暂无备用车手可换。",
+    "after": "这次没有安排换人。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "MissingPlan.1",
+    "before": "尚未制定具体进站策略。",
+    "after": "还没有具体的进站方案。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "MissingPlan.2",
+    "before": "需更新进站方案细节。",
+    "after": "还没有具体的进站方案。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPlan.1",
+    "before": "是否需要%forYou%制定进站策略？",
+    "after": "要制定进站方案吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPlan.2",
+    "before": "需要%forYou%规划进站方案吗？",
+    "after": "要制定进站方案吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmRePlan.1",
+    "before": "已有进站计划，是否需要重新制定？",
+    "after": "要重新制定进站方案吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmRePlan.2",
+    "before": "是否创建新的进站方案？",
+    "after": "要重新制定进站方案吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPrepare.1",
+    "before": "是否通知维修组开始准备？",
+    "after": "要通知维修组开始准备吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPrepare.2",
+    "before": "需要让车队开始准备吗？",
+    "after": "要通知维修组开始准备吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPrepare.3",
+    "before": "如确认，我将立即通知维修组准备。",
+    "after": "要通知维修组开始准备吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PitstopLap.1",
+    "before": "建议在%lap%圈进站收益最大。",
+    "after": "建议第%lap%圈进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PitstopLap.2",
+    "before": "维修组将在%lap%圈准备就绪。",
+    "after": "建议第%lap%圈进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PrepareLap.1",
+    "before": "将按%lap%圈进站进行准备。",
+    "after": "会按第%lap%圈进站做准备。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PrepareLap.2",
+    "before": "维修组%lap%圈进入待命状态。",
+    "after": "会按第%lap%圈进站做准备。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PrepareLap.3",
+    "before": "按%lap%圈进站配置资源。",
+    "after": "会按第%lap%圈进站做准备。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PrepareNow.1",
+    "before": "立即安排维修组开始准备。",
+    "after": "已经开始准备进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PrepareNow.2",
+    "before": "维修通道随时可以进站。",
+    "after": "已经开始准备进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ComeIn.1",
+    "before": "未来几圈内有进站窗口。",
+    "after": "准备好就可以进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ComeIn.2",
+    "before": "准备好随时可以进站。",
+    "after": "准备好就可以进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowComeIn.1",
+    "before": "建议尽快进站处理。",
+    "after": "建议尽快进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "LowComeIn.2",
+    "before": "请立刻安排进站。",
+    "after": "建议尽快进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallToPit.1",
+    "before": "现在可以进站了。",
+    "after": "维修组准备好了，可以进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallToPit.2",
+    "before": "维修区已准备就绪。",
+    "after": "维修组准备好了，可以进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallToPit.3",
+    "before": "维修组待命，请驶入维修区。",
+    "after": "维修组准备好了，可以进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallToPit.4",
+    "before": "通道即将开放，请进站。",
+    "after": "维修组准备好了，可以进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CallToPit.5",
+    "before": "请立即进站。",
+    "after": "维修组准备好了，可以进站。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Perform.1",
+    "before": "维修组正在作业，请保持停车状态。",
+    "after": "正在维修，保持停车。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Perform.2",
+    "before": "正在执行维修程序。",
+    "after": "正在维修，保持停车。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Perform.3",
+    "before": "全组正在作业，预计很快放行。",
+    "after": "正在维修，保持停车。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Pitstop.1",
+    "before": "%driver%，第%number%次进站方案如下。",
+    "after": "这是第%number%次进站的安排。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Pitstop.2",
+    "before": "%name%建议第%number%次进站执行以下方案。",
+    "after": "这是第%number%次进站的安排。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Pitstop.3",
+    "before": "第%number%次进站具体安排如下。",
+    "after": "这是第%number%次进站的安排。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRefuel.1",
+    "before": "本次不进油。",
+    "after": "这次不加油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRefuelLap.1",
+    "before": "无需额外加油。",
+    "after": "油量够跑完，不需要加油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRefuelLap.2",
+    "before": "油量足够跑完本节比赛。",
+    "after": "油量够跑完，不需要加油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRefuelLap.3",
+    "before": "不需补充燃油。",
+    "after": "油量够跑完，不需要加油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Refuel.1",
+    "before": "需添加%fuel% %unit%燃油。",
+    "after": "这次加%fuel%%unit%燃油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Refuel.2",
+    "before": "计划补充%fuel% %unit%燃油。",
+    "after": "这次加%fuel%%unit%燃油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "Refuel.3",
+    "before": "添加%fuel% %unit%即可。",
+    "after": "这次加%fuel%%unit%燃油。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RefuelAdjustedLast.1",
+    "before": "已调整最后赛段的油量计划。",
+    "after": "最后一段的加油量已经调整。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RefuelAdjustedLast.2",
+    "before": "最终赛段油量已重新计算。",
+    "after": "最后一段的加油量已经调整。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RefuelAdjustedNext.1",
+    "before": "已调整下个赛段的油量计划。",
+    "after": "下一段的加油量已经调整。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RefuelAdjustedNext.2",
+    "before": "下段赛段油量已重新计算。",
+    "after": "下一段的加油量已经调整。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreChange.1",
+    "before": "使用%compound%配方轮胎，%set%号胎组。",
+    "after": "更换%compound%轮胎，使用第%set%套。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreChange.2",
+    "before": "建议使用%compound%配方，%set%号胎组状态最佳。",
+    "after": "更换%compound%轮胎，使用第%set%套。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreChange.3",
+    "before": "选择%compound%配方轮胎。",
+    "after": "更换%compound%轮胎，使用第%set%套。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreChangeNoSet.1",
+    "before": "使用%compound%配方轮胎。",
+    "after": "更换%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreChangeNoSet.2",
+    "before": "建议使用%compound%配方。",
+    "after": "更换%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "TyreChangeNoSet.3",
+    "before": "选择%compound%配方轮胎。",
+    "after": "更换%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DryTyres.1",
+    "before": "使用%compound%配方轮胎，%set%号胎组。",
+    "after": "使用%compound%轮胎，第%set%套。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DryTyres.2",
+    "before": "建议使用%compound%配方，%set%号胎组状态最佳。",
+    "after": "使用%compound%轮胎，第%set%套。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DryTyres.3",
+    "before": "选择%compound%配方轮胎。",
+    "after": "使用%compound%轮胎，第%set%套。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DryTyresNoSet.1",
+    "before": "使用%compound%配方轮胎。",
+    "after": "使用%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DryTyresNoSet.2",
+    "before": "建议使用%compound%配方。",
+    "after": "使用%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DryTyresNoSet.3",
+    "before": "选择%compound%配方轮胎。",
+    "after": "使用%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WetTyres.1",
+    "before": "建议使用%compound%配方雨胎。",
+    "after": "更换%compound%雨胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WetTyres.2",
+    "before": "安装%compound%配方雨胎。",
+    "after": "更换%compound%雨胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WetTyresNoSet.1",
+    "before": "使用%compound%配方雨胎。",
+    "after": "使用%compound%雨胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "WetTyresNoSet.2",
+    "before": "安装%compound%配方雨胎。",
+    "after": "使用%compound%雨胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NewPressures.1",
+    "before": "修正后的胎压方案如下。",
+    "after": "调整后的胎压如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NewPressures.2",
+    "before": "胎压调整后方案。",
+    "after": "调整后的胎压如下。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureCorrectionUp.1",
+    "before": "因赛道温度下降，下阶段胎压提高%value% %unit%。",
+    "after": "赛道温度降低，下次胎压增加%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureCorrectionUp.2",
+    "before": "胎温下降，下赛段胎压增加%value% %unit%。",
+    "after": "赛道温度降低，下次胎压增加%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureCorrectionDown.1",
+    "before": "因赛道温度上升，下阶段胎压降低%value% %unit%。",
+    "after": "赛道温度升高，下次胎压降低%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureCorrectionDown.2",
+    "before": "胎温上升，下赛段胎压减少%value% %unit%。",
+    "after": "赛道温度升高，下次胎压降低%value%%unit%。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureAdjustment.1",
+    "before": "已补偿%tyre%轮胎漏气的影响。",
+    "after": "已经把%tyre%轮胎掉压计入调整。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "PressureAdjustment.2",
+    "before": "%tyre%轮胎漏气情况已计入调整方案。",
+    "after": "已经把%tyre%轮胎掉压计入调整。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoTyreChange.1",
+    "before": "本次不更换轮胎。",
+    "after": "这次不换胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoTyreChange.2",
+    "before": "保持当前轮胎继续使用。",
+    "after": "这次不换胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoTyreChangeLap.1",
+    "before": "剩余时间换胎已无实际意义。",
+    "after": "剩余赛程较短，建议不换胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoTyreChangeLap.2",
+    "before": "现阶段不更换轮胎。",
+    "after": "剩余赛程较短，建议不换胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairSuspension.1",
+    "before": "需要维修悬架系统。",
+    "after": "这次维修悬架。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairSuspension.2",
+    "before": "建议维修悬架部件。",
+    "after": "这次维修悬架。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairSuspension.3",
+    "before": "将安排维修悬架系统。",
+    "after": "这次维修悬架。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairSuspension.1",
+    "before": "悬架系统工作正常。",
+    "after": "这次不维修悬架。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairSuspension.2",
+    "before": "悬架无异常情况。",
+    "after": "这次不维修悬架。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairSuspension.3",
+    "before": "无需维修悬架系统。",
+    "after": "这次不维修悬架。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairBodywork.1",
+    "before": "需要维修扩散器部件。",
+    "after": "这次维修车身。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairBodywork.2",
+    "before": "建议维修车身空力套件。",
+    "after": "这次维修车身。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairBodywork.3",
+    "before": "将安排维修空力部件。",
+    "after": "这次维修车身。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairBodywork.1",
+    "before": "车身空力套件工作正常。",
+    "after": "这次不维修车身。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairBodywork.2",
+    "before": "空力套件无损伤迹象。",
+    "after": "这次不维修车身。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairBodywork.3",
+    "before": "无需维修车身部件。",
+    "after": "这次不维修车身。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairEngine.1",
+    "before": "将安排维修引擎。",
+    "after": "这次维修发动机。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "RepairEngine.2",
+    "before": "引擎需要检修维护。",
+    "after": "这次维修发动机。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairEngine.1",
+    "before": "引擎运转正常。",
+    "after": "这次不维修发动机。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "NoRepairEngine.2",
+    "before": "无需维修引擎系统。",
+    "after": "这次不维修发动机。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmFuelChange.1",
+    "before": "确认添加%fuel% %unit%燃油？",
+    "after": "确认加%fuel%%unit%燃油吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmFuelChange.2",
+    "before": "加油量%fuel% %unit%，是否确认？",
+    "after": "确认加%fuel%%unit%燃油吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmCompoundChange.1",
+    "before": "确认更换%compound%配方轮胎？",
+    "after": "确认更换%compound%轮胎吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmCompoundChange.2",
+    "before": "下站更换%compound%配方轮胎，请确认。",
+    "after": "确认更换%compound%轮胎吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CompoundNotAvailable.1",
+    "before": "无此配方轮胎可用。",
+    "after": "没有可用的%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CompoundNotAvailable.2",
+    "before": "本节比赛未配置%compound%配方轮胎。",
+    "after": "没有可用的%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "CompoundNotAvailable.3",
+    "before": "无%compound%配方轮胎可用。",
+    "after": "没有可用的%compound%轮胎。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPressureChange.1",
+    "before": "是否将%tyre%胎压%action% %delta% %unit%？",
+    "after": "确认将%tyre%胎压%action%%delta%%unit%吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPressureChange.2",
+    "before": "下站将%tyre%胎压%action% %delta% %unit%，请确认。",
+    "after": "确认将%tyre%胎压%action%%delta%%unit%吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmAllPressureChange.1",
+    "before": "是否将所有轮胎胎压%action% %delta% %unit%？",
+    "after": "确认将所有轮胎胎压%action%%delta%%unit%吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmAllPressureChange.2",
+    "before": "下站全车胎压%action% %delta% %unit%，请确认。",
+    "after": "确认将所有轮胎胎压%action%%delta%%unit%吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmNoPressureChange.1",
+    "before": "胎压维持不变，是否确认？",
+    "after": "确认保持胎压不变吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmNoPressureChange.2",
+    "before": "不调整胎压设置，请确认。",
+    "after": "确认保持胎压不变吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmNoTyreChange.1",
+    "before": "不更换轮胎，是否确认？",
+    "after": "确认不换胎吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmNoTyreChange.2",
+    "before": "保持当前轮胎，请确认。",
+    "after": "确认不换胎吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmRepairChange.1",
+    "before": "是否%negation%维修%damage%部件？",
+    "after": "确认%negation%维修%damage%吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmRepairChange.2",
+    "before": "下站%negation%维修%damage%，请确认。",
+    "after": "确认%negation%维修%damage%吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPlanUpdate.1",
+    "before": "已按指令更新进站方案。",
+    "after": "进站方案已经更新。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPlanUpdate.2",
+    "before": "进站计划已相应调整。",
+    "after": "进站方案已经更新。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmPlanUpdate.3",
+    "before": "维修组已收到最新变更指令。",
+    "after": "进站方案已经更新。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmDataUpdate.1",
+    "before": "车辆状态如何？是否将当前设定存入数据库？",
+    "after": "要记录当前车辆状态和设置吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmDataUpdate.2",
+    "before": "当前设定是否合适？将存入数据库供以后参考。",
+    "after": "要记录当前车辆状态和设置吗？"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DataUpdated.1",
+    "before": "已记录，赛后一起复盘分析。",
+    "after": "已经记录好了。"
+  },
+  {
+    "role": "Race Engineer",
+    "section": "[Speaker Phrases]",
+    "key": "DataUpdated.2",
+    "before": "操作完成，稍后见。",
+    "after": "已经记录好了。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WelcomeBack.1",
+    "before": "嗨 %driver%，欢迎回来。",
+    "after": "欢迎回来。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WelcomeBack.2",
+    "before": "欢迎回来，%driver%。",
+    "after": "欢迎回来。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.1",
+    "before": "我在线。我能为你做什么？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.2",
+    "before": "在的，%driver%？你叫我？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.4",
+    "before": "是的，我听到了。你需要什么？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "IHearYou.5",
+    "before": "信号清晰。我能怎么帮你？ ",
+    "after": "听得到，请讲。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.1",
+    "before": "收到，我会尽快回复你。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.2",
+    "before": "好的，稍等一下。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.3",
+    "before": "等一下。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.4",
+    "before": "我马上去查。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.5",
+    "before": "收到，请稍等。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Confirm.6",
+    "before": "好的，我马上就办。",
+    "after": "收到，稍等一下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.1",
+    "before": "好的，我会处理。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.2",
+    "before": "照做。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.3",
+    "before": "好的，明白了。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Roger.4",
+    "before": "收到，明白。",
+    "after": "收到。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NotPossible.1",
+    "before": "现在做不到。",
+    "after": "目前无法执行。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NotPossible.3",
+    "before": "现在不可能做这个。",
+    "after": "目前无法执行。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.1",
+    "before": "好的。准备好了随时叫我。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.2",
+    "before": "明白。我就在这里。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.3",
+    "before": "好的。但如果你需要我，我就在这里。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Okay.4",
+    "before": "明白，没问题。",
+    "after": "好的，需要时叫我。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.1",
+    "before": "抱歉 %driver%，我没听清。能重复一遍吗？",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.2",
+    "before": "抱歉，我没明白。请重复。",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Repeat.3",
+    "before": "能请您重复一遍吗？",
+    "after": "没听清，请再说一遍。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Joke.1",
+    "before": "其实你应该专注于驾驶，不过好吧，听着。",
+    "after": "可以，听完继续专心开车。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Joke.2",
+    "before": "行，但之后我希望看到你专注。",
+    "after": "可以，听完继续专心开车。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoJoke.1",
+    "before": "抱歉，我现在没什么心情开玩笑。",
+    "after": "先专心开车，稍后再聊。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoJoke.2",
+    "before": "什么？你应该专注于你的驾驶。",
+    "after": "先专心开车，稍后再聊。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Time.1",
+    "before": "现在是 %time%。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Time.2",
+    "before": "现在是 %time% 整。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Time.3",
+    "before": "当前时间 %time%。",
+    "after": "现在是%time%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoInformation.1",
+    "before": "抱歉，我没有这个信息。",
+    "after": "暂时没有这项信息。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoInformation.2",
+    "before": "我找不到这个信息，抱歉。",
+    "after": "暂时没有这项信息。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherGood.1",
+    "before": "天气看起来很稳定。 ",
+    "after": "天气目前比较稳定。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherGood.2",
+    "before": "天气会没事的，别担心。 ",
+    "after": "天气目前比较稳定。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRain.1",
+    "before": "看起来前面要下雨了。 ",
+    "after": "预计接下来会下雨。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRain.2",
+    "before": "%driver%，我们得预计几分钟后会下雨。 ",
+    "after": "预计接下来会下雨。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherChange.1",
+    "before": "%driver%，看起来天气大约在 %minutes% 分钟后会有变化。我会持续关注。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，我会继续留意。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherChange.2",
+    "before": "我是 %name%。我刚收到最新的天气信息。也许我们需要换胎。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，我会继续留意。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherNoChange.1",
+    "before": "%driver%，看起来天气大约在 %minutes% 分钟后会有变化。但这么晚换胎可能不值得了。 ",
+    "after": "预计约%minutes%分钟后天气会有变化，目前建议保持现有设置。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherNoChange.2",
+    "before": "我是 %name%。我刚收到最新的天气信息。前面天气会有变化，但我们用现在的设定也许能撑过去。",
+    "after": "预计约%minutes%分钟后天气会有变化，目前建议保持现有设置。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRainChange.1",
+    "before": "%driver%，我是 %name%。%minutes% 分钟后会开始下雨。我们应该尽快换上 %compound% 轮胎。",
+    "after": "预计约%minutes%分钟后开始下雨，建议准备换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherRainChange.2",
+    "before": "我是 %name%。看起来几分钟后就要开始下雨了。我建议换胎。",
+    "after": "预计约%minutes%分钟后开始下雨，建议准备换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherDryChange.1",
+    "before": "%driver%，接下来 %minutes% 分钟赛道会变干。也许我们应该换成 %compound% 轮胎。",
+    "after": "预计约%minutes%分钟后雨会停，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "WeatherDryChange.2",
+    "before": "嘿，%minutes% 分钟后雨就要停了。我建议换胎。",
+    "after": "预计约%minutes%分钟后雨会停，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "TrackDryChange.1",
+    "before": "%driver%，赛道将在接下来的%minutes%分钟内变干。或许我们应该换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变干，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "TrackDryChange.2",
+    "before": "嘿，赛道将在接下来的%minutes%分钟内变干。我认为我们可以计划换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变干，可以考虑换上%compound%轮胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "TrackRainChange.1",
+    "before": "%driver%，%name%，赛道将在接下来的%minutes%分钟内变湿。我们应该尽快换成%compound%轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变湿，建议准备%compound%轮胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "TrackRainChange.2",
+    "before": "%name%，看起来赛道几分钟后就会变湿。我建议更换轮胎。",
+    "after": "预计约%minutes%分钟后赛道会变湿，建议准备%compound%轮胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Greeting.1",
+    "before": "你好%driver%，我是策略师%name%，将为你制定最佳策略。",
+    "after": "我是芙宁娜，会帮你留意进站策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Greeting.2",
+    "before": "这里是%name%，本节赛事由我负责策略监控。",
+    "after": "我是芙宁娜，会帮你留意进站策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Greeting.3",
+    "before": "%name%在线，需要战术建议随时呼叫。",
+    "after": "我是芙宁娜，会帮你留意进站策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Later.1",
+    "before": "现在判断过早，1-2圈后回报。",
+    "after": "还需要一些数据，再跑一两圈看看。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Later.2",
+    "before": "请先稳定节奏，稍后分析。",
+    "after": "还需要一些数据，再跑一两圈看看。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Later.3",
+    "before": "稳定节奏后再联系。",
+    "after": "还需要一些数据，再跑一两圈看看。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Explain.1",
+    "before": "需要详细解释吗？",
+    "after": "需要再解释一下吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Explain.2",
+    "before": "是否说明策略细节？",
+    "after": "需要再解释一下吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "CollectingData.1",
+    "before": "正在收集策略数据，请自主驾驶。",
+    "after": "还在收集策略数据，先保持节奏。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "CollectingData.2",
+    "before": "准备下节赛事策略，暂无法协助。",
+    "after": "还在收集策略数据，先保持节奏。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Laps.1",
+    "before": "剩余%laps%圈。",
+    "after": "当前油量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Laps.2",
+    "before": "当前油量可跑%laps%圈。",
+    "after": "当前油量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LowLaps.1",
+    "before": "油量紧张，仅剩%laps%圈。",
+    "after": "油量只够%laps%圈了，准备进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LowLaps.2",
+    "before": "只剩%laps%圈，下圈准备进站。",
+    "after": "油量只够%laps%圈了，准备进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LapsAlready.1",
+    "before": "已完成%laps%圈。",
+    "after": "已经跑完%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LapsAlready.2",
+    "before": "已行驶%laps%圈。",
+    "after": "已经跑完%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LapsFuel.1",
+    "before": "剩余油量支持%laps%圈。",
+    "after": "剩余油量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LapsFuel.2",
+    "before": "燃油可维持%laps%圈。",
+    "after": "剩余油量预计还能跑%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LapsStint.1",
+    "before": "但你的驾驶时段只剩%laps%圈。",
+    "after": "这个驾驶轮次还剩%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LapsStint.2",
+    "before": "本节时段剩余%laps%圈。",
+    "after": "这个驾驶轮次还剩%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LapsSession.1",
+    "before": "距本节结束约%laps%圈。",
+    "after": "本场还剩大约%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "LapsSession.2",
+    "before": "剩余赛程仅%laps%圈。",
+    "after": "本场还剩大约%laps%圈。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoFutureLap.1",
+    "before": "无效请求，请指定未来圈数。",
+    "after": "请选择后面的圈数。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FuturePosition.1",
+    "before": "推演显示 (Number) 圈后可能升至 P %position% %class%。",
+    "after": "预计之后排第%position%位，%class%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FuturePosition.2",
+    "before": "模拟数据预测 (Number) 圈后位于 P %position% %class%。",
+    "after": "预计之后排第%position%位，%class%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FuturePosition.3",
+    "before": "预计 (Number) 圈后将稳定在 P %position% %class%",
+    "after": "预计之后排第%position%位，%class%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoFuturePosition.1",
+    "before": "数据不足无法推演。",
+    "after": "数据还不够，暂时无法预测位置。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "PitstopLap.1",
+    "before": "%driver%，最佳进站圈：%lap%。",
+    "after": "建议第%lap%圈进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "PitstopLap.2",
+    "before": "%name%建议%lap%圈进站。",
+    "after": "建议第%lap%圈进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "PitstopLap.3",
+    "before": "%driver%，%lap%圈进站收益最大。",
+    "after": "建议第%lap%圈进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoPlannedPitstop.1",
+    "before": "数据不足无法模拟，准备好即可进站。",
+    "after": "还没有计划好的进站圈数。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoPitstopNeeded.1",
+    "before": "无需进站，当前油量足够。",
+    "after": "油量足够，目前不需要进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoPitstopNeeded.2",
+    "before": "燃油充足，可不进站。",
+    "after": "油量足够，目前不需要进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedLaps.1",
+    "before": "已评估%laps%种进站方案（%first%-%last%圈）。",
+    "after": "已经比较第%first%到第%last%圈的进站方案。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedLaps.2",
+    "before": "模拟%first%-%last%圈进站方案。",
+    "after": "已经比较第%first%到第%last%圈的进站方案。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedLaps.3",
+    "before": "完成%laps%次进站推演。",
+    "after": "已经比较第%first%到第%last%圈的进站方案。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedSimilarPosition.1",
+    "before": "各方案出站后均为 P %position%。",
+    "after": "这些方案预计都在第%position%位出站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedSimilarPosition.2",
+    "before": "出站排名稳定在 P %position%。",
+    "after": "这些方案预计都在第%position%位出站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedBestPosition.1",
+    "before": "%lap%圈进站最优，预计 P %position%。",
+    "after": "建议第%lap%圈进站，预计出站后排第%position%位。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedBestPosition.2",
+    "before": "%lap%圈进站可能升至 P %position%。",
+    "after": "建议第%lap%圈进站，预计出站后排第%position%位。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedNoTraffic.1",
+    "before": "出站后可能无前车阻挡。",
+    "after": "预计出站后前方比较空。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedNoTraffic.2",
+    "before": "返回赛道时前方无车。",
+    "after": "预计出站后前方比较空。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedTraffic.1",
+    "before": "出站后将遭遇%traffic%辆前车。",
+    "after": "预计出站后前方有%traffic%辆车。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedTraffic.2",
+    "before": "返回赛道时前方有%traffic%辆车阻挡。",
+    "after": "预计出站后前方有%traffic%辆车。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedBackmarkers.1",
+    "before": "其中%backmarkers%辆是慢车集团。",
+    "after": "其中有%backmarkers%辆被套圈的赛车。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedBackmarkers.2",
+    "before": "%backmarkers%辆是慢车。",
+    "after": "其中有%backmarkers%辆被套圈的赛车。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "EvaluatedBackmarker.1",
+    "before": "有1辆慢车。",
+    "after": "其中有一辆被套圈的赛车。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmUpdateStrategy.1",
+    "before": "是否更新策略？",
+    "after": "要采用这个策略吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmUpdateStrategy.2",
+    "before": "将更新策略，请确认。",
+    "after": "要采用这个策略吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmInformEngineer.1",
+    "before": "是否通知工程师？",
+    "after": "要把进站安排交给维修组吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmInformEngineer.2",
+    "before": "将通知工程师，是否确认？",
+    "after": "要把进站安排交给维修组吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmInformEngineerAnyway.1",
+    "before": "是否仍需通知工程师？",
+    "after": "还需要把安排交给维修组吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmInformEngineerAnyway.2",
+    "before": "稍后处理，要不先通知工程师？",
+    "after": "还需要把安排交给维修组吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmReportStrategy.1",
+    "before": "%driver%，%name%汇报策略要点？",
+    "after": "要听当前策略吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmReportStrategy.2",
+    "before": "%name%在线，需要策略简报？",
+    "after": "要听当前策略吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmReportStrategy.3",
+    "before": "%driver%，%name%进行策略简报？",
+    "after": "要听当前策略吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ReportStrategy.1",
+    "before": "%driver%，%name%报告。",
+    "after": "我是芙宁娜，当前策略如下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ReportStrategy.2",
+    "before": "%name%在线。",
+    "after": "我是芙宁娜，当前策略如下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Strategy.1",
+    "before": "策略方案如下。",
+    "after": "当前的进站安排如下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Strategy.2",
+    "before": "当前策略概述。",
+    "after": "当前的进站安排如下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Strategy.3",
+    "before": "策略简报。",
+    "after": "当前的进站安排如下。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FCYStrategy.1",
+    "before": "黄旗期间进站有利。",
+    "after": "全场黄旗，建议利用这个机会进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FCYStrategy.2",
+    "before": "可借黄旗进站。",
+    "after": "全场黄旗，建议利用这个机会进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FCYStrategy.3",
+    "before": "黄旗进站收益最大。",
+    "after": "全场黄旗，建议利用这个机会进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FCYStrategy.4",
+    "before": "立即进站。",
+    "after": "全场黄旗，建议利用这个机会进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoStrategy.1",
+    "before": "%driver%，本节无预设策略，自由选择进站。",
+    "after": "当前没有预设策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoStrategy.2",
+    "before": "无预设策略，请自主决策。",
+    "after": "当前没有预设策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoFCYStrategy.1",
+    "before": "黄旗进站无收益。",
+    "after": "这次黄旗进站没有明显收益，继续留在赛道上。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoFCYStrategy.2",
+    "before": "无需进站。",
+    "after": "这次黄旗进站没有明显收益，继续留在赛道上。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoFCYStrategy.3",
+    "before": "留在赛道上。",
+    "after": "这次黄旗进站没有明显收益，继续留在赛道上。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FCYPitstop.1",
+    "before": "但黄旗进站可能有意外收益。",
+    "after": "也可以考虑趁黄旗进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "FCYPitstop.2",
+    "before": "必要时可借黄旗进站。",
+    "after": "也可以考虑趁黄旗进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoStrategyRecommendation.1",
+    "before": "需工程师协同完成。",
+    "after": "还需要工程师模块配合，才能执行进站安排。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoStrategyRecommendation.2",
+    "before": "工程师未就位，无法独立完成。",
+    "after": "还需要工程师模块配合，才能执行进站安排。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoStrategyRecommendation.3",
+    "before": "找不到工程师，无法操作。",
+    "after": "还需要工程师模块配合，才能执行进站安排。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Pitstops.2",
+    "before": "总计%pitstops%次进站。",
+    "after": "计划进站%pitstops%次。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NextPitstop.1",
+    "before": "下次进站圈：%pitstopLap%。",
+    "after": "下次计划在第%pitstopLap%圈进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NextPitstop.2",
+    "before": "下次进站安排在%pitstopLap%圈。",
+    "after": "下次计划在第%pitstopLap%圈进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NextPitstop.3",
+    "before": "请于%pitstopLap%圈进站。",
+    "after": "下次计划在第%pitstopLap%圈进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoNextPitstop.1",
+    "before": "所有进站已完成。",
+    "after": "计划中的进站都已经完成。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoNextPitstop.2",
+    "before": "无后续进站计划。",
+    "after": "计划中的进站都已经完成。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Refuel.1",
+    "before": "计划加油%fuel% %unit%。",
+    "after": "这次加%fuel%%unit%燃油。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Refuel.2",
+    "before": "补充%fuel% %unit%燃油。",
+    "after": "这次加%fuel%%unit%燃油。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoRefuel.1",
+    "before": "无加油计划。",
+    "after": "这次不加油。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoRefuel.2",
+    "before": "无需加油。",
+    "after": "这次不加油。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoRefuel.3",
+    "before": "燃油充足。",
+    "after": "这次不加油。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "TyreChange.1",
+    "before": "计划换胎。",
+    "after": "这次计划换胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "TyreChange.2",
+    "before": "将更换轮胎。",
+    "after": "这次计划换胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoTyreChange.1",
+    "before": "不计划换胎。",
+    "after": "这次不换胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoTyreChange.2",
+    "before": "无需更换轮胎。",
+    "after": "这次不换胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoTyreChange.3",
+    "before": "保持原胎。",
+    "after": "这次不换胎。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "TyreCompoundDifference.1",
+    "before": "但需更换轮胎配方。",
+    "after": "轮胎类型也需要调整。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "TyreCompoundDifference.2",
+    "before": "将变更轮胎配方。",
+    "after": "轮胎类型也需要调整。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StrategyMap.1",
+    "before": "建议本时段使用MAP %map%。",
+    "after": "建议使用发动机模式%map%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StrategyMap.2",
+    "before": "请切换至MAP %map%。",
+    "after": "建议使用发动机模式%map%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StintMap.1",
+    "before": "%driver%，请使用MAP %map%。",
+    "after": "请切换到发动机模式%map%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StintMap.2",
+    "before": "%name%呼叫，请设MAP %map%。",
+    "after": "请切换到发动机模式%map%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmCancelStrategy.1",
+    "before": "%driver%，确认取消策略？",
+    "after": "确认取消当前策略吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmCancelStrategy.2",
+    "before": "是否放弃当前策略？",
+    "after": "确认取消当前策略吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StrategyCanceled.1",
+    "before": "策略已取消，请自主决策。",
+    "after": "策略已取消。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StrategyCanceled.2",
+    "before": "策略已取消，需临时规划。",
+    "after": "策略已取消。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "PitstopAhead.1",
+    "before": "%driver%，%laps%圈后进站。",
+    "after": "再跑%laps%圈后进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "PitstopAhead.2",
+    "before": "%name%提醒，计划%lap%圈进站。",
+    "after": "再跑%laps%圈后进站。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoBetterStrategy.1",
+    "before": "当前策略仍最优。",
+    "after": "暂时没有更合适的策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoBetterStrategy.2",
+    "before": "暂无更优方案。",
+    "after": "暂时没有更合适的策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoBetterStrategy.3",
+    "before": "无法找到更好策略。",
+    "after": "暂时没有更合适的策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoValidStrategy.1",
+    "before": "当前条件无法制定策略。",
+    "after": "目前数据无法生成可用策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "NoValidStrategy.2",
+    "before": "%driver%，无法生成有效策略。",
+    "after": "目前数据无法生成可用策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StrategyUpdate.1",
+    "before": "%driver%，需根据实时数据调整策略。",
+    "after": "根据当前数据，建议调整进站策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StrategyUpdate.2",
+    "before": "%driver%，发现更优策略方案。",
+    "after": "根据当前数据，建议调整进站策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "StrategyUpdate.3",
+    "before": "%driver%，建议微调进站窗口。",
+    "after": "根据当前数据，建议调整进站策略。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmSaveSettings.1",
+    "before": "是否保存设置至下站？",
+    "after": "要保存这次的设置吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmSaveSettings.2",
+    "before": "%driver%，保存当前设置？",
+    "after": "要保存这次的设置吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmSaveSettingsAndRaceReport.1",
+    "before": "是否保存设置并生成赛后报告？",
+    "after": "要保存设置并生成赛后报告吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmSaveSettingsAndRaceReport.2",
+    "before": "%driver%，保存设置并生成赛事报告吗？",
+    "after": "要保存设置并生成赛后报告吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmSaveRaceReport.1",
+    "before": "生成赛后分析报告吗？",
+    "after": "要生成赛后报告吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "ConfirmSaveRaceReport.2",
+    "before": "%driver%，需要赛事总结报告吗？",
+    "after": "要生成赛后报告吗？"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "RaceReportSaved.1",
+    "before": "报告完成，准备庆功。",
+    "after": "赛后报告已经保存。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "RaceReportSaved.2",
+    "before": "全部完成，请返回。",
+    "after": "赛后报告已经保存。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "GreatRace.1",
+    "before": "%name%报告：精彩！P %position% %class%，回站庆祝！",
+    "after": "芙宁娜报告：精彩！P %position% %class%，回站庆祝！"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "GreatRace.2",
+    "before": "%name%在线：P %position% %class%，完美表现！",
+    "after": "芙宁娜在线：P %position% %class%，完美表现！"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "GreatRace.3",
+    "before": "%name%：P %position% %class%，干得漂亮！",
+    "after": "芙宁娜：P %position% %class%，干得漂亮！"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "MediocreRace.1",
+    "before": "%name%：P %position% %class%，稳定但可提升。",
+    "after": "芙宁娜：P %position% %class%，稳定但可提升。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "MediocreRace.2",
+    "before": "%name%：P %position% %class%，下次再进一步。",
+    "after": "芙宁娜：P %position% %class%，下次再进一步。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "CatastrophicRace.1",
+    "before": "%name%：遗憾，P %position% %class%。",
+    "after": "芙宁娜：遗憾，P %position% %class%。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "CatastrophicRace.2",
+    "before": "%name%：P %position% %class%，成绩不佳。",
+    "after": "芙宁娜：P %position% %class%，成绩不佳。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "CatastrophicRace.3",
+    "before": "%name%：P %position% %class%，状态欠佳。",
+    "after": "芙宁娜：P %position% %class%，状态欠佳。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Compare2Leader.1",
+    "before": "平均圈速落后冠军%relative% %seconds%秒。",
+    "after": "平均圈速比冠军慢%relative%%seconds%秒。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "Compare2Leader.2",
+    "before": "与冠军差距%relative% %seconds%秒/圈。",
+    "after": "平均圈速比冠军慢%relative%%seconds%秒。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "InvalidCritics.1",
+    "before": "%conjunction% 失误过多。",
+    "after": "%conjunction%，无效圈有些多，注意赛道边界。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "InvalidCritics.2",
+    "before": "%conjunction% 需减少操作失误。",
+    "after": "%conjunction%，无效圈有些多，注意赛道边界。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "InvalidCritics.3",
+    "before": "%conjunction% 下站提升稳定性。",
+    "after": "%conjunction%，无效圈有些多，注意赛道边界。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "PositiveSummary.1",
+    "before": "整体表现良好。",
+    "after": "整体表现不错。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "PositiveSummary.2",
+    "before": "成绩很满意。",
+    "after": "整体表现不错。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "PositiveSummary.3",
+    "before": "总体值得肯定。",
+    "after": "整体表现不错。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "GoodPace.1",
+    "before": "节奏出色",
+    "after": "圈速不错。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "GoodPace.2",
+    "before": "圈速优势明显",
+    "after": "圈速不错。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "MediocrePace.1",
+    "before": "需提升速度",
+    "after": "圈速还有提升空间。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "MediocrePace.2",
+    "before": "圈速尚有空间",
+    "after": "圈速还有提升空间。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "BadPace.1",
+    "before": "圈速待加强",
+    "after": "圈速还需要提高。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "BadPace.2",
+    "before": "速度不足",
+    "after": "圈速还需要提高。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "GoodConsistency.1",
+    "before": "%conjunction% 圈速一致性非常出色。",
+    "after": "%conjunction%，圈速很稳定。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "GoodConsistency.2",
+    "before": "%conjunction% 驾驶节奏控制完美。",
+    "after": "%conjunction%，圈速很稳定。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "MediocreConsistency.1",
+    "before": "%conjunction% 稳定性待提升。",
+    "after": "%conjunction%，圈速可以再稳定一些。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "MediocreConsistency.2",
+    "before": "%conjunction% 圈速波动稍大。",
+    "after": "%conjunction%，圈速可以再稳定一些。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "BadConsistency.1",
+    "before": "%conjunction% 圈速波动极大（赛后分析交通影响）。",
+    "after": "%conjunction%，圈速波动较大，赛后再分析原因。"
+  },
+  {
+    "role": "Race Strategist",
+    "section": "[Speaker Phrases]",
+    "key": "BadConsistency.2",
+    "before": "%conjunction% 稳定性需要改善（需评估慢车干扰）。",
+    "after": "%conjunction%，圈速波动较大，赛后再分析原因。"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "calm": {"speed": 1.0},
+  "warning": {"speed": 1.04},
+  "encouraging": {"speed": 1.02},
+  "voices": {
+    "furina": {},
+    "clorinde": {}
+  }
+}

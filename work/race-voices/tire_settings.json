@@ -1,0 +1,14 @@
+{
+  "note": "Provisional inspection thresholds, not optimal tire setup values. Review against each car and compound. SDK wear values are fraction of tread remaining.",
+  "defaults": {
+    "pressure_kpa_min": 110,
+    "pressure_kpa_max": 350,
+    "temperature_c_min": 40,
+    "temperature_c_max": 130,
+    "wear_warning_remaining": 0.7,
+    "wear_critical_remaining": 0.4,
+    "settle_seconds": 2,
+    "warmup_laps": 2
+  },
+  "cars": {}
+}

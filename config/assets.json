@@ -1,0 +1,80 @@
+[
+  {
+    "path": "models/clorinde/克洛琳德-e10.ckpt",
+    "url": "https://huggingface.co/UnlimitedBurst/GPT-SoVITS/resolve/48b739fe577b022c60f08da75aecfa52c7d367ac/%E5%8E%9F%E7%A5%9E%EF%BC%88%E5%B7%B2%E6%9B%B4%E6%96%B04.8%EF%BC%89/%E5%85%8B%E6%B4%9B%E7%90%B3%E5%BE%B7/%E5%85%8B%E6%B4%9B%E7%90%B3%E5%BE%B7-e10.ckpt",
+    "size": 155312957,
+    "sha256": "76a323fc5e0b900994b1f339353fe5a48daf8860a896bd346955bd05e2d78b1e"
+  },
+  {
+    "path": "models/clorinde/克洛琳德_e10_s150.pth",
+    "url": "https://huggingface.co/UnlimitedBurst/GPT-SoVITS/resolve/48b739fe577b022c60f08da75aecfa52c7d367ac/%E5%8E%9F%E7%A5%9E%EF%BC%88%E5%B7%B2%E6%9B%B4%E6%96%B04.8%EF%BC%89/%E5%85%8B%E6%B4%9B%E7%90%B3%E5%BE%B7/%E5%85%8B%E6%B4%9B%E7%90%B3%E5%BE%B7_e10_s150.pth",
+    "size": 85007943,
+    "sha256": "4a30a6bafb953ba9c82fa7fb44925ad56dcfb4f23e174e80cd7134c69a43b872"
+  },
+  {
+    "path": "models/clorinde/挺像师父的风格，她可能回到家都想不起当晚说的是哪一个。.wav",
+    "url": "https://huggingface.co/UnlimitedBurst/GPT-SoVITS/resolve/48b739fe577b022c60f08da75aecfa52c7d367ac/%E5%8E%9F%E7%A5%9E%EF%BC%88%E5%B7%B2%E6%9B%B4%E6%96%B04.8%EF%BC%89/%E5%85%8B%E6%B4%9B%E7%90%B3%E5%BE%B7/%E6%8C%BA%E5%83%8F%E5%B8%88%E7%88%B6%E7%9A%84%E9%A3%8E%E6%A0%BC%EF%BC%8C%E5%A5%B9%E5%8F%AF%E8%83%BD%E5%9B%9E%E5%88%B0%E5%AE%B6%E9%83%BD%E6%83%B3%E4%B8%8D%E8%B5%B7%E5%BD%93%E6%99%9A%E8%AF%B4%E7%9A%84%E6%98%AF%E5%93%AA%E4%B8%80%E4%B8%AA%E3%80%82.wav",
+    "size": 489388,
+    "sha256": "906f7990b52f110b54cd0b1c3ef2359c5cc0acab928e703842a20faf17a8702c"
+  },
+  {
+    "path": "models/furina/太普通了！哼，这种缺乏特色的料理得不到我的认可！.mp3",
+    "url": "https://huggingface.co/UnlimitedBurst/GPT-SoVITS/resolve/48b739fe577b022c60f08da75aecfa52c7d367ac/%E5%8E%9F%E7%A5%9E%EF%BC%88%E5%B7%B2%E6%9B%B4%E6%96%B04.8%EF%BC%89/%E8%8A%99%E5%AE%81%E5%A8%9C/%E5%A4%AA%E6%99%AE%E9%80%9A%E4%BA%86%EF%BC%81%E5%93%BC%EF%BC%8C%E8%BF%99%E7%A7%8D%E7%BC%BA%E4%B9%8F%E7%89%B9%E8%89%B2%E7%9A%84%E6%96%99%E7%90%86%E5%BE%97%E4%B8%8D%E5%88%B0%E6%88%91%E7%9A%84%E8%AE%A4%E5%8F%AF%EF%BC%81.mp3",
+    "size": 50733,
+    "sha256": "7bfb122a3f682978aa5e0733e4713516462f97193225930f943c04cd32845b7a"
+  },
+  {
+    "path": "models/furina/Funina-e15.ckpt",
+    "url": "https://modelscope.cn/api/v1/models/leletxh/Furina_GPT_SoVITS/repo?Revision=45f1d67fd4d4f31c99e1cbd0cace3e22c697c2ce&FilePath=Funina-e15.ckpt",
+    "size": 155313312,
+    "sha256": "5bd2832cc45c2a8ac91a01c0357f81fbcce41cba050f614642d7b2a6f1236892"
+  },
+  {
+    "path": "models/furina/Funina_e8_s464.pth",
+    "url": "https://modelscope.cn/api/v1/models/leletxh/Furina_GPT_SoVITS/repo?Revision=45f1d67fd4d4f31c99e1cbd0cace3e22c697c2ce&FilePath=Funina_e8_s464.pth",
+    "size": 172765299,
+    "sha256": "95c0c8061972443a2f3c2c49fd030e3866dddd6ca14bdbc0d5e170315aa5a96c"
+  },
+  {
+    "path": "GPT-SoVITS/GPT_SoVITS/pretrained_models/chinese-hubert-base/config.json",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-hubert-base/config.json",
+    "size": 1449,
+    "sha256": "c3e5060a1277e0f078cc6be9da4528a605dba6ece93018981fe2c820e5c7b103"
+  },
+  {
+    "path": "GPT-SoVITS/GPT_SoVITS/pretrained_models/chinese-hubert-base/preprocessor_config.json",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-hubert-base/preprocessor_config.json",
+    "size": 212,
+    "sha256": "dcd684124d06722947939d41ea6ae58dbf10968c60a11a29f23ddc602c64a29b"
+  },
+  {
+    "path": "GPT-SoVITS/GPT_SoVITS/pretrained_models/chinese-hubert-base/pytorch_model.bin",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-hubert-base/pytorch_model.bin",
+    "size": 188811417,
+    "sha256": "24164f129c66499d1346e2aa55f183250c223161ec2770c0da3d3b08cf432d3c"
+  },
+  {
+    "path": "GPT-SoVITS/GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/config.json",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-roberta-wwm-ext-large/config.json",
+    "size": 963,
+    "sha256": "3d57de2fd7e80d0e5c8ff194f0bbb6baa10df7e43fc262a0cc71298a78b0a3e5"
+  },
+  {
+    "path": "GPT-SoVITS/GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/pytorch_model.bin",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-roberta-wwm-ext-large/pytorch_model.bin",
+    "size": 651225145,
+    "sha256": "e53a693acc59ace251d143d068096ae0d7b79e4b1b503fa84c9dcf576448c1d8"
+  },
+  {
+    "path": "GPT-SoVITS/GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large/tokenizer.json",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/chinese-roberta-wwm-ext-large/tokenizer.json",
+    "size": 268962,
+    "sha256": "173796956820ea27bd14f76bf28162607ff4254807e2948253eb5b46f5bb643b"
+  },
+  {
+    "path": "GPT-SoVITS/GPT_SoVITS/pretrained_models/sv/pretrained_eres2netv2w24s4ep4.ckpt",
+    "url": "https://huggingface.co/lj1995/GPT-SoVITS/resolve/8f8857563c040d542de108a2c18b0425abd6c9c5/sv/pretrained_eres2netv2w24s4ep4.ckpt",
+    "size": 107528697,
+    "sha256": "4f5a0bf73c61eb41b174e1bb54e7ee3c83233892be8e0af1f187024e8e581a35"
+  }
+]

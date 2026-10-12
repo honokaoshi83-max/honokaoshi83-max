@@ -1,0 +1,15 @@
+{
+  "commit": "1b47ca07ef43a284e0b8bd7f29d3e1e3ff76082a",
+  "source": {
+    "path": "GPT-SoVITS-source.zip",
+    "url": "https://codeload.github.com/RVC-Boss/GPT-SoVITS/zip/1b47ca07ef43a284e0b8bd7f29d3e1e3ff76082a",
+    "size": 6875312,
+    "sha256": "713c9df5fa2c7b0a2fee96fa8954375c915d64229bb1fda10de37f588479e16c"
+  },
+  "g2pw": {
+    "path": "G2PWModel.zip",
+    "url": "https://huggingface.co/XXXXRT/GPT-SoVITS-Pretrained/resolve/0c47645e02a7bc3688d7b263b0042c81e3cd82cd/G2PWModel.zip",
+    "size": 588856634,
+    "sha256": "46292be0374a49308069233cd5c147ae4c41806558e4781a2467a31a4d8099da"
+  }
+}

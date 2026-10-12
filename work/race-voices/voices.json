@@ -1,0 +1,18 @@
+{
+  "furina": {
+    "role": "赛事观察员与策略师",
+    "version": "v2ProPlus",
+    "gpt": "models/furina/Funina-e15.ckpt",
+    "sovits": "models/furina/Funina_e8_s464.pth",
+    "reference": "models/furina/reference.wav",
+    "reference_text": "太普通了！哼，这种缺乏特色的料理得不到我的认可！"
+  },
+  "clorinde": {
+    "role": "赛事工程师",
+    "version": "v1",
+    "gpt": "models/clorinde/克洛琳德-e10.ckpt",
+    "sovits": "models/clorinde/克洛琳德_e10_s150.pth",
+    "reference": "models/clorinde/reference.wav",
+    "reference_text": "挺像师父的风格，她可能回到家都想不起当晚说的是哪一个。"
+  }
+}

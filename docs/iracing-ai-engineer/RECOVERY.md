@@ -13,7 +13,7 @@ Simulator Controller 使用的固定语句缓存MP3；直接遥测损伤与维�
 重新补齐缓存：在项目根目录运行（不播放音频）：
 
 ```powershell
-.\work\race-voices\venv\Scripts\python.exe -X utf8 .\work\race-voices\warm_cache.py
+.\.runtime\python\python.exe -X utf8 .\work\race-voices\warm_cache.py
 ```
 
 如果发现游戏连接，缓存任务会在当前请求结束后暂停，避免持续与驾驶播报争用合成引擎。已生成文件保留，离开游戏后重新运行可复用。
@@ -25,8 +25,8 @@ Simulator Controller 使用的固定语句缓存MP3；直接遥测损伤与维�
 - 语音进程退出、语音健康接口持续失败：恢复本项目语音进程。
 - 遥测进程退出：恢复遥测进程。
 - 9881端口被其他程序占用：记录冲突并等待，不结束对方进程。
-- 手动运行stop.ps1：先停止监督进程，关闭服务后不会自动拉起。
-- 重复运行start.ps1：复用现有服务；监督进程还有系统文件锁防止重复运行。
+- 手动运行scripts/stop.ps1：先停止监督进程，关闭服务后不会自动拉起。
+- 重复运行scripts/start.ps1：复用现有服务；监督进程还有系统文件锁防止重复运行。
 - 恢复与故障状态仅写入本地记录，不主动合成错误提示。直接遥测音频错误按中断周期去重记录。
 
 当前自动恢复针对本地进程和健康接口；不处理DeepSeek云端API故障，不代表已经解决Simulator Controller内部所有错误提示，也不检测健康接口仍正常时的模型推理卡死。进程重建会丢失内存中的模型状态，未缓存的新句可能承担冷启动时间。

@@ -2,7 +2,7 @@
 
 面向个人驾驶的中文车内播报助手，基于 Simulator Controller、pyirsdk 和 GPT-SoVITS，提供圈速、旗号、邻车、油量、轮胎及维修提醒。
 
-**克洛琳德负责车辆状态、油量和维修；芙宁娜负责周围赛车和策略提醒。** 两个音色共用一个本地语音引擎，基础提醒由遥测与规则触发，不运行本地大语言模型。
+可选角色音色模式中，**克洛琳德负责车辆状态、油量和维修；芙宁娜负责周围赛车和策略提醒。** 两个音色共用一个本地语音引擎，基础提醒由遥测与规则触发，不运行本地大语言模型。
 
 ## 最新进度
 
@@ -16,7 +16,7 @@
 - 接入平稳、警告、鼓励三档路由。目前实际效果主要是小幅节奏调整，真实情绪仍需补充合适的参考录音。
 - **PS 键改为单次状态摘要**：车辆告警、燃油、燃油进站估算及游戏已设置的进站服务；长按不重复。
 - **云端 API 对话已从当前运行配置移除**，仅作为后续计划保留。
-- 最新 **70 项自动测试通过**。新增功能的实体按键、听感和游戏内触发仍待验收。
+- 最新 **75 项自动测试通过**。新增功能的实体按键、听感和游戏内触发仍待验收。
 
 [项目进度与后续计划](docs/iracing-ai-engineer/PROGRESS_AND_PLAN.md)
 
@@ -72,37 +72,17 @@ iRacing 遥测
 - 燃油进站建议与游戏已选进站服务分别报告；当前不求解交通、天气、轮胎和换手的综合最优策略。
 - 自动测试不能代替实体按键、完整比赛与听感验收。
 
-## 部署与运行
+## 安装与运行
 
-当前公开仓库提供介绍与计划，**尚未发布程序源码和完整安装包**。以下命令对应已有本机部署，不能仅克隆本仓库后直接运行。
+已提供源码及 Windows x64 移植安装包。下载后解压，双击 **安装.cmd**，再双击 **启动.cmd** 打开中文管理界面。
 
-需要 Windows、iRacing、Simulator Controller、Python 3.10 项目环境，以及 GPT-SoVITS 的兼容音色模型和参考录音。当前基础播报不需要云端 API 密钥。
+[下载安装包](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/latest) · [完整安装说明](docs/INSTALL.md) · [验证记录](docs/PORTABLE_VALIDATION.md)
 
-启动服务：
+默认安装轻量的 Windows 中文系统语音；角色分工保留，角色音色需额外双击 **安装角色音色.cmd** 下载。Python、依赖、模型与缓存均在安装目录内管理，不要求沿用原电脑的用户名、硬盘路径或虚拟环境。邻车与框架策略提醒需另装 Simulator Controller，再通过管理界面接入。
 
-```powershell
-.\work\race-voices\start.ps1
-```
+管理界面提供启动、停止、诊断、音色安装、缓存预热和方向盘状态按键设置。当前不需要云端 API 密钥。系统语音首条实测约 1 秒；长文本角色语音首次合成仍可能较慢。
 
-查看语音服务状态：
-
-```powershell
-Invoke-RestMethod 'http://127.0.0.1:9881/health'
-```
-
-随后启动 Simulator Controller 并进入 iRacing。语音地址为 `http://127.0.0.1:9881/v1/audio/speech`，使用 OpenAI 兼容协议，实际由本机 GPT-SoVITS 合成。
-
-停止服务：
-
-```powershell
-.\work\race-voices\stop.ps1
-```
-
-运行自动测试：
-
-```powershell
-.\work\race-voices\venv\Scripts\python.exe -X utf8 -m unittest discover -s work/race-voices -p 'test_*.py'
-```
+开发验证：安装后执行 `.runtime/python/python.exe -m pip install -r requirements-test.txt`，再执行 `.runtime/python/python.exe -X utf8 -m unittest discover -s work/race-voices -p 'test_*.py'`。
 
 ## 详细说明与计划
 

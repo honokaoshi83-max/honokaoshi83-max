@@ -1,0 +1,8 @@
+{
+  "engine": "system",
+  "port": 9881,
+  "documents": "",
+  "simulator_controller": "",
+  "ffmpeg": "",
+  "system_voices": {"furina": "", "clorinde": ""}
+}
