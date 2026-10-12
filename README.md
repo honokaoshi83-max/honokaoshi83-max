@@ -1,170 +1,132 @@
-# iRacing AI Race Engineer
+# iracing中文播报助手
 
-一个基于 Simulator Controller、pyirsdk、GPT-SoVITS 与 DeepSeek API 的中文车内赛事工程师，使用芙宁娜音色。
+面向个人驾驶的中文车内播报助手，基于 Simulator Controller、pyirsdk 和 GPT-SoVITS，提供圈速、旗号、邻车、油量、轮胎及维修提醒。
 
-A Chinese-speaking in-car race assistant for iRacing, built with Simulator Controller, pyirsdk, GPT-SoVITS, and DeepSeek API integration, with a Furina voice.
+**克洛琳德负责车辆状态、油量和维修；芙宁娜负责周围赛车和策略提醒。** 两个音色共用一个本地语音引擎，基础提醒由遥测与规则触发，不运行本地大语言模型。
 
-## 最新更新 | Latest Updates — 2026-10-12
+## 最新进度
 
-- 圈速采用“本圈一分零九秒七”等自然表达，赛道中文词典包含 533 条赛道与布局记录。 / Natural Chinese lap-time announcements and 533 track/layout entries.
-- 开场只介绍一次“芙宁娜”，其他助手只报告监控就绪。 / One named introduction with short readiness messages.
-- Clear 提示改为“左侧已无车”“右侧已无车”“两侧已无车”。 / Clear messages use natural, side-specific Chinese wording.
-- 新增事故记录、维修需求、发动机告警、维修倒计时和维修完成提示。 / Added incident, repair, engine warning, timer, and completion messages.
-- 37 项自动检查通过；基础语音和圈速已完成游戏测试，最新事故、维修与开场修改仍待游戏验收。 / 37 automated checks pass; recent incident, repair, and greeting changes still need in-game validation.
+更新日期：2026-10-12。
 
-详细记录 / Details: [项目进度与后续计划](docs/iracing-ai-engineer/PROGRESS_AND_PLAN.md)
+- 中文赛道词典包含 **533 条赛道与布局记录**，圈速采用“本圈一分零九秒七”等自然表达。
+- 邻车解除并排提示采用“左侧已无车”“右侧已无车”“两侧已无车”，开场介绍按角色分工，减少重复。
+- 加入事故记录、强制与可选维修、发动机告警、维修倒计时和维修完成提示。
+- 加入胎压、胎温和胎纹余量检查，明确区分冷胎压设置与进站更新的轮胎数据。
+- 固定提示已补齐 **199 条缓存组合**；加入服务自动恢复、手动停止保护和端口冲突保护。
+- 接入平稳、警告、鼓励三档路由。目前实际效果主要是小幅节奏调整，真实情绪仍需补充合适的参考录音。
+- **PS 键改为单次状态摘要**：车辆告警、燃油、燃油进站估算及游戏已设置的进站服务；长按不重复。
+- **云端 API 对话已从当前运行配置移除**，仅作为后续计划保留。
+- 最新 **70 项自动测试通过**。新增功能的实体按键、听感和游戏内触发仍待验收。
 
-## 项目简介 | Overview
+[项目进度与后续计划](docs/iracing-ai-engineer/PROGRESS_AND_PLAN.md)
 
-面向个人驾驶场景，在比赛中提供中文圈速、交通、旗号、油量和进站相关提醒。Simulator Controller 提供赛事助手框架，Python 遥测模块补充圈速、赛道识别与维修事件，GPT-SoVITS 在本机生成芙宁娜语音。
+## 功能与验证状态
 
-基础提醒根据遥测与规则触发。DeepSeek 用于云端对话与策略解释，目前对话和云端增强暂时关闭，优先完善基础自动播报与长时间运行稳定性。
-
-Simulator Controller supplies the assistant framework, Python adds telemetry-based announcements, and GPT-SoVITS generates speech locally. DeepSeek dialogue and cloud enhancements are currently paused while basic announcements and endurance reliability are improved.
-
-## 主要能力 | Features
-
-| 能力 / Feature | 当前状态 / Status |
+| 功能 | 当前状态 |
 | --- | --- |
-| 芙宁娜纯净音色、响度处理与短句缓存 / Clean Furina voice and phrase caching | 已部署，基础游戏测试正常 / Deployed and tested in-game |
-| 每圈报时与中文赛道识别 / Lap times and Chinese track names | 已运行，部分赛道已验证 / Working; selected tracks verified |
-| 并排赛车与旗号提醒 / Spotting and flags | 框架已使用，最新 clear 措辞待验收 / Framework in use; revised clear wording pending validation |
-| 开场名字去重 / Single named introduction | 本地检查通过 / Locally tested |
-| 事故、维修需求与发动机告警 / Incident, repair, and engine alerts | 本地规则检查通过，待游戏验收 / Rule tests pass; in-game validation pending |
-| 维修倒计时与维修完成 / Repair timer and completion | 本地检查通过，待游戏验收 / Locally tested; in-game validation pending |
-| 油量与进站策略 / Fuel and pit strategy | 已配置，完整比赛验收待完成 / Configured; full-race validation pending |
-| DeepSeek 云端对话 / Cloud dialogue | 接入已配置，当前暂停 / Configured; currently paused |
+| 双音色与纯净音量处理 | 本地接口与切换已检查；先前基础播报已获游戏测试确认，双音色游戏验收待完成 |
+| 每圈报时与中文赛道识别 | 基础测试正常；部分赛道已验证，全部名称持续校对 |
+| 邻车与旗号提醒 | 使用 Simulator Controller 框架；修订措辞待完整场景验收 |
+| 事故、发动机与维修提醒 | 规则测试通过，新增场景待游戏验收 |
+| 轮胎检查 | 胎压设置、可用实测胎压、进站更新的胎温与胎纹余量；车型字段与触发待验收 |
+| 缓存与自动恢复 | 已通过本地服务退出、手动停止、端口冲突和缓存重用检查 |
+| 三档播报表达 | 路由与音频检查通过；目前主要调整节奏，真实情绪和听感待验收 |
+| PS 状态摘要 | 防连发及数据规则已检查；实体按键与游戏验收待完成 |
+| 云端对话 | 当前移除，仅保留后续规划 |
 
-## 技术架构 | Architecture
+## 工作方式
 
 ```text
-iRacing SDK telemetry
-          │
-          ├── Simulator Controller
-          │      ├── Race Engineer
-          │      ├── Race Strategist
-          │      └── Race Spotter
-          │
-          └── Python telemetry monitor
-                 ├── Lap times and Chinese track names
-                 └── Incident and repair events
-                          │
-                          ▼
-                Local speech bridge + cache
-                          │
-                          ▼
-                GPT-SoVITS → Furina speech
-
-DeepSeek API → cloud dialogue / explanation (paused)
+iRacing 遥测
+    ├── Simulator Controller：工程师、策略师、观察员
+    └── 本地遥测模块：圈速、赛道、损伤、轮胎、PS 状态摘要
+                          ↓
+                   播报队列与语音缓存
+                          ↓
+                 GPT-SoVITS 双音色串行合成
+                          ↓
+                   克洛琳德／芙宁娜播报
 ```
 
-本地只启用一个音色，使用 CPU 合成，不运行本地大语言模型。常用短句预缓存，未缓存内容仍需要合成时间。
+语音服务只监听本机地址，使用 CPU 合成。常用提示预缓存，未缓存的动态内容仍需要合成时间；完整状态摘要首次合成实测约 **22.5 秒**，延迟仍需优化。
 
-One voice model runs with CPU synthesis. No local LLM runs. Cached phrases reduce latency; uncached speech still requires synthesis time.
+## 播报示例
 
-核心本地组件 / Local components:
-
-| 文件 / File | 用途 / Role |
+| 场景 | 示例 |
 | --- | --- |
-| `work/race-voices/bridge.py` | 语音接口、合成与缓存 / Speech API and caching |
-| `work/race-voices/telemetry_announcer.py` | 圈速、赛道名称与播报队列 / Lap times, track names, and queue |
-| `work/race-voices/damage_monitor.py` | 事故、维修及发动机事件 / Incident, repair, and engine rules |
-| `work/race-voices/start.ps1` / `stop.ps1` | 服务启动与停止 / Service lifecycle |
-| `outputs/Race_Voices/track_catalog/` | 中文赛道词典 / Chinese track catalog |
-| `outputs/Race_Voices/基础表达校对.json` | 中文表达校对 / Chinese phrase corrections |
+| 工程师开场 | 我是克洛琳德，负责赛车状态、油量和维修提醒。 |
+| 观察员开场 | 我是芙宁娜，会帮你留意周围的赛车。 |
+| 圈速 | 本圈一分零九秒七。 |
+| 解除并排 | 左侧已无车。 |
+| 维修完成 | 本次维修已完成。出站前留意维修区交通，回到赛道后先确认车辆状态。 |
+| 轮胎损耗 | 进站更新的胎纹余量较低，请确认换胎安排。 |
+| PS 状态摘要 | 车辆告警与维修需求、剩余燃油、预计可跑圈数、燃油进站建议和已选进站服务。 |
 
-这些是现有本机部署的路径；当前公开仓库仅提供介绍与计划，尚未包含程序文件。
+状态摘要不启动麦克风、不调用云端模型，也不自动修改进站选项。油耗至少取得两份有效完整圈样本后才估算续航；不足时明确说明无法估算。
 
-These paths describe the local deployment. The public repository currently contains documentation, not the application files.
+## 数据边界
 
-## 播报示例 | Announcement Examples
+- 损伤提示以实际维修要求、发动机告警及维修倒计时为依据，不推测车身部位或损伤百分比。
+- 胎温与磨损依赖进站更新。缺少实测胎压字段时仅检查冷胎压设置，不能实时判断漏气。
+- 初始胎纹余量提醒线为 70%／40%，可调整；胎压与胎温范围是检查阈值，不是各车型官方最优值。
+- 燃油进站建议与游戏已选进站服务分别报告；当前不求解交通、天气、轮胎和换手的综合最优策略。
+- 自动测试不能代替实体按键、完整比赛与听感验收。
 
-| 场景 / Event | 中文播报 / Announcement |
-| --- | --- |
-| 开场 / Introduction | 我是芙宁娜，会帮你留意周围的赛车。 |
-| 圈速 / Lap time | 本圈一分零九秒七。 |
-| 左侧解除并排 / Clear left | 左侧已无车。 |
-| 两侧解除并排 / All clear | 两侧已无车。 |
-| 维修完成 / Repair complete | 本次维修已完成。出站前留意维修区交通，回到赛道后先确认车辆状态。 |
+## 部署与运行
 
-“已无车”表示该侧赛车已解除并排，不表示整条赛道安全。损伤提示依据实际维修要求与告警，不推测具体车身部位或损伤百分比。
+当前公开仓库提供介绍与计划，**尚未发布程序源码和完整安装包**。以下命令对应已有本机部署，不能仅克隆本仓库后直接运行。
 
-Clear messages describe the end of alongside traffic. Damage alerts use available warnings and repair requirements rather than guessing component damage or percentages.
+需要 Windows、iRacing、Simulator Controller、Python 3.10 项目环境，以及 GPT-SoVITS 的兼容音色模型和参考录音。当前基础播报不需要云端 API 密钥。
 
-## 安装与运行 | Installation and Run
-
-当前为个人本机部署，尚未发布完整安装包。以下命令用于已有部署，不能仅克隆本仓库后直接运行。
-
-No complete installer is published. These commands apply to the existing local deployment, not a fresh clone.
-
-前置条件 / Prerequisites:
-
-- Windows 与 iRacing / Windows and iRacing
-- Simulator Controller
-- Python 3.10 项目环境及依赖 / Project Python environment and dependencies
-- GPT-SoVITS、兼容的音色模型与参考音频 / Compatible voice weights and reference audio
-- DeepSeek API 凭据，仅云端功能需要 / Credentials only for cloud features
-
-在现有项目根目录启动服务 / Start services from the existing project root:
+启动服务：
 
 ```powershell
 .\work\race-voices\start.ps1
 ```
 
-检查语音服务 / Check speech service:
+查看语音服务状态：
 
 ```powershell
 Invoke-RestMethod 'http://127.0.0.1:9881/health'
 ```
 
-随后启动 Simulator Controller 并进入 iRacing。语音接口为本机 `http://127.0.0.1:9881/v1/audio/speech`，使用 OpenAI 兼容协议，由本地 GPT-SoVITS 合成。
+随后启动 Simulator Controller 并进入 iRacing。语音地址为 `http://127.0.0.1:9881/v1/audio/speech`，使用 OpenAI 兼容协议，实际由本机 GPT-SoVITS 合成。
 
-Then start Simulator Controller and enter iRacing. The OpenAI-compatible speech endpoint uses local GPT-SoVITS synthesis.
-
-停止本地语音与遥测服务 / Stop services:
+停止服务：
 
 ```powershell
 .\work\race-voices\stop.ps1
 ```
 
-## 测试 | Tests
-
-在现有本机部署中运行 / Run within the existing deployment:
+运行自动测试：
 
 ```powershell
 .\work\race-voices\venv\Scripts\python.exe -X utf8 -m unittest discover -s work/race-voices -p 'test_*.py'
 ```
 
-2026-10-12 验证为 **37 项通过**，覆盖中文表达、圈速转换、遥测事件与维修条件。自动测试不能替代游戏中的触发、延迟与听感验收。
+## 详细说明与计划
 
-**37 checks passed on 2026-10-12.** Automated checks do not replace in-game trigger, latency, and listening validation.
+- [项目进度与计划](docs/iracing-ai-engineer/PROGRESS_AND_PLAN.md)
+- [PS 状态提示](docs/iracing-ai-engineer/PS_STATUS.md)
+- [轮胎检测](docs/iracing-ai-engineer/TIRES.md)
+- [播报节奏与情绪配置](docs/iracing-ai-engineer/EMOTIONS.md)
+- [缓存与自动恢复](docs/iracing-ai-engineer/RECOVERY.md)
+- [API 对话后续计划](docs/iracing-ai-engineer/API_PLAN.md)
 
-## 后续计划 | Roadmap
+优先完成新增功能的游戏验收与动态摘要延迟优化，再验证耐力赛燃油估算、多组别交通和长时间稳定性。云端对话保留为可选后续项目，不复用 PS 状态键。
 
-- **P0**：服务健康检查、故障自动恢复、播报优先级与事故/维修游戏验收。 / Service recovery, announcement priorities, and in-game validation.
-- **P1**：耐力赛油耗与进站策略、多组别交通提醒、赛道与表达校对。 / Endurance strategy validation, multiclass traffic, and Chinese proofreading.
-- **P2**：恢复 DeepSeek 对话、复核方向盘语音按键、整理部署与依赖授权。 / Cloud dialogue, wheel controls, deployment, and licensing.
+## 引用与参考
 
-[查看完整任务与验收条件 / Full plan](docs/iracing-ai-engineer/PROGRESS_AND_PLAN.md#后续计划)
-
-## 引用与参考 | Credits and References
-
-| 项目 / Project | 使用与参考内容 / Contribution |
+| 项目 | 使用或参考内容 |
 | --- | --- |
-| [Simulator Controller](https://github.com/SeriousOldMan/Simulator-Controller) | 赛事助手及配置框架 / Assistant framework |
-| [AI Race Engineer 文档](https://github.com/SeriousOldMan/Simulator-Controller/wiki/AI-Race-Engineer) | 工程师功能与数据限制 / Capabilities and limitations |
-| [pyirsdk](https://github.com/kutu/pyirsdk) | 遥测读取、告警与维修字段 / SDK telemetry and field definitions |
-| [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 本地角色音色语音合成 / Local voice synthesis |
-| [Furina_GPT_SoVITS](https://www.modelscope.cn/models/leletxh/Furina_GPT_SoVITS) | 芙宁娜音色来源 / Furina voice source |
-| [UnlimitedBurst/GPT-SoVITS](https://huggingface.co/UnlimitedBurst/GPT-SoVITS) | 克洛琳德、甘雨候选音色，目前不同时启用 / Alternative voice sources |
-| [DeepSeek API](https://api-docs.deepseek.com/) | 云端模型服务，当前对话暂停 / Cloud model service |
+| [Simulator Controller](https://github.com/SeriousOldMan/Simulator-Controller) | 赛事助手框架、配置系统、工程师与策略提醒 |
+| [赛事工程师文档](https://github.com/SeriousOldMan/Simulator-Controller/wiki/AI-Race-Engineer) | 工程师能力与数据限制 |
+| [pyirsdk](https://github.com/kutu/pyirsdk) | 遥测读取、告警、维修与进站字段 |
+| [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 本地角色音色合成 |
+| [芙宁娜音色模型](https://www.modelscope.cn/models/leletxh/Furina_GPT_SoVITS) | 芙宁娜音色来源 |
+| [角色音色模型集合](https://huggingface.co/UnlimitedBurst/GPT-SoVITS) | 克洛琳德及备用甘雨音色来源；当前启用克洛琳德与芙宁娜 |
+| [DeepSeek API 文档](https://api-docs.deepseek.com/) | 仅用于后续对话规划，当前未启用 |
 
-本项目定制部分为中文赛道与表达校对、圈速口语化、开场去重、事故与维修规则、语音桥接和部署脚本。上游作者权利与许可证保持独立；本项目不代表上游官方合作，不默认获得模型再分发授权。
+定制内容包括中文赛道与表达校对、圈速口语化、角色介绍、事故与维修规则、轮胎检查、状态按键、语音桥接、缓存和服务恢复。上游作者权利及许可证保持独立，不默认获得模型或角色音频的再分发授权。
 
-Custom work includes Chinese catalogs, phrase corrections, lap-time formatting, greeting deduplication, event rules, the speech bridge, and deployment scripts. Upstream rights and licenses remain independent; this is not an official upstream collaboration.
-
-## 配置与隐私 | Configuration and Privacy
-
-公开仓库不包含密钥、私人配置、运行日志、音频或模型。启用 DeepSeek 云端功能时，相关请求会发送到该服务；当前基础播报由本地遥测规则和语音服务执行。
-
-No credentials, private configuration, logs, audio, or model weights are published. Cloud features send relevant requests to DeepSeek; current basic announcements run locally.
+公开内容不包含密钥、私人配置、运行日志、参考录音或模型文件。
