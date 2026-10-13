@@ -9,7 +9,7 @@
 更新日期：2026-10-13。
 
 - **桌面应用 0.2.1**：首页集中显示运行状态、播报音量、角色试听、实时播报按键与固定缓存预热；精简说明和卡片布局，组件安装保留首页中部整行入口。
-- **Simulator Controller 一键安装引导**：隐藏日志区域，使用 1%～100% 模拟进度；任务运行时最多 99%，成功后提示重新检测并重启助手。修复任务结束后未刷新状态的问题，诊断日志另存文件。
+- **Simulator Controller 一键安装引导**：本程序一些重要功能依赖Simulator Controller组件，请务必安装。本程序内提供了一键安装功能。
 - 默认双音色保护、自定义 GPT-SoVITS 音色导入／删除、方向盘按钮学习绑定已提供；完整安装版包含本地运行环境与默认模型。
 
 [下载完整安装版 0.2.1](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/tag/v0.2.1) · [桌面使用说明](docs/DESKTOP_APP.md) · [本次更新](docs/CHANGELOG_0.2.1.md)
