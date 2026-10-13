@@ -74,13 +74,15 @@ iRacing 遥测
 
 ## 安装与运行
 
-已提供源码及 Windows x64 移植安装包。下载后解压，双击 **安装.cmd**，再双击 **启动.cmd** 打开中文管理界面。
+推荐下载 **[v0.2.0 完整桌面安装版](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/tag/v0.2.0)**。下载 `.7z.001` 和 `.7z.002` 两个分卷，放在同一文件夹，用 [7-Zip](https://www.7-zip.org/download.html) 打开 `.001` 解压，再运行其中的 **iracing-chinese-assistant-0.2.0-setup.exe**。不要逐卷分别解压，解压后的 `.exe` 与 `.bin` 保持同目录。分卷校验文件和中文安装说明均在发行页面。
 
 [下载安装包](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/latest) · [完整安装说明](docs/INSTALL.md) · [验证记录](docs/PORTABLE_VALIDATION.md)
 
-默认安装轻量的 Windows 中文系统语音；角色分工保留，角色音色需额外双击 **安装角色音色.cmd** 下载。Python、依赖、模型与缓存均在安装目录内管理，不要求沿用原电脑的用户名、硬盘路径或虚拟环境。邻车与框架策略提醒需另装 Simulator Controller，再通过管理界面接入。
+完整桌面安装版包含 Python、CPU PyTorch、GPT-SoVITS、基础模型与默认芙宁娜和克洛琳德音色，不需要另开语音网页。安装完成页默认勾选 Simulator Controller 一键安装并接入；需要联网获取官方组件，已有配置先备份。也可从应用首页打开安装引导。
 
-管理界面提供启动、停止、诊断、音色安装、缓存预热和方向盘状态按键设置。当前不需要云端 API 密钥。系统语音首条实测约 1 秒；长文本角色语音首次合成仍可能较慢。
+桌面版提供音量设置、实时播报按键绑定、音色管理、缓存预热和诊断日志。已修复测试声音只响提示音的问题，两套中文试听获用户确认；其他设备的实体按键与游戏内联动仍需现场验收。当前不需要云端 API 密钥，首次未缓存的角色语音仍需要本地合成。
+
+较早的源码移植版仍可从 [v0.1.0](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/tag/v0.1.0) 下载，使用 `安装.cmd` 和 `启动.cmd`，默认采用 Windows 中文系统语音。
 
 开发验证：安装后执行 `.runtime/python/python.exe -m pip install -r requirements-test.txt`，再执行 `.runtime/python/python.exe -X utf8 -m unittest discover -s work/race-voices -p 'test_*.py'`。
 
