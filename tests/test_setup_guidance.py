@@ -6,6 +6,12 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class SetupGuidanceTests(unittest.TestCase):
+    def test_upgrade_preserves_existing_button_binding(self):
+        setup=(ROOT/'scripts/desktop-setup.iss').read_text(encoding='utf-8-sig')
+        entries=[line for line in setup.splitlines() if line.startswith('Source:')]
+        self.assertIn('work\\race-voices\\status_button_settings.json',entries[0].split('Excludes:',1)[1])
+        binding=next(line for line in entries[1:] if 'status_button_settings.json' in line)
+        self.assertIn('onlyifdoesntexist',binding)
     def test_finish_action_installs_simulator_controller_by_default_and_explains_missing_features(self):
         setup = (ROOT / "scripts" / "desktop-setup.iss").read_text(encoding="utf-8-sig")
         run_section = setup.split("[Run]", 1)[1].split("[UninstallRun]", 1)[0]

@@ -268,7 +268,8 @@ class Window(QMainWindow):
         self.cards['iRacing'][0].setText('已连接' if s['game'] else '等待游戏');self.cards['iRacing'][1].setText(s['car'])
         self.cards['语音引擎'][0].setText('运行正常' if ready else '未连接');self.cards['语音引擎'][1].setText('本地双音色 · CPU' if ready else '点击启动播报')
         b=s.get('binding',{});cfg=s.get('binding_config',{});fresh=time.time()-b.get('time',0)<6;connected=b.get('connected') and fresh
-        detail=f"设备 {cfg.get('device','—')} · 按钮 {cfg.get('button','—')}";self.binding_title.setText('当前绑定：'+detail);self.binding_detail.setText('按键接口在线' if connected else '暂无在线按键读数，请连接控制器。')
+        bound=type(cfg.get('device')) is int and type(cfg.get('button')) is int and 1<=cfg['device']<=16 and 1<=cfg['button']<=32
+        detail=f"设备 {cfg.get('device','—')} · 按钮 {cfg.get('button','—')}";self.binding_title.setText('当前绑定：'+detail if bound else '尚未绑定播报键');self.binding_detail.setText(('按键接口在线' if connected else '暂无在线按键读数，请连接控制器。') if bound else '点击下方按钮设置。')
         engine=s['health'].get('engine','gpt-sovits' if ready else '未连接');self.engine_info.setText('当前引擎：'+engine+'；可用音色：'+('、'.join(s['health'].get('voices',[])) or '暂无数据'))
 
     def show_window(self):self.showNormal();self.raise_();self.activateWindow()

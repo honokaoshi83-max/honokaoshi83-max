@@ -52,10 +52,15 @@ class WinMMButton:
         return dict(binding=f'{self.device+1}Joy{self.button}',device_name=caps.name if ok else None,
                     button_count=caps.buttons if ok else None,connected=self.read() is not None)
 
+def configured_reader(cfg):
+    device,button=cfg.get('device'),cfg.get('button')
+    if type(device) is not int or type(button) is not int or not 1<=device<=16 or not 1<=button<=32:return None
+    return WinMMButton(device,button)
+
 class StatusButton:
     def __init__(self):
         cfg=json.loads((ROOT/'status_button_settings.json').read_text(encoding='utf-8'))
-        self.reader=WinMMButton(cfg['device'],cfg['button'])
+        self.reader=configured_reader(cfg)
         self.latch=PressLatch(cfg.get('cooldown_seconds',8))
         self.events=queue.Queue(maxsize=1)
         threading.Thread(target=self.watch,daemon=True).start()
@@ -71,7 +76,7 @@ class StatusButton:
                 changed=(ROOT/'status_button_settings.json').stat().st_mtime_ns
                 if changed!=stamp:
                     cfg=json.loads((ROOT/'status_button_settings.json').read_text(encoding='utf-8'))
-                    self.reader=WinMMButton(cfg['device'],cfg['button'])
+                    self.reader=configured_reader(cfg)
                     self.latch=PressLatch(cfg.get('cooldown_seconds',8));stamp=changed
                 if learning:
                     self.latch.previous=None
@@ -81,12 +86,13 @@ class StatusButton:
                     time.sleep(.02);continue
             except (OSError,ValueError,KeyError):
                 time.sleep(.02);continue
-            down=self.reader.read()
+            down=self.reader.read() if self.reader else None
             if self.latch.update(down,now):
                 try: self.events.put_nowait(now)
                 except queue.Full: pass
             if now-last_status>=2:
-                state={**self.reader.describe(),'mode':'single_press','cooldown_seconds':self.latch.cooldown,'time':time.time()}
+                detail=self.reader.describe() if self.reader else dict(binding=None,device_name=None,button_count=None,connected=False)
+                state={**detail,'mode':'single_press' if self.reader else 'unbound','cooldown_seconds':self.latch.cooldown,'time':time.time()}
                 temp=ROOT/'status_button_status.tmp'
                 try:
                     temp.write_text(json.dumps(state,ensure_ascii=False),encoding='utf-8')

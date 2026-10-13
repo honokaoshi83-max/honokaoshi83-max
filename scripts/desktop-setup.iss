@@ -35,7 +35,9 @@ Name: "chinesesimp"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
 Name: "desktopicon"; Description: "创建桌面快捷方式"; Flags: checkedonce
 
 [Files]
-Source: "{#PayloadDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Excludes: "*.log,*.jsonl,*.pyc,*.pid,*.lock,__pycache__\*,config\local.json,work\race-voices\voice_library.json,work\race-voices\voice_import_request.json,work\race-voices\playback_settings.json,work\race-voices\models\custom\*,work\race-voices\cache\*,work\race-voices\samples\*,work\race-voices\status_button_status.json,work\race-voices\active_inference.yaml,work\race-voices\watchdog.stop"
+Source: "{#PayloadDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Excludes: "*.log,*.jsonl,*.pyc,*.pid,*.lock,__pycache__\*,config\local.json,work\race-voices\voice_library.json,work\race-voices\voice_import_request.json,work\race-voices\playback_settings.json,work\race-voices\models\custom\*,work\race-voices\cache\*,work\race-voices\samples\*,work\race-voices\status_button_status.json,work\race-voices\active_inference.yaml,work\race-voices\watchdog.stop,work\race-voices\status_button_settings.json"
+
+Source: "{#PayloadDir}\work\race-voices\status_button_settings.json"; DestDir: "{app}\work\race-voices"; Flags: onlyifdoesntexist
 
 [Icons]
 Name: "{group}\iracing中文播报助手"; Filename: "{app}\iracing-assistant.exe"; WorkingDir: "{app}"; IconFilename: "{app}\app\assets\app-icon.ico"
