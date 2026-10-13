@@ -12,9 +12,11 @@
 
 ## 接入邻车与赛事提醒
 
-邻车、旗号和框架策略提醒依赖 [Simulator Controller](https://github.com/SeriousOldMan/Simulator-Controller/releases)。本安装包不捆绑该软件。
+桌面应用首页提供“Simulator Controller 安装引导”。推荐点击“一键安装并接入”：从官方发布清单下载完整便携组件，自动生成 iRacing 中文基础配置并接入语音。已有安装直接复用，配置自动备份；接入前关闭 Simulator Controller 各模块。手动安装、选择已有目录与基础配置向导保留为备用入口。
 
-1. 安装其官方发行版，默认目录为 `C:\Program Files\Simulator Controller`。
+邻车、旗号和框架策略提醒依赖 [Simulator Controller](https://github.com/SeriousOldMan/Simulator-Controller)。桌面安装器完成页默认勾选一键安装组件；取消勾选后，邻车、旗号和策略播报不可用。若使用没有桌面界面的便携包，请按[官方安装说明](https://github.com/SeriousOldMan/Simulator-Controller/wiki/Installation-%26-Configuration)单独安装。Simulator Controller 使用独立程序目录与 Windows“文档”配置目录，不合并进本应用安装目录。
+
+1. 在官方页面下载并运行自动安装器，或按官方说明安装便携版。默认程序目录为 `C:\Program Files\Simulator Controller`。
 2. 运行 Simulator Setup，选择 iRacing 和简体中文，启用赛事工程师、赛事策略师、赛事观察员，保存基础配置。暂不需要赛车教练员。
 3. 关闭 Simulator Controller 各模块，在本项目管理界面点击“接入 Simulator Controller”。程序备份原配置和三份语法文件，然后接入本地语音接口，关闭旧的麦克风/云端对话配置。
 4. 重新启动 Simulator Controller，再进入游戏验证。确认外部邻车提示正常后，可关闭游戏自带语音，避免双重播报。

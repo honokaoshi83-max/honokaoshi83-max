@@ -62,8 +62,25 @@ class StatusButton:
 
     def watch(self):
         last_status=0
+        stamp=(ROOT/'status_button_settings.json').stat().st_mtime_ns
         while True:
             now=time.monotonic()
+            flag=ROOT/'button_binding.active'
+            try:
+                learning=flag.exists() and time.time()-flag.stat().st_mtime<40
+                changed=(ROOT/'status_button_settings.json').stat().st_mtime_ns
+                if changed!=stamp:
+                    cfg=json.loads((ROOT/'status_button_settings.json').read_text(encoding='utf-8'))
+                    self.reader=WinMMButton(cfg['device'],cfg['button'])
+                    self.latch=PressLatch(cfg.get('cooldown_seconds',8));stamp=changed
+                if learning:
+                    self.latch.previous=None
+                    while not self.events.empty():
+                        try:self.events.get_nowait()
+                        except queue.Empty:break
+                    time.sleep(.02);continue
+            except (OSError,ValueError,KeyError):
+                time.sleep(.02);continue
             down=self.reader.read()
             if self.latch.update(down,now):
                 try: self.events.put_nowait(now)

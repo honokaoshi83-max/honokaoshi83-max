@@ -1,0 +1,4 @@
+-r requirements-desktop.txt
+pyinstaller==6.16.0
+setuptools==80.9.0
+backports.tarfile==1.2.0

@@ -10,6 +10,7 @@ import threading
 import time
 
 ROOT = Path(__file__).resolve().parent
+os.environ.setdefault('NLTK_DATA',str(ROOT/'nltk_data'))
 VOICES = ('furina', 'clorinde', 'ganyu')
 from runtime_settings import ffmpeg_path, settings, instance_id
 FFMPEG = ffmpeg_path()
@@ -109,7 +110,8 @@ class SoVITSEngine:
     def __init__(self):
         self.model = None
         self.voice = None
-        self.profiles = json.loads((ROOT/'voices.json').read_text(encoding='utf-8'))
+        from voice_library import Catalog
+        self.profiles = Catalog(ROOT).profiles()
 
     def __call__(self, voice, text, speed, fmt):
         return self.render_profile(voice,text,speed,fmt,self.profiles[voice])
@@ -197,6 +199,11 @@ def create_app(service):
             data = service.speech(request.voice, request.input, request.speed, request.response_format, request.emotion)
         except ValueError as e:
             raise HTTPException(400, str(e)) from e
+        from output_volume import apply_volume
+        data=apply_volume(data,request.response_format,ROOT,FFMPEG)
+        if request.response_format=='wav':
+            from wav_playback import finalize_wav
+            data=finalize_wav(data)
         return Response(data, media_type='audio/mpeg' if request.response_format=='mp3' else 'audio/wav')
     return app
 
@@ -219,9 +226,15 @@ if __name__ == '__main__':
         engine=SystemEngine()
         fingerprint='windows-system-v1-'+engine.fingerprint
     else:
+        from voice_library import Catalog
         engine=SoVITSEngine()
-        fingerprint=hashlib.sha256((ROOT/'asset_manifest.json').read_bytes()+(ROOT/'voices.json').read_bytes()+b'cpu4-seed42-v1').hexdigest()
-    service = VoiceService(ROOT/'cache', engine, fingerprint, active_voice=args.sample or args.active_voices or args.active_voice, postprocess=normalize_audio, style_processor=adjust_delivery)
+        extra=(ROOT/'voice_library.json').read_bytes() if (ROOT/'voice_library.json').exists() else b''
+        fingerprint=hashlib.sha256((ROOT/'asset_manifest.json').read_bytes()+(ROOT/'voices.json').read_bytes()+b'cpu4-seed42-v1'+extra).hexdigest()
+    active=args.sample or args.active_voices or args.active_voice
+    if args.engine=='gpt-sovits' and not args.sample:
+        active=list(active) if isinstance(active,(list,tuple)) else [active]
+        active += [key for key,item in Catalog(ROOT).entries().items() if not item['builtin']]
+    service = VoiceService(ROOT/'cache', engine, fingerprint, active_voice=active, postprocess=normalize_audio, style_processor=adjust_delivery)
     if args.sample:
         target = ROOT/'samples'/(args.sample+'.'+args.format)
         target.parent.mkdir(exist_ok=True)

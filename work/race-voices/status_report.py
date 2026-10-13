@@ -2,7 +2,7 @@
 import math
 from collections import deque
 
-DISCONNECTED='尚未连接到当前驾驶会话，暂时无法读取车辆状态、油量和进站计划。'
+DISCONNECTED='未连接驾驶会话，状态暂不可用。'
 
 def numeric(value):
     return isinstance(value,(int,float)) and not isinstance(value,bool) and math.isfinite(value)
@@ -56,41 +56,38 @@ def snapshot(ir):
         time_left=get('SessionTimeRemain'),completed=get('LapCompleted'),last_time=get('LapLastLapTime'))
 
 def status_phrase(s,h):
-    parts=['当前状态。']
+    parts=[]
     warnings=s.get('warnings'); flags=s.get('flags')
     if warnings is None or flags is None:
-        parts.append('尚未读取到车辆告警，无法确认维修需求。')
+        parts.append('车辆告警数据暂不可用。')
     else:
         issues=[]
-        if warnings&0x80 or flags&0x100000: issues.append('需要强制维修，请安全回站检查。')
-        elif warnings&0x100: issues.append('有可选维修需求，请结合操控状况安排进站。')
+        if warnings&0x80 or flags&0x100000: issues.append('需要强制维修，请安全进站。')
+        elif warnings&0x100: issues.append('有可选维修项目，可在下次进站处理。')
         for mask,name in ((1,'发动机水温'),(4,'机油压力'),(64,'机油温度')):
             if warnings&mask: issues.append(name+'告警。')
-        parts+=issues or ['目前未检测到发动机告警或维修标记，不代表没有机械损伤。']
+        parts+=issues or ['车辆无告警。']
     for field,name in (('required','强制维修'),('optional','可选维修')):
         if s.get('in_stall') and numeric(s.get(field)) and s[field]>0:
             from damage_monitor import duration_phrase
             parts.append(name+'还需'+duration_phrase(s[field])+'。')
     fuel=s.get('fuel'); burn=h.average
     if numeric(fuel) and fuel>=0:
-        parts.append('剩余燃油'+spoken(fuel)+'升。')
+        parts.append('剩余油量'+spoken(fuel)+'升。')
     else:
         parts.append('油量数据暂不可用。')
-    if burn is None or not numeric(fuel) or fuel<0:
-        parts.append('有效油耗样本不足，暂时无法估算进站窗口。')
-    else:
+    if numeric(fuel) and fuel>=0 and burn is not None:
         usable=max(0,math.floor(fuel/burn)-1)
-        parts.append('按最近完整圈油耗，预留一圈后预计还能跑'+spoken(usable)+'个完整圈。')
         laps=s.get('laps_left'); seconds=s.get('time_left')
         need=laps+1 if s.get('race') and numeric(laps) and 0<laps<10000 else None
         if need is None and s.get('race') and numeric(seconds) and 0<seconds<86400 and len(h.times)>=2:
             need=math.ceil(seconds/(sum(h.times)/len(h.times)))+1
         if need is not None and fuel>=need*burn:
-            parts.append('当前油量预计足够跑到终点，仍需留意油耗变化。')
+            parts.append('油量够到终点。')
         elif usable<=0:
             parts.append('建议本圈进站加油。')
         else:
-            parts.append('建议最多再跑'+spoken(usable)+'个完整圈后进站加油；这是油量估算，未包含轮胎和交通策略。')
+            parts.append('建议'+spoken(usable)+'圈内进站加油。' if s.get('race') else '预计还能跑'+spoken(usable)+'圈。')
     pit_flags=s.get('pit_flags')
     if isinstance(pit_flags,int):
         services=[]
@@ -98,11 +95,9 @@ def status_phrase(s,h):
             if s.get('auto_fuel'): services.append('自动加油')
             elif numeric(s.get('pit_fuel')) and s['pit_fuel']>=0 and s.get('pit_fuel_unit')=='l':
                 services.append('加油'+spoken(s['pit_fuel'])+'升')
-            else: services.append('加油，数量暂不可用')
+            else: services.append('加油')
         count=(pit_flags&15).bit_count()
         if count: services.append('更换'+spoken(count)+'条轮胎')
         if pit_flags&64: services.append('快速维修')
-        parts.append('当前进站服务设置为'+('、'.join(services) if services else '不加油、不换胎，未勾选快速维修')+'。')
-    else:
-        parts.append('当前进站服务设置暂不可用。')
+        if services:parts.append('进站：'+'、'.join(services)+'。')
     return ''.join(parts)

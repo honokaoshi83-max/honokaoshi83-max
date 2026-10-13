@@ -6,7 +6,13 @@
 
 ## 最新进度
 
-更新日期：2026-10-12。
+更新日期：2026-10-13。
+
+- **桌面应用 0.2.1**：首页集中显示运行状态、播报音量、角色试听、实时播报按键与固定缓存预热；精简说明和卡片布局，组件安装保留首页中部整行入口。
+- **Simulator Controller 一键安装引导**：隐藏日志区域，使用 1%～100% 模拟进度；任务运行时最多 99%，成功后提示重新检测并重启助手。修复任务结束后未刷新状态的问题，诊断日志另存文件。
+- 默认双音色保护、自定义 GPT-SoVITS 音色导入／删除、方向盘按钮学习绑定已提供；完整安装版包含本地运行环境与默认模型。
+
+[下载完整安装版 0.2.1](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/tag/v0.2.1) · [桌面使用说明](docs/DESKTOP_APP.md) · [本次更新](docs/CHANGELOG_0.2.1.md)
 
 - 中文赛道词典包含 **533 条赛道与布局记录**，圈速采用“本圈一分零九秒七”等自然表达。
 - 邻车解除并排提示采用“左侧已无车”“右侧已无车”“两侧已无车”，开场介绍按角色分工，减少重复。
@@ -16,7 +22,7 @@
 - 接入平稳、警告、鼓励三档路由。目前实际效果主要是小幅节奏调整，真实情绪仍需补充合适的参考录音。
 - **PS 键改为单次状态摘要**：车辆告警、燃油、燃油进站估算及游戏已设置的进站服务；长按不重复。
 - **云端 API 对话已从当前运行配置移除**，仅作为后续计划保留。
-- 最新 **75 项自动测试通过**。新增功能的实体按键、听感和游戏内触发仍待验收。
+- 自动检查与本机 EXE 启动持续验证；实体按键、听感、全场景游戏触发和另一台设备安装仍需现场验收。
 
 [项目进度与后续计划](docs/iracing-ai-engineer/PROGRESS_AND_PLAN.md)
 
@@ -74,7 +80,7 @@ iRacing 遥测
 
 ## 安装与运行
 
-推荐下载 **[v0.2.0 完整桌面安装版](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/tag/v0.2.0)**。下载 `.7z.001` 和 `.7z.002` 两个分卷，放在同一文件夹，用 [7-Zip](https://www.7-zip.org/download.html) 打开 `.001` 解压，再运行其中的 **iracing-chinese-assistant-0.2.0-setup.exe**。不要逐卷分别解压，解压后的 `.exe` 与 `.bin` 保持同目录。分卷校验文件和中文安装说明均在发行页面。
+推荐下载 **[v0.2.1 完整桌面安装版](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/tag/v0.2.1)**。下载 `.7z.001` 和 `.7z.002` 两个分卷，放在同一文件夹，用 [7-Zip](https://www.7-zip.org/download.html) 打开 `.001` 解压，再运行其中的 **iracing-chinese-assistant-0.2.1-setup.exe**。不要逐卷分别解压，解压后的 `.exe` 与 `.bin` 保持同目录。分卷校验文件和中文安装说明均在发行页面。
 
 [下载安装包](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/latest) · [完整安装说明](docs/INSTALL.md) · [验证记录](docs/PORTABLE_VALIDATION.md)
 

@@ -1,5 +1,7 @@
 .runtime/
 dist/
+build/
+*.spec
 config/local.json
 **/__pycache__/
 **/*.pyc
@@ -20,3 +22,8 @@ config/local.json
 **/cache_report.json
 **/*_status.json
 **/test-logs/
+**/button_binding.active
+**/button_binding.cancel
+**/playback_settings.json
+**/voice_library.json
+**/voice_import_request.json

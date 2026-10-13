@@ -2,6 +2,10 @@
 $ErrorActionPreference='Stop'
 [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12
 $root=Split-Path -Parent $PSScriptRoot
+if (Test-Path -LiteralPath (Join-Path $root 'config/offline-bundle.json')) {
+    & (Join-Path $PSScriptRoot 'install-offline.ps1') -NoShortcut:$NoShortcut
+    exit
+}
 $runtime=Join-Path $root '.runtime'
 $downloads=Join-Path $runtime 'downloads'
 $pythonDir=Join-Path $runtime 'python'
@@ -50,8 +54,14 @@ if (!$NoShortcut) {
     $desktop=[Environment]::GetFolderPath('Desktop')
     $shell=New-Object -ComObject WScript.Shell
     $shortcut=$shell.CreateShortcut((Join-Path $desktop 'iracing中文播报助手.lnk'))
-    $shortcut.TargetPath='powershell.exe'
-    $shortcut.Arguments='-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "'+(Join-Path $root 'scripts/manage.ps1')+'"'
+    $desktopExe=Join-Path $root 'iracing-assistant.exe'
+    if (Test-Path -LiteralPath $desktopExe) {
+        $shortcut.TargetPath=$desktopExe
+        $shortcut.Arguments='--project-dir "'+$root+'"'
+    } else {
+        $shortcut.TargetPath='powershell.exe'
+        $shortcut.Arguments='-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "'+(Join-Path $root 'scripts/manage.ps1')+'"'
+    }
     $shortcut.WorkingDirectory=$root
     $shortcut.Save()
 }

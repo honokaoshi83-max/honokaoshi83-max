@@ -33,8 +33,8 @@ class StatusButtonTests(unittest.TestCase):
         from status_report import status_phrase, FuelHistory
         text=status_phrase({},FuelHistory())
         self.assertIn('油量数据暂不可用',text)
-        self.assertIn('尚未读取到车辆告警',text)
-        self.assertIn('油耗样本不足',text)
+        self.assertIn('车辆告警数据暂不可用',text)
+        self.assertNotIn('进站窗口',text)
         self.assertNotIn('车辆正常',text)
 
     def test_fuel_full_laps_only_and_refuel_resets(self):
@@ -67,8 +67,14 @@ class StatusButtonTests(unittest.TestCase):
             h.update(lap,fuel,80,False)
         text=status_phrase({'fuel':20,'warnings':0x80,'flags':0,'required':30,'race':True,'laps_left':4},h)
         self.assertIn('强制维修',text)
-        self.assertIn('足够跑到终点',text)
+        self.assertIn('油量够到终点',text)
         self.assertNotIn('车身',text)
+    def test_empty_plan_and_empty_pit_selection_are_omitted(self):
+        from status_report import FuelHistory,status_phrase
+        text=status_phrase({'fuel':20,'warnings':0,'flags':0,'pit_flags':0},FuelHistory())
+        self.assertEqual(text,'车辆无告警。剩余油量二十升。')
+        for phrase in ('当前状态','没有策略','样本不足','进站窗口','不加油','不换胎'):
+            self.assertNotIn(phrase,text)
 
     def test_remove_cloud_preserve_local_tts_and_disable_ptt(self):
         from remove_dialogue import transform

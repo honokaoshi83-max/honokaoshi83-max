@@ -68,7 +68,7 @@ def health():
         r=requests.get(service_url()+'/health',timeout=1)
         r.raise_for_status()
         data=r.json()
-        return data.get('status')=='ready' and data.get('voices')==['furina','clorinde'] and data.get('device')=='cpu' and data.get('instance')==instance_id()
+        return data.get('status')=='ready' and {'furina','clorinde'}.issubset(data.get('voices',[])) and data.get('device')=='cpu' and data.get('instance')==instance_id()
     except (requests.RequestException, ValueError):
         return False
 

@@ -3,6 +3,11 @@ import unittest
 from pathlib import Path
 
 class RecoveryTests(unittest.TestCase):
+    def test_custom_voice_is_not_service_failure(self):
+        from unittest.mock import patch,Mock
+        import watchdog
+        response=Mock();response.json.return_value={'status':'ready','voices':['furina','clorinde','voice-test'],'device':'cpu','instance':watchdog.instance_id()}
+        with patch('watchdog.requests.get',return_value=response):self.assertTrue(watchdog.health())
     def test_three_failures_and_backoff(self):
         from watchdog import RecoveryPolicy
         policy = RecoveryPolicy()
