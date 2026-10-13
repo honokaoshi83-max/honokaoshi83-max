@@ -46,6 +46,8 @@ def catalog():
         rows.add(('clorinde',text,'wav'))
     from status_report import DISCONNECTED
     rows.add(('clorinde',DISCONNECTED,'wav'))
+    from status_prompt import ACK_TEXT
+    rows.add(('clorinde',ACK_TEXT,'wav'))
     # Keep each voice together to avoid switching models for every phrase.
     return sorted(rows,key=lambda r:(r[0]!='furina',r[0],r[2],r[1]))
 
@@ -70,6 +72,8 @@ def main():
         r.raise_for_status()
         if len(r.content)<1000:
             raise RuntimeError('Empty/short cache audio')
+        from status_prompt import ACK_TEXT,save_prompt
+        if voice=='clorinde' and text==ACK_TEXT and fmt=='wav':save_prompt(r.content)
         report.append(dict(voice=voice,text=text,format=fmt,seconds=round(time.perf_counter()-started,3),bytes=len(r.content)))
         target.write_text(json.dumps(dict(total=len(rows),completed=len(report),complete=len(report)==len(rows),items=report),ensure_ascii=False,indent=2),encoding='utf-8')
         print(f'{i}/{len(rows)} {voice} {fmt} {text}',flush=True)

@@ -16,6 +16,7 @@ config/local.json
 **/*.tmp
 **/*.bak
 **/*.wav
+!data/audio/status-ack.wav
 **/*.mp3
 **/asset_manifest.json
 **/active_inference.yaml

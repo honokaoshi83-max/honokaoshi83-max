@@ -146,6 +146,9 @@ class Announcer:
         self.error_latched = False
         self.status_pending = False
         self.status_lock = threading.Lock()
+        from status_prompt import LocalStatusPrompt, prompt_path
+        self.status_prompt = LocalStatusPrompt(prompt_path(), SC_TEMP/'Speaking.status', ROOT)
+        self.status_ack_until = 0
         threading.Thread(target=self.play, daemon=True).start()
 
     def audio_state(self, error=None):
@@ -173,6 +176,9 @@ class Announcer:
             try:
                 self.items.put_nowait((time.monotonic(),text,True))
                 self.status_pending=True
+                prompt=getattr(self,'status_prompt',None)
+                self.status_ack_until=prompt.play() if prompt else 0
+                log('status_acknowledged' if self.status_ack_until else 'status_ack_skipped')
                 log('status_queued',text=text)
                 return True
             except queue.Full:
@@ -187,6 +193,10 @@ class Announcer:
             # A long requested summary may require uncached CPU synthesis.
             limit=120 if is_status else 25
             try:
+                if is_status:
+                    # Submission holds this lock until local acknowledgement starts.
+                    with self.status_lock:ack_until=self.status_ack_until
+                else:ack_until=0
                 while (SC_TEMP/'Speaking.status').exists() and time.monotonic()-created < limit-5:
                     time.sleep(.1)
                 if time.monotonic()-created >= limit-5:
@@ -208,6 +218,8 @@ class Announcer:
                     w.setsampwidth(width)
                     w.setframerate(rate)
                     w.writeframes(pcm)
+                while time.monotonic()<ack_until and not (SC_TEMP/'Speaking.status').exists():
+                    time.sleep(.02)
                 while (SC_TEMP/'Speaking.status').exists() and time.monotonic()-created < limit:
                     time.sleep(.1)
                 if time.monotonic()-created >= limit:
