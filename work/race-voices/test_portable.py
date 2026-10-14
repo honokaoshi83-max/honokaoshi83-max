@@ -28,8 +28,13 @@ class PortableTests(unittest.TestCase):
 
     def test_default_install_does_not_require_role_weights(self):
         from doctor import check_assets
-        self.assertEqual(check_assets({'engine':'system'}),[])
-        self.assertGreater(len(check_assets({'engine':'gpt-sovits'})),0)
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'config').mkdir()
+            (root/'config/assets.json').write_text('[]',encoding='utf-8')
+            with patch('doctor.project_root',return_value=root):
+                self.assertEqual(check_assets({'engine':'system'}),[])
+                self.assertGreater(len(check_assets({'engine':'gpt-sovits'})),0)
 
     def test_configuration_disables_old_listener_and_preserves_other_plugins(self):
         from setup_simulator import portable_configure

@@ -99,5 +99,5 @@ def status_phrase(s,h):
         count=(pit_flags&15).bit_count()
         if count: services.append('更换'+spoken(count)+'条轮胎')
         if pit_flags&64: services.append('快速维修')
-        if services:parts.append('进站：'+'、'.join(services)+'。')
+        if services:parts.append('当前进站服务：'+'、'.join(services)+'。')
     return ''.join(parts)

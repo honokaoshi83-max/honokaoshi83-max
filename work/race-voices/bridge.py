@@ -57,7 +57,15 @@ class VoiceService:
         if fmt not in ('wav', 'mp3'):
             raise ValueError('Only wav and mp3 are supported')
         from telemetry_announcer import clean_phrase
-        text = clean_phrase(text.strip())
+        from speech_reading import normalize_reading, pronunciation_signature
+        from name_reading import normalize_names
+        legacy_engineer='Jona' in text and '我是' in text
+        text = normalize_reading(normalize_names(clean_phrase(text.strip())))
+        if legacy_engineer:text=text.replace('芙宁娜','克洛琳德')
+        from voice_routing import route_voice
+        voice=route_voice(text,voice)
+        if voice not in self.voices:raise ValueError('Required role voice is not enabled')
+        reading_fingerprint=self.fingerprint+pronunciation_signature(text)
         if voice == 'clorinde':
             text = text.replace('芙宁娜', '克洛琳德')
             if text == '赛车状态和油量监控已就绪。':
@@ -67,7 +75,7 @@ class VoiceService:
         base=getattr(self.render,'profiles',{}).get(voice,{})
         delivery=resolve(voice,style,base,self.emotions)
         if style != 'calm' and (self.style_processor or delivery['reference_ready']):
-            key=hashlib.sha256(json.dumps([self.fingerprint,voice,text,speed,fmt,delivery['identity'],'delivery-v1'],ensure_ascii=False).encode()).hexdigest()
+            key=hashlib.sha256(json.dumps([reading_fingerprint,voice,text,speed,fmt,delivery['identity'],'delivery-v1'],ensure_ascii=False).encode()).hexdigest()
             output=self.cache/(key+'-emotion.'+fmt)
             if output.exists():
                 return output.read_bytes()
@@ -86,7 +94,7 @@ class VoiceService:
                     raise RuntimeError('Empty styled audio')
                 temp=output.with_suffix('.part'); temp.write_bytes(data); temp.replace(output)
                 return data
-        key = hashlib.sha256(json.dumps([self.fingerprint, voice, text, speed, fmt], ensure_ascii=False).encode()).hexdigest()
+        key = hashlib.sha256(json.dumps([reading_fingerprint, voice, text, speed, fmt], ensure_ascii=False).encode()).hexdigest()
         file = self.cache / (key + '.' + fmt)
         output = self.cache / (key + '-loud-v1.' + fmt) if self.postprocess else file
         if output.exists():
@@ -129,6 +137,8 @@ class SoVITSEngine:
         sys.modules.setdefault('jieba_fast.posseg', jieba.posseg)
         torch.set_num_threads(4)
         from GPT_SoVITS.TTS_infer_pack.TTS import TTS, TTS_Config
+        from speech_reading import install_overrides
+        install_overrides()
         if self.model is None:
             cfg = TTS_Config({'custom': {
                 'device': 'cpu', 'is_half': False, 'version': profile['version'],
@@ -181,6 +191,8 @@ def create_app(service):
         response_format: str = 'mp3'
         speed: float = 1
         emotion: str = 'auto'
+        opening: bool = False
+        flag: bool = False
     @app.get('/health')
     def health():
         return {'status':'ready', 'voices':list(service.voices), 'device':'cpu', 'instance':instance_id(), 'engine':settings()['engine'],
@@ -195,6 +207,26 @@ def create_app(service):
     def speech(request: SpeechRequest):
         if request.model != 'gpt-sovits':
             raise HTTPException(400, 'Use model gpt-sovits')
+        from opening_sequence import native_greeting,silent_audio,opening_active,split_opening_state
+        from flag_monitor import native_flag,managed
+        suppressed=not request.opening and (native_greeting(request.input) or
+                    (opening_active() and split_opening_state(request.input)) or
+                    (not request.flag and managed() and native_flag(request.input)))
+        if not request.opening:
+            from opening_sequence import record_component_priority
+            record_component_priority(request.input,suppressed)
+        with (ROOT/'speech_requests.jsonl').open('a',encoding='utf-8') as record:
+            from voice_routing import route_voice
+            record.write(json.dumps({'time':time.strftime('%Y-%m-%d %H:%M:%S'),
+                'voice':request.voice,'text':request.input,'opening':request.opening,'flag':request.flag,
+                'effective_voice':route_voice(request.input,request.voice),
+                'action':'suppressed_opening_duplicate' if suppressed else 'speech_request'},ensure_ascii=False)+'\n')
+        if suppressed:
+            if request.voice not in service.voices:
+                raise HTTPException(400,'Unknown voice')
+            if request.response_format not in ('wav','mp3'):
+                raise HTTPException(400,'Only wav and mp3 are supported')
+            return Response(silent_audio(request.response_format),media_type='audio/wav' if request.response_format=='wav' else 'audio/mpeg')
         try:
             data = service.speech(request.voice, request.input, request.speed, request.response_format, request.emotion)
         except ValueError as e:

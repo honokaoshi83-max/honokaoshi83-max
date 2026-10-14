@@ -159,8 +159,8 @@ class Window(QMainWindow):
         except (OSError,ValueError):percent=100
         self.volume.setValue(int(percent));self.volume_value.setText(str(percent)+'%');self.volume.valueChanged.connect(lambda value:self.volume_value.setText(str(value)+'%'));self.volume.sliderReleased.connect(self.save_volume);c.addWidget(self.volume)
         self.volume.setToolTip('调整助手播报音量；系统音量由 Windows 控制。')
-        self.engineer_label=label('工程师 · 克洛琳德','section');c.addWidget(self.engineer_label);note=label('车辆、圈速、轮胎与按键摘要','muted');note.setWordWrap(True);c.addWidget(note)
-        self.observer_label=label('观察员／策略师 · 芙宁娜','section');c.addWidget(self.observer_label);note=label('邻车、旗号与赛事策略','muted');note.setWordWrap(True);c.addWidget(note)
+        self.engineer_label=label('工程师 · 克洛琳德','section');c.addWidget(self.engineer_label);note=label('车辆、油量、轮胎、维修与按键摘要','muted');note.setWordWrap(True);c.addWidget(note)
+        self.observer_label=label('观察员／策略师 · 芙宁娜','section');c.addWidget(self.observer_label);note=label('圈速、邻车、旗号、天气与赛事策略','muted');note.setWordWrap(True);c.addWidget(note)
         row=QHBoxLayout();row.addWidget(button('试听工程师',lambda:self.test_voice('clorinde')));row.addWidget(button('试听观察员',lambda:self.test_voice('furina')));c.addLayout(row);c.addStretch();return card
 
     def build_controller(self):
@@ -200,6 +200,7 @@ class Window(QMainWindow):
 
     def toggle_service(self):self.run_ps('stop' if self.state.get('health',{}).get('status')=='ready' else 'start')
     def warm_fixed_cache(self):
+        self.cache_status.setStyleSheet('color:#1683ef;font-weight:700;')
         if self.state.get('health',{}).get('status')!='ready':
             self.cache_status.setText('请先点击“启动播报”，等待语音引擎连接后再预热。');return
         if self.state.get('game'):

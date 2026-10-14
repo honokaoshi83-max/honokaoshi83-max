@@ -5,2671 +5,3239 @@
     {
       "en": "Adelaide Street Circuit",
       "path": "adelaide",
-      "zh": "阿德莱德街道赛道"
+      "zh": "阿德莱德街道赛道",
+      "spoken": "阿德莱德街道赛道"
     },
     {
       "en": "Algarve International Circuit",
       "path": "algarve",
-      "zh": "波尔蒂芒赛道"
+      "zh": "波尔蒂芒赛道",
+      "spoken": "波尔蒂芒赛道"
     },
     {
       "en": "Algarve International Circuit - Grand Prix",
       "path": "algarve/gp",
-      "zh": "波尔蒂芒赛道，大奖赛布局"
+      "zh": "波尔蒂芒赛道，大奖赛布局",
+      "spoken": "波尔蒂芒赛道，大奖赛布局"
     },
     {
       "en": "Algarve International Circuit - Grand Prix - Chicanes",
       "path": "algarve/gpchicane",
-      "zh": "波尔蒂芒赛道，大奖赛布局，含减速弯"
+      "zh": "波尔蒂芒赛道，大奖赛布局，含减速弯",
+      "spoken": "波尔蒂芒赛道，大奖赛布局，含减速弯"
     },
     {
       "en": "Algarve International Circuit - Moto",
       "path": "algarve/moto",
-      "zh": "波尔蒂芒赛道，摩托车布局"
+      "zh": "波尔蒂芒赛道，摩托车布局",
+      "spoken": "波尔蒂芒赛道，摩托车布局"
     },
     {
       "en": "Algarve International Circuit - Moto - Chicanes",
       "path": "algarve/motochicane",
-      "zh": "波尔蒂芒赛道，摩托车布局，含减速弯"
+      "zh": "波尔蒂芒赛道，摩托车布局，含减速弯",
+      "spoken": "波尔蒂芒赛道，摩托车布局，含减速弯"
     },
     {
       "en": "Auto Club Speedway",
       "path": "california",
-      "zh": "丰塔纳赛车场"
+      "zh": "丰塔纳赛车场",
+      "spoken": "丰塔纳赛车场"
     },
     {
       "en": "Auto Club Speedway - Oval",
       "path": "california/oval",
-      "zh": "丰塔纳赛车场，椭圆布局"
+      "zh": "丰塔纳赛车场，椭圆布局",
+      "spoken": "丰塔纳赛车场，椭圆布局"
     },
     {
       "en": "Auto Club Speedway - Competition",
       "path": "california/competition",
-      "zh": "丰塔纳赛车场，比赛布局"
+      "zh": "丰塔纳赛车场，比赛布局",
+      "spoken": "丰塔纳赛车场，比赛布局"
     },
     {
       "en": "Auto Club Speedway - Interior",
       "path": "california/interior",
-      "zh": "丰塔纳赛车场，内场布局"
+      "zh": "丰塔纳赛车场，内场布局",
+      "spoken": "丰塔纳赛车场，内场布局"
     },
     {
       "en": "Auto Club Speedway - Moto",
       "path": "california/moto",
-      "zh": "丰塔纳赛车场，摩托车布局"
+      "zh": "丰塔纳赛车场，摩托车布局",
+      "spoken": "丰塔纳赛车场，摩托车布局"
     },
     {
       "en": "Autódromo Hermanos Rodríguez (Mexico City)",
       "path": "mexicocity",
-      "zh": "罗德里格斯兄弟赛道"
+      "zh": "罗德里格斯兄弟赛道",
+      "spoken": "罗德里格斯兄弟赛道"
     },
     {
       "en": "Autódromo Hermanos Rodríguez (Mexico City) - Grand Prix",
       "path": "mexicocity/gp",
-      "zh": "罗德里格斯兄弟赛道，大奖赛布局"
+      "zh": "罗德里格斯兄弟赛道，大奖赛布局",
+      "spoken": "罗德里格斯兄弟赛道，大奖赛布局"
     },
     {
       "en": "Autódromo Hermanos Rodríguez (Mexico City) - Grand Prix Historic",
       "path": "mexicocity/gphistoric",
-      "zh": "罗德里格斯兄弟赛道，历史大奖赛布局"
+      "zh": "罗德里格斯兄弟赛道，历史大奖赛布局",
+      "spoken": "罗德里格斯兄弟赛道，历史大奖赛布局"
     },
     {
       "en": "Autódromo Hermanos Rodríguez (Mexico City) - National",
       "path": "mexicocity/national",
-      "zh": "罗德里格斯兄弟赛道，国家布局"
+      "zh": "罗德里格斯兄弟赛道，国家布局",
+      "spoken": "罗德里格斯兄弟赛道，国家布局"
     },
     {
       "en": "Autódromo Hermanos Rodríguez (Mexico City) - National Historic",
       "path": "mexicocity/nationalhistoric",
-      "zh": "罗德里格斯兄弟赛道，国家历史布局"
+      "zh": "罗德里格斯兄弟赛道，国家历史布局",
+      "spoken": "罗德里格斯兄弟赛道，国家历史布局"
     },
     {
       "en": "Autódromo Hermanos Rodríguez (Mexico City) - EV Circuit",
       "path": "mexicocity/ev",
-      "zh": "罗德里格斯兄弟赛道，电动车布局"
+      "zh": "罗德里格斯兄弟赛道，电动车布局",
+      "spoken": "罗德里格斯兄弟赛道，电动车布局"
     },
     {
       "en": "Autódromo Hermanos Rodríguez (Mexico City) - Oval",
       "path": "mexicocity/oval",
-      "zh": "罗德里格斯兄弟赛道，椭圆布局"
+      "zh": "罗德里格斯兄弟赛道，椭圆布局",
+      "spoken": "罗德里格斯兄弟赛道，椭圆布局"
     },
     {
       "en": "Autódromo Hermanos Rodríguez (Mexico City) - Oval Stadium",
       "path": "mexicocity/ovalstadium",
-      "zh": "罗德里格斯兄弟赛道，体育场椭圆布局"
+      "zh": "罗德里格斯兄弟赛道，体育场椭圆布局",
+      "spoken": "罗德里格斯兄弟赛道，体育场椭圆布局"
     },
     {
       "en": "Autodromo Internazionale del Mugello - Short",
       "path": "mugello/short",
-      "zh": "穆杰罗赛道，短布局"
+      "zh": "穆杰罗赛道，短布局",
+      "spoken": "穆杰罗赛道，短布局"
     },
     {
       "en": "Autodromo Internazionale Enzo e Dino Ferrari",
       "path": "imola",
-      "zh": "伊莫拉赛道"
+      "zh": "伊莫拉赛道",
+      "spoken": "伊莫拉赛道"
     },
     {
       "en": "Autodromo Internazionale Enzo e Dino Ferrari - Grand Prix",
       "path": "imola/gp",
-      "zh": "伊莫拉赛道，大奖赛布局"
+      "zh": "伊莫拉赛道，大奖赛布局",
+      "spoken": "伊莫拉赛道，大奖赛布局"
     },
     {
       "en": "Autodromo Internazionale Enzo e Dino Ferrari - Moto",
       "path": "imola/moto",
-      "zh": "伊莫拉赛道，摩托车布局"
+      "zh": "伊莫拉赛道，摩托车布局",
+      "spoken": "伊莫拉赛道，摩托车布局"
     },
     {
       "en": "Autódromo José Carlos Pace",
       "path": "interlagos",
-      "zh": "英特拉格斯赛道"
+      "zh": "英特拉格斯赛道",
+      "spoken": "英特拉格斯赛道"
     },
     {
       "en": "Autódromo José Carlos Pace - Grand Prix",
       "path": "interlagos/gp",
-      "zh": "英特拉格斯赛道，大奖赛布局"
+      "zh": "英特拉格斯赛道，大奖赛布局",
+      "spoken": "英特拉格斯赛道，大奖赛布局"
     },
     {
       "en": "Autódromo José Carlos Pace - Moto",
       "path": "interlagos/moto",
-      "zh": "英特拉格斯赛道，摩托车布局"
+      "zh": "英特拉格斯赛道，摩托车布局",
+      "spoken": "英特拉格斯赛道，摩托车布局"
     },
     {
       "en": "Autodromo Nazionale Monza",
       "path": "monza",
-      "zh": "蒙扎赛道"
+      "zh": "蒙扎赛道",
+      "spoken": "蒙扎赛道"
     },
     {
       "en": "Autodromo Nazionale Monza - Grand Prix",
       "path": "monza/full",
-      "zh": "蒙扎赛道，大奖赛布局"
+      "zh": "蒙扎赛道，大奖赛布局",
+      "spoken": "蒙扎赛道，大奖赛布局"
     },
     {
       "en": "Autodromo Nazionale Monza - GP without chicanes",
       "path": "monza/nochicane",
-      "zh": "蒙扎赛道，大奖赛布局，无减速弯"
+      "zh": "蒙扎赛道，大奖赛布局，无减速弯",
+      "spoken": "蒙扎赛道，大奖赛布局，无减速弯"
     },
     {
       "en": "Autodromo Nazionale Monza - GP without first chicane",
       "path": "monza/gpsecondchicane",
-      "zh": "蒙扎赛道，大奖赛布局，不含第一组减速弯"
+      "zh": "蒙扎赛道，大奖赛布局，不含第一组减速弯",
+      "spoken": "蒙扎赛道，大奖赛布局，不含第一组减速弯"
     },
     {
       "en": "Autodromo Nazionale Monza - Combined",
       "path": "monza/combinedchicanes",
-      "zh": "蒙扎赛道，联合布局"
+      "zh": "蒙扎赛道，联合布局",
+      "spoken": "蒙扎赛道，联合布局"
     },
     {
       "en": "Autodromo Nazionale Monza - Combined without chicanes",
       "path": "monza/historic",
-      "zh": "蒙扎赛道，联合布局，无减速弯"
+      "zh": "蒙扎赛道，联合布局，无减速弯",
+      "spoken": "蒙扎赛道，联合布局，无减速弯"
     },
     {
       "en": "Autodromo Nazionale Monza - Combined without first chicane",
       "path": "monza/historicsecondchicane",
-      "zh": "蒙扎赛道，联合布局，不含第一组减速弯"
+      "zh": "蒙扎赛道，联合布局，不含第一组减速弯",
+      "spoken": "蒙扎赛道，联合布局，不含第一组减速弯"
     },
     {
       "en": "Autodromo Nazionale Monza - Junior",
       "path": "monza/junior",
-      "zh": "蒙扎赛道，初级布局"
+      "zh": "蒙扎赛道，初级布局",
+      "spoken": "蒙扎赛道，初级布局"
     },
     {
       "en": "Autodromo Nazionale Monza - Oval - Left turning",
       "path": "monza/ovalleft",
-      "zh": "蒙扎赛道，椭圆布局，逆时针方向"
+      "zh": "蒙扎赛道，椭圆布局，逆时针方向",
+      "spoken": "蒙扎赛道，椭圆布局，逆时针方向"
     },
     {
       "en": "Autodromo Nazionale Monza - Oval - Right turning",
       "path": "monza/oval",
-      "zh": "蒙扎赛道，椭圆布局，顺时针方向"
+      "zh": "蒙扎赛道，椭圆布局，顺时针方向",
+      "spoken": "蒙扎赛道，椭圆布局，顺时针方向"
     },
     {
       "en": "Barber Motorsports Park",
       "path": "barber",
-      "zh": "巴伯赛道"
+      "zh": "巴伯赛道",
+      "spoken": "巴伯赛道"
     },
     {
       "en": "Barber Motorsports Park - Full Course",
       "path": "barber/full",
-      "zh": "巴伯赛道，完整布局"
+      "zh": "巴伯赛道，完整布局",
+      "spoken": "巴伯赛道，完整布局"
     },
     {
       "en": "Barber Motorsports Park - Short A",
       "path": "barber/shorta",
-      "zh": "巴伯赛道，短布局A"
+      "zh": "巴伯赛道，短布局A",
+      "spoken": "巴伯赛道，短布局诶"
     },
     {
       "en": "Barber Motorsports Park - Short B",
       "path": "barber/shortb",
-      "zh": "巴伯赛道，短布局B"
+      "zh": "巴伯赛道，短布局B",
+      "spoken": "巴伯赛道，短布局比"
     },
     {
       "en": "Bark River International Raceway",
       "path": "barkriver",
-      "zh": "巴克里弗越野赛道"
+      "zh": "巴克里弗越野赛道",
+      "spoken": "巴克里弗越野赛道"
     },
     {
       "en": "Brands Hatch Circuit",
       "path": "brandshatch",
-      "zh": "布兰兹哈奇赛道"
+      "zh": "布兰兹哈奇赛道",
+      "spoken": "布兰兹哈奇赛道"
     },
     {
       "en": "Brands Hatch Circuit - Grand Prix",
       "path": "brandshatch/grandprix",
-      "zh": "布兰兹哈奇赛道，大奖赛布局"
+      "zh": "布兰兹哈奇赛道，大奖赛布局",
+      "spoken": "布兰兹哈奇赛道，大奖赛布局"
     },
     {
       "en": "Brands Hatch Circuit - Indy",
       "path": "brandshatch/indy",
-      "zh": "布兰兹哈奇赛道，印地布局"
+      "zh": "布兰兹哈奇赛道，印地布局",
+      "spoken": "布兰兹哈奇赛道，印地布局"
     },
     {
       "en": "Brands Hatch Circuit - Rallycross",
       "path": "brandshatch/rallycross",
-      "zh": "布兰兹哈奇赛道，拉力越野布局"
+      "zh": "布兰兹哈奇赛道，拉力越野布局",
+      "spoken": "布兰兹哈奇赛道，拉力越野布局"
     },
     {
       "en": "Bristol Motor Speedway",
       "path": "bristol",
-      "zh": "布里斯托尔赛车场"
+      "zh": "布里斯托尔赛车场",
+      "spoken": "布里斯托尔赛车场"
     },
     {
       "en": "Bristol Motor Speedway - Dual Pit Roads",
       "path": "bristol",
-      "zh": "布里斯托尔赛车场，双维修区布局"
+      "zh": "布里斯托尔赛车场，双维修区布局",
+      "spoken": "布里斯托尔赛车场，双维修区布局"
     },
     {
       "en": "Bristol Motor Speedway - Single Pit Road",
       "path": "bristol/fullpit",
-      "zh": "布里斯托尔赛车场，单维修区布局"
+      "zh": "布里斯托尔赛车场，单维修区布局",
+      "spoken": "布里斯托尔赛车场，单维修区布局"
     },
     {
       "en": "Bristol Motor Speedway - Dirt",
       "path": "bristol/dirt/2022",
-      "zh": "布里斯托尔赛车场，泥地布局"
+      "zh": "布里斯托尔赛车场，泥地布局",
+      "spoken": "布里斯托尔赛车场，泥地布局"
     },
     {
       "en": "Bristol Motor Speedway - Dirt - 2021",
       "path": "bristol/dirt",
-      "zh": "布里斯托尔赛车场，泥地布局，2021版"
+      "zh": "布里斯托尔赛车场，泥地布局，2021版",
+      "spoken": "布里斯托尔赛车场，泥地布局，二零二一版"
     },
     {
       "en": "Cadwell Park Circuit",
       "path": "cadwell",
-      "zh": "卡德韦尔公园赛道"
+      "zh": "卡德韦尔公园赛道",
+      "spoken": "卡德韦尔公园赛道"
     },
     {
       "en": "Cadwell Park Circuit - Full",
       "path": "cadwell/full",
-      "zh": "卡德韦尔公园赛道，完整布局"
+      "zh": "卡德韦尔公园赛道，完整布局",
+      "spoken": "卡德韦尔公园赛道，完整布局"
     },
     {
       "en": "Cadwell Park Circuit - Club",
       "path": "cadwell/club",
-      "zh": "卡德韦尔公园赛道，俱乐部布局"
+      "zh": "卡德韦尔公园赛道，俱乐部布局",
+      "spoken": "卡德韦尔公园赛道，俱乐部布局"
     },
     {
       "en": "Cadwell Park Circuit - Moto",
       "path": "cadwell/moto",
-      "zh": "卡德韦尔公园赛道，摩托车布局"
+      "zh": "卡德韦尔公园赛道，摩托车布局",
+      "spoken": "卡德韦尔公园赛道，摩托车布局"
     },
     {
       "en": "Cadwell Park Circuit - Woodlands",
       "path": "cadwell/woodlands",
-      "zh": "卡德韦尔公园赛道，林地区布局"
+      "zh": "卡德韦尔公园赛道，林地区布局",
+      "spoken": "卡德韦尔公园赛道，林地区布局"
     },
     {
       "en": "Canadian Tire Motorsports Park",
       "path": "mosport",
-      "zh": "莫斯波特赛道"
+      "zh": "莫斯波特赛道",
+      "spoken": "莫斯波特赛道"
     },
     {
       "en": "Cedar Lake Speedway",
       "path": "cedarlake",
-      "zh": "锡达莱克泥地赛道"
+      "zh": "锡达莱克泥地赛道",
+      "spoken": "锡达莱克泥地赛道"
     },
     {
       "en": "Centripetal Circuit",
       "path": "skidpad",
-      "zh": "圆环测试场"
+      "zh": "圆环测试场",
+      "spoken": "圆环测试场"
     },
     {
       "en": "Charlotte Motor Speedway",
       "path": "charlotte/2018",
-      "zh": "夏洛特赛车场"
+      "zh": "夏洛特赛车场",
+      "spoken": "夏洛特赛车场"
     },
     {
       "en": "Charlotte Motor Speedway - Oval - 2018",
       "path": "charlotte/2018/oval",
-      "zh": "夏洛特赛车场，椭圆布局，2018版"
+      "zh": "夏洛特赛车场，椭圆布局，2018版",
+      "spoken": "夏洛特赛车场，椭圆布局，二零一八版"
     },
     {
       "en": "Charlotte Motor Speedway - Roval",
       "path": "charlotte/2018/2019/roval",
-      "zh": "夏洛特赛车场，椭圆公路混合布局"
+      "zh": "夏洛特赛车场，椭圆公路混合布局",
+      "spoken": "夏洛特赛车场，椭圆公路混合布局"
     },
     {
       "en": "Charlotte Motor Speedway - Roval Long",
       "path": "charlotte/2018/rovallong",
-      "zh": "夏洛特赛车场，椭圆公路混合长布局"
+      "zh": "夏洛特赛车场，椭圆公路混合长布局",
+      "spoken": "夏洛特赛车场，椭圆公路混合长布局"
     },
     {
       "en": "Charlotte Motor Speedway - Roval - 2018",
       "path": "charlotte/2018/roval",
-      "zh": "夏洛特赛车场，椭圆公路混合布局，2018版"
+      "zh": "夏洛特赛车场，椭圆公路混合布局，2018版",
+      "spoken": "夏洛特赛车场，椭圆公路混合布局，二零一八版"
     },
     {
       "en": "Charlotte Motor Speedway - Legends Oval",
       "path": "charlotte/2018/legendsoval",
-      "zh": "夏洛特赛车场，传奇赛车椭圆布局"
+      "zh": "夏洛特赛车场，传奇赛车椭圆布局",
+      "spoken": "夏洛特赛车场，传奇赛车椭圆布局"
     },
     {
       "en": "Charlotte Motor Speedway - Legends RC Oval Long",
       "path": "charlotte/2018/legendsrclong",
-      "zh": "夏洛特赛车场，传奇赛车公路椭圆长布局"
+      "zh": "夏洛特赛车场，传奇赛车公路椭圆长布局",
+      "spoken": "夏洛特赛车场，传奇赛车公路椭圆长布局"
     },
     {
       "en": "Charlotte Motor Speedway - Legends RC Oval Medium",
       "path": "charlotte/2018/legendsrcmed",
-      "zh": "夏洛特赛车场，传奇赛车公路椭圆中布局"
+      "zh": "夏洛特赛车场，传奇赛车公路椭圆中布局",
+      "spoken": "夏洛特赛车场，传奇赛车公路椭圆中布局"
     },
     {
       "en": "Charlotte Motor Speedway - Legends RC Oval Short",
       "path": "charlotte/2018/legendsrcshort",
-      "zh": "夏洛特赛车场，传奇赛车公路椭圆短布局"
+      "zh": "夏洛特赛车场，传奇赛车公路椭圆短布局",
+      "spoken": "夏洛特赛车场，传奇赛车公路椭圆短布局"
     },
     {
       "en": "Charlotte Motor Speedway - Rallycross",
       "path": "charlotte/2018/2019/rallycrosslong",
-      "zh": "夏洛特赛车场，拉力越野布局"
+      "zh": "夏洛特赛车场，拉力越野布局",
+      "spoken": "夏洛特赛车场，拉力越野布局"
     },
     {
       "en": "Charlotte Motor Speedway - Oval - 2018",
       "path": "charlotte/2025/oval",
-      "zh": "夏洛特赛车场，椭圆布局，2018版"
+      "zh": "夏洛特赛车场，椭圆布局，2018版",
+      "spoken": "夏洛特赛车场，椭圆布局，二零一八版"
     },
     {
       "en": "Charlotte Motor Speedway - Roval",
       "path": "charlotte/2025/roval2025",
-      "zh": "夏洛特赛车场，椭圆公路混合布局"
+      "zh": "夏洛特赛车场，椭圆公路混合布局",
+      "spoken": "夏洛特赛车场，椭圆公路混合布局"
     },
     {
       "en": "Charlotte Motor Speedway - Roval Long",
       "path": "charlotte/2025/rovalnochicanes",
-      "zh": "夏洛特赛车场，椭圆公路混合长布局"
+      "zh": "夏洛特赛车场，椭圆公路混合长布局",
+      "spoken": "夏洛特赛车场，椭圆公路混合长布局"
     },
     {
       "en": "Charlotte Motor Speedway - Roval - 2018",
       "path": "charlotte/2025/roval2019",
-      "zh": "夏洛特赛车场，椭圆公路混合布局，2018版"
+      "zh": "夏洛特赛车场，椭圆公路混合布局，2018版",
+      "spoken": "夏洛特赛车场，椭圆公路混合布局，二零一八版"
     },
     {
       "en": "Charlotte Motor Speedway - Legends Oval",
       "path": "charlotte/2025/legendsoval",
-      "zh": "夏洛特赛车场，传奇赛车椭圆布局"
+      "zh": "夏洛特赛车场，传奇赛车椭圆布局",
+      "spoken": "夏洛特赛车场，传奇赛车椭圆布局"
     },
     {
       "en": "Charlotte Motor Speedway - Legends RC Oval Long",
       "path": "charlotte/2025/legendsrclong",
-      "zh": "夏洛特赛车场，传奇赛车公路椭圆长布局"
+      "zh": "夏洛特赛车场，传奇赛车公路椭圆长布局",
+      "spoken": "夏洛特赛车场，传奇赛车公路椭圆长布局"
     },
     {
       "en": "Charlotte Motor Speedway - Legends RC Oval Medium",
       "path": "charlotte/2025/legendsrc2025",
-      "zh": "夏洛特赛车场，传奇赛车公路椭圆中布局"
+      "zh": "夏洛特赛车场，传奇赛车公路椭圆中布局",
+      "spoken": "夏洛特赛车场，传奇赛车公路椭圆中布局"
     },
     {
       "en": "Charlotte Motor Speedway - Legends RC Oval Short",
       "path": "charlotte/2025/legendsrcshort",
-      "zh": "夏洛特赛车场，传奇赛车公路椭圆短布局"
+      "zh": "夏洛特赛车场，传奇赛车公路椭圆短布局",
+      "spoken": "夏洛特赛车场，传奇赛车公路椭圆短布局"
     },
     {
       "en": "Charlotte Motor Speedway - Rallycross",
       "path": "charlotte/2025/rallycrosslong",
-      "zh": "夏洛特赛车场，拉力越野布局"
+      "zh": "夏洛特赛车场，拉力越野布局",
+      "spoken": "夏洛特赛车场，拉力越野布局"
     },
     {
       "en": "Chicago Street Course",
       "path": "chicago",
-      "zh": "芝加哥街道赛道"
+      "zh": "芝加哥街道赛道",
+      "spoken": "芝加哥街道赛道"
     },
     {
       "en": "Chicago Street Course - 2023 Cup",
       "path": "chicago/2023",
-      "zh": "芝加哥街道赛道，2023杯赛布局"
+      "zh": "芝加哥街道赛道，2023杯赛布局",
+      "spoken": "芝加哥街道赛道，二零二三杯赛布局"
     },
     {
       "en": "Chicago Street Course - Prototype",
       "path": "chicago",
-      "zh": "芝加哥街道赛道，原型布局"
+      "zh": "芝加哥街道赛道，原型布局",
+      "spoken": "芝加哥街道赛道，原型布局"
     },
     {
       "en": "Chicagoland Speedway",
       "path": "chicagoland",
-      "zh": "芝加哥兰赛车场"
+      "zh": "芝加哥兰赛车场",
+      "spoken": "芝加哥兰赛车场"
     },
     {
       "en": "Chili Bowl",
       "path": "chilibowl",
-      "zh": "奇利碗室内泥地赛道"
+      "zh": "奇利碗室内泥地赛道",
+      "spoken": "奇利碗室内泥地赛道"
     },
     {
       "en": "Circuit de Barcelona Catalunya",
       "path": "barcelona",
-      "zh": "巴塞罗那加泰罗尼亚赛道"
+      "zh": "巴塞罗那加泰罗尼亚赛道",
+      "spoken": "巴塞罗那加泰罗尼亚赛道"
     },
     {
       "en": "Circuit de Barcelona-Catalunya - Grand Prix",
       "path": "barcelona/gp",
-      "zh": "巴塞罗那加泰罗尼亚赛道，大奖赛布局"
+      "zh": "巴塞罗那加泰罗尼亚赛道，大奖赛布局",
+      "spoken": "巴塞罗那加泰罗尼亚赛道，大奖赛布局"
     },
     {
       "en": "Circuit de Barcelona-Catalunya - National",
       "path": "barcelona/national",
-      "zh": "巴塞罗那加泰罗尼亚赛道，国家布局"
+      "zh": "巴塞罗那加泰罗尼亚赛道，国家布局",
+      "spoken": "巴塞罗那加泰罗尼亚赛道，国家布局"
     },
     {
       "en": "Circuit de Barcelona-Catalunya - Moto",
       "path": "barcelona/moto",
-      "zh": "巴塞罗那加泰罗尼亚赛道，摩托车布局"
+      "zh": "巴塞罗那加泰罗尼亚赛道，摩托车布局",
+      "spoken": "巴塞罗那加泰罗尼亚赛道，摩托车布局"
     },
     {
       "en": "Circuit de Barcelona-Catalunya - Club",
       "path": "barcelona/club",
-      "zh": "巴塞罗那加泰罗尼亚赛道，俱乐部布局"
+      "zh": "巴塞罗那加泰罗尼亚赛道，俱乐部布局",
+      "spoken": "巴塞罗那加泰罗尼亚赛道，俱乐部布局"
     },
     {
       "en": "Circuit de Barcelona-Catalunya - Historic",
       "path": "barcelona/historic",
-      "zh": "巴塞罗那加泰罗尼亚赛道，历史布局"
+      "zh": "巴塞罗那加泰罗尼亚赛道，历史布局",
+      "spoken": "巴塞罗那加泰罗尼亚赛道，历史布局"
     },
     {
       "en": "Circuit de Barcelona-Catalunya - Rallycross",
       "path": "barcelona/rallycross",
-      "zh": "巴塞罗那加泰罗尼亚赛道，拉力越野布局"
+      "zh": "巴塞罗那加泰罗尼亚赛道，拉力越野布局",
+      "spoken": "巴塞罗那加泰罗尼亚赛道，拉力越野布局"
     },
     {
       "en": "Circuit de Lédenon",
       "path": "ledenon",
-      "zh": "莱德农赛道"
+      "zh": "莱德农赛道",
+      "spoken": "莱德农赛道"
     },
     {
       "en": "Circuit de Nevers Magny-Cours",
       "path": "magnycours",
-      "zh": "马尼库尔赛道"
+      "zh": "马尼库尔赛道",
+      "spoken": "马尼库尔赛道"
     },
     {
       "en": "Circuit de Nevers Magny-Cours - Grand Prix",
       "path": "magnycours/grandprix",
-      "zh": "马尼库尔赛道，大奖赛布局"
+      "zh": "马尼库尔赛道，大奖赛布局",
+      "spoken": "马尼库尔赛道，大奖赛布局"
     },
     {
       "en": "Circuit de Spa-Francorchamps",
       "path": "spa",
-      "zh": "斯帕赛道"
+      "zh": "斯帕赛道",
+      "spoken": "斯帕赛道"
     },
     {
       "en": "Circuit de Spa-Francorchamps - Grand Prix Pits",
       "path": "spa/2024/up",
-      "zh": "斯帕赛道，大奖赛维修区布局"
+      "zh": "斯帕赛道，大奖赛维修区布局",
+      "spoken": "斯帕赛道，大奖赛维修区布局"
     },
     {
       "en": "Circuit de Spa-Francorchamps - Classic Pits",
       "path": "spa/2024/low",
-      "zh": "斯帕赛道，经典维修区布局"
+      "zh": "斯帕赛道，经典维修区布局",
+      "spoken": "斯帕赛道，经典维修区布局"
     },
     {
       "en": "Circuit de Spa-Francorchamps - Endurance",
       "path": "spa/2024/combined",
-      "zh": "斯帕赛道，耐力赛布局"
+      "zh": "斯帕赛道，耐力赛布局",
+      "spoken": "斯帕赛道，耐力赛布局"
     },
     {
       "en": "Circuit de Spa-Francorchamps - Bike",
       "path": "spa/2024/bike",
-      "zh": "斯帕赛道，摩托车布局"
+      "zh": "斯帕赛道，摩托车布局",
+      "spoken": "斯帕赛道，摩托车布局"
     },
     {
       "en": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
       "path": "spa/up",
-      "zh": "斯帕赛道，大奖赛维修区布局，2010版"
+      "zh": "斯帕赛道，大奖赛维修区布局，2010版",
+      "spoken": "斯帕赛道，大奖赛维修区布局，二零一零版"
     },
     {
       "en": "Circuit de Spa-Francorchamps - Classic Pits - 2010",
       "path": "spa/low",
-      "zh": "斯帕赛道，经典维修区布局，2010版"
+      "zh": "斯帕赛道，经典维修区布局，2010版",
+      "spoken": "斯帕赛道，经典维修区布局，二零一零版"
     },
     {
       "en": "Circuit de Spa-Francorchamps - Endurance - 2010",
       "path": "spa/combined",
-      "zh": "斯帕赛道，耐力赛布局，2010版"
+      "zh": "斯帕赛道，耐力赛布局，2010版",
+      "spoken": "斯帕赛道，耐力赛布局，二零一零版"
     },
     {
       "en": "Circuit des 24 Heures du Mans",
       "path": "lemans",
-      "zh": "勒芒赛道"
+      "zh": "勒芒赛道",
+      "spoken": "勒芒赛道"
     },
     {
       "en": "Circuit des 24 Heures du Mans - 24 Heures du Man",
       "path": "lemans/full",
-      "zh": "勒芒赛道，24小时赛布局"
+      "zh": "勒芒赛道，24小时赛布局",
+      "spoken": "勒芒赛道，二十四小时赛布局"
     },
     {
       "en": "Circuit des 24 Heures du Mans - Historic",
       "path": "lemans/nochicane",
-      "zh": "勒芒赛道，历史布局"
+      "zh": "勒芒赛道，历史布局",
+      "spoken": "勒芒赛道，历史布局"
     },
     {
       "en": "Circuit Gilles Villeneuve",
       "path": "montreal",
-      "zh": "吉尔维伦纽夫赛道"
+      "zh": "吉尔维伦纽夫赛道",
+      "spoken": "吉尔维伦纽夫赛道"
     },
     {
       "en": "Circuit of the Americas",
       "path": "cota",
-      "zh": "美洲赛道"
+      "zh": "美洲赛道",
+      "spoken": "美洲赛道"
     },
     {
       "en": "Circuit of the Americas - Grand Prix",
       "path": "cota/gp",
-      "zh": "美洲赛道，大奖赛布局"
+      "zh": "美洲赛道，大奖赛布局",
+      "spoken": "美洲赛道，大奖赛布局"
     },
     {
       "en": "Circuit of the Americas - East",
       "path": "cota/east",
-      "zh": "美洲赛道，东布局"
+      "zh": "美洲赛道，东布局",
+      "spoken": "美洲赛道，东布局"
     },
     {
       "en": "Circuit of the Americas - West",
       "path": "cota/west",
-      "zh": "美洲赛道，西布局"
+      "zh": "美洲赛道，西布局",
+      "spoken": "美洲赛道，西布局"
     },
     {
       "en": "Circuit Park Zandvoort",
       "path": "zandvoort",
-      "zh": "赞德沃特赛道"
+      "zh": "赞德沃特赛道",
+      "spoken": "赞德沃特赛道"
     },
     {
       "en": "Circuit Park Zandvoort - Grand Prix - 2009",
       "path": "zandvoort/grandprix",
-      "zh": "赞德沃特赛道，大奖赛布局，2009版"
+      "zh": "赞德沃特赛道，大奖赛布局，2009版",
+      "spoken": "赞德沃特赛道，大奖赛布局，二零零九版"
     },
     {
       "en": "Circuit Park Zandvoort - National - 2009",
       "path": "zandvoort/national",
-      "zh": "赞德沃特赛道，国家布局，2009版"
+      "zh": "赞德沃特赛道，国家布局，2009版",
+      "spoken": "赞德沃特赛道，国家布局，二零零九版"
     },
     {
       "en": "Circuit Park Zandvoort - Chicane - 2009",
       "path": "zandvoort/chicane",
-      "zh": "赞德沃特赛道，减速弯布局，2009版"
+      "zh": "赞德沃特赛道，减速弯布局，2009版",
+      "spoken": "赞德沃特赛道，减速弯布局，二零零九版"
     },
     {
       "en": "Circuit Park Zandvoort - Club - 2009",
       "path": "zandvoort/club",
-      "zh": "赞德沃特赛道，俱乐部布局，2009版"
+      "zh": "赞德沃特赛道，俱乐部布局，2009版",
+      "spoken": "赞德沃特赛道，俱乐部布局，二零零九版"
     },
     {
       "en": "Circuit Park Zandvoort - Oostelijk - 2009",
       "path": "zandvoort/oostelijk",
-      "zh": "赞德沃特赛道，东布局，2009版"
+      "zh": "赞德沃特赛道，东布局，2009版",
+      "spoken": "赞德沃特赛道，东布局，二零零九版"
     },
     {
       "en": "Circuit Zandvoort",
       "path": "zandvoort/2023",
-      "zh": "赞德沃特赛道"
+      "zh": "赞德沃特赛道",
+      "spoken": "赞德沃特赛道"
     },
     {
       "en": "Circuit Zandvoort - Grand Prix",
       "path": "zandvoort/2023/gp",
-      "zh": "赞德沃特赛道，大奖赛布局"
+      "zh": "赞德沃特赛道，大奖赛布局",
+      "spoken": "赞德沃特赛道，大奖赛布局"
     },
     {
       "en": "Circuit Zandvoort - Grand Prix w/2 Chicane",
       "path": "zandvoort/2023/gpchicane",
-      "zh": "赞德沃特赛道，大奖赛布局，含两组减速弯"
+      "zh": "赞德沃特赛道，大奖赛布局，含两组减速弯",
+      "spoken": "赞德沃特赛道，大奖赛布局，含两组减速弯"
     },
     {
       "en": "Circuit Zandvoort - Nationaal",
       "path": "zandvoort/2023/nationaal",
-      "zh": "赞德沃特赛道，国家布局"
+      "zh": "赞德沃特赛道，国家布局",
+      "spoken": "赞德沃特赛道，国家布局"
     },
     {
       "en": "Circuit Zandvoort - Oostelijk",
       "path": "zandvoort/2023/ostelijk",
-      "zh": "赞德沃特赛道，东布局"
+      "zh": "赞德沃特赛道，东布局",
+      "spoken": "赞德沃特赛道，东布局"
     },
     {
       "en": "Circuit Zolder",
       "path": "zolder",
-      "zh": "佐尔德赛道"
+      "zh": "佐尔德赛道",
+      "spoken": "佐尔德赛道"
     },
     {
       "en": "Circuit Zolder - Grand Prix",
       "path": "zolder/gp",
-      "zh": "佐尔德赛道，大奖赛布局"
+      "zh": "佐尔德赛道，大奖赛布局",
+      "spoken": "佐尔德赛道，大奖赛布局"
     },
     {
       "en": "Circuit Zolder - Alternate",
       "path": "zolder/alt",
-      "zh": "佐尔德赛道，备用布局"
+      "zh": "佐尔德赛道，备用布局",
+      "spoken": "佐尔德赛道，备用布局"
     },
     {
       "en": "Circuit Zolder",
       "path": "zolder/2024",
-      "zh": "佐尔德赛道"
+      "zh": "佐尔德赛道",
+      "spoken": "佐尔德赛道"
     },
     {
       "en": "Circuit Zolder - Grand Prix",
       "path": "zolder/2024/gp",
-      "zh": "佐尔德赛道，大奖赛布局"
+      "zh": "佐尔德赛道，大奖赛布局",
+      "spoken": "佐尔德赛道，大奖赛布局"
     },
     {
       "en": "Circuit Zolder - Alternate",
       "path": "zolder/2024/alt",
-      "zh": "佐尔德赛道，备用布局"
+      "zh": "佐尔德赛道，备用布局",
+      "spoken": "佐尔德赛道，备用布局"
     },
     {
       "en": "Circuito de Jerez - Ángel Nieto",
       "path": "jerez",
-      "zh": "赫雷斯赛道"
+      "zh": "赫雷斯赛道",
+      "spoken": "赫雷斯赛道"
     },
     {
       "en": "Circuito de Jerez - Ángel Nieto - Grand Prix",
       "path": "jerez/gp",
-      "zh": "赫雷斯赛道，大奖赛布局"
+      "zh": "赫雷斯赛道，大奖赛布局",
+      "spoken": "赫雷斯赛道，大奖赛布局"
     },
     {
       "en": "Circuito de Jerez - Ángel Nieto - Moto",
       "path": "jerez/moto",
-      "zh": "赫雷斯赛道，摩托车布局"
+      "zh": "赫雷斯赛道，摩托车布局",
+      "spoken": "赫雷斯赛道，摩托车布局"
     },
     {
       "en": "Circuito de Navarra",
       "path": "navarra",
-      "zh": "纳瓦拉赛道"
+      "zh": "纳瓦拉赛道",
+      "spoken": "纳瓦拉赛道"
     },
     {
       "en": "Circuito de Navarra - Speed Circuit",
       "path": "navarra/speedlong",
-      "zh": "纳瓦拉赛道，高速布局"
+      "zh": "纳瓦拉赛道，高速布局",
+      "spoken": "纳瓦拉赛道，高速布局"
     },
     {
       "en": "Circuito de Navarra - Speed Circuit - Medium",
       "path": "navarra/speedmedium",
-      "zh": "纳瓦拉赛道，高速中布局"
+      "zh": "纳瓦拉赛道，高速中布局",
+      "spoken": "纳瓦拉赛道，高速中布局"
     },
     {
       "en": "Circuito de Navarra - Speed Circuit - Short",
       "path": "navarra/speedshort",
-      "zh": "纳瓦拉赛道，高速短布局"
+      "zh": "纳瓦拉赛道，高速短布局",
+      "spoken": "纳瓦拉赛道，高速短布局"
     },
     {
       "en": "Concord Speedway",
       "path": "concordhalf",
-      "zh": "康科德赛车场"
+      "zh": "康科德赛车场",
+      "spoken": "康科德赛车场"
     },
     {
       "en": "Crandon International Raceway",
       "path": "crandon",
-      "zh": "克兰登越野赛道"
+      "zh": "克兰登越野赛道",
+      "spoken": "克兰登越野赛道"
     },
     {
       "en": "Crandon International Raceway - Full",
       "path": "crandon",
-      "zh": "克兰登越野赛道，完整布局"
+      "zh": "克兰登越野赛道，完整布局",
+      "spoken": "克兰登越野赛道，完整布局"
     },
     {
       "en": "Crandon International Raceway - Short",
       "path": "crandon/short",
-      "zh": "克兰登越野赛道，短布局"
+      "zh": "克兰登越野赛道，短布局",
+      "spoken": "克兰登越野赛道，短布局"
     },
     {
       "en": "Darlington Raceway",
       "path": "darlington",
-      "zh": "达灵顿赛车场"
+      "zh": "达灵顿赛车场",
+      "spoken": "达灵顿赛车场"
     },
     {
       "en": "Daytona International Speedway",
       "path": "daytona/2011",
-      "zh": "代托纳赛车场"
+      "zh": "代托纳赛车场",
+      "spoken": "代托纳赛车场"
     },
     {
       "en": "Daytona International Speedway - Oval",
       "path": "daytona/2011/oval",
-      "zh": "代托纳赛车场，椭圆布局"
+      "zh": "代托纳赛车场，椭圆布局",
+      "spoken": "代托纳赛车场，椭圆布局"
     },
     {
       "en": "Daytona International Speedway - Road Course",
       "path": "daytona/2011/road",
-      "zh": "代托纳赛车场，公路布局"
+      "zh": "代托纳赛车场，公路布局",
+      "spoken": "代托纳赛车场，公路布局"
     },
     {
       "en": "Daytona International Speedway - NASCAR Road Course",
       "path": "daytona/2011/roadnascar2020",
-      "zh": "代托纳赛车场，纳斯卡公路布局"
+      "zh": "代托纳赛车场，纳斯卡公路布局",
+      "spoken": "代托纳赛车场，纳斯卡公路布局"
     },
     {
       "en": "Daytona International Speedway - Moto",
       "path": "daytona/2011/bike",
-      "zh": "代托纳赛车场，摩托车布局"
+      "zh": "代托纳赛车场，摩托车布局",
+      "spoken": "代托纳赛车场，摩托车布局"
     },
     {
       "en": "Daytona International Speedway - Short",
       "path": "daytona/2011/short",
-      "zh": "代托纳赛车场，短布局"
+      "zh": "代托纳赛车场，短布局",
+      "spoken": "代托纳赛车场，短布局"
     },
     {
       "en": "Daytona International Speedway - Oval - 2008",
       "path": "daytona/oval",
-      "zh": "代托纳赛车场，椭圆布局，2008版"
+      "zh": "代托纳赛车场，椭圆布局，2008版",
+      "spoken": "代托纳赛车场，椭圆布局，二零零八版"
     },
     {
       "en": "Daytona International Speedway - Road Course - 2008",
       "path": "daytona/road",
-      "zh": "代托纳赛车场，公路布局，2008版"
+      "zh": "代托纳赛车场，公路布局，2008版",
+      "spoken": "代托纳赛车场，公路布局，二零零八版"
     },
     {
       "en": "Daytona International Speedway - Moto - 2008",
       "path": "daytona/bike",
-      "zh": "代托纳赛车场，摩托车布局，2008版"
+      "zh": "代托纳赛车场，摩托车布局，2008版",
+      "spoken": "代托纳赛车场，摩托车布局，二零零八版"
     },
     {
       "en": "Daytona International Speedway - Short - 2008",
       "path": "daytona/short",
-      "zh": "代托纳赛车场，短布局，2008版"
+      "zh": "代托纳赛车场，短布局，2008版",
+      "spoken": "代托纳赛车场，短布局，二零零八版"
     },
     {
       "en": "Daytona Rallycross and Dirt Road",
       "path": "daytona",
-      "zh": "代托纳越野赛道"
+      "zh": "代托纳越野赛道",
+      "spoken": "代托纳越野赛道"
     },
     {
       "en": "Daytona Rallycross and Dirt Road - Dirt Road Long",
       "path": "daytona/rallycross/long/nojoker",
-      "zh": "代托纳越野赛道，泥地公路长布局"
+      "zh": "代托纳越野赛道，泥地公路长布局",
+      "spoken": "代托纳越野赛道，泥地公路长布局"
     },
     {
       "en": "Daytona Rallycross and Dirt Road - Dirt Road Short",
       "path": "daytona/rallycross/short/nojoker",
-      "zh": "代托纳越野赛道，泥地公路短布局"
+      "zh": "代托纳越野赛道，泥地公路短布局",
+      "spoken": "代托纳越野赛道，泥地公路短布局"
     },
     {
       "en": "Daytona Rallycross and Dirt Road - Rallycross Long",
       "path": "daytona/rallycross/long",
-      "zh": "代托纳越野赛道，拉力越野长布局"
+      "zh": "代托纳越野赛道，拉力越野长布局",
+      "spoken": "代托纳越野赛道，拉力越野长布局"
     },
     {
       "en": "Daytona Rallycross and Dirt Road - Rallycross Short",
       "path": "daytona/rallycross/short",
-      "zh": "代托纳越野赛道，拉力越野短布局"
+      "zh": "代托纳越野赛道，拉力越野短布局",
+      "spoken": "代托纳越野赛道，拉力越野短布局"
     },
     {
       "en": "Detroit Grand Prix at Belle Isle",
       "path": "belleisle",
-      "zh": "底特律贝尔岛赛道"
+      "zh": "底特律贝尔岛赛道",
+      "spoken": "底特律贝尔岛赛道"
     },
     {
       "en": "Donington Park Racing Circuit",
       "path": "donington",
-      "zh": "多宁顿公园赛道"
+      "zh": "多宁顿公园赛道",
+      "spoken": "多宁顿公园赛道"
     },
     {
       "en": "Donington Park Racing Circuit - Grand Prix",
       "path": "donington/gp",
-      "zh": "多宁顿公园赛道，大奖赛布局"
+      "zh": "多宁顿公园赛道，大奖赛布局",
+      "spoken": "多宁顿公园赛道，大奖赛布局"
     },
     {
       "en": "Donington Park Racing Circuit - National",
       "path": "donington/national",
-      "zh": "多宁顿公园赛道，国家布局"
+      "zh": "多宁顿公园赛道，国家布局",
+      "spoken": "多宁顿公园赛道，国家布局"
     },
     {
       "en": "Dover Motor Speedway",
       "path": "dover",
-      "zh": "多佛赛车场"
+      "zh": "多佛赛车场",
+      "spoken": "多佛赛车场"
     },
     {
       "en": "EchoPark Speedway (Atlanta)",
       "path": "atlanta",
-      "zh": "亚特兰大赛车场"
+      "zh": "亚特兰大赛车场",
+      "spoken": "亚特兰大赛车场"
     },
     {
       "en": "EchoPark Speedway (Atlanta) - Oval",
       "path": "atlanta/2022/oval",
-      "zh": "亚特兰大赛车场，椭圆布局"
+      "zh": "亚特兰大赛车场，椭圆布局",
+      "spoken": "亚特兰大赛车场，椭圆布局"
     },
     {
       "en": "EchoPark Speedway (Atlanta) - Rallycross Long",
       "path": "atlanta/rallycross/long",
-      "zh": "亚特兰大赛车场，拉力越野长布局"
+      "zh": "亚特兰大赛车场，拉力越野长布局",
+      "spoken": "亚特兰大赛车场，拉力越野长布局"
     },
     {
       "en": "EchoPark Speedway (Atlanta) - Rallycross Short",
       "path": "atlanta/rallycross/short",
-      "zh": "亚特兰大赛车场，拉力越野短布局"
+      "zh": "亚特兰大赛车场，拉力越野短布局",
+      "spoken": "亚特兰大赛车场，拉力越野短布局"
     },
     {
       "en": "EchoPark Speedway (Atlanta) - Oval - 2008",
       "path": "atlanta/quadoval",
-      "zh": "亚特兰大赛车场，椭圆布局，2008版"
+      "zh": "亚特兰大赛车场，椭圆布局，2008版",
+      "spoken": "亚特兰大赛车场，椭圆布局，二零零八版"
     },
     {
       "en": "EchoPark Speedway (Atlanta) - Legends Oval - 2008",
       "path": "atlanta/legendsoval",
-      "zh": "亚特兰大赛车场，传奇赛车椭圆布局，2008版"
+      "zh": "亚特兰大赛车场，传奇赛车椭圆布局，2008版",
+      "spoken": "亚特兰大赛车场，传奇赛车椭圆布局，二零零八版"
     },
     {
       "en": "EchoPark Speedway (Atlanta) - Road Course - 2008",
       "path": "atlanta/roadcourse",
-      "zh": "亚特兰大赛车场，公路布局，2008版"
+      "zh": "亚特兰大赛车场，公路布局，2008版",
+      "spoken": "亚特兰大赛车场，公路布局，二零零八版"
     },
     {
       "en": "Eldora Speedway",
       "path": "eldora",
-      "zh": "埃尔多拉泥地赛道"
+      "zh": "埃尔多拉泥地赛道",
+      "spoken": "埃尔多拉泥地赛道"
     },
     {
       "en": "Fairbury Speedway",
       "path": "fairbury",
-      "zh": "费尔伯里泥地赛道"
+      "zh": "费尔伯里泥地赛道",
+      "spoken": "费尔伯里泥地赛道"
     },
     {
       "en": "Federated Auto Parts Raceway at I-55",
       "path": "pevely",
-      "zh": "佩韦利泥地赛道"
+      "zh": "佩韦利泥地赛道",
+      "spoken": "佩韦利泥地赛道"
     },
     {
       "en": "Firebird Motorsports Park",
       "path": "wildhorse",
-      "zh": "火鸟越野赛道"
+      "zh": "火鸟越野赛道",
+      "spoken": "火鸟越野赛道"
     },
     {
       "en": "Five Flags Speedway",
       "path": "fiveflags",
-      "zh": "五旗赛车场"
+      "zh": "五旗赛车场",
+      "spoken": "五旗赛车场"
     },
     {
       "en": "Fuji International Speedway",
       "path": "fuji",
-      "zh": "富士赛道"
+      "zh": "富士赛道",
+      "spoken": "富士赛道"
     },
     {
       "en": "Fuji International Speedway - Grand Prix",
       "path": "fuji/gp",
-      "zh": "富士赛道，大奖赛布局"
+      "zh": "富士赛道，大奖赛布局",
+      "spoken": "富士赛道，大奖赛布局"
     },
     {
       "en": "Fuji International Speedway - No Chicane",
       "path": "fuji/nochicane",
-      "zh": "富士赛道，无减速弯布局"
+      "zh": "富士赛道，无减速弯布局",
+      "spoken": "富士赛道，无减速弯布局"
     },
     {
       "en": "Hickory Motor Speedway",
       "path": "hickory",
-      "zh": "希科里赛车场"
+      "zh": "希科里赛车场",
+      "spoken": "希科里赛车场"
     },
     {
       "en": "Hockenheimring Baden-Württemberg",
       "path": "hockenheim",
-      "zh": "霍根海姆赛道"
+      "zh": "霍根海姆赛道",
+      "spoken": "霍根海姆赛道"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - Grand Prix",
       "path": "hockenheim/gp",
-      "zh": "霍根海姆赛道，大奖赛布局"
+      "zh": "霍根海姆赛道，大奖赛布局",
+      "spoken": "霍根海姆赛道，大奖赛布局"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - National A",
       "path": "hockenheim/nationala",
-      "zh": "霍根海姆赛道，国家A布局"
+      "zh": "霍根海姆赛道，国家A布局",
+      "spoken": "霍根海姆赛道，国家诶布局"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - National B",
       "path": "hockenheim/nationalb",
-      "zh": "霍根海姆赛道，国家B布局"
+      "zh": "霍根海姆赛道，国家B布局",
+      "spoken": "霍根海姆赛道，国家比布局"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - Outer",
       "path": "hockenheim/outer",
-      "zh": "霍根海姆赛道，外环布局"
+      "zh": "霍根海姆赛道，外环布局",
+      "spoken": "霍根海姆赛道，外环布局"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - PEC - East",
       "path": "hockenheim/peceast",
-      "zh": "霍根海姆赛道，保时捷体验中心，东布局"
+      "zh": "霍根海姆赛道，保时捷体验中心，东布局",
+      "spoken": "霍根海姆赛道，保时捷体验中心，东布局"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - PEC - Handling",
       "path": "hockenheim/pechandling",
-      "zh": "霍根海姆赛道，保时捷体验中心，操控布局"
+      "zh": "霍根海姆赛道，保时捷体验中心，操控布局",
+      "spoken": "霍根海姆赛道，保时捷体验中心，操控布局"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - PEC - Outer",
       "path": "hockenheim/pecouter",
-      "zh": "霍根海姆赛道，保时捷体验中心，外环布局"
+      "zh": "霍根海姆赛道，保时捷体验中心，外环布局",
+      "spoken": "霍根海姆赛道，保时捷体验中心，外环布局"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - PEC - West",
       "path": "hockenheim/pecwest",
-      "zh": "霍根海姆赛道，保时捷体验中心，西布局"
+      "zh": "霍根海姆赛道，保时捷体验中心，西布局",
+      "spoken": "霍根海姆赛道，保时捷体验中心，西布局"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - Short A",
       "path": "hockenheim/shorta",
-      "zh": "霍根海姆赛道，短布局A"
+      "zh": "霍根海姆赛道，短布局A",
+      "spoken": "霍根海姆赛道，短布局诶"
     },
     {
       "en": "Hockenheimring Baden-Württemberg - Short B",
       "path": "hockenheim/shortb",
-      "zh": "霍根海姆赛道，短布局B"
+      "zh": "霍根海姆赛道，短布局B",
+      "spoken": "霍根海姆赛道，短布局比"
     },
     {
       "en": "Homestead Miami Speedway",
       "path": "homestead",
-      "zh": "霍姆斯特德迈阿密赛车场"
+      "zh": "霍姆斯特德迈阿密赛车场",
+      "spoken": "霍姆斯特德迈阿密赛车场"
     },
     {
       "en": "Homestead Miami Speedway - Oval",
       "path": "homestead/oval",
-      "zh": "霍姆斯特德迈阿密赛车场，椭圆布局"
+      "zh": "霍姆斯特德迈阿密赛车场，椭圆布局",
+      "spoken": "霍姆斯特德迈阿密赛车场，椭圆布局"
     },
     {
       "en": "Homestead Miami Speedway - Open Wheel Oval",
       "path": "homestead/ovalindy",
-      "zh": "霍姆斯特德迈阿密赛车场，方程式椭圆布局"
+      "zh": "霍姆斯特德迈阿密赛车场，方程式椭圆布局",
+      "spoken": "霍姆斯特德迈阿密赛车场，方程式椭圆布局"
     },
     {
       "en": "Homestead Miami Speedway - Road Course A",
       "path": "homestead/roada",
-      "zh": "霍姆斯特德迈阿密赛车场，公路A布局"
+      "zh": "霍姆斯特德迈阿密赛车场，公路A布局",
+      "spoken": "霍姆斯特德迈阿密赛车场，公路诶布局"
     },
     {
       "en": "Homestead Miami Speedway - Road Course B",
       "path": "homestead/roadb",
-      "zh": "霍姆斯特德迈阿密赛车场，公路B布局"
+      "zh": "霍姆斯特德迈阿密赛车场，公路B布局",
+      "spoken": "霍姆斯特德迈阿密赛车场，公路比布局"
     },
     {
       "en": "Hungaroring Circuit",
       "path": "hungaroring",
-      "zh": "匈牙利赛道"
+      "zh": "匈牙利赛道",
+      "spoken": "匈牙利赛道"
     },
     {
       "en": "Huset's Speedway",
       "path": "husets",
-      "zh": "胡塞特泥地赛道"
+      "zh": "胡塞特泥地赛道",
+      "spoken": "胡塞特泥地赛道"
     },
     {
       "en": "Indianapolis Motor Speedway",
       "path": "indianapolis",
-      "zh": "印第安纳波利斯赛车场"
+      "zh": "印第安纳波利斯赛车场",
+      "spoken": "印第安纳波利斯赛车场"
     },
     {
       "en": "Indianapolis Motor Speedway - Oval",
       "path": "indianapolis/2022/ovalnascar",
-      "zh": "印第安纳波利斯赛车场，椭圆布局"
+      "zh": "印第安纳波利斯赛车场，椭圆布局",
+      "spoken": "印第安纳波利斯赛车场，椭圆布局"
     },
     {
       "en": "Indianapolis Motor Speedway - Open Wheel Oval",
       "path": "indianapolis/2022/oval",
-      "zh": "印第安纳波利斯赛车场，方程式椭圆布局"
+      "zh": "印第安纳波利斯赛车场，方程式椭圆布局",
+      "spoken": "印第安纳波利斯赛车场，方程式椭圆布局"
     },
     {
       "en": "Indianapolis Motor Speedway - Road Course",
       "path": "indianapolis/2022/road",
-      "zh": "印第安纳波利斯赛车场，公路布局"
+      "zh": "印第安纳波利斯赛车场，公路布局",
+      "spoken": "印第安纳波利斯赛车场，公路布局"
     },
     {
       "en": "Indianapolis Motor Speedway - Bike",
       "path": "indianapolis/motogp",
-      "zh": "印第安纳波利斯赛车场，摩托车布局"
+      "zh": "印第安纳波利斯赛车场，摩托车布局",
+      "spoken": "印第安纳波利斯赛车场，摩托车布局"
     },
     {
       "en": "Indianapolis Motor Speedway - Oval - 2009",
       "path": "indianapolis/oval",
-      "zh": "印第安纳波利斯赛车场，椭圆布局，2009版"
+      "zh": "印第安纳波利斯赛车场，椭圆布局，2009版",
+      "spoken": "印第安纳波利斯赛车场，椭圆布局，二零零九版"
     },
     {
       "en": "Indianapolis Motor Speedway - Open Wheel Oval - 2009",
       "path": "indianapolis/ovalindypit",
-      "zh": "印第安纳波利斯赛车场，方程式椭圆布局，2009版"
+      "zh": "印第安纳波利斯赛车场，方程式椭圆布局，2009版",
+      "spoken": "印第安纳波利斯赛车场，方程式椭圆布局，二零零九版"
     },
     {
       "en": "Indianapolis Motor Speedway - Road Course - 2009",
       "path": "indianapolis/road",
-      "zh": "印第安纳波利斯赛车场，公路布局，2009版"
+      "zh": "印第安纳波利斯赛车场，公路布局，2009版",
+      "spoken": "印第安纳波利斯赛车场，公路布局，二零零九版"
     },
     {
       "en": "Iowa Speedway",
       "path": "iowa",
-      "zh": "爱荷华赛车场"
+      "zh": "爱荷华赛车场",
+      "spoken": "爱荷华赛车场"
     },
     {
       "en": "Iowa Speedway - Oval",
       "path": "iowa/2025/oval",
-      "zh": "爱荷华赛车场，椭圆布局"
+      "zh": "爱荷华赛车场，椭圆布局",
+      "spoken": "爱荷华赛车场，椭圆布局"
     },
     {
       "en": "Iowa Speedway - Oval - 2011",
       "path": "iowa/oval",
-      "zh": "爱荷华赛车场，椭圆布局，2011版"
+      "zh": "爱荷华赛车场，椭圆布局，2011版",
+      "spoken": "爱荷华赛车场，椭圆布局，二零一一版"
     },
     {
       "en": "Iowa Speedway - Road Course",
       "path": "iowa/road",
-      "zh": "爱荷华赛车场，公路布局"
+      "zh": "爱荷华赛车场，公路布局",
+      "spoken": "爱荷华赛车场，公路布局"
     },
     {
       "en": "Iowa Speedway - Infield Road Course",
       "path": "iowa/infroad",
-      "zh": "爱荷华赛车场，内场公路布局"
+      "zh": "爱荷华赛车场，内场公路布局",
+      "spoken": "爱荷华赛车场，内场公路布局"
     },
     {
       "en": "Iowa Speedway - Legends",
       "path": "iowa/legends",
-      "zh": "爱荷华赛车场，传奇赛车布局"
+      "zh": "爱荷华赛车场，传奇赛车布局",
+      "spoken": "爱荷华赛车场，传奇赛车布局"
     },
     {
       "en": "Iowa Speedway - Infield Legends",
       "path": "iowa/inflegends",
-      "zh": "爱荷华赛车场，内场传奇赛车布局"
+      "zh": "爱荷华赛车场，内场传奇赛车布局",
+      "spoken": "爱荷华赛车场，内场传奇赛车布局"
     },
     {
       "en": "Iowa Speedway - Rallycross",
       "path": "iowa/rallycross",
-      "zh": "爱荷华赛车场，拉力越野布局"
+      "zh": "爱荷华赛车场，拉力越野布局",
+      "spoken": "爱荷华赛车场，拉力越野布局"
     },
     {
       "en": "iRacing Superspeedway",
       "path": "iracingss",
-      "zh": "iRacing超级椭圆赛道"
+      "zh": "iRacing超级椭圆赛道",
+      "spoken": "艾瑞星超级椭圆赛道"
     },
     {
       "en": "Irwindale Speedway",
       "path": "irwindale",
-      "zh": "欧文代尔赛车场"
+      "zh": "欧文代尔赛车场",
+      "spoken": "欧文代尔赛车场"
     },
     {
       "en": "Irwindale Speedway - Outer",
       "path": "irwindale/outer",
-      "zh": "欧文代尔赛车场，外环布局"
+      "zh": "欧文代尔赛车场，外环布局",
+      "spoken": "欧文代尔赛车场，外环布局"
     },
     {
       "en": "Irwindale Speedway - Inner",
       "path": "irwindale/inner",
-      "zh": "欧文代尔赛车场，内环布局"
+      "zh": "欧文代尔赛车场，内环布局",
+      "spoken": "欧文代尔赛车场，内环布局"
     },
     {
       "en": "Irwindale Speedway - Outer - Inner",
       "path": "irwindale/outerinner",
-      "zh": "欧文代尔赛车场，外环内环联合布局"
+      "zh": "欧文代尔赛车场，外环内环联合布局",
+      "spoken": "欧文代尔赛车场，外环内环联合布局"
     },
     {
       "en": "Irwindale Speedway - Figure Eight",
       "path": "irwindale/figureeight",
-      "zh": "欧文代尔赛车场，八字布局"
+      "zh": "欧文代尔赛车场，八字布局",
+      "spoken": "欧文代尔赛车场，八字布局"
     },
     {
       "en": "Irwindale Speedway - Figure Eight Jump",
       "path": "irwindale/figureeightjump",
-      "zh": "欧文代尔赛车场，八字跳台布局"
+      "zh": "欧文代尔赛车场，八字跳台布局",
+      "spoken": "欧文代尔赛车场，八字跳台布局"
     },
     {
       "en": "Kansas Speedway",
       "path": "kansas",
-      "zh": "堪萨斯赛车场"
+      "zh": "堪萨斯赛车场",
+      "spoken": "堪萨斯赛车场"
     },
     {
       "en": "Kansas Speedway - Oval",
       "path": "kansas/oval",
-      "zh": "堪萨斯赛车场，椭圆布局"
+      "zh": "堪萨斯赛车场，椭圆布局",
+      "spoken": "堪萨斯赛车场，椭圆布局"
     },
     {
       "en": "Kansas Speedway - Road Course",
       "path": "kansas/full",
-      "zh": "堪萨斯赛车场，公路布局"
+      "zh": "堪萨斯赛车场，公路布局",
+      "spoken": "堪萨斯赛车场，公路布局"
     },
     {
       "en": "Kansas Speedway - Infield Road Course",
       "path": "kansas/short",
-      "zh": "堪萨斯赛车场，内场公路布局"
+      "zh": "堪萨斯赛车场，内场公路布局",
+      "spoken": "堪萨斯赛车场，内场公路布局"
     },
     {
       "en": "Kentucky Speedway",
       "path": "kentucky/2020",
-      "zh": "肯塔基赛车场"
+      "zh": "肯塔基赛车场",
+      "spoken": "肯塔基赛车场"
     },
     {
       "en": "Kentucky Speedway - Oval",
       "path": "kentucky/2020/oval",
-      "zh": "肯塔基赛车场，椭圆布局"
+      "zh": "肯塔基赛车场，椭圆布局",
+      "spoken": "肯塔基赛车场，椭圆布局"
     },
     {
       "en": "Kevin Harvick's Kern Raceway",
       "path": "kern",
-      "zh": "克恩赛车场"
+      "zh": "克恩赛车场",
+      "spoken": "克恩赛车场"
     },
     {
       "en": "Kevin Harvick's Kern Raceway - Asphalt Track",
       "path": "kern/oval",
-      "zh": "克恩赛车场，沥青布局"
+      "zh": "克恩赛车场，沥青布局",
+      "spoken": "克恩赛车场，沥青布局"
     },
     {
       "en": "Kevin Harvick's Kern Raceway - Legends",
       "path": "kern/legends",
-      "zh": "克恩赛车场，传奇赛车布局"
+      "zh": "克恩赛车场，传奇赛车布局",
+      "spoken": "克恩赛车场，传奇赛车布局"
     },
     {
       "en": "Kevin Harvick's Kern Raceway - Dirt Track",
       "path": "kern/dirt",
-      "zh": "克恩赛车场，泥地布局"
+      "zh": "克恩赛车场，泥地布局",
+      "spoken": "克恩赛车场，泥地布局"
     },
     {
       "en": "Kevin Harvick's Kern Raceway - Dirt Mini Oval",
       "path": "kern/dirtmini",
-      "zh": "克恩赛车场，泥地小椭圆布局"
+      "zh": "克恩赛车场，泥地小椭圆布局",
+      "spoken": "克恩赛车场，泥地小椭圆布局"
     },
     {
       "en": "Knockhill Racing Circuit",
       "path": "knockhill",
-      "zh": "诺克希尔赛道"
+      "zh": "诺克希尔赛道",
+      "spoken": "诺克希尔赛道"
     },
     {
       "en": "Knockhill Racing Circuit - International",
       "path": "knockhill/international",
-      "zh": "诺克希尔赛道，国际布局"
+      "zh": "诺克希尔赛道，国际布局",
+      "spoken": "诺克希尔赛道，国际布局"
     },
     {
       "en": "Knockhill Racing Circuit - International Reverse",
       "path": "knockhill/internationalrev",
-      "zh": "诺克希尔赛道，国际反向布局"
+      "zh": "诺克希尔赛道，国际反向布局",
+      "spoken": "诺克希尔赛道，国际反向布局"
     },
     {
       "en": "Knockhill Racing Circuit - National",
       "path": "knockhill/national",
-      "zh": "诺克希尔赛道，国家布局"
+      "zh": "诺克希尔赛道，国家布局",
+      "spoken": "诺克希尔赛道，国家布局"
     },
     {
       "en": "Knockhill Racing Circuit - National Reverse",
       "path": "knockhill/nationalrev",
-      "zh": "诺克希尔赛道，国家反向布局"
+      "zh": "诺克希尔赛道，国家反向布局",
+      "spoken": "诺克希尔赛道，国家反向布局"
     },
     {
       "en": "Knockhill Racing Circuit - Tri-Oval",
       "path": "knockhill/trioval",
-      "zh": "诺克希尔赛道，三角椭圆布局"
+      "zh": "诺克希尔赛道，三角椭圆布局",
+      "spoken": "诺克希尔赛道，三角椭圆布局"
     },
     {
       "en": "Knockhill Racing Circuit - Rallycross",
       "path": "knockhill/rallycross",
-      "zh": "诺克希尔赛道，拉力越野布局"
+      "zh": "诺克希尔赛道，拉力越野布局",
+      "spoken": "诺克希尔赛道，拉力越野布局"
     },
     {
       "en": "Knoxville Raceway",
       "path": "knoxville",
-      "zh": "诺克斯维尔泥地赛道"
+      "zh": "诺克斯维尔泥地赛道",
+      "spoken": "诺克斯维尔泥地赛道"
     },
     {
       "en": "Kokomo Speedway",
       "path": "kokomo",
-      "zh": "科科莫泥地赛道"
+      "zh": "科科莫泥地赛道",
+      "spoken": "科科莫泥地赛道"
     },
     {
       "en": "Kokomo Speedway - Tires In",
       "path": "kokomo",
-      "zh": "科科莫泥地赛道，轮胎标记内侧布局"
+      "zh": "科科莫泥地赛道，轮胎标记内侧布局",
+      "spoken": "科科莫泥地赛道，轮胎标记内侧布局"
     },
     {
       "en": "Kokomo Speedway - Tires Out",
       "path": "kokomo/tiresout",
-      "zh": "科科莫泥地赛道，轮胎标记外侧布局"
+      "zh": "科科莫泥地赛道，轮胎标记外侧布局",
+      "spoken": "科科莫泥地赛道，轮胎标记外侧布局"
     },
     {
       "en": "Langley Speedway",
       "path": "langley",
-      "zh": "兰利赛车场"
+      "zh": "兰利赛车场",
+      "spoken": "兰利赛车场"
     },
     {
       "en": "Lanier National Speedway",
       "path": "lanier",
-      "zh": "拉尼尔赛车场"
+      "zh": "拉尼尔赛车场",
+      "spoken": "拉尼尔赛车场"
     },
     {
       "en": "Lanier National Speedway - Asphalt",
       "path": "lanier",
-      "zh": "拉尼尔赛车场，沥青布局"
+      "zh": "拉尼尔赛车场，沥青布局",
+      "spoken": "拉尼尔赛车场，沥青布局"
     },
     {
       "en": "Lanier National Speedway - Dirt",
       "path": "lanier/dirt",
-      "zh": "拉尼尔赛车场，泥地布局"
+      "zh": "拉尼尔赛车场，泥地布局",
+      "spoken": "拉尼尔赛车场，泥地布局"
     },
     {
       "en": "Lånkebanen (Hell RX)",
       "path": "lankebanen",
-      "zh": "赫尔拉力越野赛道"
+      "zh": "赫尔拉力越野赛道",
+      "spoken": "赫尔拉力越野赛道"
     },
     {
       "en": "Lånkebanen (Hell RX) - Club",
       "path": "lankebanen/club",
-      "zh": "赫尔拉力越野赛道，俱乐部布局"
+      "zh": "赫尔拉力越野赛道，俱乐部布局",
+      "spoken": "赫尔拉力越野赛道，俱乐部布局"
     },
     {
       "en": "Lånkebanen (Hell RX) - Hell Rallycross",
       "path": "lankebanen/hellrx",
-      "zh": "赫尔拉力越野赛道"
+      "zh": "赫尔拉力越野赛道",
+      "spoken": "赫尔拉力越野赛道"
     },
     {
       "en": "Lånkebanen (Hell RX) - Rallycross Short",
       "path": "lankebanen/rallyshort",
-      "zh": "赫尔拉力越野赛道，拉力越野短布局"
+      "zh": "赫尔拉力越野赛道，拉力越野短布局",
+      "spoken": "赫尔拉力越野赛道，拉力越野短布局"
     },
     {
       "en": "Lånkebanen (Hell RX) - Road Long",
       "path": "lankebanen/road/roadlong",
-      "zh": "赫尔拉力越野赛道，公路长布局"
+      "zh": "赫尔拉力越野赛道，公路长布局",
+      "spoken": "赫尔拉力越野赛道，公路长布局"
     },
     {
       "en": "Lånkebanen (Hell RX) - Road Short",
       "path": "lankebanen/road/roadshort",
-      "zh": "赫尔拉力越野赛道，公路短布局"
+      "zh": "赫尔拉力越野赛道，公路短布局",
+      "spoken": "赫尔拉力越野赛道，公路短布局"
     },
     {
       "en": "Las Vegas Motor Speedway",
       "path": "vegas",
-      "zh": "拉斯维加斯赛车场"
+      "zh": "拉斯维加斯赛车场",
+      "spoken": "拉斯维加斯赛车场"
     },
     {
       "en": "Las Vegas Motor Speedway - Infield Legends Oval",
       "path": "vegas/inflegends",
-      "zh": "拉斯维加斯赛车场，内场传奇赛车椭圆布局"
+      "zh": "拉斯维加斯赛车场，内场传奇赛车椭圆布局",
+      "spoken": "拉斯维加斯赛车场，内场传奇赛车椭圆布局"
     },
     {
       "en": "Las Vegas Motor Speedway - Legends Oval",
       "path": "vegas/legends",
-      "zh": "拉斯维加斯赛车场，传奇赛车椭圆布局"
+      "zh": "拉斯维加斯赛车场，传奇赛车椭圆布局",
+      "spoken": "拉斯维加斯赛车场，传奇赛车椭圆布局"
     },
     {
       "en": "Las Vegas Motor Speedway - Oval",
       "path": "vegas/oval",
-      "zh": "拉斯维加斯赛车场，椭圆布局"
+      "zh": "拉斯维加斯赛车场，椭圆布局",
+      "spoken": "拉斯维加斯赛车场，椭圆布局"
     },
     {
       "en": "Las Vegas Motor Speedway - Road Course Combined",
       "path": "vegas/roadcombined",
-      "zh": "拉斯维加斯赛车场，联合公路布局"
+      "zh": "拉斯维加斯赛车场，联合公路布局",
+      "spoken": "拉斯维加斯赛车场，联合公路布局"
     },
     {
       "en": "Las Vegas Motor Speedway - Road Course Long",
       "path": "vegas/roadlong",
-      "zh": "拉斯维加斯赛车场，公路长布局"
+      "zh": "拉斯维加斯赛车场，公路长布局",
+      "spoken": "拉斯维加斯赛车场，公路长布局"
     },
     {
       "en": "Las Vegas Motor Speedway - Road Course Short",
       "path": "vegas/roadshort",
-      "zh": "拉斯维加斯赛车场，公路短布局"
+      "zh": "拉斯维加斯赛车场，公路短布局",
+      "spoken": "拉斯维加斯赛车场，公路短布局"
     },
     {
       "en": "Lernerville Speedway",
       "path": "lernerville",
-      "zh": "勒纳维尔泥地赛道"
+      "zh": "勒纳维尔泥地赛道",
+      "spoken": "勒纳维尔泥地赛道"
     },
     {
       "en": "Limaland Motorsports Park",
       "path": "limaland",
-      "zh": "利马兰泥地赛道"
+      "zh": "利马兰泥地赛道",
+      "spoken": "利马兰泥地赛道"
     },
     {
       "en": "Lime Rock Park",
       "path": "limerock/2019",
-      "zh": "莱姆罗克赛道"
+      "zh": "莱姆罗克赛道",
+      "spoken": "莱姆罗克赛道"
     },
     {
       "en": "Lime Rock Park - Chicanes",
       "path": "limerock/2019/chicanes",
-      "zh": "莱姆罗克赛道，含减速弯"
+      "zh": "莱姆罗克赛道，含减速弯",
+      "spoken": "莱姆罗克赛道，含减速弯"
     },
     {
       "en": "Lime Rock Park - Classic",
       "path": "limerock/2019/classic",
-      "zh": "莱姆罗克赛道，经典布局"
+      "zh": "莱姆罗克赛道，经典布局",
+      "spoken": "莱姆罗克赛道，经典布局"
     },
     {
       "en": "Lime Rock Park - Grand Prix",
       "path": "limerock/2019/gp",
-      "zh": "莱姆罗克赛道，大奖赛布局"
+      "zh": "莱姆罗克赛道，大奖赛布局",
+      "spoken": "莱姆罗克赛道，大奖赛布局"
     },
     {
       "en": "Lime Rock Park - School",
       "path": "limerock/2019/school",
-      "zh": "莱姆罗克赛道，教学布局"
+      "zh": "莱姆罗克赛道，教学布局",
+      "spoken": "莱姆罗克赛道，教学布局"
     },
     {
       "en": "Lime Rock Park - West Bend Chicane",
       "path": "limerock/2019/chicanewestb",
-      "zh": "莱姆罗克赛道，西弯减速弯布局"
+      "zh": "莱姆罗克赛道，西弯减速弯布局",
+      "spoken": "莱姆罗克赛道，西弯减速弯布局"
     },
     {
       "en": "Lincoln Speedway",
       "path": "lincoln",
-      "zh": "林肯泥地赛道"
+      "zh": "林肯泥地赛道",
+      "spoken": "林肯泥地赛道"
     },
     {
       "en": "Long Beach Street Circuit",
       "path": "longbeach",
-      "zh": "长滩街道赛道"
+      "zh": "长滩街道赛道",
+      "spoken": "长滩街道赛道"
     },
     {
       "en": "Los Angeles Memorial Coliseum",
       "path": "lacoliseum",
-      "zh": "洛杉矶纪念体育馆赛道"
+      "zh": "洛杉矶纪念体育馆赛道",
+      "spoken": "洛杉矶纪念体育馆赛道"
     },
     {
       "en": "Lucas Oil Indianapolis Raceway Park",
       "path": "irp",
-      "zh": "卢卡斯石油印第安纳波利斯赛道"
+      "zh": "卢卡斯石油印第安纳波利斯赛道",
+      "spoken": "卢卡斯石油印第安纳波利斯赛道"
     },
     {
       "en": "Lucas Oil Indianapolis Raceway Park - Oval",
       "path": "irp",
-      "zh": "卢卡斯石油印第安纳波利斯赛道，椭圆布局"
+      "zh": "卢卡斯石油印第安纳波利斯赛道，椭圆布局",
+      "spoken": "卢卡斯石油印第安纳波利斯赛道，椭圆布局"
     },
     {
       "en": "Lucas Oil Indianapolis Raceway Park - Rallycross",
       "path": "irp/rallycross",
-      "zh": "卢卡斯石油印第安纳波利斯赛道，拉力越野布局"
+      "zh": "卢卡斯石油印第安纳波利斯赛道，拉力越野布局",
+      "spoken": "卢卡斯石油印第安纳波利斯赛道，拉力越野布局"
     },
     {
       "en": "Lucas Oil Speedway",
       "path": "wheatland",
-      "zh": "卢卡斯石油赛道"
+      "zh": "卢卡斯石油赛道",
+      "spoken": "卢卡斯石油赛道"
     },
     {
       "en": "Lucas Oil Speedway - Dirt Oval",
       "path": "wheatland",
-      "zh": "卢卡斯石油赛道，泥地椭圆布局"
+      "zh": "卢卡斯石油赛道，泥地椭圆布局",
+      "spoken": "卢卡斯石油赛道，泥地椭圆布局"
     },
     {
       "en": "Lucas Oil Speedway - Off Road",
       "path": "wheatland/road",
-      "zh": "卢卡斯石油赛道，越野布局"
+      "zh": "卢卡斯石油赛道，越野布局",
+      "spoken": "卢卡斯石油赛道，越野布局"
     },
     {
       "en": "Martinsville Speedway",
       "path": "martinsville",
-      "zh": "马丁斯维尔赛车场"
+      "zh": "马丁斯维尔赛车场",
+      "spoken": "马丁斯维尔赛车场"
     },
     {
       "en": "Miami International Autodrome",
       "path": "miami",
-      "zh": "迈阿密国际赛道"
+      "zh": "迈阿密国际赛道",
+      "spoken": "迈阿密国际赛道"
     },
     {
       "en": "Miami International Autodrome - Grand Prix",
       "path": "miami/gp",
-      "zh": "迈阿密国际赛道，大奖赛布局"
+      "zh": "迈阿密国际赛道，大奖赛布局",
+      "spoken": "迈阿密国际赛道，大奖赛布局"
     },
     {
       "en": "Miami International Autodrome - Marina Loop",
       "path": "miami/marinaloop",
-      "zh": "迈阿密国际赛道，码头环线布局"
+      "zh": "迈阿密国际赛道，码头环线布局",
+      "spoken": "迈阿密国际赛道，码头环线布局"
     },
     {
       "en": "Miami International Autodrome - MIA Loop",
       "path": "miami/mialoop",
-      "zh": "迈阿密国际赛道，迈阿密环线布局"
+      "zh": "迈阿密国际赛道，迈阿密环线布局",
+      "spoken": "迈阿密国际赛道，迈阿密环线布局"
     },
     {
       "en": "Miami International Autodrome - Extended MIA Loop",
       "path": "miami/extendedmialoop",
-      "zh": "迈阿密国际赛道，迈阿密延长环线布局"
+      "zh": "迈阿密国际赛道，迈阿密延长环线布局",
+      "spoken": "迈阿密国际赛道，迈阿密延长环线布局"
     },
     {
       "en": "Miami International Autodrome - Extended Marina Loop",
       "path": "miami/exmarinaloop",
-      "zh": "迈阿密国际赛道，延长码头环线布局"
+      "zh": "迈阿密国际赛道，延长码头环线布局",
+      "spoken": "迈阿密国际赛道，延长码头环线布局"
     },
     {
       "en": "Michigan International Speedway",
       "path": "michigan2018",
-      "zh": "密歇根赛车场"
+      "zh": "密歇根赛车场",
+      "spoken": "密歇根赛车场"
     },
     {
       "en": "Mid-Ohio Sports Car Course",
       "path": "midohio",
-      "zh": "中俄亥俄赛道"
+      "zh": "中俄亥俄赛道",
+      "spoken": "中俄亥俄赛道"
     },
     {
       "en": "Mid-Ohio Sports Car Course - Alt Oval",
       "path": "midohio/altoval",
-      "zh": "中俄亥俄赛道，椭圆备用布局"
+      "zh": "中俄亥俄赛道，椭圆备用布局",
+      "spoken": "中俄亥俄赛道，椭圆备用布局"
     },
     {
       "en": "Mid-Ohio Sports Car Course - Chicane",
       "path": "midohio/chicane",
-      "zh": "中俄亥俄赛道，减速弯布局"
+      "zh": "中俄亥俄赛道，减速弯布局",
+      "spoken": "中俄亥俄赛道，减速弯布局"
     },
     {
       "en": "Mid-Ohio Sports Car Course - Full Course",
       "path": "midohio/full",
-      "zh": "中俄亥俄赛道，完整布局"
+      "zh": "中俄亥俄赛道，完整布局",
+      "spoken": "中俄亥俄赛道，完整布局"
     },
     {
       "en": "Mid-Ohio Sports Car Course - Oval",
       "path": "midohio/oval",
-      "zh": "中俄亥俄赛道，椭圆布局"
+      "zh": "中俄亥俄赛道，椭圆布局",
+      "spoken": "中俄亥俄赛道，椭圆布局"
     },
     {
       "en": "Mid-Ohio Sports Car Course - Short",
       "path": "midohio/short",
-      "zh": "中俄亥俄赛道，短布局"
+      "zh": "中俄亥俄赛道，短布局",
+      "spoken": "中俄亥俄赛道，短布局"
     },
     {
       "en": "Millbridge Speedway",
       "path": "millbridge",
-      "zh": "米尔布里奇泥地赛道"
+      "zh": "米尔布里奇泥地赛道",
+      "spoken": "米尔布里奇泥地赛道"
     },
     {
       "en": "Misano World Circuit Marco Simoncelli",
       "path": "misano",
-      "zh": "米萨诺赛道"
+      "zh": "米萨诺赛道",
+      "spoken": "米萨诺赛道"
     },
     {
       "en": "Misano World Circuit Marco Simoncelli - Club",
       "path": "misano/club",
-      "zh": "米萨诺赛道，俱乐部布局"
+      "zh": "米萨诺赛道，俱乐部布局",
+      "spoken": "米萨诺赛道，俱乐部布局"
     },
     {
       "en": "Misano World Circuit Marco Simoncelli - Grand Prix",
       "path": "misano/gp",
-      "zh": "米萨诺赛道，大奖赛布局"
+      "zh": "米萨诺赛道，大奖赛布局",
+      "spoken": "米萨诺赛道，大奖赛布局"
     },
     {
       "en": "Misano World Circuit Marco Simoncelli - Grand Prix - Historic",
       "path": "misano/historicgp",
-      "zh": "米萨诺赛道，大奖赛布局，历史布局"
+      "zh": "米萨诺赛道，大奖赛布局，历史布局",
+      "spoken": "米萨诺赛道，大奖赛布局，历史布局"
     },
     {
       "en": "Misano World Circuit Marco Simoncelli - Grand Prix 2007",
       "path": "misano/gp2007",
-      "zh": "米萨诺赛道，2007大奖赛布局"
+      "zh": "米萨诺赛道，2007大奖赛布局",
+      "spoken": "米萨诺赛道，二零零七大奖赛布局"
     },
     {
       "en": "Misano World Circuit Marco Simoncelli - Truck",
       "path": "misano/truck",
-      "zh": "米萨诺赛道，卡车布局"
+      "zh": "米萨诺赛道，卡车布局",
+      "spoken": "米萨诺赛道，卡车布局"
     },
     {
       "en": "Mobility Resort Motegi",
       "path": "twinring",
-      "zh": "茂木赛道"
+      "zh": "茂木赛道",
+      "spoken": "茂木赛道"
     },
     {
       "en": "Mobility Resort Motegi - East",
       "path": "twinring/east",
-      "zh": "茂木赛道，东布局"
+      "zh": "茂木赛道，东布局",
+      "spoken": "茂木赛道，东布局"
     },
     {
       "en": "Mobility Resort Motegi - Grand Prix",
       "path": "twinring/fullrc",
-      "zh": "茂木赛道，大奖赛布局"
+      "zh": "茂木赛道，大奖赛布局",
+      "spoken": "茂木赛道，大奖赛布局"
     },
     {
       "en": "Mobility Resort Motegi - Oval",
       "path": "twinring/oval",
-      "zh": "茂木赛道，椭圆布局"
+      "zh": "茂木赛道，椭圆布局",
+      "spoken": "茂木赛道，椭圆布局"
     },
     {
       "en": "Mobility Resort Motegi - West",
       "path": "twinring/west",
-      "zh": "茂木赛道，西布局"
+      "zh": "茂木赛道，西布局",
+      "spoken": "茂木赛道，西布局"
     },
     {
       "en": "MotorLand Aragón",
       "path": "aragon",
-      "zh": "阿拉贡赛道"
+      "zh": "阿拉贡赛道",
+      "spoken": "阿拉贡赛道"
     },
     {
       "en": "MotorLand Aragón - Grand Prix",
       "path": "aragon/gp",
-      "zh": "阿拉贡赛道，大奖赛布局"
+      "zh": "阿拉贡赛道，大奖赛布局",
+      "spoken": "阿拉贡赛道，大奖赛布局"
     },
     {
       "en": "MotorLand Aragón - Motorcycle Grand Prix",
       "path": "aragon/moto",
-      "zh": "阿拉贡赛道，摩托车大奖赛布局"
+      "zh": "阿拉贡赛道，摩托车大奖赛布局",
+      "spoken": "阿拉贡赛道，摩托车大奖赛布局"
     },
     {
       "en": "MotorLand Aragón - Motorcycle National",
       "path": "aragon/nationalmoto",
-      "zh": "阿拉贡赛道，摩托车国家布局"
+      "zh": "阿拉贡赛道，摩托车国家布局",
+      "spoken": "阿拉贡赛道，摩托车国家布局"
     },
     {
       "en": "MotorLand Aragón - National",
       "path": "aragon/national",
-      "zh": "阿拉贡赛道，国家布局"
+      "zh": "阿拉贡赛道，国家布局",
+      "spoken": "阿拉贡赛道，国家布局"
     },
     {
       "en": "MotorLand Aragón - Outer",
       "path": "aragon/outer",
-      "zh": "阿拉贡赛道，外环布局"
+      "zh": "阿拉贡赛道，外环布局",
+      "spoken": "阿拉贡赛道，外环布局"
     },
     {
       "en": "MotorLand Aragón - Touring Car",
       "path": "aragon/tc",
-      "zh": "阿拉贡赛道，房车布局"
+      "zh": "阿拉贡赛道，房车布局",
+      "spoken": "阿拉贡赛道，房车布局"
     },
     {
       "en": "MotorLand Aragón - West",
       "path": "aragon/west",
-      "zh": "阿拉贡赛道，西布局"
+      "zh": "阿拉贡赛道，西布局",
+      "spoken": "阿拉贡赛道，西布局"
     },
     {
       "en": "Motorsport Arena Oschersleben",
       "path": "oschersleben",
-      "zh": "奥舍斯莱本赛道"
+      "zh": "奥舍斯莱本赛道",
+      "spoken": "奥舍斯莱本赛道"
     },
     {
       "en": "Motorsport Arena Oschersleben - Alternate",
       "path": "oschersleben/alt",
-      "zh": "奥舍斯莱本赛道，备用布局"
+      "zh": "奥舍斯莱本赛道，备用布局",
+      "spoken": "奥舍斯莱本赛道，备用布局"
     },
     {
       "en": "Motorsport Arena Oschersleben - B Course",
       "path": "oschersleben/bcourse",
-      "zh": "奥舍斯莱本赛道，B布局"
+      "zh": "奥舍斯莱本赛道，B布局",
+      "spoken": "奥舍斯莱本赛道，比布局"
     },
     {
       "en": "Motorsport Arena Oschersleben - C Course",
       "path": "oschersleben/ccourse",
-      "zh": "奥舍斯莱本赛道，C布局"
+      "zh": "奥舍斯莱本赛道，C布局",
+      "spoken": "奥舍斯莱本赛道，西布局"
     },
     {
       "en": "Motorsport Arena Oschersleben - Grand Prix",
       "path": "oschersleben/gp",
-      "zh": "奥舍斯莱本赛道，大奖赛布局"
+      "zh": "奥舍斯莱本赛道，大奖赛布局",
+      "spoken": "奥舍斯莱本赛道，大奖赛布局"
     },
     {
       "en": "Mount Panorama Circuit",
       "path": "bathurst",
-      "zh": "巴瑟斯特全景山赛道"
+      "zh": "巴瑟斯特全景山赛道",
+      "spoken": "巴瑟斯特全景山赛道"
     },
     {
       "en": "Mount Washington Auto Road",
       "path": "mtwashington",
-      "zh": "华盛顿山爬山赛道"
+      "zh": "华盛顿山爬山赛道",
+      "spoken": "华盛顿山爬山赛道"
     },
     {
       "en": "Mount Washington Auto Road - Descent",
       "path": "mtwashington/reverse",
-      "zh": "华盛顿山爬山赛道，下山方向"
+      "zh": "华盛顿山爬山赛道，下山方向",
+      "spoken": "华盛顿山爬山赛道，下山方向"
     },
     {
       "en": "Mount Washington Auto Road - Hillclimb",
       "path": "mtwashington/climb",
-      "zh": "华盛顿山爬山赛道，爬山方向"
+      "zh": "华盛顿山爬山赛道，爬山方向",
+      "spoken": "华盛顿山爬山赛道，爬山方向"
     },
     {
       "en": "Myrtle Beach Speedway",
       "path": "myrtlebeach",
-      "zh": "默特尔比奇赛车场"
+      "zh": "默特尔比奇赛车场",
+      "spoken": "默特尔比奇赛车场"
     },
     {
       "en": "Nashville Fairgrounds Speedway",
       "path": "nashville",
-      "zh": "纳什维尔展览场赛车场"
+      "zh": "纳什维尔展览场赛车场",
+      "spoken": "纳什维尔展览场赛车场"
     },
     {
       "en": "Nashville Fairgrounds Speedway - Mini",
       "path": "nashville/mini",
-      "zh": "纳什维尔展览场赛车场，迷你布局"
+      "zh": "纳什维尔展览场赛车场，迷你布局",
+      "spoken": "纳什维尔展览场赛车场，迷你布局"
     },
     {
       "en": "Nashville Fairgrounds Speedway - Oval",
       "path": "nashville/oval",
-      "zh": "纳什维尔展览场赛车场，椭圆布局"
+      "zh": "纳什维尔展览场赛车场，椭圆布局",
+      "spoken": "纳什维尔展览场赛车场，椭圆布局"
     },
     {
       "en": "Nashville Superspeedway",
       "path": "nashvilless",
-      "zh": "纳什维尔超级赛车场"
+      "zh": "纳什维尔超级赛车场",
+      "spoken": "纳什维尔超级赛车场"
     },
     {
       "en": "New Hampshire Motor Speedway",
       "path": "newhampshire",
-      "zh": "新罕布什尔赛车场"
+      "zh": "新罕布什尔赛车场",
+      "spoken": "新罕布什尔赛车场"
     },
     {
       "en": "New Hampshire Motor Speedway - Legends",
       "path": "newhampshire/legends",
-      "zh": "新罕布什尔赛车场，传奇赛车布局"
+      "zh": "新罕布什尔赛车场，传奇赛车布局",
+      "spoken": "新罕布什尔赛车场，传奇赛车布局"
     },
     {
       "en": "New Hampshire Motor Speedway - Oval",
       "path": "newhampshire/oval",
-      "zh": "新罕布什尔赛车场，椭圆布局"
+      "zh": "新罕布什尔赛车场，椭圆布局",
+      "spoken": "新罕布什尔赛车场，椭圆布局"
     },
     {
       "en": "New Hampshire Motor Speedway - Road Course",
       "path": "newhampshire/chicane",
-      "zh": "新罕布什尔赛车场，公路布局"
+      "zh": "新罕布什尔赛车场，公路布局",
+      "spoken": "新罕布什尔赛车场，公路布局"
     },
     {
       "en": "New Hampshire Motor Speedway - Road Course with North Oval",
       "path": "newhampshire/northoval",
-      "zh": "新罕布什尔赛车场，公路与北椭圆联合布局"
+      "zh": "新罕布什尔赛车场，公路与北椭圆联合布局",
+      "spoken": "新罕布什尔赛车场，公路与北椭圆联合布局"
     },
     {
       "en": "New Hampshire Motor Speedway - Road Course with South Oval",
       "path": "newhampshire/southoval",
-      "zh": "新罕布什尔赛车场，公路与南椭圆联合布局"
+      "zh": "新罕布什尔赛车场，公路与南椭圆联合布局",
+      "spoken": "新罕布什尔赛车场，公路与南椭圆联合布局"
     },
     {
       "en": "New Jersey Motorsports Park",
       "path": "newjersey",
-      "zh": "新泽西赛道"
+      "zh": "新泽西赛道",
+      "spoken": "新泽西赛道"
     },
     {
       "en": "New Jersey Motorsports Park - Thunderbolt",
       "path": "newjersey/full",
-      "zh": "新泽西赛道，雷电布局"
+      "zh": "新泽西赛道，雷电布局",
+      "spoken": "新泽西赛道，雷电布局"
     },
     {
       "en": "New Jersey Motorsports Park - Thunderbolt w/both chicanes",
       "path": "newjersey/chicane",
-      "zh": "新泽西赛道，雷电布局，含两组减速弯"
+      "zh": "新泽西赛道，雷电布局，含两组减速弯",
+      "spoken": "新泽西赛道，雷电布局，含两组减速弯"
     },
     {
       "en": "New Jersey Motorsports Park - Thunderbolt w/first chicane",
       "path": "newjersey/firstchicane",
-      "zh": "新泽西赛道，雷电布局，含第一组减速弯"
+      "zh": "新泽西赛道，雷电布局，含第一组减速弯",
+      "spoken": "新泽西赛道，雷电布局，含第一组减速弯"
     },
     {
       "en": "New Jersey Motorsports Park - Thunderbolt w/second chicane",
       "path": "newjersey/secondchicane",
-      "zh": "新泽西赛道，雷电布局，含第二组减速弯"
+      "zh": "新泽西赛道，雷电布局，含第二组减速弯",
+      "spoken": "新泽西赛道，雷电布局，含第二组减速弯"
     },
     {
       "en": "New Smyrna Speedway",
       "path": "newsmyrna",
-      "zh": "新斯米尔纳赛车场"
+      "zh": "新斯米尔纳赛车场",
+      "spoken": "新斯米尔纳赛车场"
     },
     {
       "en": "North Wilkesboro Speedway",
       "path": "northwilkesboro",
-      "zh": "北威尔克斯伯勒赛车场"
+      "zh": "北威尔克斯伯勒赛车场",
+      "spoken": "北威尔克斯伯勒赛车场"
     },
     {
       "en": "North Wilkesboro Speedway",
       "path": "northwilkesboro/2025",
-      "zh": "北威尔克斯伯勒赛车场"
+      "zh": "北威尔克斯伯勒赛车场",
+      "spoken": "北威尔克斯伯勒赛车场"
     },
     {
       "en": "North Wilkesboro Speedway - 1987",
       "path": "northwilkesboro",
-      "zh": "北威尔克斯伯勒赛车场，1987版"
+      "zh": "北威尔克斯伯勒赛车场，1987版",
+      "spoken": "北威尔克斯伯勒赛车场，一九八七版"
     },
     {
       "en": "Nürburgring",
       "path": "nurburgring",
-      "zh": "纽博格林赛道"
+      "zh": "纽博格林赛道",
+      "spoken": "纽博格林赛道"
     },
     {
       "en": "Nürburgring Combined",
       "path": "nurburgring/combined",
-      "zh": "纽博格林联合赛道"
+      "zh": "纽博格林联合赛道",
+      "spoken": "纽博格林联合赛道"
     },
     {
       "en": "Nürburgring Combined - Gesamtstrecke 24h",
       "path": "nurburgring/combined",
-      "zh": "纽博格林联合赛道，24小时赛联合布局"
+      "zh": "纽博格林联合赛道，24小时赛联合布局",
+      "spoken": "纽博格林联合赛道，二十四小时赛联合布局"
     },
     {
       "en": "Nürburgring Combined - Gesamtstrecke Long",
       "path": "nurburgring/combinedlong",
-      "zh": "纽博格林联合赛道，联合长布局"
+      "zh": "纽博格林联合赛道，联合长布局",
+      "spoken": "纽博格林联合赛道，联合长布局"
     },
     {
       "en": "Nürburgring Combined - Gesamtstrecke Short w/o Arena",
       "path": "nurburgring/combinedshorta",
-      "zh": "纽博格林联合赛道，联合短布局，不含竞技场段"
+      "zh": "纽博格林联合赛道，联合短布局，不含竞技场段",
+      "spoken": "纽博格林联合赛道，联合短布局，不含竞技场段"
     },
     {
       "en": "Nürburgring Combined - Gesamtstrecke VLN",
       "path": "nurburgring/combinedshortb",
-      "zh": "纽博格林联合赛道，北环耐力赛联合布局"
+      "zh": "纽博格林联合赛道，北环耐力赛联合布局",
+      "spoken": "纽博格林联合赛道，北环耐力赛联合布局"
     },
     {
       "en": "Nürburgring Grand-Prix-Strecke",
       "path": "nurburgring/gp",
-      "zh": "纽博格林大奖赛赛道"
+      "zh": "纽博格林大奖赛赛道",
+      "spoken": "纽博格林大奖赛赛道"
     },
     {
       "en": "Nürburgring Nordschleife",
       "path": "nurburgring/nordschleife",
-      "zh": "纽博格林北环赛道"
+      "zh": "纽博格林北环赛道",
+      "spoken": "纽博格林北环赛道"
     },
     {
       "en": "Nürburgring Nordschleife - Industriefahrten",
       "path": "nurburgring/nordschleife",
-      "zh": "纽博格林北环赛道，工业测试布局"
+      "zh": "纽博格林北环赛道，工业测试布局",
+      "spoken": "纽博格林北环赛道，工业测试布局"
     },
     {
       "en": "Nürburgring Nordschleife - Touristenfahrten",
       "path": "nurburgring/nordschleifetourist",
-      "zh": "纽博格林北环赛道，游客开放布局"
+      "zh": "纽博格林北环赛道，游客开放布局",
+      "spoken": "纽博格林北环赛道，游客开放布局"
     },
     {
       "en": "Okayama International Circuit",
       "path": "okayama",
-      "zh": "冈山赛道"
+      "zh": "冈山赛道",
+      "spoken": "冈山赛道"
     },
     {
       "en": "Okayama International Circuit - Full Course",
       "path": "okayama/full",
-      "zh": "冈山赛道，完整布局"
+      "zh": "冈山赛道，完整布局",
+      "spoken": "冈山赛道，完整布局"
     },
     {
       "en": "Okayama International Circuit - Short",
       "path": "okayama/short",
-      "zh": "冈山赛道，短布局"
+      "zh": "冈山赛道，短布局",
+      "spoken": "冈山赛道，短布局"
     },
     {
       "en": "Oran Park Raceway",
       "path": "oran",
-      "zh": "奥兰公园赛道"
+      "zh": "奥兰公园赛道",
+      "spoken": "奥兰公园赛道"
     },
     {
       "en": "Oran Park Raceway - Grand Prix",
       "path": "oran/gp",
-      "zh": "奥兰公园赛道，大奖赛布局"
+      "zh": "奥兰公园赛道，大奖赛布局",
+      "spoken": "奥兰公园赛道，大奖赛布局"
     },
     {
       "en": "Oran Park Raceway - Moto",
       "path": "oran/moto",
-      "zh": "奥兰公园赛道，摩托车布局"
+      "zh": "奥兰公园赛道，摩托车布局",
+      "spoken": "奥兰公园赛道，摩托车布局"
     },
     {
       "en": "Oran Park Raceway - North",
       "path": "oran/north",
-      "zh": "奥兰公园赛道，北布局"
+      "zh": "奥兰公园赛道，北布局",
+      "spoken": "奥兰公园赛道，北布局"
     },
     {
       "en": "Oran Park Raceway - North A",
       "path": "oran/northa",
-      "zh": "奥兰公园赛道，北区A布局"
+      "zh": "奥兰公园赛道，北区A布局",
+      "spoken": "奥兰公园赛道，北区诶布局"
     },
     {
       "en": "Oran Park Raceway - North B",
       "path": "oran/northb",
-      "zh": "奥兰公园赛道，北区B布局"
+      "zh": "奥兰公园赛道，北区B布局",
+      "spoken": "奥兰公园赛道，北区比布局"
     },
     {
       "en": "Oran Park Raceway - South",
       "path": "oran/south",
-      "zh": "奥兰公园赛道，南布局"
+      "zh": "奥兰公园赛道，南布局",
+      "spoken": "奥兰公园赛道，南布局"
     },
     {
       "en": "Oswego Speedway",
       "path": "oswego",
-      "zh": "奥斯威戈赛车场"
+      "zh": "奥斯威戈赛车场",
+      "spoken": "奥斯威戈赛车场"
     },
     {
       "en": "Oswego Speedway - Dirt",
       "path": "oswego/dirtoval",
-      "zh": "奥斯威戈赛车场，泥地布局"
+      "zh": "奥斯威戈赛车场，泥地布局",
+      "spoken": "奥斯威戈赛车场，泥地布局"
     },
     {
       "en": "Oswego Speedway - Mini Oval",
       "path": "oswego/mini",
-      "zh": "奥斯威戈赛车场，小椭圆布局"
+      "zh": "奥斯威戈赛车场，小椭圆布局",
+      "spoken": "奥斯威戈赛车场，小椭圆布局"
     },
     {
       "en": "Oswego Speedway - Oval",
       "path": "oswego/oval",
-      "zh": "奥斯威戈赛车场，椭圆布局"
+      "zh": "奥斯威戈赛车场，椭圆布局",
+      "spoken": "奥斯威戈赛车场，椭圆布局"
     },
     {
       "en": "Oulton Park Circuit",
       "path": "oulton",
-      "zh": "奥尔顿公园赛道"
+      "zh": "奥尔顿公园赛道",
+      "spoken": "奥尔顿公园赛道"
     },
     {
       "en": "Oulton Park Circuit - Fosters",
       "path": "oulton/fosters",
-      "zh": "奥尔顿公园赛道，福斯特布局"
+      "zh": "奥尔顿公园赛道，福斯特布局",
+      "spoken": "奥尔顿公园赛道，福斯特布局"
     },
     {
       "en": "Oulton Park Circuit - Fosters w/Hislop",
       "path": "oulton/fosterswithhislop",
-      "zh": "奥尔顿公园赛道，福斯特布局，含希斯洛普减速弯"
+      "zh": "奥尔顿公园赛道，福斯特布局，含希斯洛普减速弯",
+      "spoken": "奥尔顿公园赛道，福斯特布局，含希斯洛普减速弯"
     },
     {
       "en": "Oulton Park Circuit - International",
       "path": "oulton/international",
-      "zh": "奥尔顿公园赛道，国际布局"
+      "zh": "奥尔顿公园赛道，国际布局",
+      "spoken": "奥尔顿公园赛道，国际布局"
     },
     {
       "en": "Oulton Park Circuit - Intl w/out Brittens",
       "path": "oulton/intbrittens",
-      "zh": "奥尔顿公园赛道，国际布局，不含布里滕斯减速弯"
+      "zh": "奥尔顿公园赛道，国际布局，不含布里滕斯减速弯",
+      "spoken": "奥尔顿公园赛道，国际布局，不含布里滕斯减速弯"
     },
     {
       "en": "Oulton Park Circuit - Intl w/out Chicane",
       "path": "oulton/intnochicane",
-      "zh": "奥尔顿公园赛道，国际布局，无减速弯"
+      "zh": "奥尔顿公园赛道，国际布局，无减速弯",
+      "spoken": "奥尔顿公园赛道，国际布局，无减速弯"
     },
     {
       "en": "Oulton Park Circuit - Intl w/out Hislop",
       "path": "oulton/inthislop",
-      "zh": "奥尔顿公园赛道，国际布局，不含希斯洛普减速弯"
+      "zh": "奥尔顿公园赛道，国际布局，不含希斯洛普减速弯",
+      "spoken": "奥尔顿公园赛道，国际布局，不含希斯洛普减速弯"
     },
     {
       "en": "Oulton Park Circuit - Island",
       "path": "oulton/island",
-      "zh": "奥尔顿公园赛道，岛区布局"
+      "zh": "奥尔顿公园赛道，岛区布局",
+      "spoken": "奥尔顿公园赛道，岛区布局"
     },
     {
       "en": "Oulton Park Circuit - Island Historic",
       "path": "oulton/islandhistoric",
-      "zh": "奥尔顿公园赛道，岛区历史布局"
+      "zh": "奥尔顿公园赛道，岛区历史布局",
+      "spoken": "奥尔顿公园赛道，岛区历史布局"
     },
     {
       "en": "Oxford Plains Speedway",
       "path": "oxford/oval",
-      "zh": "牛津平原赛车场"
+      "zh": "牛津平原赛车场",
+      "spoken": "牛津平原赛车场"
     },
     {
       "en": "Phillip Island Circuit",
       "path": "phillipisland",
-      "zh": "菲利普岛赛道"
+      "zh": "菲利普岛赛道",
+      "spoken": "菲利普岛赛道"
     },
     {
       "en": "Phoenix Raceway",
       "path": "phoenix/2021",
-      "zh": "凤凰城赛车场"
+      "zh": "凤凰城赛车场",
+      "spoken": "凤凰城赛车场"
     },
     {
       "en": "Phoenix Raceway - Oval",
       "path": "phoenix/2021/oval",
-      "zh": "凤凰城赛车场，椭圆布局"
+      "zh": "凤凰城赛车场，椭圆布局",
+      "spoken": "凤凰城赛车场，椭圆布局"
     },
     {
       "en": "Phoenix Raceway - Oval w/open Dogleg",
       "path": "phoenix/2021/ovalopen",
-      "zh": "凤凰城赛车场，椭圆布局，开放折线弯"
+      "zh": "凤凰城赛车场，椭圆布局，开放折线弯",
+      "spoken": "凤凰城赛车场，椭圆布局，开放折线弯"
     },
     {
       "en": "Pocono Raceway",
       "path": "pocono/2016",
-      "zh": "波科诺赛车场"
+      "zh": "波科诺赛车场",
+      "spoken": "波科诺赛车场"
     },
     {
       "en": "Portland International Raceway",
       "path": "portland",
-      "zh": "波特兰赛道"
+      "zh": "波特兰赛道",
+      "spoken": "波特兰赛道"
     },
     {
       "en": "Portland International Raceway - Full",
       "path": "portland/full",
-      "zh": "波特兰赛道，完整布局"
+      "zh": "波特兰赛道，完整布局",
+      "spoken": "波特兰赛道，完整布局"
     },
     {
       "en": "Portland International Raceway - No Chicane",
       "path": "portland/nochicane",
-      "zh": "波特兰赛道，无减速弯布局"
+      "zh": "波特兰赛道，无减速弯布局",
+      "spoken": "波特兰赛道，无减速弯布局"
     },
     {
       "en": "Port Royal Speedway",
       "path": "portroyal",
-      "zh": "波特罗亚尔泥地赛道"
+      "zh": "波特罗亚尔泥地赛道",
+      "spoken": "波特罗亚尔泥地赛道"
     },
     {
       "en": "Red Bull Ring",
       "path": "spielberg",
-      "zh": "红牛赛道"
+      "zh": "红牛赛道",
+      "spoken": "红牛赛道"
     },
     {
       "en": "Red Bull Ring - Grand Prix",
       "path": "spielberg/gp",
-      "zh": "红牛赛道，大奖赛布局"
+      "zh": "红牛赛道，大奖赛布局",
+      "spoken": "红牛赛道，大奖赛布局"
     },
     {
       "en": "Red Bull Ring - National",
       "path": "spielberg/national",
-      "zh": "红牛赛道，国家布局"
+      "zh": "红牛赛道，国家布局",
+      "spoken": "红牛赛道，国家布局"
     },
     {
       "en": "Red Bull Ring - North",
       "path": "spielberg/north",
-      "zh": "红牛赛道，北布局"
+      "zh": "红牛赛道，北布局",
+      "spoken": "红牛赛道，北布局"
     },
     {
       "en": "Richmond Raceway",
       "path": "richmond/2025",
-      "zh": "里士满赛车场"
+      "zh": "里士满赛车场",
+      "spoken": "里士满赛车场"
     },
     {
       "en": "Road America",
       "path": "roadamerica",
-      "zh": "美国之路赛道"
+      "zh": "美国之路赛道",
+      "spoken": "美国之路赛道"
     },
     {
       "en": "Road America - Bend",
       "path": "roadamerica/bend",
-      "zh": "美国之路赛道，大弯布局"
+      "zh": "美国之路赛道，大弯布局",
+      "spoken": "美国之路赛道，大弯布局",
+      "path_aliases": [
+        "roadamerica/2026/bend"
+      ]
     },
     {
       "en": "Road America - Full",
       "path": "roadamerica/full",
-      "zh": "美国之路赛道，完整布局"
+      "zh": "美国之路赛道，完整布局",
+      "spoken": "美国之路赛道，完整布局",
+      "path_aliases": [
+        "roadamerica/2026/full"
+      ]
     },
     {
       "en": "Road Atlanta",
       "path": "roadatlanta",
-      "zh": "亚特兰大公路赛道"
+      "zh": "亚特兰大公路赛道",
+      "spoken": "亚特兰大公路赛道"
     },
     {
       "en": "Road Atlanta - Club",
       "path": "roadatlanta/club",
-      "zh": "亚特兰大公路赛道，俱乐部布局"
+      "zh": "亚特兰大公路赛道，俱乐部布局",
+      "spoken": "亚特兰大公路赛道，俱乐部布局"
     },
     {
       "en": "Road Atlanta - Full Course",
       "path": "roadatlanta/full",
-      "zh": "亚特兰大公路赛道，完整布局"
+      "zh": "亚特兰大公路赛道，完整布局",
+      "spoken": "亚特兰大公路赛道，完整布局"
     },
     {
       "en": "Road Atlanta - Short",
       "path": "roadatlanta/short",
-      "zh": "亚特兰大公路赛道，短布局"
+      "zh": "亚特兰大公路赛道，短布局",
+      "spoken": "亚特兰大公路赛道，短布局"
     },
     {
       "en": "Rockingham Speedway",
       "path": "rockingham",
-      "zh": "罗金厄姆赛车场"
+      "zh": "罗金厄姆赛车场",
+      "spoken": "罗金厄姆赛车场"
     },
     {
       "en": "Rockingham Speedway - Oval",
       "path": "rockingham/2025/oval",
-      "zh": "罗金厄姆赛车场，椭圆布局"
+      "zh": "罗金厄姆赛车场，椭圆布局",
+      "spoken": "罗金厄姆赛车场，椭圆布局"
     },
     {
       "en": "Rockingham Speedway - Infield Road Course",
       "path": "rockingham/infroad",
-      "zh": "罗金厄姆赛车场，内场公路布局"
+      "zh": "罗金厄姆赛车场，内场公路布局",
+      "spoken": "罗金厄姆赛车场，内场公路布局"
     },
     {
       "en": "Rockingham Speedway - Oval",
       "path": "rockingham/oval",
-      "zh": "罗金厄姆赛车场，椭圆布局"
+      "zh": "罗金厄姆赛车场，椭圆布局",
+      "spoken": "罗金厄姆赛车场，椭圆布局"
     },
     {
       "en": "Rockingham Speedway - Road Course",
       "path": "rockingham/road",
-      "zh": "罗金厄姆赛车场，公路布局"
+      "zh": "罗金厄姆赛车场，公路布局",
+      "spoken": "罗金厄姆赛车场，公路布局"
     },
     {
       "en": "Rockingham Speedway - Short Road Course",
       "path": "rockingham/shortroad",
-      "zh": "罗金厄姆赛车场，公路短布局"
+      "zh": "罗金厄姆赛车场，公路短布局",
+      "spoken": "罗金厄姆赛车场，公路短布局"
     },
     {
       "en": "Rudskogen Motorsenter",
       "path": "rudskogen",
-      "zh": "鲁兹科根赛道"
+      "zh": "鲁兹科根赛道",
+      "spoken": "鲁兹科根赛道"
     },
     {
       "en": "Sachsenring",
       "path": "sachsenring",
-      "zh": "萨克森赛道"
+      "zh": "萨克森赛道",
+      "spoken": "萨克森赛道"
     },
     {
       "en": "Sandown International Motor Raceway",
       "path": "sandown",
-      "zh": "桑当赛道"
+      "zh": "桑当赛道",
+      "spoken": "桑当赛道"
     },
     {
       "en": "Sebring International Raceway",
       "path": "sebring",
-      "zh": "赛百灵赛道"
+      "zh": "赛百灵赛道",
+      "spoken": "赛百灵赛道"
     },
     {
       "en": "Sebring International Raceway - Club",
       "path": "sebring/club",
-      "zh": "赛百灵赛道，俱乐部布局"
+      "zh": "赛百灵赛道，俱乐部布局",
+      "spoken": "赛百灵赛道，俱乐部布局"
     },
     {
       "en": "Sebring International Raceway - International",
       "path": "sebring/international",
-      "zh": "赛百灵赛道，国际布局"
+      "zh": "赛百灵赛道，国际布局",
+      "spoken": "赛百灵赛道，国际布局"
     },
     {
       "en": "Sebring International Raceway - Modified",
       "path": "sebring/modified",
-      "zh": "赛百灵赛道，改版布局"
+      "zh": "赛百灵赛道，改版布局",
+      "spoken": "赛百灵赛道，改版布局"
     },
     {
       "en": "Silverstone Circuit",
       "path": "silverstone/2019",
-      "zh": "银石赛道"
+      "zh": "银石赛道",
+      "spoken": "银石赛道"
     },
     {
       "en": "Silverstone Circuit - Grand Prix",
       "path": "silverstone/2019/gp",
-      "zh": "银石赛道，大奖赛布局"
+      "zh": "银石赛道，大奖赛布局",
+      "spoken": "银石赛道，大奖赛布局"
     },
     {
       "en": "Silverstone Circuit - International",
       "path": "silverstone/2019/international",
-      "zh": "银石赛道，国际布局"
+      "zh": "银石赛道，国际布局",
+      "spoken": "银石赛道，国际布局"
     },
     {
       "en": "Silverstone Circuit - National",
       "path": "silverstone/2019/national",
-      "zh": "银石赛道，国家布局"
+      "zh": "银石赛道，国家布局",
+      "spoken": "银石赛道，国家布局"
     },
     {
       "en": "Slinger Speedway",
       "path": "slinger",
-      "zh": "斯林格赛车场"
+      "zh": "斯林格赛车场",
+      "spoken": "斯林格赛车场"
     },
     {
       "en": "Slinger Speedway - Figure Eight",
       "path": "slinger/figure8",
-      "zh": "斯林格赛车场，八字布局"
+      "zh": "斯林格赛车场，八字布局",
+      "spoken": "斯林格赛车场，八字布局"
     },
     {
       "en": "Slinger Speedway - Oval",
       "path": "slinger/oval",
-      "zh": "斯林格赛车场，椭圆布局"
+      "zh": "斯林格赛车场，椭圆布局",
+      "spoken": "斯林格赛车场，椭圆布局"
     },
     {
       "en": "Snetterton Circuit",
       "path": "snetterton",
-      "zh": "斯内特顿赛道"
+      "zh": "斯内特顿赛道",
+      "spoken": "斯内特顿赛道"
     },
     {
       "en": "Snetterton Circuit - 100",
       "path": "snetterton/100",
-      "zh": "斯内特顿赛道，100布局"
+      "zh": "斯内特顿赛道，100布局",
+      "spoken": "斯内特顿赛道，一百布局"
     },
     {
       "en": "Snetterton Circuit - 200",
       "path": "snetterton/200",
-      "zh": "斯内特顿赛道，200布局"
+      "zh": "斯内特顿赛道，200布局",
+      "spoken": "斯内特顿赛道，二百布局"
     },
     {
       "en": "Snetterton Circuit - 300",
       "path": "snetterton/300",
-      "zh": "斯内特顿赛道，300布局"
+      "zh": "斯内特顿赛道，300布局",
+      "spoken": "斯内特顿赛道，三百布局"
     },
     {
       "en": "Sonoma Raceway",
       "path": "sonoma",
-      "zh": "索诺马赛道"
+      "zh": "索诺马赛道",
+      "spoken": "索诺马赛道"
     },
     {
       "en": "Sonoma Raceway - NASCAR Long",
       "path": "sonoma/long",
-      "zh": "索诺马赛道，纳斯卡长布局"
+      "zh": "索诺马赛道，纳斯卡长布局",
+      "spoken": "索诺马赛道，纳斯卡长布局"
     },
     {
       "en": "Sonoma Raceway - NASCAR Short",
       "path": "sonoma/cup",
-      "zh": "索诺马赛道，纳斯卡短布局"
+      "zh": "索诺马赛道，纳斯卡短布局",
+      "spoken": "索诺马赛道，纳斯卡短布局"
     },
     {
       "en": "Sonoma Raceway - Open Wheel 2008-2011",
       "path": "sonoma/irl2",
-      "zh": "索诺马赛道，2008至2011方程式布局"
+      "zh": "索诺马赛道，2008至2011方程式布局",
+      "spoken": "索诺马赛道，二零零八至二零一一方程式布局"
     },
     {
       "en": "Sonoma Raceway - Open Wheel 2012-2018",
       "path": "sonoma/indycar",
-      "zh": "索诺马赛道，2012至2018方程式布局"
+      "zh": "索诺马赛道，2012至2018方程式布局",
+      "spoken": "索诺马赛道，二零一二至二零一八方程式布局"
     },
     {
       "en": "Sonoma Raceway - Open Wheel pre-2008",
       "path": "sonoma/irl",
-      "zh": "索诺马赛道，2008年以前的方程式布局"
+      "zh": "索诺马赛道，2008年以前的方程式布局",
+      "spoken": "索诺马赛道，二零零八年以前的方程式布局"
     },
     {
       "en": "Sonoma Raceway - Rallycross",
       "path": "sonoma/rallycross",
-      "zh": "索诺马赛道，拉力越野布局"
+      "zh": "索诺马赛道，拉力越野布局",
+      "spoken": "索诺马赛道，拉力越野布局"
     },
     {
       "en": "Sonoma Raceway - NASCAR Long",
       "path": "sonoma/2025/nascarlong",
-      "zh": "索诺马赛道，纳斯卡长布局"
+      "zh": "索诺马赛道，纳斯卡长布局",
+      "spoken": "索诺马赛道，纳斯卡长布局"
     },
     {
       "en": "Sonoma Raceway - NASCAR Short",
       "path": "sonoma/2025/nascarshort",
-      "zh": "索诺马赛道，纳斯卡短布局"
+      "zh": "索诺马赛道，纳斯卡短布局",
+      "spoken": "索诺马赛道，纳斯卡短布局"
     },
     {
       "en": "Sonoma Raceway - Open Wheel 2008-2011",
       "path": "sonoma/2025/irl08",
-      "zh": "索诺马赛道，2008至2011方程式布局"
+      "zh": "索诺马赛道，2008至2011方程式布局",
+      "spoken": "索诺马赛道，二零零八至二零一一方程式布局"
     },
     {
       "en": "Sonoma Raceway - Open Wheel 2012-2018",
       "path": "sonoma/2025/irl12",
-      "zh": "索诺马赛道，2012至2018方程式布局"
+      "zh": "索诺马赛道，2012至2018方程式布局",
+      "spoken": "索诺马赛道，二零一二至二零一八方程式布局"
     },
     {
       "en": "Sonoma Raceway - Open Wheel pre-2008",
       "path": "sonoma/2025/irl05",
-      "zh": "索诺马赛道，2008年以前的方程式布局"
+      "zh": "索诺马赛道，2008年以前的方程式布局",
+      "spoken": "索诺马赛道，二零零八年以前的方程式布局"
     },
     {
       "en": "South Boston Speedway",
       "path": "southboston",
-      "zh": "南波士顿赛车场"
+      "zh": "南波士顿赛车场",
+      "spoken": "南波士顿赛车场"
     },
     {
       "en": "Southern National Motorsports Park",
       "path": "southernnational",
-      "zh": "南方国家赛车场"
+      "zh": "南方国家赛车场",
+      "spoken": "南方国家赛车场"
     },
     {
       "en": "Stafford Motor Speedway",
       "path": "stafford",
-      "zh": "斯塔福德赛车场"
+      "zh": "斯塔福德赛车场",
+      "spoken": "斯塔福德赛车场"
     },
     {
       "en": "Stafford Motor Speedway - Full Course",
       "path": "stafford/oval",
-      "zh": "斯塔福德赛车场，完整布局"
+      "zh": "斯塔福德赛车场，完整布局",
+      "spoken": "斯塔福德赛车场，完整布局"
     },
     {
       "en": "Stafford Motor Speedway - Mini Mile",
       "path": "stafford/short",
-      "zh": "斯塔福德赛车场，小英里布局"
+      "zh": "斯塔福德赛车场，小英里布局",
+      "spoken": "斯塔福德赛车场，小英里布局"
     },
     {
       "en": "Summit Point Raceway",
       "path": "summit",
-      "zh": "萨米特波因特赛道"
+      "zh": "萨米特波因特赛道",
+      "spoken": "萨米特波因特赛道"
     },
     {
       "en": "Summit Point Raceway - Jefferson Circuit",
       "path": "summit/jefferson",
-      "zh": "萨米特波因特赛道，杰斐逊布局"
+      "zh": "萨米特波因特赛道，杰斐逊布局",
+      "spoken": "萨米特波因特赛道，杰斐逊布局"
     },
     {
       "en": "Summit Point Raceway - Jefferson Reverse",
       "path": "summit/jefferson/rev",
-      "zh": "萨米特波因特赛道，杰斐逊反向布局"
+      "zh": "萨米特波因特赛道，杰斐逊反向布局",
+      "spoken": "萨米特波因特赛道，杰斐逊反向布局"
     },
     {
       "en": "Summit Point Raceway - Oval",
       "path": "summit/summit/oval",
-      "zh": "萨米特波因特赛道，椭圆布局"
+      "zh": "萨米特波因特赛道，椭圆布局",
+      "spoken": "萨米特波因特赛道，椭圆布局"
     },
     {
       "en": "Summit Point Raceway - School",
       "path": "summit/summit/raceway/school",
-      "zh": "萨米特波因特赛道，教学布局"
+      "zh": "萨米特波因特赛道，教学布局",
+      "spoken": "萨米特波因特赛道，教学布局"
     },
     {
       "en": "Summit Point Raceway - Short",
       "path": "summit/summit/short",
-      "zh": "萨米特波因特赛道，短布局"
+      "zh": "萨米特波因特赛道，短布局",
+      "spoken": "萨米特波因特赛道，短布局"
     },
     {
       "en": "Summit Point Raceway - Summit Point Raceway",
       "path": "summit/summit/raceway",
-      "zh": "萨米特波因特赛道，主布局"
+      "zh": "萨米特波因特赛道，主布局",
+      "spoken": "萨米特波因特赛道，主布局"
     },
     {
       "en": "Suzuka International Racing Course",
       "path": "suzuka",
-      "zh": "铃鹿赛道"
+      "zh": "铃鹿赛道",
+      "spoken": "铃鹿赛道"
     },
     {
       "en": "Suzuka International Racing Course - East",
       "path": "suzuka/east",
-      "zh": "铃鹿赛道，东布局"
+      "zh": "铃鹿赛道，东布局",
+      "spoken": "铃鹿赛道，东布局"
     },
     {
       "en": "Suzuka International Racing Course - Grand Prix",
       "path": "suzuka/grandprix",
-      "zh": "铃鹿赛道，大奖赛布局"
+      "zh": "铃鹿赛道，大奖赛布局",
+      "spoken": "铃鹿赛道，大奖赛布局"
     },
     {
       "en": "Suzuka International Racing Course - Moto",
       "path": "suzuka/moto",
-      "zh": "铃鹿赛道，摩托车布局"
+      "zh": "铃鹿赛道，摩托车布局",
+      "spoken": "铃鹿赛道，摩托车布局"
     },
     {
       "en": "Suzuka International Racing Course - West",
       "path": "suzuka/west",
-      "zh": "铃鹿赛道，西布局"
+      "zh": "铃鹿赛道，西布局",
+      "spoken": "铃鹿赛道，西布局"
     },
     {
       "en": "Suzuka International Racing Course - West w/chicane",
       "path": "suzuka/westchicane",
-      "zh": "铃鹿赛道，西布局，含减速弯"
+      "zh": "铃鹿赛道，西布局，含减速弯",
+      "spoken": "铃鹿赛道，西布局，含减速弯"
     },
     {
       "en": "Talladega Superspeedway",
       "path": "talladega",
-      "zh": "塔拉迪加超级赛车场"
+      "zh": "塔拉迪加超级赛车场",
+      "spoken": "塔拉迪加超级赛车场"
     },
     {
       "en": "Texas Motor Speedway",
       "path": "texas/2020",
-      "zh": "得克萨斯赛车场"
+      "zh": "得克萨斯赛车场",
+      "spoken": "得克萨斯赛车场"
     },
     {
       "en": "Texas Motor Speedway - Legends Oval",
       "path": "texas/2020/legendsoval",
-      "zh": "得克萨斯赛车场，传奇赛车椭圆布局"
+      "zh": "得克萨斯赛车场，传奇赛车椭圆布局",
+      "spoken": "得克萨斯赛车场，传奇赛车椭圆布局"
     },
     {
       "en": "Texas Motor Speedway - Oval",
       "path": "texas/2020/oval",
-      "zh": "得克萨斯赛车场，椭圆布局"
+      "zh": "得克萨斯赛车场，椭圆布局",
+      "spoken": "得克萨斯赛车场，椭圆布局"
     },
     {
       "en": "Shell V-Power Motorsport Park at The Bend",
       "path": "thebend",
-      "zh": "本德赛道"
+      "zh": "本德赛道",
+      "spoken": "本德赛道"
     },
     {
       "en": "Shell V-Power Motorsport Park at The Bend - International Circuit",
       "path": "thebend/international",
-      "zh": "本德赛道，国际布局"
+      "zh": "本德赛道，国际布局",
+      "spoken": "本德赛道，国际布局"
     },
     {
       "en": "Shell V-Power Motorsport Park at The Bend - GT Circuit",
       "path": "thebend/gt",
-      "zh": "本德赛道，GT布局"
+      "zh": "本德赛道，GT布局",
+      "spoken": "本德赛道，吉提布局"
     },
     {
       "en": "Shell V-Power Motorsport Park at The Bend - Sprint Circuit",
       "path": "thebend/sprint",
-      "zh": "本德赛道，短程布局"
+      "zh": "本德赛道，短程布局",
+      "spoken": "本德赛道，短程布局"
     },
     {
       "en": "Shell V-Power Motorsport Park at The Bend - East Circuit",
       "path": "thebend/east",
-      "zh": "本德赛道，东布局"
+      "zh": "本德赛道，东布局",
+      "spoken": "本德赛道，东布局"
     },
     {
       "en": "Shell V-Power Motorsport Park at The Bend - South-West Circuit",
       "path": "thebend/southwest",
-      "zh": "本德赛道，西南布局"
+      "zh": "本德赛道，西南布局",
+      "spoken": "本德赛道，西南布局"
     },
     {
       "en": "Shell V-Power Motorsport Park at The Bend - West Circuit",
       "path": "thebend/west",
-      "zh": "本德赛道，西布局"
+      "zh": "本德赛道，西布局",
+      "spoken": "本德赛道，西布局"
     },
     {
       "en": "Shell V-Power Motorsport Park at The Bend - West Plus Circuit",
       "path": "thebend/westplus",
-      "zh": "本德赛道，西区加长布局"
+      "zh": "本德赛道，西区加长布局",
+      "spoken": "本德赛道，西区加长布局"
     },
     {
       "en": "The Bullring",
       "path": "bullring",
-      "zh": "拉斯维加斯布林赛车场"
+      "zh": "拉斯维加斯布林赛车场",
+      "spoken": "拉斯维加斯布林赛车场"
     },
     {
       "en": "The Dirt Track at Charlotte",
       "path": "charlottedirt",
-      "zh": "夏洛特泥地赛道"
+      "zh": "夏洛特泥地赛道",
+      "spoken": "夏洛特泥地赛道"
     },
     {
       "en": "The Milwaukee Mile",
       "path": "milwaukee",
-      "zh": "密尔沃基英里赛车场"
+      "zh": "密尔沃基英里赛车场",
+      "spoken": "密尔沃基英里赛车场"
     },
     {
       "en": "Thompson Speedway Motorsports Park",
       "path": "thompson",
-      "zh": "汤普森赛道"
+      "zh": "汤普森赛道",
+      "spoken": "汤普森赛道"
     },
     {
       "en": "Thruxton Circuit",
       "path": "thruxton",
-      "zh": "斯拉克斯顿赛道"
+      "zh": "斯拉克斯顿赛道",
+      "spoken": "斯拉克斯顿赛道"
     },
     {
       "en": "Tsukuba Circuit",
       "path": "tsukuba",
-      "zh": "筑波赛道"
+      "zh": "筑波赛道",
+      "spoken": "筑波赛道"
     },
     {
       "en": "Tsukuba Circuit - 1000 - Chicane",
       "path": "tsukuba/1kchicane",
-      "zh": "筑波赛道，1000布局，减速弯布局"
+      "zh": "筑波赛道，1000布局，减速弯布局",
+      "spoken": "筑波赛道，一千布局，减速弯布局"
     },
     {
       "en": "Tsukuba Circuit - 1000 - Full",
       "path": "tsukuba/1kfull",
-      "zh": "筑波赛道，1000布局，完整布局"
+      "zh": "筑波赛道，1000布局，完整布局",
+      "spoken": "筑波赛道，一千布局，完整布局"
     },
     {
       "en": "Tsukuba Circuit - 1000 - Outer",
       "path": "tsukuba/1kouter",
-      "zh": "筑波赛道，1000布局，外环布局"
+      "zh": "筑波赛道，1000布局，外环布局",
+      "spoken": "筑波赛道，一千布局，外环布局"
     },
     {
       "en": "Tsukuba Circuit - 1000 - Reverse",
       "path": "tsukuba/1kreverse",
-      "zh": "筑波赛道，1000布局，反向布局"
+      "zh": "筑波赛道，1000布局，反向布局",
+      "spoken": "筑波赛道，一千布局，反向布局"
     },
     {
       "en": "Tsukuba Circuit - 2000 - Full",
       "path": "tsukuba/2kfull",
-      "zh": "筑波赛道，2000布局，完整布局"
+      "zh": "筑波赛道，2000布局，完整布局",
+      "spoken": "筑波赛道，两千布局，完整布局"
     },
     {
       "en": "Tsukuba Circuit - 2000 - Moto",
       "path": "tsukuba/2kchicane",
-      "zh": "筑波赛道，2000布局，摩托车布局"
+      "zh": "筑波赛道，2000布局，摩托车布局",
+      "spoken": "筑波赛道，两千布局，摩托车布局"
     },
     {
       "en": "Tsukuba Circuit - 2000 - Short",
       "path": "tsukuba/2kshort",
-      "zh": "筑波赛道，2000布局，短布局"
+      "zh": "筑波赛道，2000布局，短布局",
+      "spoken": "筑波赛道，两千布局，短布局"
     },
     {
       "en": "USA International Speedway",
       "path": "lakeland",
-      "zh": "美国国际赛车场"
+      "zh": "美国国际赛车场",
+      "spoken": "美国国际赛车场"
     },
     {
       "en": "USA International Speedway - Asphalt",
       "path": "lakeland",
-      "zh": "美国国际赛车场，沥青布局"
+      "zh": "美国国际赛车场，沥青布局",
+      "spoken": "美国国际赛车场，沥青布局"
     },
     {
       "en": "USA International Speedway - Dirt",
       "path": "lakeland/dirt",
-      "zh": "美国国际赛车场，泥地布局"
+      "zh": "美国国际赛车场，泥地布局",
+      "spoken": "美国国际赛车场，泥地布局"
     },
     {
       "en": "Virginia International Raceway",
       "path": "virginia/2022",
-      "zh": "弗吉尼亚赛道"
+      "zh": "弗吉尼亚赛道",
+      "spoken": "弗吉尼亚赛道"
     },
     {
       "en": "Virginia International Raceway - Full Course",
       "path": "virginia/2022/full",
-      "zh": "弗吉尼亚赛道，完整布局"
+      "zh": "弗吉尼亚赛道，完整布局",
+      "spoken": "弗吉尼亚赛道，完整布局"
     },
     {
       "en": "Virginia International Raceway - Grand Course",
       "path": "virginia/2022/grand",
-      "zh": "弗吉尼亚赛道，大环布局"
+      "zh": "弗吉尼亚赛道，大环布局",
+      "spoken": "弗吉尼亚赛道，大环布局"
     },
     {
       "en": "Virginia International Raceway - North Course",
       "path": "virginia/2022/north",
-      "zh": "弗吉尼亚赛道，北布局"
+      "zh": "弗吉尼亚赛道，北布局",
+      "spoken": "弗吉尼亚赛道，北布局"
     },
     {
       "en": "Virginia International Raceway - Patriot Course",
       "path": "virginia/2022/patriot",
-      "zh": "弗吉尼亚赛道，爱国者布局"
+      "zh": "弗吉尼亚赛道，爱国者布局",
+      "spoken": "弗吉尼亚赛道，爱国者布局"
     },
     {
       "en": "Virginia International Raceway - South Course",
       "path": "virginia/2022/south",
-      "zh": "弗吉尼亚赛道，南布局"
+      "zh": "弗吉尼亚赛道，南布局",
+      "spoken": "弗吉尼亚赛道，南布局"
     },
     {
       "en": "Volusia Speedway Park",
       "path": "volusia",
-      "zh": "沃卢西亚泥地赛道"
+      "zh": "沃卢西亚泥地赛道",
+      "spoken": "沃卢西亚泥地赛道"
     },
     {
       "en": "Watkins Glen International",
       "path": "watkinsglen/2021",
-      "zh": "沃特金斯格伦赛道"
+      "zh": "沃特金斯格伦赛道",
+      "spoken": "沃特金斯格伦赛道"
     },
     {
       "en": "Watkins Glen International - Boot",
       "path": "watkinsglen/2021/fullcourse",
-      "zh": "沃特金斯格伦赛道，含靴形区布局"
+      "zh": "沃特金斯格伦赛道，含靴形区布局",
+      "spoken": "沃特金斯格伦赛道，含靴形区布局"
     },
     {
       "en": "Watkins Glen International - Classic",
       "path": "watkinsglen/2021/classic",
-      "zh": "沃特金斯格伦赛道，经典布局"
+      "zh": "沃特金斯格伦赛道，经典布局",
+      "spoken": "沃特金斯格伦赛道，经典布局"
     },
     {
       "en": "Watkins Glen International - Classic Boot",
       "path": "watkinsglen/2021/fullnoloop",
-      "zh": "沃特金斯格伦赛道，经典靴形区布局"
+      "zh": "沃特金斯格伦赛道，经典靴形区布局",
+      "spoken": "沃特金斯格伦赛道，经典靴形区布局"
     },
     {
       "en": "Watkins Glen International - Cup",
       "path": "watkinsglen/2021/cupcircuit",
-      "zh": "沃特金斯格伦赛道，杯赛布局"
+      "zh": "沃特金斯格伦赛道，杯赛布局",
+      "spoken": "沃特金斯格伦赛道，杯赛布局"
     },
     {
       "en": "WeatherTech Raceway Laguna Seca",
       "path": "lagunaseca",
-      "zh": "拉古纳塞卡赛道"
+      "zh": "拉古纳塞卡赛道",
+      "spoken": "拉古纳塞卡赛道"
     },
     {
       "en": "WeatherTech Raceway Laguna Seca",
       "path": "lagunaseca",
-      "zh": "拉古纳塞卡赛道"
+      "zh": "拉古纳塞卡赛道",
+      "spoken": "拉古纳塞卡赛道"
     },
     {
       "en": "WeatherTech Raceway Laguna Seca - School",
       "path": "lagunaseca/school",
-      "zh": "拉古纳塞卡赛道，教学布局"
+      "zh": "拉古纳塞卡赛道，教学布局",
+      "spoken": "拉古纳塞卡赛道，教学布局"
     },
     {
       "en": "Weedsport Speedway",
       "path": "weedsport",
-      "zh": "韦兹波特泥地赛道"
+      "zh": "韦兹波特泥地赛道",
+      "spoken": "韦兹波特泥地赛道"
     },
     {
       "en": "Wild West Motorsports Park",
       "path": "wildwest",
-      "zh": "狂野西部越野赛道"
+      "zh": "狂野西部越野赛道",
+      "spoken": "狂野西部越野赛道"
     },
     {
       "en": "Williams Grove Speedway",
       "path": "williamsgrove",
-      "zh": "威廉斯格罗夫泥地赛道"
+      "zh": "威廉斯格罗夫泥地赛道",
+      "spoken": "威廉斯格罗夫泥地赛道"
     },
     {
       "en": "Willow Springs International Raceway",
       "path": "willow",
-      "zh": "柳泉赛道"
+      "zh": "柳泉赛道",
+      "spoken": "柳泉赛道"
     },
     {
       "en": "Winton Motor Raceway",
       "path": "winton",
-      "zh": "温顿赛道"
+      "zh": "温顿赛道",
+      "spoken": "温顿赛道"
     },
     {
       "en": "Winton Motor Raceway - Club",
       "path": "winton/club",
-      "zh": "温顿赛道，俱乐部布局"
+      "zh": "温顿赛道，俱乐部布局",
+      "spoken": "温顿赛道，俱乐部布局"
     },
     {
       "en": "Winton Motor Raceway - National",
       "path": "winton/national",
-      "zh": "温顿赛道，国家布局"
+      "zh": "温顿赛道，国家布局",
+      "spoken": "温顿赛道，国家布局"
     },
     {
       "en": "Winton Motor Raceway - Rallycross",
       "path": "winton/rallycross",
-      "zh": "温顿赛道，拉力越野布局"
+      "zh": "温顿赛道，拉力越野布局",
+      "spoken": "温顿赛道，拉力越野布局"
     },
     {
       "en": "World Wide Technology Raceway (Gateway)",
       "path": "gateway",
-      "zh": "盖特威赛车场"
+      "zh": "盖特威赛车场",
+      "spoken": "盖特威赛车场"
     },
     {
       "en": "World Wide Technology Raceway (Gateway) - Oval",
       "path": "gateway/oval",
-      "zh": "盖特威赛车场，椭圆布局"
+      "zh": "盖特威赛车场，椭圆布局",
+      "spoken": "盖特威赛车场，椭圆布局"
     },
     {
       "en": "World Wide Technology Raceway (Gateway) - Road Course",
       "path": "gateway/road",
-      "zh": "盖特威赛车场，公路布局"
+      "zh": "盖特威赛车场，公路布局",
+      "spoken": "盖特威赛车场，公路布局"
     },
     {
       "en": "World Wide Technology Raceway (Gateway) - 2025 - Oval",
       "path": "gateway/2025/oval",
-      "zh": "盖特威赛车场，2025版，椭圆布局"
+      "zh": "盖特威赛车场，2025版，椭圆布局",
+      "spoken": "盖特威赛车场，二零二五版，椭圆布局"
     },
     {
       "en": "[Legacy] Charlotte Motor Speedway - 2008",
       "path": "charlotte",
-      "zh": "夏洛特赛车场旧版，2008版"
+      "zh": "夏洛特赛车场旧版，2008版",
+      "spoken": "夏洛特赛车场旧版，二零零八版"
     },
     {
       "en": "[Legacy] Charlotte Motor Speedway - 2008 - Infield Road Course",
       "path": "charlotte/infieldrc",
-      "zh": "夏洛特赛车场旧版，2008版，内场公路布局"
+      "zh": "夏洛特赛车场旧版，2008版，内场公路布局",
+      "spoken": "夏洛特赛车场旧版，二零零八版，内场公路布局"
     },
     {
       "en": "[Legacy] Charlotte Motor Speedway - 2008 - Legends Oval",
       "path": "charlotte/legendsoval",
-      "zh": "夏洛特赛车场旧版，2008版，传奇赛车椭圆布局"
+      "zh": "夏洛特赛车场旧版，2008版，传奇赛车椭圆布局",
+      "spoken": "夏洛特赛车场旧版，二零零八版，传奇赛车椭圆布局"
     },
     {
       "en": "[Legacy] Charlotte Motor Speedway - 2008 - Oval",
       "path": "charlotte/quadoval",
-      "zh": "夏洛特赛车场旧版，2008版，椭圆布局"
+      "zh": "夏洛特赛车场旧版，2008版，椭圆布局",
+      "spoken": "夏洛特赛车场旧版，二零零八版，椭圆布局"
     },
     {
       "en": "[Legacy] Charlotte Motor Speedway - 2008 - Road Course",
       "path": "charlotte/fullroadcourse",
-      "zh": "夏洛特赛车场旧版，2008版，公路布局"
+      "zh": "夏洛特赛车场旧版，2008版，公路布局",
+      "spoken": "夏洛特赛车场旧版，二零零八版，公路布局"
     },
     {
       "en": "[Legacy] Kentucky Speedway - 2011",
       "path": "kentucky",
-      "zh": "肯塔基赛车场旧版，2011版"
+      "zh": "肯塔基赛车场旧版，2011版",
+      "spoken": "肯塔基赛车场旧版，二零一一版"
     },
     {
       "en": "[Legacy] Kentucky Speedway - Legends",
       "path": "kentucky/legend",
-      "zh": "肯塔基赛车场旧版，传奇赛车布局"
+      "zh": "肯塔基赛车场旧版，传奇赛车布局",
+      "spoken": "肯塔基赛车场旧版，传奇赛车布局"
     },
     {
       "en": "[Legacy] Kentucky Speedway - Oval",
       "path": "kentucky/oval",
-      "zh": "肯塔基赛车场旧版，椭圆布局"
+      "zh": "肯塔基赛车场旧版，椭圆布局",
+      "spoken": "肯塔基赛车场旧版，椭圆布局"
     },
     {
       "en": "[Legacy] Michigan International Speedway - 2009",
       "path": "michigan2014",
-      "zh": "密歇根赛车场旧版，2009版"
+      "zh": "密歇根赛车场旧版，2009版",
+      "spoken": "密歇根赛车场旧版，二零零九版"
     },
     {
       "en": "[Legacy] Phoenix Raceway - 2008",
       "path": "phoenix",
-      "zh": "凤凰城赛车场旧版，2008版"
+      "zh": "凤凰城赛车场旧版，2008版",
+      "spoken": "凤凰城赛车场旧版，二零零八版"
     },
     {
       "en": "[Legacy] Phoenix Raceway - 2008 - Dirt Road",
       "path": "phoenix/rallycross/nojoker",
-      "zh": "凤凰城赛车场旧版，2008版，泥地公路布局"
+      "zh": "凤凰城赛车场旧版，2008版，泥地公路布局",
+      "spoken": "凤凰城赛车场旧版，二零零八版，泥地公路布局"
     },
     {
       "en": "[Legacy] Phoenix Raceway - 2008 - Oval",
       "path": "phoenix/oval",
-      "zh": "凤凰城赛车场旧版，2008版，椭圆布局"
+      "zh": "凤凰城赛车场旧版，2008版，椭圆布局",
+      "spoken": "凤凰城赛车场旧版，二零零八版，椭圆布局"
     },
     {
       "en": "[Legacy] Phoenix Raceway - 2008 - Rallycross",
       "path": "phoenix/rallycross",
-      "zh": "凤凰城赛车场旧版，2008版，拉力越野布局"
+      "zh": "凤凰城赛车场旧版，2008版，拉力越野布局",
+      "spoken": "凤凰城赛车场旧版，二零零八版，拉力越野布局"
     },
     {
       "en": "[Legacy] Phoenix Raceway - 2008 - Road Course",
       "path": "phoenix/road",
-      "zh": "凤凰城赛车场旧版，2008版，公路布局"
+      "zh": "凤凰城赛车场旧版，2008版，公路布局",
+      "spoken": "凤凰城赛车场旧版，二零零八版，公路布局"
     },
     {
       "en": "[Legacy] Pocono Raceway - 2009",
       "path": "pocono",
-      "zh": "波科诺赛车场旧版，2009版"
+      "zh": "波科诺赛车场旧版，2009版",
+      "spoken": "波科诺赛车场旧版，二零零九版"
     },
     {
       "en": "[Legacy] Pocono Raceway - 2009 - East",
       "path": "pocono/east",
-      "zh": "波科诺赛车场旧版，2009版，东布局"
+      "zh": "波科诺赛车场旧版，2009版，东布局",
+      "spoken": "波科诺赛车场旧版，二零零九版，东布局"
     },
     {
       "en": "[Legacy] Pocono Raceway - 2009 - International",
       "path": "pocono/international",
-      "zh": "波科诺赛车场旧版，2009版，国际布局"
+      "zh": "波科诺赛车场旧版，2009版，国际布局",
+      "spoken": "波科诺赛车场旧版，二零零九版，国际布局"
     },
     {
       "en": "[Legacy] Pocono Raceway - 2009 - North",
       "path": "pocono/north",
-      "zh": "波科诺赛车场旧版，2009版，北布局"
+      "zh": "波科诺赛车场旧版，2009版，北布局",
+      "spoken": "波科诺赛车场旧版，二零零九版，北布局"
     },
     {
       "en": "[Legacy] Pocono Raceway - 2009 - Oval",
       "path": "pocono/oval",
-      "zh": "波科诺赛车场旧版，2009版，椭圆布局"
+      "zh": "波科诺赛车场旧版，2009版，椭圆布局",
+      "spoken": "波科诺赛车场旧版，二零零九版，椭圆布局"
     },
     {
       "en": "[Legacy] Pocono Raceway - 2009 - South",
       "path": "pocono/south",
-      "zh": "波科诺赛车场旧版，2009版，南布局"
+      "zh": "波科诺赛车场旧版，2009版，南布局",
+      "spoken": "波科诺赛车场旧版，二零零九版，南布局"
     },
     {
       "en": "[Legacy] Silverstone Circuit - 2008",
       "path": "silverstone",
-      "zh": "银石赛道旧版，2008版"
+      "zh": "银石赛道旧版，2008版",
+      "spoken": "银石赛道旧版，二零零八版"
     },
     {
       "en": "[Legacy] Silverstone Circuit - 2008 - Grand Prix",
       "path": "silverstone/gp",
-      "zh": "银石赛道旧版，2008版，大奖赛布局"
+      "zh": "银石赛道旧版，2008版，大奖赛布局",
+      "spoken": "银石赛道旧版，二零零八版，大奖赛布局"
     },
     {
       "en": "[Legacy] Silverstone Circuit - 2008 - Historical Grand Prix",
       "path": "silverstone/historicgp",
-      "zh": "银石赛道旧版，2008版，历史大奖赛布局"
+      "zh": "银石赛道旧版，2008版，历史大奖赛布局",
+      "spoken": "银石赛道旧版，二零零八版，历史大奖赛布局"
     },
     {
       "en": "[Legacy] Silverstone Circuit - 2008 - International",
       "path": "silverstone/international",
-      "zh": "银石赛道旧版，2008版，国际布局"
+      "zh": "银石赛道旧版，2008版，国际布局",
+      "spoken": "银石赛道旧版，二零零八版，国际布局"
     },
     {
       "en": "[Legacy] Silverstone Circuit - 2008 - National",
       "path": "silverstone/national",
-      "zh": "银石赛道旧版，2008版，国家布局"
+      "zh": "银石赛道旧版，2008版，国家布局",
+      "spoken": "银石赛道旧版，二零零八版，国家布局"
     },
     {
       "en": "[Legacy] Silverstone Circuit - 2008 - Southern",
       "path": "silverstone/southern",
-      "zh": "银石赛道旧版，2008版，南部布局"
+      "zh": "银石赛道旧版，2008版，南部布局",
+      "spoken": "银石赛道旧版，二零零八版，南部布局"
     },
     {
       "en": "[Legacy] Texas Motor Speedway - 2009",
       "path": "texas",
-      "zh": "得克萨斯赛车场旧版，2009版"
+      "zh": "得克萨斯赛车场旧版，2009版",
+      "spoken": "得克萨斯赛车场旧版，二零零九版"
     },
     {
       "en": "[Legacy] Texas Motor Speedway - 2009 - Legends Oval",
       "path": "texas/legendsoval",
-      "zh": "得克萨斯赛车场旧版，2009版，传奇赛车椭圆布局"
+      "zh": "得克萨斯赛车场旧版，2009版，传奇赛车椭圆布局",
+      "spoken": "得克萨斯赛车场旧版，二零零九版，传奇赛车椭圆布局"
     },
     {
       "en": "[Legacy] Texas Motor Speedway - 2009 - Oval",
       "path": "texas/oval",
-      "zh": "得克萨斯赛车场旧版，2009版，椭圆布局"
+      "zh": "得克萨斯赛车场旧版，2009版，椭圆布局",
+      "spoken": "得克萨斯赛车场旧版，二零零九版，椭圆布局"
     },
     {
       "en": "[Legacy] Texas Motor Speedway - 2009 - Road Course Combined",
       "path": "texas/roadcourse",
-      "zh": "得克萨斯赛车场旧版，2009版，联合公路布局"
+      "zh": "得克萨斯赛车场旧版，2009版，联合公路布局",
+      "spoken": "得克萨斯赛车场旧版，二零零九版，联合公路布局"
     },
     {
       "en": "[Legacy] Texas Motor Speedway - 2009 - Road Course Long",
       "path": "texas/infieldrclong",
-      "zh": "得克萨斯赛车场旧版，2009版，公路长布局"
+      "zh": "得克萨斯赛车场旧版，2009版，公路长布局",
+      "spoken": "得克萨斯赛车场旧版，二零零九版，公路长布局"
     },
     {
       "en": "[Legacy] Texas Motor Speedway - 2009 - Road Course Short A",
       "path": "texas/infieldrcshorta",
-      "zh": "得克萨斯赛车场旧版，2009版，公路短布局A"
+      "zh": "得克萨斯赛车场旧版，2009版，公路短布局A",
+      "spoken": "得克萨斯赛车场旧版，二零零九版，公路短布局诶"
     },
     {
       "en": "[Legacy] Texas Motor Speedway - 2009 - Road Course Short B",
       "path": "texas/infieldrcshortb",
-      "zh": "得克萨斯赛车场旧版，2009版，公路短布局B"
+      "zh": "得克萨斯赛车场旧版，2009版，公路短布局B",
+      "spoken": "得克萨斯赛车场旧版，二零零九版，公路短布局比"
     },
     {
       "path": "coronado",
       "en": "Qualcomm Circuit at Naval Base Coronado",
       "zh": "科罗纳多海军基地高通赛道",
-      "provenance": "local directory plus official track page; base name only"
+      "provenance": "local directory plus official track page; base name only",
+      "spoken": "科罗纳多海军基地高通赛道"
     },
     {
       "path": "stpete",
       "en": "St Petersburg Grand Prix",
       "zh": "美国圣彼得斯堡街道赛道",
-      "provenance": "local directory plus official track page; base name only"
+      "provenance": "local directory plus official track page; base name only",
+      "spoken": "美国圣彼得斯堡街道赛道"
     },
     {
       "path": "michigan",
       "en": "Michigan International Speedway",
       "zh": "密歇根赛车场",
-      "provenance": "local directory plus official track page; base name only"
+      "provenance": "local directory plus official track page; base name only",
+      "spoken": "密歇根赛车场"
+    },
+    {
+      "en": "美国之路赛道，东部短布局",
+      "path": "roadamerica/2026/east",
+      "zh": "美国之路赛道，东部短布局",
+      "spoken": "美国之路赛道，东部短布局",
+      "provenance": "2026 Season 4 release notes and local layout directories"
+    },
+    {
+      "en": "美国之路赛道，西部短布局",
+      "path": "roadamerica/2026/west",
+      "zh": "美国之路赛道，西部短布局",
+      "spoken": "美国之路赛道，西部短布局",
+      "provenance": "2026 Season 4 release notes and local layout directories"
+    },
+    {
+      "en": "密尔沃基英里赛车场，椭圆布局",
+      "path": "milwaukee/2026/oval",
+      "zh": "密尔沃基英里赛车场，椭圆布局",
+      "spoken": "密尔沃基英里赛车场，椭圆布局",
+      "provenance": "2026 Season 4 release notes and local layout directories"
+    },
+    {
+      "en": "密尔沃基英里赛车场，公路布局",
+      "path": "milwaukee/2026/road",
+      "zh": "密尔沃基英里赛车场，公路布局",
+      "spoken": "密尔沃基英里赛车场，公路布局",
+      "provenance": "2026 Season 4 release notes and local layout directories"
     }
   ],
-  "review": "Manual canonical track names and layout terminology; spoken form omits sponsorship where it hinders clarity."
+  "review": "Manual canonical track names and layout terminology; spoken form omits sponsorship where it hinders clarity.",
+  "reading_reviewed": "2026-10-14"
 }

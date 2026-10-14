@@ -46,7 +46,8 @@ class EmotionTests(unittest.TestCase):
     def test_api_exposes_explicit_emotion_and_rejects_unknown(self):
         from bridge import VoiceService, create_app
         from fastapi.testclient import TestClient
-        with tempfile.TemporaryDirectory() as tmp:
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as tmp,patch('opening_sequence.PRIORITY',Path(tmp)/'priority.json'),patch('bridge.ROOT',Path(tmp)):
             service=VoiceService(Path(tmp),lambda *a:b'RIFF-test', 'test')
             client=TestClient(create_app(service))
             self.assertEqual(client.post('/v1/audio/speech',json={'voice':'furina','input':'正常。','emotion':'calm'}).status_code,200)

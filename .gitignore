@@ -28,3 +28,10 @@ config/local.json
 **/playback_settings.json
 **/voice_library.json
 **/voice_import_request.json
+**/simulator_controller_owner.json
+**/component_speech_priority.json
+**/component_speech_priority.tmp
+**/opening_active.json
+**/opening_active.tmp
+**/driver_numbers.json
+**/driver_numbers.tmp

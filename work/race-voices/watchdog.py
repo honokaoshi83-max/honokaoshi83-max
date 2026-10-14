@@ -89,6 +89,8 @@ def main():
         log('started',pid=os.getpid())
         policies={name:RecoveryPolicy() for name in ('bridge.py','telemetry_announcer.py')}
         previous=None
+        from simulator_link import SimulatorLink
+        simulator=SimulatorLink()
         while not STOP.exists():
             try:
                 state={}
@@ -116,6 +118,11 @@ def main():
                             launch(script,'server',('--active-voices','furina','clorinde','--engine',settings()['engine'],'--port',str(settings()['port'])))
                         else:
                             launch(script,'telemetry')
+                try:
+                    state['simulator_controller']=simulator.ensure(state.get('bridge.py')=='healthy' and not STOP.exists())
+                except Exception as e:
+                    state['simulator_controller']='launch_failed'
+                    state['simulator_controller_error']=str(e)[:150]
                 if state != previous:
                     log('state_changed',services=state)
                     previous=state
@@ -125,6 +132,8 @@ def main():
             except Exception as e:
                 log('check_error',type=type(e).__name__)
             time.sleep(2)
+        log('simulator_controller_stop',result=simulator.stop())
+        (ROOT/'watchdog_status.json').write_text(json.dumps({'state':'stopped','services':{}}),encoding='utf-8')
         log('stopped')
 
 if __name__=='__main__':

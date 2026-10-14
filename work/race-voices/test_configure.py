@@ -5,6 +5,11 @@ except ImportError:
     configure = None
 
 class ConfigurationTests(unittest.TestCase):
+    def test_portable_setup_enables_actual_assistant_roles(self):
+        from setup_simulator import portable_configure
+        text=portable_configure('[Plugins]\nRace Engineer=true||language: zh\n',9881)
+        self.assertEqual(text.count('raceAssistant: On'),3)
+        self.assertIn('name: 克洛琳德',text);self.assertEqual(text.count('name: 芙宁娜'),2)
     def test_only_three_assistant_voice_settings_change(self):
         self.assertIsNotNone(configure, 'Simulator voice configuration adapter is missing')
         old='[Plugins]\r\nDriving Coach=false||\r\nIRC=true|iRacing|key: {F4}\r\nRace Engineer=true||language: zh; name: Jona; speaker: On; speakerVocalics: 100,*,1; synthesizer: dotNET\r\nRace Spotter=true||speaker: On; synthesizer: dotNET\r\nRace Strategist=true||speaker: On; listener: On\r\n[Other]\r\nUntouched=keep\r\n'

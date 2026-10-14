@@ -10,10 +10,19 @@ except ImportError:
     VoiceService = None
 
 class VoiceTests(unittest.TestCase):
+    def test_lap_time_always_uses_furina_in_dual_voice_mode(self):
+        self.service.speech('clorinde','本圈一分零九秒七。比最快圈慢0.3秒。',1,'mp3')
+        self.assertEqual(self.calls[-1][0],'furina')
+        self.service.speech('clorinde','剩余油量二十升。',1,'mp3')
+        self.assertEqual(self.calls[-1][0],'clorinde')
     def setUp(self):
         self.assertIsNotNone(VoiceService, 'Local speech adapter is missing')
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
+        from unittest.mock import patch
+        for target,value in [('opening_sequence.PRIORITY',Path(self.tmp.name)/'priority.json'),
+                             ('bridge.ROOT',Path(self.tmp.name))]:
+            replacement=patch(target,value);replacement.start();self.addCleanup(replacement.stop)
         self.calls = []
         def render(voice, text, speed, fmt):
             self.calls.append((voice, text, speed, fmt))
@@ -22,10 +31,24 @@ class VoiceTests(unittest.TestCase):
         self.service = VoiceService(Path(self.tmp.name), render, 'test-model-hash')
 
     def test_voices_are_independent_and_repeated_phrases_cached(self):
-        a = self.service.speech('furina', '油量还能跑五圈。', 1, 'wav')
-        self.assertEqual(a, self.service.speech('furina', '油量还能跑五圈。', 1, 'wav'))
-        self.service.speech('ganyu', '油量还能跑五圈。', 1, 'wav')
+        a = self.service.speech('furina', '中文语音测试。', 1, 'wav')
+        self.assertEqual(a, self.service.speech('furina', '中文语音测试。', 1, 'wav'))
+        self.service.speech('ganyu', '中文语音测试。', 1, 'wav')
         self.assertEqual(len(self.calls), 2)
+
+    def test_reading_is_normalized_before_render_and_cache(self):
+        self.service.speech('furina','筑波2000，还可以跑131圈。',1,'wav')
+        self.assertEqual(self.calls[-1][1],'筑波两千，还可以跑一百三十一圈。')
+        self.service.speech('furina','筑波两千，还可以跑一百三十一圈。',1,'wav')
+        self.assertEqual(len(self.calls),1)
+
+    def test_old_pronunciation_cache_is_not_reused(self):
+        import hashlib,json
+        text='当前赛道是筑波。'
+        key=hashlib.sha256(json.dumps(['test-model-hash','furina',text,1.0,'wav'],ensure_ascii=False).encode()).hexdigest()
+        (self.service.cache/(key+'.wav')).write_bytes(b'old wrong pronunciation')
+        self.assertNotEqual(self.service.speech('furina',text,1,'wav'),b'old wrong pronunciation')
+        self.assertEqual(len(self.calls),1)
 
     def test_integer_and_float_speed_share_cache(self):
         self.service.speech('clorinde','轮胎检查。',1,'wav')
@@ -77,6 +100,23 @@ class VoiceTests(unittest.TestCase):
         self.assertTrue(response.content.startswith(b'ID3'))
         response = client.post('/v1/audio/speech', json={'voice':'unknown', 'input':'左侧有车。'})
         self.assertEqual(response.status_code, 400)
+
+    def test_native_opening_is_silent_but_ordered_opening_is_rendered(self):
+        from fastapi.testclient import TestClient
+        from bridge import create_app
+        from opening_sequence import ENGINEER
+        client=TestClient(create_app(self.service))
+        payload={'voice':'clorinde','input':ENGINEER,'response_format':'wav'}
+        response=client.post('/v1/audio/speech',json=payload)
+        self.assertEqual(response.status_code,200)
+        self.assertTrue(response.content.startswith(b'RIFF'))
+        self.assertEqual(self.calls,[])
+        payload['opening']=True
+        from unittest.mock import patch
+        with patch('wav_playback.finalize_wav',side_effect=lambda data:data):
+            response=client.post('/v1/audio/speech',json=payload)
+        self.assertEqual(response.status_code,200)
+        self.assertTrue(self.calls)
 
     def test_single_voice_mode_rejects_model_switching(self):
         from fastapi.testclient import TestClient

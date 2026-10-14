@@ -31,6 +31,15 @@ class StatusPromptTests(unittest.TestCase):
             player.assert_called_once()
             flag.touch();player.reset_mock()
             self.assertEqual(prompt.play(),0);player.assert_not_called()
+    def test_prompt_is_interrupted_when_native_voice_starts(self):
+        from status_prompt import LocalStatusPrompt
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);flag=root/'Speaking.status';player=Mock()
+            prompt=LocalStatusPrompt(root/'missing',flag,root,player);flag.touch()
+            prompt.monitor(1000000000)
+            player.assert_called_once()
+            self.assertIsNone(player.call_args.args[0])
+
     def test_missing_audio_does_not_block_report(self):
         from status_prompt import LocalStatusPrompt
         with tempfile.TemporaryDirectory() as d:

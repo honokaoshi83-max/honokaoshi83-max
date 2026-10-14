@@ -12,8 +12,11 @@ def portable_configure(text,port):
         fields=value.split('|',2)
         if len(fields)!=3:raise ValueError('Unexpected assistant plugin format')
         args=[a.strip() for a in fields[2].split(';') if a.strip()]
-        args=[a for a in args if a.split(':',1)[0].strip().lower() not in ('listener','language','speaker','speakervocalics','synthesizer')]
+        args=[a for a in args if a.split(':',1)[0].strip().lower() not in ('listener','language','speaker','speakervocalics','synthesizer','raceassistant')]
         voice='clorinde' if role=='Race Engineer' else 'furina'
+        if not any(a.split(':',1)[0].strip().lower() in ('name','raceassistantname') for a in args):
+            args.append('name: '+('克洛琳德' if role=='Race Engineer' else '芙宁娜'))
+        args.append('raceAssistant: On')
         args+=['language: zh','listener: Off','speaker: gpt-sovits/'+voice,'speakerVocalics: 100,0,0',f'synthesizer: OpenAI|http://127.0.0.1:{port}|local']
         return role+'=true|'+fields[1]+'|'+'; '.join(args)
     for line in lines:
@@ -40,7 +43,9 @@ def main():
     for source in data_path('grammars').glob('*.zh'):
         dest=folder/source.name
         if dest.exists():shutil.copy2(dest,dest.with_name(dest.name+'.before-chinese-assistant-'+stamp+'.bak'))
-        shutil.copy2(source,dest)
+        # Windows INI readers require an explicit Unicode encoding and CRLF.
+        content=source.read_text(encoding='utf-8-sig')
+        dest.write_bytes(('\r\n'.join(content.splitlines())+'\r\n').encode('utf-16'))
     print('已备份并接入三个助手。请重新启动 Simulator Controller。')
 
 if __name__=='__main__':main()

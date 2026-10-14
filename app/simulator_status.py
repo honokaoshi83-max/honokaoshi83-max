@@ -36,6 +36,7 @@ def inspect_simulator(project):
                 key, value = line.split('=', 1); plugins[key.strip()] = value
         url = 'http://127.0.0.1:' + str(config.get('port', 9881))
         integrated = all(plugins.get(role, '').startswith('true|') and
+                         'raceAssistant: On' in plugins[role] and
                          'language: zh' in plugins[role] and 'listener: Off' in plugins[role] and
                          'speaker: gpt-sovits/' in plugins[role] and
                          'synthesizer: OpenAI|' + url + '|local' in plugins[role]

@@ -1,0 +1,1229 @@
+{
+  "sources": [
+    "https://support.iracing.com/support/solutions/articles/31000172625-filepath-for-active-iracing-cars",
+    "https://www.iracing.com/cars/",
+    "https://support.iracing.com/support/solutions/articles/31000159313-ai-content-available-asphalt"
+  ],
+  "reviewed": "2026-10-14",
+  "cars": [
+    {
+      "en": "Acura ARX-06 GTP",
+      "path": "acuraarx06gtp",
+      "zh": "讴歌 ARX-06 GTP",
+      "spoken": "讴歌诶阿尔艾克斯零六吉提皮"
+    },
+    {
+      "en": "Acura NSX GT3 EVO 22",
+      "path": "acuransxevo22gt3",
+      "zh": "讴歌 NSX GT3 升级版 22",
+      "spoken": "讴歌恩艾斯艾克斯吉提三升级版二二"
+    },
+    {
+      "en": "ARCA Chevrolet SS",
+      "path": "stockcars2/arcachevy25",
+      "zh": "阿尔卡 雪佛兰 SS",
+      "spoken": "阿尔卡雪佛兰艾斯艾斯"
+    },
+    {
+      "en": "ARCA Ford Mustang",
+      "path": "stockcars2/arcaford25",
+      "zh": "阿尔卡 福特 野马",
+      "spoken": "阿尔卡福特野马"
+    },
+    {
+      "en": "ARCA Toyota Camry",
+      "path": "stockcars2/arcatoyota25",
+      "zh": "阿尔卡 丰田 凯美瑞",
+      "spoken": "阿尔卡丰田凯美瑞"
+    },
+    {
+      "en": "Aston Martin DBR9 GT1",
+      "path": "astonmartin/dbr9",
+      "zh": "阿斯顿马丁 DBR9 GT1",
+      "spoken": "阿斯顿马丁迪比阿尔九吉提幺"
+    },
+    {
+      "en": "Aston Martin Vantage GT3 EVO",
+      "path": "amvantageevogt3",
+      "zh": "阿斯顿马丁 万塔格 GT3 升级版",
+      "spoken": "阿斯顿马丁万塔格吉提三升级版"
+    },
+    {
+      "en": "Aston Martin Vantage GT4",
+      "path": "amvantagegt4",
+      "zh": "阿斯顿马丁 万塔格 GT4",
+      "spoken": "阿斯顿马丁万塔格吉提四"
+    },
+    {
+      "en": "Audi 90 GTO",
+      "path": "audi90gto",
+      "zh": "奥迪 90 GTO",
+      "spoken": "奥迪九十吉提欧"
+    },
+    {
+      "en": "Audi R18",
+      "path": "audir18",
+      "zh": "奥迪 R18",
+      "spoken": "奥迪阿尔幺八"
+    },
+    {
+      "en": "Audi R8 LMS EVO II GT3",
+      "path": "audir8lmsevo2gt3",
+      "zh": "奥迪 R8 LMS 升级版 II GT3",
+      "spoken": "奥迪阿尔八艾勒艾姆艾斯第二代升级版吉提三"
+    },
+    {
+      "en": "Audi RS3 LMS TCR",
+      "path": "audirs3lms",
+      "zh": "奥迪 RS3 LMS TCR",
+      "spoken": "奥迪阿尔艾斯三艾勒艾姆艾斯提西阿尔",
+      "speech_aliases": {
+        "Audi RS 3 LMS TCR": "奥迪阿尔艾斯三艾勒艾姆艾斯提西阿尔"
+      }
+    },
+    {
+      "en": "BMW M Hybrid V8",
+      "path": "bmwlmdh",
+      "zh": "宝马 M 混合动力 V8",
+      "spoken": "宝马艾姆混合动力维八"
+    },
+    {
+      "en": "BMW M2 CSR",
+      "path": "bmwrn2csr",
+      "zh": "宝马 M2 CS 赛车版",
+      "aliases": [
+        "BMW M2 CSR"
+      ],
+      "path_aliases": [
+        "bmwm2csr"
+      ],
+      "spoken": "宝马艾姆二西艾斯赛车版"
+    },
+    {
+      "en": "BMW M4 GT3",
+      "path": "bmwm4gt3",
+      "zh": "宝马 M4 GT3",
+      "spoken": "宝马艾姆四吉提三",
+      "speech_aliases": {
+        "BMW M4 GT3 EVO": "宝马艾姆四吉提三升级版"
+      }
+    },
+    {
+      "en": "BMW M4 G82 GT4",
+      "path": "bmwm4evogt4",
+      "zh": "宝马 M4 G82 GT4",
+      "spoken": "宝马艾姆四吉八二吉提四",
+      "speech_aliases": {
+        "BMW M4 G82 GT4 Evo": "宝马艾姆四吉八二吉提四升级版"
+      }
+    },
+    {
+      "en": "BMW M4 F82 GT4 - 2018",
+      "path": "bmwm4gt4",
+      "zh": "宝马 M4 F82 GT4，2018",
+      "spoken": "宝马艾姆四艾弗八二吉提四，二零一八"
+    },
+    {
+      "en": "BMW M8 GTE",
+      "path": "bmwm8gte",
+      "zh": "宝马 M8 GTE",
+      "spoken": "宝马艾姆八吉提伊"
+    },
+    {
+      "en": "Cadillac CTS-V Racecar",
+      "path": "cadillacctsvr",
+      "zh": "凯迪拉克 CTS-V 赛车",
+      "spoken": "凯迪拉克西提艾斯维赛车"
+    },
+    {
+      "en": "Cadillac V-Series.R GTP",
+      "path": "cadillacvseriesgtp",
+      "zh": "凯迪拉克 V系列R GTP",
+      "path_aliases": [
+        "cadillacvseriesrgtp"
+      ],
+      "spoken": "凯迪拉克维系列阿尔吉提皮"
+    },
+    {
+      "en": "Chevrolet Corvette C6.R GT1",
+      "path": "c6r",
+      "zh": "雪佛兰 科尔维特 C6.R GT1",
+      "spoken": "雪佛兰科尔维特西六.阿尔吉提幺"
+    },
+    {
+      "en": "Chevrolet Corvette C7 Daytona Prototype",
+      "path": "c7vettedp",
+      "zh": "雪佛兰 科尔维特 C7 代托纳原型车",
+      "spoken": "雪佛兰科尔维特西七代托纳原型车"
+    },
+    {
+      "en": "Chevrolet Corvette C8.R GTE",
+      "path": "c8rvettegte",
+      "zh": "雪佛兰 科尔维特 C8.R GTE",
+      "spoken": "雪佛兰科尔维特西八.阿尔吉提伊"
+    },
+    {
+      "en": "Chevrolet Corvette Z06 GT3.R",
+      "path": "chevyvettez06rgt3",
+      "zh": "雪佛兰 科尔维特 Z06 GT3.R",
+      "spoken": "雪佛兰科尔维特泽德零六吉提三.阿尔"
+    },
+    {
+      "en": "Dallara F3",
+      "path": "dallaraf3",
+      "zh": "达拉拉 F3",
+      "spoken": "达拉拉艾弗三"
+    },
+    {
+      "en": "Dallara IL-15 (INDY NXT)",
+      "path": "dallarail15",
+      "zh": "达拉拉 IL-15 ，印地新秀",
+      "spoken": "达拉拉艾艾勒幺五，印地新秀"
+    },
+    {
+      "en": "Dallara iR-01",
+      "path": "dallarair01",
+      "zh": "达拉拉 iR-01",
+      "spoken": "达拉拉艾阿尔零幺"
+    },
+    {
+      "en": "Dallara IR18",
+      "path": "dallarair18",
+      "zh": "达拉拉 IR18",
+      "spoken": "达拉拉艾阿尔幺八"
+    },
+    {
+      "en": "Dallara P217",
+      "path": "dallarap217",
+      "zh": "达拉拉 P217",
+      "spoken": "达拉拉皮二幺七"
+    },
+    {
+      "en": "Dirt Big Block Modified",
+      "path": "dirtmodified/bigblock",
+      "zh": "泥地 大排量改装赛车",
+      "spoken": "泥地大排量改装赛车"
+    },
+    {
+      "en": "Dirt 358 Modified",
+      "path": "dirtmodified/358",
+      "zh": "泥地 358 改装赛车",
+      "spoken": "泥地三五八改装赛车"
+    },
+    {
+      "en": "Limited Dirt Late Model",
+      "path": "dirtlatemodel/350",
+      "zh": "限级泥地晚期型赛车",
+      "spoken": "限级泥地晚期型赛车"
+    },
+    {
+      "en": "Pro Dirt Late Model",
+      "path": "dirtlatemodel/358",
+      "zh": "专业泥地晚期型赛车",
+      "spoken": "专业泥地晚期型赛车"
+    },
+    {
+      "en": "Super Dirt Late Model",
+      "path": "dirtlatemodel/438",
+      "zh": "超级泥地晚期型赛车",
+      "spoken": "超级泥地晚期型赛车"
+    },
+    {
+      "en": "Dirt Micro Sprint Car - Winged",
+      "path": "dirtmicrosprint/winged",
+      "zh": "泥地 微型冲刺赛车，有翼型",
+      "spoken": "泥地微型冲刺赛车，有翼型"
+    },
+    {
+      "en": "Dirt Micro Sprint Car - Non-Winged",
+      "path": "dirtmicrosprint/nonwinged",
+      "zh": "泥地 微型冲刺赛车，无翼型",
+      "spoken": "泥地微型冲刺赛车，无翼型"
+    },
+    {
+      "en": "Dirt Midget",
+      "path": "dirtmidget",
+      "zh": "泥地小型赛车",
+      "spoken": "泥地小型赛车"
+    },
+    {
+      "en": "Dirt Mini Stock",
+      "path": "dirtministock",
+      "zh": "泥地小型房车",
+      "spoken": "泥地小型房车"
+    },
+    {
+      "en": "Dirt Sprint Car - 305",
+      "path": "dirtsprint/winged/305",
+      "zh": "泥地 冲刺赛车，305",
+      "spoken": "泥地冲刺赛车，三零五"
+    },
+    {
+      "en": "Dirt Sprint Car - 360",
+      "path": "dirtsprint/winged/360",
+      "zh": "泥地 冲刺赛车，360",
+      "spoken": "泥地冲刺赛车，三六零"
+    },
+    {
+      "en": "Dirt Sprint Car - 410",
+      "path": "dirtsprint/winged/410",
+      "zh": "泥地 冲刺赛车，410",
+      "spoken": "泥地冲刺赛车，四幺零"
+    },
+    {
+      "en": "Dirt Sprint Car Non-Winged - 360",
+      "path": "dirtsprint/nonwinged/360",
+      "zh": "泥地 冲刺赛车 无翼型，360",
+      "spoken": "泥地冲刺赛车无翼型，三六零"
+    },
+    {
+      "en": "Dirt Sprint Car Non-Winged - 410",
+      "path": "dirtsprint/nonwinged/410",
+      "zh": "泥地 冲刺赛车 无翼型，410",
+      "spoken": "泥地冲刺赛车无翼型，四幺零"
+    },
+    {
+      "en": "Dirt Street Stock",
+      "path": "dirtstreetstock",
+      "zh": "泥地 街道赛车",
+      "spoken": "泥地街道赛车"
+    },
+    {
+      "en": "Dirt UMP Modified",
+      "path": "dirtumpmod",
+      "zh": "泥地 统一改装组 改装赛车",
+      "spoken": "泥地统一改装组改装赛车"
+    },
+    {
+      "en": "Ferrari 296 Challenge",
+      "path": "ferrari296challenge",
+      "zh": "法拉利 296 挑战赛",
+      "spoken": "法拉利二九六挑战赛"
+    },
+    {
+      "en": "Ferrari 296 GT3",
+      "path": "ferrari296gt3",
+      "zh": "法拉利 296 GT3",
+      "spoken": "法拉利二九六吉提三"
+    },
+    {
+      "en": "Ferrari 488 GT3 Evo 2020",
+      "path": "ferrarievogt3",
+      "zh": "法拉利 488 GT3 升级版，2020版",
+      "spoken": "法拉利四八八吉提三升级版，二零二零版"
+    },
+    {
+      "en": "Ferrari 499P",
+      "path": "ferrari499p",
+      "zh": "法拉利 499P",
+      "spoken": "法拉利四九九皮"
+    },
+    {
+      "en": "Ferrari 488 GTE",
+      "path": "ferrari488gte",
+      "zh": "法拉利 488 GTE",
+      "spoken": "法拉利四八八吉提伊"
+    },
+    {
+      "en": "FIA Cross Car",
+      "path": "crosscartn11",
+      "zh": "国际汽联 越野小赛车",
+      "spoken": "国际汽联越野小赛车"
+    },
+    {
+      "en": "FIA F4",
+      "path": "formulair04",
+      "zh": "国际汽联 F4",
+      "spoken": "国际汽联艾弗四"
+    },
+    {
+      "en": "Ford Fiesta RS WRC",
+      "path": "fordfiestarswrc",
+      "zh": "福特 嘉年华 RS WRC",
+      "spoken": "福特嘉年华阿尔艾斯达布留阿尔西"
+    },
+    {
+      "en": "Ford GTE",
+      "path": "fordgt2017",
+      "zh": "福特 GTE",
+      "spoken": "福特吉提伊"
+    },
+    {
+      "en": "Ford GT GT2",
+      "path": "fordgt",
+      "zh": "福特 GT GT2",
+      "spoken": "福特吉提吉提二"
+    },
+    {
+      "en": "Ford GT GT3",
+      "path": "fordgt/gt3",
+      "zh": "福特 GT GT3",
+      "spoken": "福特吉提吉提三"
+    },
+    {
+      "en": "Ford Mustang FR500S",
+      "path": "fr500s",
+      "zh": "福特 野马 FR500S",
+      "spoken": "福特野马艾弗阿尔五零零艾斯"
+    },
+    {
+      "en": "Ford Mustang GT3",
+      "path": "fordmustanggt3",
+      "zh": "福特 野马 GT3",
+      "spoken": "福特野马吉提三"
+    },
+    {
+      "en": "Ford Mustang GT4",
+      "path": "fordmustanggt4",
+      "zh": "福特 野马 GT4",
+      "spoken": "福特野马吉提四"
+    },
+    {
+      "en": "Formula Renault 2.0",
+      "path": "formularenault20",
+      "zh": "雷诺方程式 2.0",
+      "spoken": "雷诺方程式二点零"
+    },
+    {
+      "en": "Formula Renault 3.5",
+      "path": "formularenault35",
+      "zh": "雷诺方程式 3.5",
+      "spoken": "雷诺方程式三点五"
+    },
+    {
+      "en": "Formula Vee",
+      "path": "formulavee",
+      "zh": "维式方程式",
+      "spoken": "维式方程式"
+    },
+    {
+      "en": "Global Mazda MX-5 Cup",
+      "path": "mx5/mx52016",
+      "zh": "全球 马自达 MX-5 杯赛",
+      "spoken": "全球马自达艾姆艾克斯五杯赛"
+    },
+    {
+      "en": "Honda Civic Type R TCR",
+      "path": "hondacivictyper",
+      "zh": "本田 思域 R型 TCR",
+      "spoken": "本田思域阿尔型提西阿尔"
+    },
+    {
+      "en": "HPD ARX-01c",
+      "path": "hpdarx01c",
+      "zh": "本田性能研发 ARX-01c",
+      "spoken": "本田性能研发诶阿尔艾克斯零幺西"
+    },
+    {
+      "en": "Hyundai Elantra N TCR",
+      "path": "hyundaielantracn7",
+      "zh": "现代 伊兰特 N TCR",
+      "spoken": "现代伊兰特恩提西阿尔"
+    },
+    {
+      "en": "Hyundai Veloster N TCR",
+      "path": "hyundaivelostern",
+      "zh": "现代 飞思 N TCR",
+      "spoken": "现代飞思恩提西阿尔"
+    },
+    {
+      "en": "Indy Pro 2000 PM-18",
+      "path": "indypropm18",
+      "zh": "印地专业级 2000 PM-18",
+      "spoken": "印地专业级两千皮艾姆幺八"
+    },
+    {
+      "en": "Kia Optima",
+      "path": "kiaoptima",
+      "zh": "起亚 远舰",
+      "spoken": "起亚远舰"
+    },
+    {
+      "en": "Lamborghini Huracán GT3 EVO",
+      "path": "lamborghinievogt3",
+      "zh": "兰博基尼 飓风 GT3 升级版",
+      "spoken": "兰博基尼飓风吉提三升级版"
+    },
+    {
+      "en": "Late Model Stock",
+      "path": "latemodel2023",
+      "zh": "晚期型房车",
+      "path_aliases": [
+        "latemodel"
+      ],
+      "spoken": "晚期型房车"
+    },
+    {
+      "en": "Legends Ford '34 Coupe",
+      "path": "legends/ford34c",
+      "zh": "传奇赛车 福特 1934款 双门轿跑",
+      "spoken": "传奇赛车福特一九三四款双门轿跑"
+    },
+    {
+      "en": "Legends Ford '34 Coupe - Rookie",
+      "path": "legends/ford34c/rookie",
+      "zh": "传奇赛车 福特 1934款 双门轿跑，新手版",
+      "spoken": "传奇赛车福特一九三四款双门轿跑，新手版"
+    },
+    {
+      "en": "Ligier JS P320",
+      "path": "ligierjsp320",
+      "zh": "利吉耶 JS P320",
+      "spoken": "利吉耶杰艾斯皮三二零"
+    },
+    {
+      "en": "Lotus 49",
+      "path": "lotus49",
+      "zh": "路特斯 49",
+      "spoken": "路特斯四十九"
+    },
+    {
+      "en": "Lotus 79",
+      "path": "lotus79",
+      "zh": "路特斯 79",
+      "spoken": "路特斯七十九"
+    },
+    {
+      "en": "Lucas Oil Off Road Pro 2 Lite",
+      "path": "protrucks/pro2lite",
+      "zh": "卢卡斯石油越野 专业级 2 轻量版",
+      "spoken": "卢卡斯石油越野专业级二轻量版"
+    },
+    {
+      "en": "Lucas Oil Off Road Pro 2 Truck",
+      "path": "protrucks/pro2truck",
+      "zh": "卢卡斯石油越野 专业级 2 卡车",
+      "spoken": "卢卡斯石油越野专业级二卡车"
+    },
+    {
+      "en": "Lucas Oil Off Road Pro 4 Truck",
+      "path": "protrucks/pro4truck",
+      "zh": "卢卡斯石油越野 专业级 4 卡车",
+      "spoken": "卢卡斯石油越野专业级四卡车"
+    },
+    {
+      "en": "McLaren 570S GT4",
+      "path": "mclaren570sgt4",
+      "zh": "迈凯伦 570S GT4",
+      "spoken": "迈凯伦五七零艾斯吉提四"
+    },
+    {
+      "en": "McLaren 720S GT3 EVO",
+      "path": "mclaren720sgt3",
+      "zh": "迈凯伦 720S GT3 升级版",
+      "spoken": "迈凯伦七二零艾斯吉提三升级版"
+    },
+    {
+      "en": "McLaren MP4-12C GT3",
+      "path": "mclarenmp4",
+      "zh": "迈凯伦 MP4-12C GT3",
+      "aliases": [
+        "[Legacy] McLaren MP4-12C GT3"
+      ],
+      "spoken": "迈凯伦艾姆皮四幺二西吉提三"
+    },
+    {
+      "en": "McLaren MP4-30",
+      "path": "mclarenmp430",
+      "zh": "迈凯伦 MP4-30",
+      "spoken": "迈凯伦艾姆皮四三零"
+    },
+    {
+      "en": "Mercedes-AMG GT3 2020",
+      "path": "mercedesamgevogt3",
+      "zh": "梅赛德斯 AMG GT3，2020版",
+      "spoken": "梅赛德斯诶艾姆吉吉提三，二零二零版"
+    },
+    {
+      "en": "Mercedes-AMG GT4",
+      "path": "mercedesamggt4",
+      "zh": "梅赛德斯AMG GT4",
+      "spoken": "梅赛德斯诶艾姆吉吉提四"
+    },
+    {
+      "en": "Mercedes-AMG W12 E Performance",
+      "path": "mercedesw12",
+      "zh": "梅赛德斯AMG W12 高性能版",
+      "spoken": "梅赛德斯诶艾姆吉达布留幺二高性能版"
+    },
+    {
+      "en": "Mercedes-AMG W13 E Performance",
+      "path": "mercedesw13",
+      "zh": "梅赛德斯AMG W13 高性能版",
+      "spoken": "梅赛德斯诶艾姆吉达布留幺三高性能版"
+    },
+    {
+      "en": "Mini Stock",
+      "path": "ministock",
+      "zh": "小型房车",
+      "spoken": "小型房车"
+    },
+    {
+      "en": "NASCAR Cup Series Chevrolet Camaro ZL1",
+      "path": "stockcars/camarozl12018",
+      "zh": "纳斯卡 杯赛系列 雪佛兰 科迈罗 ZL1",
+      "spoken": "纳斯卡杯赛系列雪佛兰科迈罗泽德艾勒幺"
+    },
+    {
+      "en": "NASCAR Cup Series Ford Mustang",
+      "path": "stockcars/fordmustang2019",
+      "zh": "纳斯卡 杯赛系列 福特 野马",
+      "spoken": "纳斯卡杯赛系列福特野马"
+    },
+    {
+      "en": "NASCAR Cup Series Toyota Camry",
+      "path": "stockcars/toyotacamry",
+      "zh": "纳斯卡 杯赛系列 丰田 凯美瑞",
+      "spoken": "纳斯卡杯赛系列丰田凯美瑞"
+    },
+    {
+      "en": "NASCAR Cup Series Next Gen Chevrolet Camaro ZL1",
+      "path": "stockcars/camarozl12022",
+      "zh": "纳斯卡 杯赛系列 新世代 雪佛兰 科迈罗 ZL1",
+      "path_aliases": [
+        "stockcars/chevycamarozl12022"
+      ],
+      "spoken": "纳斯卡杯赛系列新世代雪佛兰科迈罗泽德艾勒幺"
+    },
+    {
+      "en": "NASCAR Cup Series Next Gen Ford Mustang",
+      "path": "stockcars/fordmustang2022",
+      "zh": "纳斯卡 杯赛系列 新世代 福特 野马",
+      "spoken": "纳斯卡杯赛系列新世代福特野马"
+    },
+    {
+      "en": "NASCAR Cup Series Next Gen Toyota Camry",
+      "path": "stockcars/toyotacamry2022",
+      "zh": "纳斯卡 杯赛系列 新世代 丰田 凯美瑞",
+      "spoken": "纳斯卡杯赛系列新世代丰田凯美瑞"
+    },
+    {
+      "en": "NASCAR Gen 4 Chevrolet Monte Carlo - 2003",
+      "path": "stockcars/chevymontecarlo03",
+      "zh": "纳斯卡 第四代 雪佛兰 蒙特卡洛，2003",
+      "spoken": "纳斯卡第四代雪佛兰蒙特卡洛，二零零三"
+    },
+    {
+      "en": "NASCAR Gen 4 Ford Taurus - 2003",
+      "path": "stockcars/fordtaurus03",
+      "zh": "纳斯卡 第四代 福特 金牛座，2003",
+      "spoken": "纳斯卡第四代福特金牛座，二零零三"
+    },
+    {
+      "en": "NASCAR Legends Buick LeSabre - 1987",
+      "path": "stockcars/buicklesabre87",
+      "zh": "纳斯卡 传奇赛车 别克 勒萨布尔，1987",
+      "spoken": "纳斯卡传奇赛车别克勒萨布尔，一九八七"
+    },
+    {
+      "en": "NASCAR Legends Chevrolet Monte Carlo - 1987",
+      "path": "stockcars/chevymontecarlo87",
+      "zh": "纳斯卡 传奇赛车 雪佛兰 蒙特卡洛，1987",
+      "spoken": "纳斯卡传奇赛车雪佛兰蒙特卡洛，一九八七"
+    },
+    {
+      "en": "NASCAR Legends Ford Thunderbird - 1987",
+      "path": "stockcars/fordthunderbird87",
+      "zh": "纳斯卡 传奇赛车 福特 雷鸟，1987",
+      "spoken": "纳斯卡传奇赛车福特雷鸟，一九八七"
+    },
+    {
+      "en": "NASCAR Legends Pontiac Grand Prix - 1987",
+      "path": "stockcars/pontiacgrandprix87",
+      "zh": "纳斯卡 传奇赛车 庞蒂亚克 大奖赛，1987",
+      "spoken": "纳斯卡传奇赛车庞蒂亚克大奖赛，一九八七"
+    },
+    {
+      "en": "NASCAR Truck Chevrolet Silverado",
+      "path": "trucks/silverado2019",
+      "zh": "纳斯卡 卡车 雪佛兰 索罗德",
+      "spoken": "纳斯卡卡车雪佛兰索罗德"
+    },
+    {
+      "en": "NASCAR Truck Ford F150",
+      "path": "trucks/fordf150",
+      "zh": "纳斯卡 卡车 福特 F150",
+      "spoken": "纳斯卡卡车福特艾弗幺五零"
+    },
+    {
+      "en": "NASCAR Truck Toyota Tundra TRD Pro",
+      "path": "trucks/toyotatundra2022",
+      "zh": "纳斯卡 卡车 丰田 坦途 TRD 专业级",
+      "spoken": "纳斯卡卡车丰田坦途提阿尔迪专业级"
+    },
+    {
+      "en": "NASCAR Whelen Tour Modified",
+      "path": "skmodified/tour",
+      "zh": "纳斯卡 惠伦巡回赛 改装赛车",
+      "spoken": "纳斯卡惠伦巡回赛改装赛车"
+    },
+    {
+      "en": "Modified - SK",
+      "path": "skmodified",
+      "zh": "改装赛车，SK",
+      "spoken": "改装赛车，艾斯开"
+    },
+    {
+      "en": "NASCAR Xfinity Chevrolet Camaro",
+      "path": "stockcars2/camaro2019",
+      "zh": "纳斯卡 无限系列 雪佛兰 科迈罗",
+      "spoken": "纳斯卡无限系列雪佛兰科迈罗"
+    },
+    {
+      "en": "NASCAR Xfinity Ford Mustang",
+      "path": "stockcars2/mustang2019",
+      "zh": "纳斯卡 无限系列 福特 野马",
+      "spoken": "纳斯卡无限系列福特野马"
+    },
+    {
+      "en": "NASCAR Xfinity Toyota Supra",
+      "path": "stockcars2/supra2019",
+      "zh": "纳斯卡 无限系列 丰田 苏普拉",
+      "spoken": "纳斯卡无限系列丰田苏普拉"
+    },
+    {
+      "en": "Nissan GTP ZXT",
+      "path": "nissangtpzxt",
+      "zh": "日产 GTP ZXT",
+      "spoken": "日产吉提皮泽德艾克斯提"
+    },
+    {
+      "en": "Pontiac Solstice",
+      "path": "solstice",
+      "zh": "庞蒂亚克 至日",
+      "spoken": "庞蒂亚克至日"
+    },
+    {
+      "en": "Pontiac Solstice - Rookie",
+      "path": "solstice/rookie",
+      "zh": "庞蒂亚克 至日，新手版",
+      "spoken": "庞蒂亚克至日，新手版"
+    },
+    {
+      "en": "Porsche 718 Cayman GT4 Clubsport MR",
+      "path": "porsche718gt4",
+      "zh": "保时捷 718 卡曼 GT4 俱乐部运动版 MR",
+      "spoken": "保时捷七幺八卡曼吉提四俱乐部运动版艾姆阿尔"
+    },
+    {
+      "en": "Porsche 911 Cup (992.2)",
+      "path": "porsche9922cup",
+      "zh": "保时捷 911 杯赛 ，992.2",
+      "spoken": "保时捷九幺幺杯赛，九九二点二"
+    },
+    {
+      "en": "Porsche 911 GT3 R (992)",
+      "path": "porsche992rgt3",
+      "zh": "保时捷 911 GT3 R ，992",
+      "spoken": "保时捷九幺幺吉提三阿尔，九九二"
+    },
+    {
+      "en": "Porsche 911 RSR",
+      "path": "porsche991rsr",
+      "zh": "保时捷 911 RSR",
+      "spoken": "保时捷九幺幺阿尔艾斯阿尔"
+    },
+    {
+      "en": "Porsche 919",
+      "path": "porsche919",
+      "zh": "保时捷 919",
+      "spoken": "保时捷九幺九"
+    },
+    {
+      "en": "Porsche 963 GTP",
+      "path": "porsche963gtp",
+      "zh": "保时捷 963 GTP",
+      "spoken": "保时捷九六三吉提皮"
+    },
+    {
+      "en": "Porsche Mission R",
+      "path": "porschemissionr",
+      "zh": "保时捷 使命R",
+      "spoken": "保时捷使命阿尔"
+    },
+    {
+      "en": "Radical SR8",
+      "path": "radical/sr8",
+      "zh": "瑞迪卡 SR8",
+      "spoken": "瑞迪卡艾斯阿尔八"
+    },
+    {
+      "en": "Radical SR10",
+      "path": "radical/radicalsr10",
+      "zh": "瑞迪卡 SR10",
+      "path_aliases": [
+        "radicalsr10"
+      ],
+      "spoken": "瑞迪卡艾斯阿尔幺零"
+    },
+    {
+      "en": "Ray FF1600",
+      "path": "raygr22",
+      "zh": "雷 FF1600",
+      "spoken": "雷艾弗艾弗一千六百"
+    },
+    {
+      "en": "Renault Clio",
+      "path": "renaultcliocup",
+      "zh": "雷诺 克里欧",
+      "spoken": "雷诺克里欧",
+      "speech_aliases": {
+        "Renault Clio R.S. V": "雷诺克里欧阿尔艾斯维"
+      }
+    },
+    {
+      "en": "Ruf RT 12R AWD",
+      "path": "rufrt12r/awd",
+      "zh": "鲁夫 RT 12R AWD",
+      "spoken": "鲁夫阿尔提幺二阿尔诶达布留迪"
+    },
+    {
+      "en": "Ruf RT 12R C-Spec",
+      "path": "rufrt12r/track/cspec",
+      "zh": "鲁夫 RT 12R C规格",
+      "spoken": "鲁夫阿尔提幺二阿尔西规格"
+    },
+    {
+      "en": "Ruf RT 12R RWD",
+      "path": "rufrt12r/rwd",
+      "zh": "鲁夫 RT 12R RWD",
+      "spoken": "鲁夫阿尔提幺二阿尔阿尔达布留迪"
+    },
+    {
+      "en": "Ruf RT 12R Track",
+      "path": "rufrt12r/track",
+      "zh": "鲁夫 RT 12R 赛道版",
+      "spoken": "鲁夫阿尔提幺二阿尔赛道版"
+    },
+    {
+      "en": "SCCA Spec Racer Ford",
+      "path": "specracer",
+      "zh": "美国跑车俱乐部 规格赛车 福特",
+      "spoken": "美国跑车俱乐部规格赛车福特"
+    },
+    {
+      "en": "Silver Crown",
+      "path": "silvercrown",
+      "zh": "银冠赛车",
+      "spoken": "银冠赛车"
+    },
+    {
+      "en": "Skip Barber Formula 2000",
+      "path": "rt2000",
+      "zh": "斯基普巴伯 方程式 2000",
+      "spoken": "斯基普巴伯方程式两千"
+    },
+    {
+      "en": "Sprint Car",
+      "path": "sprint",
+      "zh": "冲刺赛车",
+      "spoken": "冲刺赛车"
+    },
+    {
+      "en": "Stock Car Pro Series Chevrolet Cruze",
+      "path": "stockcarbrasil/cruze",
+      "zh": "专业房车系列 雪佛兰 科鲁兹",
+      "spoken": "专业房车系列雪佛兰科鲁兹"
+    },
+    {
+      "en": "Stock Car Pro Series Toyota Corolla",
+      "path": "stockcarbrasil/corolla",
+      "zh": "专业房车系列 丰田 卡罗拉",
+      "spoken": "专业房车系列丰田卡罗拉"
+    },
+    {
+      "en": "Street Stock",
+      "path": "streetstock",
+      "zh": "街道赛车",
+      "spoken": "街道赛车"
+    },
+    {
+      "en": "Street Stock - Casino",
+      "path": "streetstock/streetstock2",
+      "zh": "街道赛车，赌场版",
+      "spoken": "街道赛车，赌场版"
+    },
+    {
+      "en": "Street Stock - Eagle",
+      "path": "streetstock/streetstock3",
+      "zh": "街道赛车，雄鹰版",
+      "spoken": "街道赛车，雄鹰版"
+    },
+    {
+      "en": "Subaru WRX STI",
+      "path": "subaruwrxsti",
+      "zh": "斯巴鲁 WRX STI",
+      "spoken": "斯巴鲁达布留阿尔艾克斯艾斯提艾"
+    },
+    {
+      "en": "Supercars Ford Mustang Gen 3",
+      "path": "supercars/fordmustanggen3",
+      "zh": "澳洲超级房车 福特 野马 第三代",
+      "spoken": "澳洲超级房车福特野马第三代"
+    },
+    {
+      "en": "Supercars Ford Mustang GT",
+      "path": "v8supercars/fordmustanggt",
+      "zh": "澳洲超级房车 福特 野马 GT",
+      "aliases": [
+        "Supercars Ford Mustang GT"
+      ],
+      "spoken": "澳洲超级房车福特野马吉提"
+    },
+    {
+      "en": "Super Formula SF23 - Toyota",
+      "path": "superformulasf23/toyota",
+      "zh": "超级方程式 SF23，丰田",
+      "spoken": "超级方程式艾斯艾弗二三，丰田"
+    },
+    {
+      "en": "Super Formula SF23 - Honda",
+      "path": "superformulasf23/honda",
+      "zh": "超级方程式 SF23，本田",
+      "spoken": "超级方程式艾斯艾弗二三，本田"
+    },
+    {
+      "en": "Super Late Model",
+      "path": "superlatemodel",
+      "zh": "超级晚期型赛车",
+      "spoken": "超级晚期型赛车"
+    },
+    {
+      "en": "Supercars Holden ZB Commodore",
+      "path": "v8supercars/holden2019",
+      "zh": "澳洲超级房车 霍顿 ZB 康莫多尔",
+      "spoken": "澳洲超级房车霍顿泽德比康莫多尔"
+    },
+    {
+      "en": "Super Formula Lights",
+      "path": "superformulalights324",
+      "zh": "超级方程式轻量级",
+      "spoken": "超级方程式轻量级"
+    },
+    {
+      "en": "Toyota GR86",
+      "path": "toyotagr86",
+      "zh": "丰田 GR86",
+      "spoken": "丰田吉阿尔八六"
+    },
+    {
+      "en": "USF 2000",
+      "path": "usf2000usf17",
+      "zh": "USF 2000",
+      "spoken": "优艾斯艾弗两千"
+    },
+    {
+      "en": "VW Beetle",
+      "path": "vwbeetlegrc",
+      "zh": "大众 甲壳虫",
+      "spoken": "大众甲壳虫"
+    },
+    {
+      "en": "VW Beetle Lite",
+      "path": "vwbeetlegrc/lite",
+      "zh": "大众 甲壳虫 轻量版",
+      "spoken": "大众甲壳虫轻量版"
+    },
+    {
+      "en": "VW Jetta TDI Cup",
+      "path": "jettatdi",
+      "zh": "大众 捷达 TDI 杯赛",
+      "spoken": "大众捷达提迪艾杯赛"
+    },
+    {
+      "en": "Williams FW31",
+      "path": "williamsfw31",
+      "zh": "威廉姆斯 FW31",
+      "spoken": "威廉姆斯艾弗达布留三幺",
+      "speech_aliases": {
+        "Williams Toyota FW31": "威廉姆斯丰田艾弗达布留三幺"
+      }
+    },
+    {
+      "en": "[Legacy] ARCA Menards Chevrolet Impala",
+      "path": "stockcars2/chevy",
+      "zh": "旧版 阿尔卡 梅纳兹 雪佛兰 英帕拉",
+      "spoken": "旧版阿尔卡梅纳兹雪佛兰英帕拉"
+    },
+    {
+      "en": "[Legacy] Gen 4 Cup",
+      "path": "stockcars2/chevy/gen4cup",
+      "zh": "旧版 第四代 杯赛",
+      "spoken": "旧版第四代杯赛"
+    },
+    {
+      "en": "[Legacy] Audi R8 LMS GT3",
+      "path": "audir8gt3",
+      "zh": "旧版 奥迪 R8 LMS GT3",
+      "spoken": "旧版奥迪阿尔八艾勒艾姆艾斯吉提三"
+    },
+    {
+      "en": "[Legacy] BMW Z4 GT3",
+      "path": "bmwz4gt3",
+      "zh": "旧版 宝马 Z4 GT3",
+      "spoken": "旧版宝马泽德四吉提三"
+    },
+    {
+      "en": "[Legacy] Dallara DW12",
+      "path": "dallaradw12",
+      "zh": "旧版 达拉拉 DW12",
+      "spoken": "旧版达拉拉迪达布留幺二"
+    },
+    {
+      "en": "[Legacy] Dallara IR-05",
+      "path": "dallara",
+      "zh": "旧版 达拉拉 IR-05",
+      "spoken": "旧版达拉拉艾阿尔零五"
+    },
+    {
+      "en": "[Legacy] Ferrari 488 GT3",
+      "path": "ferrari488gt3",
+      "zh": "旧版 法拉利 488 GT3",
+      "spoken": "旧版法拉利四八八吉提三"
+    },
+    {
+      "en": "[Legacy] Mazda MX-5 Cup - 2010",
+      "path": "mx5/cup",
+      "zh": "旧版 马自达 MX-5 杯赛，2010",
+      "spoken": "旧版马自达艾姆艾克斯五杯赛，二零一零"
+    },
+    {
+      "en": "[Legacy] Mazda MX-5 Roadster - 2010",
+      "path": "mx5/roadster",
+      "zh": "旧版 马自达 MX-5 敞篷版，2010",
+      "spoken": "旧版马自达艾姆艾克斯五敞篷版，二零一零"
+    },
+    {
+      "en": "[Legacy] Mercedes-AMG GT3",
+      "path": "mercedesamggt3",
+      "zh": "旧版 梅赛德斯AMG GT3",
+      "spoken": "旧版梅赛德斯诶艾姆吉吉提三"
+    },
+    {
+      "en": "[Legacy] NASCAR Cup Chevrolet Impala COT - 2009",
+      "path": "stockcars/impala",
+      "zh": "旧版 纳斯卡 杯赛 雪佛兰 英帕拉 COT，2009",
+      "spoken": "旧版纳斯卡杯赛雪佛兰英帕拉西欧提，二零零九"
+    },
+    {
+      "en": "[Legacy] NASCAR Cup Chevrolet SS - 2013",
+      "path": "stockcars/chevyss",
+      "zh": "旧版 纳斯卡 杯赛 雪佛兰 SS，2013",
+      "spoken": "旧版纳斯卡杯赛雪佛兰艾斯艾斯，二零一三"
+    },
+    {
+      "en": "[Legacy] NASCAR Cup Ford Fusion - 2016",
+      "path": "stockcars/fordfusion",
+      "zh": "旧版 纳斯卡 杯赛 福特 蒙迪欧，2016",
+      "spoken": "旧版纳斯卡杯赛福特蒙迪欧，二零一六"
+    },
+    {
+      "en": "[Legacy] NASCAR Nationwide Chevrolet Impala - 2012",
+      "path": "stockcars2/chevy/cot",
+      "zh": "旧版 纳斯卡 全国系列 雪佛兰 英帕拉，2012",
+      "spoken": "旧版纳斯卡全国系列雪佛兰英帕拉，二零一二"
+    },
+    {
+      "en": "[Legacy] NASCAR Truck Chevrolet Silverado - 2008",
+      "path": "trucks/silverado",
+      "zh": "旧版 纳斯卡 卡车 雪佛兰 索罗德，2008",
+      "spoken": "旧版纳斯卡卡车雪佛兰索罗德，二零零八"
+    },
+    {
+      "en": "[Legacy] NASCAR Xfinity Chevrolet Camaro - 2014",
+      "path": "stockcars2/nwcamaro2014",
+      "zh": "旧版 纳斯卡 无限系列 雪佛兰 科迈罗，2014",
+      "spoken": "旧版纳斯卡无限系列雪佛兰科迈罗，二零一四"
+    },
+    {
+      "en": "[Legacy] NASCAR Xfinity Ford Mustang - 2016",
+      "path": "stockcars2/nwford2013",
+      "zh": "旧版 纳斯卡 无限系列 福特 野马，2016",
+      "spoken": "旧版纳斯卡无限系列福特野马，二零一六"
+    },
+    {
+      "en": "[Legacy] NASCAR Xfinity Toyota Camry - 2015",
+      "path": "stockcars2/camry2015",
+      "zh": "旧版 纳斯卡 无限系列 丰田 凯美瑞，2015",
+      "spoken": "旧版纳斯卡无限系列丰田凯美瑞，二零一五"
+    },
+    {
+      "en": "[Legacy] Porsche 911 GT3 Cup (991)",
+      "path": "porsche911cup",
+      "zh": "旧版 保时捷 911 GT3 杯赛 ，991",
+      "spoken": "旧版保时捷九幺幺吉提三杯赛，九九幺"
+    },
+    {
+      "en": "[Legacy] Porsche 911 GT3 Cup (992.1)",
+      "path": "porsche992cup",
+      "zh": "旧版 保时捷 911 GT3 杯赛 ，992.1",
+      "spoken": "旧版保时捷九幺幺吉提三杯赛，九九二点幺"
+    },
+    {
+      "en": "[Legacy] Porsche 911 GT3 R",
+      "path": "porsche911rgt3",
+      "zh": "旧版 保时捷 911 GT3 R",
+      "spoken": "旧版保时捷九幺幺吉提三阿尔"
+    },
+    {
+      "en": "[Legacy] Pro Mazda",
+      "path": "formulamazda",
+      "zh": "旧版 专业级 马自达",
+      "spoken": "旧版专业级马自达"
+    },
+    {
+      "en": "[Legacy] Riley MkXX Daytona Prototype - 2008",
+      "path": "rileydp",
+      "zh": "旧版 莱利 马克二十 代托纳原型车，2008",
+      "spoken": "旧版莱利马克二十代托纳原型车，二零零八"
+    },
+    {
+      "en": "[Legacy] V8 Supercar Ford Falcon - 2009",
+      "path": "fordv8sc",
+      "zh": "旧版 V8 超级房车 福特 猎鹰，2009",
+      "spoken": "旧版维八超级房车福特猎鹰，二零零九"
+    },
+    {
+      "en": "[Legacy] V8 Supercar Ford FG Falcon - 2014",
+      "path": "v8supercars/ford2014",
+      "zh": "旧版 V8 超级房车 福特 FG 猎鹰，2014",
+      "spoken": "旧版维八超级房车福特艾弗吉猎鹰，二零一四"
+    },
+    {
+      "en": "[Legacy] V8 Supercar Holden VF Commodore - 2014",
+      "path": "v8supercars/holden2014",
+      "zh": "旧版 V8 超级房车 霍顿 VF 康莫多尔，2014",
+      "spoken": "旧版维八超级房车霍顿维艾弗康莫多尔，二零一四"
+    },
+    {
+      "en": "BMW M2 Racing (G87)",
+      "path": "bmwm2g87",
+      "zh": "宝马 M2 赛车版，G87",
+      "provenance": "official car pages/release notes plus local directory",
+      "aliases": [
+        "BMW M2 Racing",
+        "BMW M2 G87"
+      ],
+      "spoken": "宝马艾姆二赛车版，吉八七"
+    },
+    {
+      "en": "BMW M2 CS Racing (F87) - 2020",
+      "path": "bmwm2csr",
+      "zh": "宝马 M2 CS 赛车版，F87，2020版",
+      "provenance": "official car pages/release notes plus local directory",
+      "aliases": [
+        "BMW M2 CS Racing",
+        "BMW M2 CS Racing (F87) - 2020"
+      ],
+      "spoken": "宝马艾姆二西艾斯赛车版，艾弗八七，二零二零版"
+    },
+    {
+      "en": "Audi RS3 LMS Gen2 TCR",
+      "path": "audirs3lmsgen2",
+      "zh": "奥迪 RS3 LMS 第二代 TCR",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "奥迪阿尔艾斯三艾勒艾姆艾斯第二代提西阿尔",
+      "speech_aliases": {
+        "Audi RS 3 LMS Gen2 TCR": "奥迪阿尔艾斯三艾勒艾姆艾斯第二代提西阿尔"
+      }
+    },
+    {
+      "en": "Aston Martin Valkyrie AMR-LMH",
+      "path": "amvalkyriegtp",
+      "zh": "阿斯顿马丁 瓦尔基里 AMR-LMH",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "阿斯顿马丁瓦尔基里诶艾姆阿尔艾勒艾姆艾尺"
+    },
+    {
+      "en": "Caterham Academy",
+      "path": "caterham/caterhamacademy",
+      "zh": "卡特汉姆 学院版",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "卡特汉姆学院版"
+    },
+    {
+      "en": "Caterham 420R",
+      "path": "caterham/caterham420r",
+      "zh": "卡特汉姆 420R",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "卡特汉姆四二零阿尔"
+    },
+    {
+      "en": "Euro NASCAR V8GP",
+      "path": "euronascar",
+      "zh": "欧洲纳斯卡 V8GP",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "欧洲纳斯卡维八吉皮"
+    },
+    {
+      "en": "Supercars Chevrolet Camaro Gen 3",
+      "path": "supercars/chevycamarogen3",
+      "zh": "澳洲超级房车 雪佛兰 科迈罗 第三代",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "澳洲超级房车雪佛兰科迈罗第三代"
+    },
+    {
+      "en": "NASCAR Gen 4 Grand National",
+      "path": "stockcars2/chevy/national",
+      "zh": "纳斯卡第四代全国系列赛车",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "纳斯卡第四代全国系列赛车"
+    },
+    {
+      "en": "SRX",
+      "path": "srx",
+      "zh": "SRX",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "艾斯阿尔艾克斯"
+    },
+    {
+      "en": "Dirt Outlaw Micro Sprint Car - Winged",
+      "path": "dirtmicrosprint/winged/outlaw",
+      "zh": "泥地 自由规格 微型冲刺赛车，有翼型",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "泥地自由规格微型冲刺赛车，有翼型"
+    },
+    {
+      "en": "Dirt Outlaw Micro Sprint Car - Non-Winged",
+      "path": "dirtmicrosprint/nonwinged/outlaw",
+      "zh": "泥地 自由规格 微型冲刺赛车，无翼型",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "泥地自由规格微型冲刺赛车，无翼型"
+    },
+    {
+      "en": "Formula Vee - Cutlass",
+      "path": "formulavee/formulavee2",
+      "zh": "维式方程式，卡特拉斯",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "维式方程式，卡特拉斯"
+    },
+    {
+      "en": "Formula Vee - Conqueror",
+      "path": "formulavee/formulavee3",
+      "zh": "维式方程式，征服者",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "维式方程式，征服者"
+    },
+    {
+      "en": "Dirt Legends Ford 1934 Coupe",
+      "path": "legends/dirtford34c",
+      "zh": "泥地 传奇赛车 福特 1934款 双门轿跑",
+      "provenance": "official car pages/release notes plus local directory",
+      "spoken": "泥地传奇赛车福特一九三四款双门轿跑"
+    },
+    {
+      "en": "NASCAR Truck RAM",
+      "path": "trucks/ram2026",
+      "zh": "纳斯卡公羊卡车",
+      "provenance": "official 2026 Season 2 release notes",
+      "spoken": "纳斯卡公羊卡车"
+    },
+    {
+      "en": "[Legacy] NASCAR Truck Chevrolet Silverado - 2015",
+      "path": "trucks/silverado2015",
+      "zh": "旧版纳斯卡雪佛兰索罗德卡车，2015版",
+      "provenance": "local legacy directory; year inferred from folder label",
+      "spoken": "旧版纳斯卡雪佛兰索罗德卡车，二零一五版"
+    }
+  ]
+}

@@ -18,7 +18,7 @@ class SimulatorStatusTests(unittest.TestCase):
         (self.sc / 'Binaries').mkdir(parents=True)
         (self.sc / 'Binaries/Simulator Startup.exe').touch()
         folder = self.docs / 'Simulator Controller/Config'; folder.mkdir(parents=True)
-        text = '[Plugins]\nIRC=true|iRacing|\n' + '\n'.join(f'{role}=true||language: zh; listener: Off; speaker: gpt-sovits/furina; synthesizer: OpenAI|http://127.0.0.1:{port}|local' for role in ROLES)
+        text = '[Plugins]\nIRC=true|iRacing|\n' + '\n'.join(f'{role}=true||raceAssistant: On; language: zh; listener: Off; speaker: gpt-sovits/furina; synthesizer: OpenAI|http://127.0.0.1:{port}|local' for role in ROLES)
         (folder / 'Simulator Configuration.ini').write_text(text, encoding=encoding)
         folder = self.docs / 'Simulator Controller/Grammars'; folder.mkdir()
         for role in ROLES: (folder / (role + '.grammars.zh')).touch()
@@ -35,6 +35,12 @@ class SimulatorStatusTests(unittest.TestCase):
 
     def test_wrong_port_needs_reintegration(self):
         self.prepare(port=9882)
+        self.assertFalse(inspect_simulator(self.root)['integrated'])
+
+    def test_voice_settings_without_enabled_assistants_are_incomplete(self):
+        self.prepare()
+        path=self.docs/'Simulator Controller/Config/Simulator Configuration.ini'
+        path.write_text(path.read_text().replace('raceAssistant: On; ',''))
         self.assertFalse(inspect_simulator(self.root)['integrated'])
 
     def test_missing_grammar_needs_reintegration(self):

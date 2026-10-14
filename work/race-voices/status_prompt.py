@@ -1,5 +1,5 @@
 """Immediate, local acknowledgement for accepted status-button requests."""
-import array,io,time,wave
+import array,io,time,wave,threading
 from pathlib import Path
 from output_volume import load_volume
 from runtime_settings import project_root
@@ -27,6 +27,14 @@ class LocalStatusPrompt:
                 self.duration=len(self.audio)/(w.getnchannels()*w.getsampwidth()*w.getframerate())
         except (OSError,ValueError,wave.Error):self.audio=None
 
+    def monitor(self,until):
+        import winsound
+        while time.monotonic()<until:
+            if self.speaking.exists():
+                (self.player or winsound.PlaySound)(None,winsound.SND_PURGE)
+                return
+            time.sleep(.03)
+
     def play(self):
         if self.audio is None or self.speaking.exists():return 0
         volume=load_volume(self.root)
@@ -44,5 +52,8 @@ class LocalStatusPrompt:
                 path=self.levels[volume]
             import winsound
             (self.player or winsound.PlaySound)(str(path),winsound.SND_FILENAME|winsound.SND_ASYNC|winsound.SND_NODEFAULT)
-            return time.monotonic()+self.duration
+            until=time.monotonic()+self.duration
+            if self.player is None:
+                threading.Thread(target=self.monitor,args=(until,),daemon=True).start()
+            return until
         except (OSError,RuntimeError,ValueError):return 0

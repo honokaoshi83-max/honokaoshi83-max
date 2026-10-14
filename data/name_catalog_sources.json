@@ -1,0 +1,2842 @@
+{
+  "cars": {
+    "source": "https://support.iracing.com/support/solutions/articles/31000172625-filepath-for-active-iracing-cars",
+    "retrieved": "2026-10-14",
+    "rows": [
+      {
+        "en": "Acura ARX-06 GTP",
+        "path": "acuraarx06gtp"
+      },
+      {
+        "en": "Acura NSX GT3 EVO 22",
+        "path": "acuransxevo22gt3"
+      },
+      {
+        "en": "ARCA Chevrolet SS",
+        "path": "stockcars2/arcachevy25"
+      },
+      {
+        "en": "ARCA Ford Mustang",
+        "path": "stockcars2/arcaford25"
+      },
+      {
+        "en": "ARCA Toyota Camry",
+        "path": "stockcars2/arcatoyota25"
+      },
+      {
+        "en": "Aston Martin DBR9 GT1",
+        "path": "astonmartin/dbr9"
+      },
+      {
+        "en": "Aston Martin Vantage GT3 EVO",
+        "path": "amvantageevogt3"
+      },
+      {
+        "en": "Aston Martin Vantage GT4",
+        "path": "amvantagegt4"
+      },
+      {
+        "en": "Audi 90 GTO",
+        "path": "audi90gto"
+      },
+      {
+        "en": "Audi R18",
+        "path": "audir18"
+      },
+      {
+        "en": "Audi R8 LMS EVO II GT3",
+        "path": "audir8lmsevo2gt3"
+      },
+      {
+        "en": "Audi RS3 LMS TCR",
+        "path": "audirs3lms"
+      },
+      {
+        "en": "BMW M Hybrid V8",
+        "path": "bmwlmdh"
+      },
+      {
+        "en": "BMW M2 CSR",
+        "path": "bmwrn2csr"
+      },
+      {
+        "en": "BMW M4 GT3",
+        "path": "bmwm4gt3"
+      },
+      {
+        "en": "BMW M4 G82 GT4",
+        "path": "bmwm4evogt4"
+      },
+      {
+        "en": "BMW M4 F82 GT4 - 2018",
+        "path": "bmwm4gt4"
+      },
+      {
+        "en": "BMW M8 GTE",
+        "path": "bmwm8gte"
+      },
+      {
+        "en": "Cadillac CTS-V Racecar",
+        "path": "cadillacctsvr"
+      },
+      {
+        "en": "Cadillac V-Series.R GTP",
+        "path": "cadillacvseriesgtp"
+      },
+      {
+        "en": "Chevrolet Corvette C6.R GT1",
+        "path": "c6r"
+      },
+      {
+        "en": "Chevrolet Corvette C7 Daytona Prototype",
+        "path": "c7vettedp"
+      },
+      {
+        "en": "Chevrolet Corvette C8.R GTE",
+        "path": "c8rvettegte"
+      },
+      {
+        "en": "Chevrolet Corvette Z06 GT3.R",
+        "path": "chevyvettez06rgt3"
+      },
+      {
+        "en": "Dallara F3",
+        "path": "dallaraf3"
+      },
+      {
+        "en": "Dallara IL-15 (INDY NXT)",
+        "path": "dallarail15"
+      },
+      {
+        "en": "Dallara iR-01",
+        "path": "dallarair01"
+      },
+      {
+        "en": "Dallara IR18",
+        "path": "dallarair18"
+      },
+      {
+        "en": "Dallara P217",
+        "path": "dallarap217"
+      },
+      {
+        "en": "Dirt Big Block Modified",
+        "path": "dirtmodified/bigblock"
+      },
+      {
+        "en": "Dirt 358 Modified",
+        "path": "dirtmodified/358"
+      },
+      {
+        "en": "Limited Dirt Late Model",
+        "path": "dirtlatemodel/350"
+      },
+      {
+        "en": "Pro Dirt Late Model",
+        "path": "dirtlatemodel/358"
+      },
+      {
+        "en": "Super Dirt Late Model",
+        "path": "dirtlatemodel/438"
+      },
+      {
+        "en": "Dirt Micro Sprint Car - Winged",
+        "path": "dirtmicrosprint/winged"
+      },
+      {
+        "en": "Dirt Micro Sprint Car - Non-Winged",
+        "path": "dirtmicrosprint/nonwinged"
+      },
+      {
+        "en": "Dirt Midget",
+        "path": "dirtmidget"
+      },
+      {
+        "en": "Dirt Mini Stock",
+        "path": "dirtministock"
+      },
+      {
+        "en": "Dirt Sprint Car - 305",
+        "path": "dirtsprint/winged/305"
+      },
+      {
+        "en": "Dirt Sprint Car - 360",
+        "path": "dirtsprint/winged/360"
+      },
+      {
+        "en": "Dirt Sprint Car - 410",
+        "path": "dirtsprint/winged/410"
+      },
+      {
+        "en": "Dirt Sprint Car Non-Winged - 360",
+        "path": "dirtsprint/nonwinged/360"
+      },
+      {
+        "en": "Dirt Sprint Car Non-Winged - 410",
+        "path": "dirtsprint/nonwinged/410"
+      },
+      {
+        "en": "Dirt Street Stock",
+        "path": "dirtstreetstock"
+      },
+      {
+        "en": "Dirt UMP Modified",
+        "path": "dirtumpmod"
+      },
+      {
+        "en": "Ferrari 296 Challenge",
+        "path": "ferrari296challenge"
+      },
+      {
+        "en": "Ferrari 296 GT3",
+        "path": "ferrari296gt3"
+      },
+      {
+        "en": "Ferrari 488 GT3 Evo 2020",
+        "path": "ferrarievogt3"
+      },
+      {
+        "en": "Ferrari 499P",
+        "path": "ferrari499p"
+      },
+      {
+        "en": "Ferrari 488 GTE",
+        "path": "ferrari488gte"
+      },
+      {
+        "en": "FIA Cross Car",
+        "path": "crosscartn11"
+      },
+      {
+        "en": "FIA F4",
+        "path": "formulair04"
+      },
+      {
+        "en": "Ford Fiesta RS WRC",
+        "path": "fordfiestarswrc"
+      },
+      {
+        "en": "Ford GTE",
+        "path": "fordgt2017"
+      },
+      {
+        "en": "Ford GT GT2",
+        "path": "fordgt"
+      },
+      {
+        "en": "Ford GT GT3",
+        "path": "fordgt/gt3"
+      },
+      {
+        "en": "Ford Mustang FR500S",
+        "path": "fr500s"
+      },
+      {
+        "en": "Ford Mustang GT3",
+        "path": "fordmustanggt3"
+      },
+      {
+        "en": "Ford Mustang GT4",
+        "path": "fordmustanggt4"
+      },
+      {
+        "en": "Formula Renault 2.0",
+        "path": "formularenault20"
+      },
+      {
+        "en": "Formula Renault 3.5",
+        "path": "formularenault35"
+      },
+      {
+        "en": "Formula Vee",
+        "path": "formulavee"
+      },
+      {
+        "en": "Global Mazda MX-5 Cup",
+        "path": "mx5/mx52016"
+      },
+      {
+        "en": "Honda Civic Type R TCR",
+        "path": "hondacivictyper"
+      },
+      {
+        "en": "HPD ARX-01c",
+        "path": "hpdarx01c"
+      },
+      {
+        "en": "Hyundai Elantra N TCR",
+        "path": "hyundaielantracn7"
+      },
+      {
+        "en": "Hyundai Veloster N TCR",
+        "path": "hyundaivelostern"
+      },
+      {
+        "en": "Indy Pro 2000 PM-18",
+        "path": "indypropm18"
+      },
+      {
+        "en": "Kia Optima",
+        "path": "kiaoptima"
+      },
+      {
+        "en": "Lamborghini Huracán GT3 EVO",
+        "path": "lamborghinievogt3"
+      },
+      {
+        "en": "Late Model Stock",
+        "path": "latemodel2023"
+      },
+      {
+        "en": "Legends Ford '34 Coupe",
+        "path": "legends/ford34c"
+      },
+      {
+        "en": "Legends Ford '34 Coupe - Rookie",
+        "path": "legends/ford34c/rookie"
+      },
+      {
+        "en": "Ligier JS P320",
+        "path": "ligierjsp320"
+      },
+      {
+        "en": "Lotus 49",
+        "path": "lotus49"
+      },
+      {
+        "en": "Lotus 79",
+        "path": "lotus79"
+      },
+      {
+        "en": "Lucas Oil Off Road Pro 2 Lite",
+        "path": "protrucks/pro2lite"
+      },
+      {
+        "en": "Lucas Oil Off Road Pro 2 Truck",
+        "path": "protrucks/pro2truck"
+      },
+      {
+        "en": "Lucas Oil Off Road Pro 4 Truck",
+        "path": "protrucks/pro4truck"
+      },
+      {
+        "en": "McLaren 570S GT4",
+        "path": "mclaren570sgt4"
+      },
+      {
+        "en": "McLaren 720S GT3 EVO",
+        "path": "mclaren720sgt3"
+      },
+      {
+        "en": "McLaren MP4-12C GT3",
+        "path": "mclarenmp4"
+      },
+      {
+        "en": "McLaren MP4-30",
+        "path": "mclarenmp430"
+      },
+      {
+        "en": "Mercedes-AMG GT3 2020",
+        "path": "mercedesamgevogt3"
+      },
+      {
+        "en": "Mercedes-AMG GT4",
+        "path": "mercedesamggt4"
+      },
+      {
+        "en": "Mercedes-AMG W12 E Performance",
+        "path": "mercedesw12"
+      },
+      {
+        "en": "Mercedes-AMG W13 E Performance",
+        "path": "mercedesw13"
+      },
+      {
+        "en": "Mini Stock",
+        "path": "ministock"
+      },
+      {
+        "en": "NASCAR Cup Series Chevrolet Camaro ZL1",
+        "path": "stockcars/camarozl12018"
+      },
+      {
+        "en": "NASCAR Cup Series Ford Mustang",
+        "path": "stockcars/fordmustang2019"
+      },
+      {
+        "en": "NASCAR Cup Series Toyota Camry",
+        "path": "stockcars/toyotacamry"
+      },
+      {
+        "en": "NASCAR Cup Series Next Gen Chevrolet Camaro ZL1",
+        "path": "stockcars/camarozl12022"
+      },
+      {
+        "en": "NASCAR Cup Series Next Gen Ford Mustang",
+        "path": "stockcars/fordmustang2022"
+      },
+      {
+        "en": "NASCAR Cup Series Next Gen Toyota Camry",
+        "path": "stockcars/toyotacamry2022"
+      },
+      {
+        "en": "NASCAR Gen 4 Chevrolet Monte Carlo - 2003",
+        "path": "stockcars/chevymontecarlo03"
+      },
+      {
+        "en": "NASCAR Gen 4 Ford Taurus - 2003",
+        "path": "stockcars/fordtaurus03"
+      },
+      {
+        "en": "NASCAR Legends Buick LeSabre - 1987",
+        "path": "stockcars/buicklesabre87"
+      },
+      {
+        "en": "NASCAR Legends Chevrolet Monte Carlo - 1987",
+        "path": "stockcars/chevymontecarlo87"
+      },
+      {
+        "en": "NASCAR Legends Ford Thunderbird - 1987",
+        "path": "stockcars/fordthunderbird87"
+      },
+      {
+        "en": "NASCAR Legends Pontiac Grand Prix - 1987",
+        "path": "stockcars/pontiacgrandprix87"
+      },
+      {
+        "en": "NASCAR Truck Chevrolet Silverado",
+        "path": "trucks/silverado2019"
+      },
+      {
+        "en": "NASCAR Truck Ford F150",
+        "path": "trucks/fordf150"
+      },
+      {
+        "en": "NASCAR Truck Toyota Tundra TRD Pro",
+        "path": "trucks/toyotatundra2022"
+      },
+      {
+        "en": "NASCAR Whelen Tour Modified",
+        "path": "skmodified/tour"
+      },
+      {
+        "en": "Modified - SK",
+        "path": "skmodified"
+      },
+      {
+        "en": "NASCAR Xfinity Chevrolet Camaro",
+        "path": "stockcars2/camaro2019"
+      },
+      {
+        "en": "NASCAR Xfinity Ford Mustang",
+        "path": "stockcars2/mustang2019"
+      },
+      {
+        "en": "NASCAR Xfinity Toyota Supra",
+        "path": "stockcars2/supra2019"
+      },
+      {
+        "en": "Nissan GTP ZXT",
+        "path": "nissangtpzxt"
+      },
+      {
+        "en": "Pontiac Solstice",
+        "path": "solstice"
+      },
+      {
+        "en": "Pontiac Solstice - Rookie",
+        "path": "solstice/rookie"
+      },
+      {
+        "en": "Porsche 718 Cayman GT4 Clubsport MR",
+        "path": "porsche718gt4"
+      },
+      {
+        "en": "Porsche 911 Cup (992.2)",
+        "path": "porsche9922cup"
+      },
+      {
+        "en": "Porsche 911 GT3 R (992)",
+        "path": "porsche992rgt3"
+      },
+      {
+        "en": "Porsche 911 RSR",
+        "path": "porsche991rsr"
+      },
+      {
+        "en": "Porsche 919",
+        "path": "porsche919"
+      },
+      {
+        "en": "Porsche 963 GTP",
+        "path": "porsche963gtp"
+      },
+      {
+        "en": "Porsche Mission R",
+        "path": "porschemissionr"
+      },
+      {
+        "en": "Radical SR8",
+        "path": "radical/sr8"
+      },
+      {
+        "en": "Radical SR10",
+        "path": "radical/radicalsr10"
+      },
+      {
+        "en": "Ray FF1600",
+        "path": "raygr22"
+      },
+      {
+        "en": "Renault Clio",
+        "path": "renaultcliocup"
+      },
+      {
+        "en": "Ruf RT 12R AWD",
+        "path": "rufrt12r/awd"
+      },
+      {
+        "en": "Ruf RT 12R C-Spec",
+        "path": "rufrt12r/track/cspec"
+      },
+      {
+        "en": "Ruf RT 12R RWD",
+        "path": "rufrt12r/rwd"
+      },
+      {
+        "en": "Ruf RT 12R Track",
+        "path": "rufrt12r/track"
+      },
+      {
+        "en": "SCCA Spec Racer Ford",
+        "path": "specracer"
+      },
+      {
+        "en": "Silver Crown",
+        "path": "silvercrown"
+      },
+      {
+        "en": "Skip Barber Formula 2000",
+        "path": "rt2000"
+      },
+      {
+        "en": "Sprint Car",
+        "path": "sprint"
+      },
+      {
+        "en": "Stock Car Pro Series Chevrolet Cruze",
+        "path": "stockcarbrasil/cruze"
+      },
+      {
+        "en": "Stock Car Pro Series Toyota Corolla",
+        "path": "stockcarbrasil/corolla"
+      },
+      {
+        "en": "Street Stock",
+        "path": "streetstock"
+      },
+      {
+        "en": "Street Stock - Casino",
+        "path": "streetstock/streetstock2"
+      },
+      {
+        "en": "Street Stock - Eagle",
+        "path": "streetstock/streetstock3"
+      },
+      {
+        "en": "Subaru WRX STI",
+        "path": "subaruwrxsti"
+      },
+      {
+        "en": "Supercars Ford Mustang Gen 3",
+        "path": "supercars/fordmustanggen3"
+      },
+      {
+        "en": "Supercars Ford Mustang GT",
+        "path": "v8supercars/fordmustanggt"
+      },
+      {
+        "en": "Super Formula SF23 - Toyota",
+        "path": "superformulasf23/toyota"
+      },
+      {
+        "en": "Super Formula SF23 - Honda",
+        "path": "superformulasf23/honda"
+      },
+      {
+        "en": "Super Late Model",
+        "path": "superlatemodel"
+      },
+      {
+        "en": "Supercars Ford Mustang GT",
+        "path": "v8supercars/fordmustanggt"
+      },
+      {
+        "en": "Supercars Holden ZB Commodore",
+        "path": "v8supercars/holden2019"
+      },
+      {
+        "en": "Super Formula Lights",
+        "path": "superformulalights324"
+      },
+      {
+        "en": "Toyota GR86",
+        "path": "toyotagr86"
+      },
+      {
+        "en": "USF 2000",
+        "path": "usf2000usf17"
+      },
+      {
+        "en": "VW Beetle",
+        "path": "vwbeetlegrc"
+      },
+      {
+        "en": "VW Beetle Lite",
+        "path": "vwbeetlegrc/lite"
+      },
+      {
+        "en": "VW Jetta TDI Cup",
+        "path": "jettatdi"
+      },
+      {
+        "en": "Williams FW31",
+        "path": "williamsfw31"
+      },
+      {
+        "en": "[Legacy] ARCA Menards Chevrolet Impala",
+        "path": "stockcars2/chevy"
+      },
+      {
+        "en": "[Legacy] Gen 4 Cup",
+        "path": "stockcars2/chevy/gen4cup"
+      },
+      {
+        "en": "[Legacy] Audi R8 LMS GT3",
+        "path": "audir8gt3"
+      },
+      {
+        "en": "[Legacy] BMW Z4 GT3",
+        "path": "bmwz4gt3"
+      },
+      {
+        "en": "[Legacy] Dallara DW12",
+        "path": "dallaradw12"
+      },
+      {
+        "en": "[Legacy] Dallara IR-05",
+        "path": "dallara"
+      },
+      {
+        "en": "[Legacy] Ferrari 488 GT3",
+        "path": "ferrari488gt3"
+      },
+      {
+        "en": "[Legacy] Mazda MX-5 Cup - 2010",
+        "path": "mx5/cup"
+      },
+      {
+        "en": "[Legacy] Mazda MX-5 Roadster - 2010",
+        "path": "mx5/roadster"
+      },
+      {
+        "en": "[Legacy] Mercedes-AMG GT3",
+        "path": "mercedesamggt3"
+      },
+      {
+        "en": "[Legacy] McLaren MP4-12C GT3",
+        "path": "mclarenmp4"
+      },
+      {
+        "en": "[Legacy] NASCAR Cup Chevrolet Impala COT - 2009",
+        "path": "stockcars/impala"
+      },
+      {
+        "en": "[Legacy] NASCAR Cup Chevrolet SS - 2013",
+        "path": "stockcars/chevyss"
+      },
+      {
+        "en": "[Legacy] NASCAR Cup Ford Fusion - 2016",
+        "path": "stockcars/fordfusion"
+      },
+      {
+        "en": "[Legacy] NASCAR Nationwide Chevrolet Impala - 2012",
+        "path": "stockcars2/chevy/cot"
+      },
+      {
+        "en": "[Legacy] NASCAR Truck Chevrolet Silverado - 2008",
+        "path": "trucks/silverado"
+      },
+      {
+        "en": "[Legacy] NASCAR Xfinity Chevrolet Camaro - 2014",
+        "path": "stockcars2/nwcamaro2014"
+      },
+      {
+        "en": "[Legacy] NASCAR Xfinity Ford Mustang - 2016",
+        "path": "stockcars2/nwford2013"
+      },
+      {
+        "en": "[Legacy] NASCAR Xfinity Toyota Camry - 2015",
+        "path": "stockcars2/camry2015"
+      },
+      {
+        "en": "[Legacy] Porsche 911 GT3 Cup (991)",
+        "path": "porsche911cup"
+      },
+      {
+        "en": "[Legacy] Porsche 911 GT3 Cup (992.1)",
+        "path": "porsche992cup"
+      },
+      {
+        "en": "[Legacy] Porsche 911 GT3 R",
+        "path": "porsche911rgt3"
+      },
+      {
+        "en": "[Legacy] Pro Mazda",
+        "path": "formulamazda"
+      },
+      {
+        "en": "[Legacy] Riley MkXX Daytona Prototype - 2008",
+        "path": "rileydp"
+      },
+      {
+        "en": "[Legacy] V8 Supercar Ford Falcon - 2009",
+        "path": "fordv8sc"
+      },
+      {
+        "en": "[Legacy] V8 Supercar Ford FG Falcon - 2014",
+        "path": "v8supercars/ford2014"
+      },
+      {
+        "en": "[Legacy] V8 Supercar Holden VF Commodore - 2014",
+        "path": "v8supercars/holden2014"
+      }
+    ]
+  },
+  "tracks": {
+    "source": "https://support.iracing.com/support/solutions/articles/31000176962-filepath-for-active-iracing-tracks",
+    "retrieved": "2026-10-14",
+    "rows": [
+      {
+        "en": "Adelaide Street Circuit",
+        "path": "adelaide"
+      },
+      {
+        "en": "Algarve International Circuit",
+        "path": "algarve"
+      },
+      {
+        "en": "Algarve International Circuit - Grand Prix",
+        "path": "algarve/gp"
+      },
+      {
+        "en": "Algarve International Circuit - Grand Prix - Chicanes",
+        "path": "algarve/gpchicane"
+      },
+      {
+        "en": "Algarve International Circuit - Moto",
+        "path": "algarve/moto"
+      },
+      {
+        "en": "Algarve International Circuit - Moto - Chicanes",
+        "path": "algarve/motochicane"
+      },
+      {
+        "en": "Auto Club Speedway",
+        "path": "california"
+      },
+      {
+        "en": "Auto Club Speedway - Oval",
+        "path": "california/oval"
+      },
+      {
+        "en": "Auto Club Speedway - Competition",
+        "path": "california/competition"
+      },
+      {
+        "en": "Auto Club Speedway - Interior",
+        "path": "california/interior"
+      },
+      {
+        "en": "Auto Club Speedway - Moto",
+        "path": "california/moto"
+      },
+      {
+        "en": "Autódromo Hermanos Rodríguez (Mexico City)",
+        "path": "mexicocity"
+      },
+      {
+        "en": "Autódromo Hermanos Rodríguez (Mexico City) - Grand Prix",
+        "path": "mexicocity/gp"
+      },
+      {
+        "en": "Autódromo Hermanos Rodríguez (Mexico City) - Grand Prix Historic",
+        "path": "mexicocity/gphistoric"
+      },
+      {
+        "en": "Autódromo Hermanos Rodríguez (Mexico City) - National",
+        "path": "mexicocity/national"
+      },
+      {
+        "en": "Autódromo Hermanos Rodríguez (Mexico City) - National Historic",
+        "path": "mexicocity/nationalhistoric"
+      },
+      {
+        "en": "Autódromo Hermanos Rodríguez (Mexico City) - EV Circuit",
+        "path": "mexicocity/ev"
+      },
+      {
+        "en": "Autódromo Hermanos Rodríguez (Mexico City) - Oval",
+        "path": "mexicocity/oval"
+      },
+      {
+        "en": "Autódromo Hermanos Rodríguez (Mexico City) - Oval Stadium",
+        "path": "mexicocity/ovalstadium"
+      },
+      {
+        "en": "Autodromo Internazionale del Mugello - Short",
+        "path": "mugello/short"
+      },
+      {
+        "en": "Autodromo Internazionale Enzo e Dino Ferrari",
+        "path": "imola"
+      },
+      {
+        "en": "Autodromo Internazionale Enzo e Dino Ferrari - Grand Prix",
+        "path": "imola/gp"
+      },
+      {
+        "en": "Autodromo Internazionale Enzo e Dino Ferrari - Moto",
+        "path": "imola/moto"
+      },
+      {
+        "en": "Autódromo José Carlos Pace",
+        "path": "interlagos"
+      },
+      {
+        "en": "Autódromo José Carlos Pace - Grand Prix",
+        "path": "interlagos/gp"
+      },
+      {
+        "en": "Autódromo José Carlos Pace - Moto",
+        "path": "interlagos/moto"
+      },
+      {
+        "en": "Autodromo Nazionale Monza",
+        "path": "monza"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - Grand Prix",
+        "path": "monza/full"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - GP without chicanes",
+        "path": "monza/nochicane"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - GP without first chicane",
+        "path": "monza/gpSecondChicane"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - Combined",
+        "path": "monza/combinedchicanes"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - Combined without chicanes",
+        "path": "monza/historic"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - Combined without first chicane",
+        "path": "monza/historicSecondChicane"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - Junior",
+        "path": "monza/junior"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - Oval - Left turning",
+        "path": "monza/ovalLeft"
+      },
+      {
+        "en": "Autodromo Nazionale Monza - Oval - Right turning",
+        "path": "monza/oval"
+      },
+      {
+        "en": "Barber Motorsports Park",
+        "path": "barber"
+      },
+      {
+        "en": "Barber Motorsports Park - Full Course",
+        "path": "barber/full"
+      },
+      {
+        "en": "Barber Motorsports Park - Short A",
+        "path": "barber/shorta"
+      },
+      {
+        "en": "Barber Motorsports Park - Short B",
+        "path": "barber/shortb"
+      },
+      {
+        "en": "Bark River International Raceway",
+        "path": "barkriver"
+      },
+      {
+        "en": "Brands Hatch Circuit",
+        "path": "brandshatch"
+      },
+      {
+        "en": "Brands Hatch Circuit - Grand Prix",
+        "path": "brandshatch/grandprix"
+      },
+      {
+        "en": "Brands Hatch Circuit - Indy",
+        "path": "brandshatch/indy"
+      },
+      {
+        "en": "Brands Hatch Circuit - Rallycross",
+        "path": "brandshatch/rallycross"
+      },
+      {
+        "en": "Bristol Motor Speedway",
+        "path": "bristol"
+      },
+      {
+        "en": "Bristol Motor Speedway - Dual Pit Roads",
+        "path": "bristol"
+      },
+      {
+        "en": "Bristol Motor Speedway - Single Pit Road",
+        "path": "bristol/fullpit"
+      },
+      {
+        "en": "Bristol Motor Speedway - Dirt",
+        "path": "bristol/dirt/2022"
+      },
+      {
+        "en": "Bristol Motor Speedway - Dirt - 2021",
+        "path": "bristol/dirt"
+      },
+      {
+        "en": "Cadwell Park Circuit",
+        "path": "cadwell"
+      },
+      {
+        "en": "Cadwell Park Circuit - Full",
+        "path": "cadwell/full"
+      },
+      {
+        "en": "Cadwell Park Circuit - Club",
+        "path": "cadwell/club"
+      },
+      {
+        "en": "Cadwell Park Circuit - Moto",
+        "path": "cadwell/moto"
+      },
+      {
+        "en": "Cadwell Park Circuit - Woodlands",
+        "path": "cadwell/woodlands"
+      },
+      {
+        "en": "Canadian Tire Motorsports Park",
+        "path": "mosport"
+      },
+      {
+        "en": "Cedar Lake Speedway",
+        "path": "cedarlake"
+      },
+      {
+        "en": "Centripetal Circuit",
+        "path": "skidpad"
+      },
+      {
+        "en": "Charlotte Motor Speedway",
+        "path": "charlotte/2018"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Oval - 2018",
+        "path": "charlotte/2018/oval"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Roval",
+        "path": "charlotte/2018/2019/roval"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Roval Long",
+        "path": "charlotte/2018/rovallong"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Roval - 2018",
+        "path": "charlotte/2018/roval"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Legends Oval",
+        "path": "charlotte/2018/legendsoval"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Legends RC Oval Long",
+        "path": "charlotte/2018/legendsrclong"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Legends RC Oval Medium",
+        "path": "charlotte/2018/legendsrcmed"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Legends RC Oval Short",
+        "path": "charlotte/2018/legendsrcshort"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Rallycross",
+        "path": "charlotte/2018/2019/rallycrosslong"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Oval - 2018",
+        "path": "charlotte/2025/oval"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Roval",
+        "path": "charlotte/2025/roval2025"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Roval Long",
+        "path": "charlotte/2025/rovalnochicanes"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Roval - 2018",
+        "path": "charlotte/2025/roval2019"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Legends Oval",
+        "path": "charlotte/2025/legendsoval"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Legends RC Oval Long",
+        "path": "charlotte/2025/legendsrclong"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Legends RC Oval Medium",
+        "path": "charlotte/2025/legendsrc2025"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Legends RC Oval Short",
+        "path": "charlotte/2025/legendsrcshort"
+      },
+      {
+        "en": "Charlotte Motor Speedway - Rallycross",
+        "path": "charlotte/2025/rallycrosslong"
+      },
+      {
+        "en": "Chicago Street Course",
+        "path": "chicago"
+      },
+      {
+        "en": "Chicago Street Course - 2023 Cup",
+        "path": "chicago/2023"
+      },
+      {
+        "en": "Chicago Street Course - Prototype",
+        "path": "chicago"
+      },
+      {
+        "en": "Chicagoland Speedway",
+        "path": "chicagoland"
+      },
+      {
+        "en": "Chili Bowl",
+        "path": "chilibowl"
+      },
+      {
+        "en": "Circuit de Barcelona Catalunya",
+        "path": "barcelona"
+      },
+      {
+        "en": "Circuit de Barcelona-Catalunya - Grand Prix",
+        "path": "barcelona/gp"
+      },
+      {
+        "en": "Circuit de Barcelona-Catalunya - National",
+        "path": "barcelona/national"
+      },
+      {
+        "en": "Circuit de Barcelona-Catalunya - Moto",
+        "path": "barcelona/moto"
+      },
+      {
+        "en": "Circuit de Barcelona-Catalunya - Club",
+        "path": "barcelona/club"
+      },
+      {
+        "en": "Circuit de Barcelona-Catalunya - Historic",
+        "path": "barcelona/historic"
+      },
+      {
+        "en": "Circuit de Barcelona-Catalunya - Rallycross",
+        "path": "barcelona/rallycross"
+      },
+      {
+        "en": "Circuit de Lédenon",
+        "path": "ledenon"
+      },
+      {
+        "en": "Circuit de Nevers Magny-Cours",
+        "path": "magnycours"
+      },
+      {
+        "en": "Circuit de Nevers Magny-Cours - Grand Prix",
+        "path": "magnycours/grandprix"
+      },
+      {
+        "en": "Circuit de Spa-Francorchamps",
+        "path": "spa"
+      },
+      {
+        "en": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+        "path": "spa/2024/up"
+      },
+      {
+        "en": "Circuit de Spa-Francorchamps - Classic Pits",
+        "path": "spa/2024/low"
+      },
+      {
+        "en": "Circuit de Spa-Francorchamps - Endurance",
+        "path": "spa/2024/combined"
+      },
+      {
+        "en": "Circuit de Spa-Francorchamps - Bike",
+        "path": "spa/2024/bike"
+      },
+      {
+        "en": "Circuit de Spa-Francorchamps - Grand Prix Pits - 2010",
+        "path": "spa/up"
+      },
+      {
+        "en": "Circuit de Spa-Francorchamps - Classic Pits - 2010",
+        "path": "spa/low"
+      },
+      {
+        "en": "Circuit de Spa-Francorchamps - Endurance - 2010",
+        "path": "spa/combined"
+      },
+      {
+        "en": "Circuit des 24 Heures du Mans",
+        "path": "lemans"
+      },
+      {
+        "en": "Circuit des 24 Heures du Mans - 24 Heures du Man",
+        "path": "lemans/full"
+      },
+      {
+        "en": "Circuit des 24 Heures du Mans - Historic",
+        "path": "lemans/nochicane"
+      },
+      {
+        "en": "Circuit Gilles Villeneuve",
+        "path": "montreal"
+      },
+      {
+        "en": "Circuit of the Americas",
+        "path": "cota"
+      },
+      {
+        "en": "Circuit of the Americas - Grand Prix",
+        "path": "cota/gp"
+      },
+      {
+        "en": "Circuit of the Americas - East",
+        "path": "cota/east"
+      },
+      {
+        "en": "Circuit of the Americas - West",
+        "path": "cota/west"
+      },
+      {
+        "en": "Circuit Park Zandvoort",
+        "path": "zandvoort"
+      },
+      {
+        "en": "Circuit Park Zandvoort - Grand Prix - 2009",
+        "path": "zandvoort/grandprix"
+      },
+      {
+        "en": "Circuit Park Zandvoort - National - 2009",
+        "path": "zandvoort/national"
+      },
+      {
+        "en": "Circuit Park Zandvoort - Chicane - 2009",
+        "path": "zandvoort/chicane"
+      },
+      {
+        "en": "Circuit Park Zandvoort - Club - 2009",
+        "path": "zandvoort/club"
+      },
+      {
+        "en": "Circuit Park Zandvoort - Oostelijk - 2009",
+        "path": "zandvoort/oostelijk"
+      },
+      {
+        "en": "Circuit Zandvoort",
+        "path": "zandvoort/2023"
+      },
+      {
+        "en": "Circuit Zandvoort - Grand Prix",
+        "path": "zandvoort/2023/gp"
+      },
+      {
+        "en": "Circuit Zandvoort - Grand Prix w/2 Chicane",
+        "path": "zandvoort/2023/gpchicane"
+      },
+      {
+        "en": "Circuit Zandvoort - Nationaal",
+        "path": "zandvoort/2023/nationaal"
+      },
+      {
+        "en": "Circuit Zandvoort - Oostelijk",
+        "path": "zandvoort/2023/ostelijk"
+      },
+      {
+        "en": "Circuit Zolder",
+        "path": "zolder"
+      },
+      {
+        "en": "Circuit Zolder - Grand Prix",
+        "path": "zolder/gp"
+      },
+      {
+        "en": "Circuit Zolder - Alternate",
+        "path": "zolder/alt"
+      },
+      {
+        "en": "Circuit Zolder",
+        "path": "zolder/2024"
+      },
+      {
+        "en": "Circuit Zolder - Grand Prix",
+        "path": "zolder/2024/gp"
+      },
+      {
+        "en": "Circuit Zolder - Alternate",
+        "path": "zolder/2024/alt"
+      },
+      {
+        "en": "Circuito de Jerez - Ángel Nieto",
+        "path": "jerez"
+      },
+      {
+        "en": "Circuito de Jerez - Ángel Nieto - Grand Prix",
+        "path": "jerez/gp"
+      },
+      {
+        "en": "Circuito de Jerez - Ángel Nieto - Moto",
+        "path": "jerez/moto"
+      },
+      {
+        "en": "Circuito de Navarra",
+        "path": "navarra"
+      },
+      {
+        "en": "Circuito de Navarra - Speed Circuit",
+        "path": "navarra/speedlong"
+      },
+      {
+        "en": "Circuito de Navarra - Speed Circuit - Medium",
+        "path": "navarra/speedmedium"
+      },
+      {
+        "en": "Circuito de Navarra - Speed Circuit - Short",
+        "path": "navarra/speedshort"
+      },
+      {
+        "en": "Concord Speedway",
+        "path": "concordhalf"
+      },
+      {
+        "en": "Crandon International Raceway",
+        "path": "crandon"
+      },
+      {
+        "en": "Crandon International Raceway - Full",
+        "path": "crandon"
+      },
+      {
+        "en": "Crandon International Raceway - Short",
+        "path": "crandon/short"
+      },
+      {
+        "en": "Darlington Raceway",
+        "path": "darlington"
+      },
+      {
+        "en": "Daytona International Speedway",
+        "path": "daytona/2011"
+      },
+      {
+        "en": "Daytona International Speedway - Oval",
+        "path": "daytona/2011/oval"
+      },
+      {
+        "en": "Daytona International Speedway - Road Course",
+        "path": "daytona/2011/road"
+      },
+      {
+        "en": "Daytona International Speedway - NASCAR Road Course",
+        "path": "daytona/2011/roadnascar2020"
+      },
+      {
+        "en": "Daytona International Speedway - Moto",
+        "path": "daytona/2011/bike"
+      },
+      {
+        "en": "Daytona International Speedway - Short",
+        "path": "daytona/2011/short"
+      },
+      {
+        "en": "Daytona International Speedway - Oval - 2008",
+        "path": "daytona/oval"
+      },
+      {
+        "en": "Daytona International Speedway - Road Course - 2008",
+        "path": "daytona/road"
+      },
+      {
+        "en": "Daytona International Speedway - Moto - 2008",
+        "path": "daytona/bike"
+      },
+      {
+        "en": "Daytona International Speedway - Short - 2008",
+        "path": "daytona/short"
+      },
+      {
+        "en": "Daytona Rallycross and Dirt Road",
+        "path": "daytona"
+      },
+      {
+        "en": "Daytona Rallycross and Dirt Road - Dirt Road Long",
+        "path": "daytona/rallycross/long/nojoker"
+      },
+      {
+        "en": "Daytona Rallycross and Dirt Road - Dirt Road Short",
+        "path": "daytona/rallycross/short/nojoker"
+      },
+      {
+        "en": "Daytona Rallycross and Dirt Road - Rallycross Long",
+        "path": "daytona/rallycross/long"
+      },
+      {
+        "en": "Daytona Rallycross and Dirt Road - Rallycross Short",
+        "path": "daytona/rallycross/short"
+      },
+      {
+        "en": "Detroit Grand Prix at Belle Isle",
+        "path": "belleisle"
+      },
+      {
+        "en": "Donington Park Racing Circuit",
+        "path": "donington"
+      },
+      {
+        "en": "Donington Park Racing Circuit - Grand Prix",
+        "path": "donington/gp"
+      },
+      {
+        "en": "Donington Park Racing Circuit - National",
+        "path": "donington/national"
+      },
+      {
+        "en": "Dover Motor Speedway",
+        "path": "dover"
+      },
+      {
+        "en": "EchoPark Speedway (Atlanta)",
+        "path": "atlanta"
+      },
+      {
+        "en": "EchoPark Speedway (Atlanta) - Oval",
+        "path": "atlanta/2022/oval"
+      },
+      {
+        "en": "EchoPark Speedway (Atlanta) - Rallycross Long",
+        "path": "atlanta/rallycross/long"
+      },
+      {
+        "en": "EchoPark Speedway (Atlanta) - Rallycross Short",
+        "path": "atlanta/rallycross/short"
+      },
+      {
+        "en": "EchoPark Speedway (Atlanta) - Oval - 2008",
+        "path": "atlanta/quadoval"
+      },
+      {
+        "en": "EchoPark Speedway (Atlanta) - Legends Oval - 2008",
+        "path": "atlanta/legendsoval"
+      },
+      {
+        "en": "EchoPark Speedway (Atlanta) - Road Course - 2008",
+        "path": "atlanta/roadcourse"
+      },
+      {
+        "en": "Eldora Speedway",
+        "path": "eldora"
+      },
+      {
+        "en": "Fairbury Speedway",
+        "path": "fairbury"
+      },
+      {
+        "en": "Federated Auto Parts Raceway at I-55",
+        "path": "pevely"
+      },
+      {
+        "en": "Firebird Motorsports Park",
+        "path": "wildhorse"
+      },
+      {
+        "en": "Five Flags Speedway",
+        "path": "fiveflags"
+      },
+      {
+        "en": "Fuji International Speedway",
+        "path": "fuji"
+      },
+      {
+        "en": "Fuji International Speedway - Grand Prix",
+        "path": "fuji/gp"
+      },
+      {
+        "en": "Fuji International Speedway - No Chicane",
+        "path": "fuji/nochicane"
+      },
+      {
+        "en": "Hickory Motor Speedway",
+        "path": "hickory"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg",
+        "path": "hockenheim"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - Grand Prix",
+        "path": "hockenheim/gp"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - National A",
+        "path": "hockenheim/nationalA"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - National B",
+        "path": "hockenheim/nationalB"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - Outer",
+        "path": "hockenheim/outer"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - PEC - East",
+        "path": "hockenheim/peceast"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - PEC - Handling",
+        "path": "hockenheim/pechandling"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - PEC - Outer",
+        "path": "hockenheim/pecouter"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - PEC - West",
+        "path": "hockenheim/pecwest"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - Short A",
+        "path": "hockenheim/shortA"
+      },
+      {
+        "en": "Hockenheimring Baden-Württemberg - Short B",
+        "path": "hockenheim/shortB"
+      },
+      {
+        "en": "Homestead Miami Speedway",
+        "path": "homestead"
+      },
+      {
+        "en": "Homestead Miami Speedway - Oval",
+        "path": "homestead/oval"
+      },
+      {
+        "en": "Homestead Miami Speedway - Open Wheel Oval",
+        "path": "homestead/ovalindy"
+      },
+      {
+        "en": "Homestead Miami Speedway - Road Course A",
+        "path": "homestead/roada"
+      },
+      {
+        "en": "Homestead Miami Speedway - Road Course B",
+        "path": "homestead/roadb"
+      },
+      {
+        "en": "Hungaroring Circuit",
+        "path": "hungaroring"
+      },
+      {
+        "en": "Huset's Speedway",
+        "path": "husets"
+      },
+      {
+        "en": "Indianapolis Motor Speedway",
+        "path": "indianapolis"
+      },
+      {
+        "en": "Indianapolis Motor Speedway - Oval",
+        "path": "indianapolis/2022/ovalnascar"
+      },
+      {
+        "en": "Indianapolis Motor Speedway - Open Wheel Oval",
+        "path": "indianapolis/2022/oval"
+      },
+      {
+        "en": "Indianapolis Motor Speedway - Road Course",
+        "path": "indianapolis/2022/road"
+      },
+      {
+        "en": "Indianapolis Motor Speedway - Bike",
+        "path": "indianapolis/motogp"
+      },
+      {
+        "en": "Indianapolis Motor Speedway - Oval - 2009",
+        "path": "indianapolis/oval"
+      },
+      {
+        "en": "Indianapolis Motor Speedway - Open Wheel Oval - 2009",
+        "path": "indianapolis/ovalindypit"
+      },
+      {
+        "en": "Indianapolis Motor Speedway - Road Course - 2009",
+        "path": "indianapolis/road"
+      },
+      {
+        "en": "Iowa Speedway",
+        "path": "iowa"
+      },
+      {
+        "en": "Iowa Speedway - Oval",
+        "path": "iowa/2025/oval"
+      },
+      {
+        "en": "Iowa Speedway - Oval - 2011",
+        "path": "iowa/oval"
+      },
+      {
+        "en": "Iowa Speedway - Road Course",
+        "path": "iowa/road"
+      },
+      {
+        "en": "Iowa Speedway - Infield Road Course",
+        "path": "iowa/infroad"
+      },
+      {
+        "en": "Iowa Speedway - Legends",
+        "path": "iowa/legends"
+      },
+      {
+        "en": "Iowa Speedway - Infield Legends",
+        "path": "iowa/inflegends"
+      },
+      {
+        "en": "Iowa Speedway - Rallycross",
+        "path": "iowa/rallycross"
+      },
+      {
+        "en": "iRacing Superspeedway",
+        "path": "iracingss"
+      },
+      {
+        "en": "Irwindale Speedway",
+        "path": "irwindale"
+      },
+      {
+        "en": "Irwindale Speedway - Outer",
+        "path": "irwindale/outer"
+      },
+      {
+        "en": "Irwindale Speedway - Inner",
+        "path": "irwindale/inner"
+      },
+      {
+        "en": "Irwindale Speedway - Outer - Inner",
+        "path": "irwindale/outerinner"
+      },
+      {
+        "en": "Irwindale Speedway - Figure Eight",
+        "path": "irwindale/figureeight"
+      },
+      {
+        "en": "Irwindale Speedway - Figure Eight Jump",
+        "path": "irwindale/figureeightjump"
+      },
+      {
+        "en": "Kansas Speedway",
+        "path": "kansas"
+      },
+      {
+        "en": "Kansas Speedway - Oval",
+        "path": "kansas/oval"
+      },
+      {
+        "en": "Kansas Speedway - Road Course",
+        "path": "kansas/full"
+      },
+      {
+        "en": "Kansas Speedway - Infield Road Course",
+        "path": "kansas/short"
+      },
+      {
+        "en": "Kentucky Speedway",
+        "path": "kentucky/2020"
+      },
+      {
+        "en": "Kentucky Speedway - Oval",
+        "path": "kentucky/2020/oval"
+      },
+      {
+        "en": "Kevin Harvick's Kern Raceway",
+        "path": "kern"
+      },
+      {
+        "en": "Kevin Harvick's Kern Raceway - Asphalt Track",
+        "path": "kern/oval"
+      },
+      {
+        "en": "Kevin Harvick's Kern Raceway - Legends",
+        "path": "kern/legends"
+      },
+      {
+        "en": "Kevin Harvick's Kern Raceway - Dirt Track",
+        "path": "kern/dirt"
+      },
+      {
+        "en": "Kevin Harvick's Kern Raceway - Dirt Mini Oval",
+        "path": "kern/dirtmini"
+      },
+      {
+        "en": "Knockhill Racing Circuit",
+        "path": "knockhill"
+      },
+      {
+        "en": "Knockhill Racing Circuit - International",
+        "path": "knockhill/international"
+      },
+      {
+        "en": "Knockhill Racing Circuit - International Reverse",
+        "path": "knockhill/internationalrev"
+      },
+      {
+        "en": "Knockhill Racing Circuit - National",
+        "path": "knockhill/national"
+      },
+      {
+        "en": "Knockhill Racing Circuit - National Reverse",
+        "path": "knockhill/nationalrev"
+      },
+      {
+        "en": "Knockhill Racing Circuit - Tri-Oval",
+        "path": "knockhill/trioval"
+      },
+      {
+        "en": "Knockhill Racing Circuit - Rallycross",
+        "path": "knockhill/rallycross"
+      },
+      {
+        "en": "Knoxville Raceway",
+        "path": "knoxville"
+      },
+      {
+        "en": "Kokomo Speedway",
+        "path": "kokomo"
+      },
+      {
+        "en": "Kokomo Speedway - Tires In",
+        "path": "kokomo"
+      },
+      {
+        "en": "Kokomo Speedway - Tires Out",
+        "path": "kokomo/tiresout"
+      },
+      {
+        "en": "Langley Speedway",
+        "path": "langley"
+      },
+      {
+        "en": "Lanier National Speedway",
+        "path": "lanier"
+      },
+      {
+        "en": "Lanier National Speedway - Asphalt",
+        "path": "lanier"
+      },
+      {
+        "en": "Lanier National Speedway - Dirt",
+        "path": "lanier/dirt"
+      },
+      {
+        "en": "Lånkebanen (Hell RX)",
+        "path": "lankebanen"
+      },
+      {
+        "en": "Lånkebanen (Hell RX) - Club",
+        "path": "lankebanen/club"
+      },
+      {
+        "en": "Lånkebanen (Hell RX) - Hell Rallycross",
+        "path": "lankebanen/hellrx"
+      },
+      {
+        "en": "Lånkebanen (Hell RX) - Rallycross Short",
+        "path": "lankebanen/rallyshort"
+      },
+      {
+        "en": "Lånkebanen (Hell RX) - Road Long",
+        "path": "lankebanen/road/roadlong"
+      },
+      {
+        "en": "Lånkebanen (Hell RX) - Road Short",
+        "path": "lankebanen/road/roadshort"
+      },
+      {
+        "en": "Las Vegas Motor Speedway",
+        "path": "vegas"
+      },
+      {
+        "en": "Las Vegas Motor Speedway - Infield Legends Oval",
+        "path": "vegas/inflegends"
+      },
+      {
+        "en": "Las Vegas Motor Speedway - Legends Oval",
+        "path": "vegas/legends"
+      },
+      {
+        "en": "Las Vegas Motor Speedway - Oval",
+        "path": "vegas/oval"
+      },
+      {
+        "en": "Las Vegas Motor Speedway - Road Course Combined",
+        "path": "vegas/roadcombined"
+      },
+      {
+        "en": "Las Vegas Motor Speedway - Road Course Long",
+        "path": "vegas/roadlong"
+      },
+      {
+        "en": "Las Vegas Motor Speedway - Road Course Short",
+        "path": "vegas/roadshort"
+      },
+      {
+        "en": "Lernerville Speedway",
+        "path": "lernerville"
+      },
+      {
+        "en": "Limaland Motorsports Park",
+        "path": "limaland"
+      },
+      {
+        "en": "Lime Rock Park",
+        "path": "limerock/2019"
+      },
+      {
+        "en": "Lime Rock Park - Chicanes",
+        "path": "limerock/2019/chicanes"
+      },
+      {
+        "en": "Lime Rock Park - Classic",
+        "path": "limerock/2019/classic"
+      },
+      {
+        "en": "Lime Rock Park - Grand Prix",
+        "path": "limerock/2019/gp"
+      },
+      {
+        "en": "Lime Rock Park - School",
+        "path": "limerock/2019/school"
+      },
+      {
+        "en": "Lime Rock Park - West Bend Chicane",
+        "path": "limerock/2019/chicanewestb"
+      },
+      {
+        "en": "Lincoln Speedway",
+        "path": "lincoln"
+      },
+      {
+        "en": "Long Beach Street Circuit",
+        "path": "longbeach"
+      },
+      {
+        "en": "Los Angeles Memorial Coliseum",
+        "path": "lacoliseum"
+      },
+      {
+        "en": "Lucas Oil Indianapolis Raceway Park",
+        "path": "irp"
+      },
+      {
+        "en": "Lucas Oil Indianapolis Raceway Park - Oval",
+        "path": "irp"
+      },
+      {
+        "en": "Lucas Oil Indianapolis Raceway Park - Rallycross",
+        "path": "irp/rallycross"
+      },
+      {
+        "en": "Lucas Oil Speedway",
+        "path": "wheatland"
+      },
+      {
+        "en": "Lucas Oil Speedway - Dirt Oval",
+        "path": "wheatland"
+      },
+      {
+        "en": "Lucas Oil Speedway - Off Road",
+        "path": "wheatland/road"
+      },
+      {
+        "en": "Martinsville Speedway",
+        "path": "martinsville"
+      },
+      {
+        "en": "Miami International Autodrome",
+        "path": "miami"
+      },
+      {
+        "en": "Miami International Autodrome - Grand Prix",
+        "path": "miami/gp"
+      },
+      {
+        "en": "Miami International Autodrome - Marina Loop",
+        "path": "miami/marinaloop"
+      },
+      {
+        "en": "Miami International Autodrome - MIA Loop",
+        "path": "miami/mialoop"
+      },
+      {
+        "en": "Miami International Autodrome - Extended MIA Loop",
+        "path": "miami/extendedmialoop"
+      },
+      {
+        "en": "Miami International Autodrome - Extended Marina Loop",
+        "path": "miami/exmarinaloop"
+      },
+      {
+        "en": "Michigan International Speedway",
+        "path": "michigan2018"
+      },
+      {
+        "en": "Mid-Ohio Sports Car Course",
+        "path": "midohio"
+      },
+      {
+        "en": "Mid-Ohio Sports Car Course - Alt Oval",
+        "path": "midohio/altoval"
+      },
+      {
+        "en": "Mid-Ohio Sports Car Course - Chicane",
+        "path": "midohio/chicane"
+      },
+      {
+        "en": "Mid-Ohio Sports Car Course - Full Course",
+        "path": "midohio/full"
+      },
+      {
+        "en": "Mid-Ohio Sports Car Course - Oval",
+        "path": "midohio/oval"
+      },
+      {
+        "en": "Mid-Ohio Sports Car Course - Short",
+        "path": "midohio/short"
+      },
+      {
+        "en": "Millbridge Speedway",
+        "path": "millbridge"
+      },
+      {
+        "en": "Misano World Circuit Marco Simoncelli",
+        "path": "misano"
+      },
+      {
+        "en": "Misano World Circuit Marco Simoncelli - Club",
+        "path": "misano/club"
+      },
+      {
+        "en": "Misano World Circuit Marco Simoncelli - Grand Prix",
+        "path": "misano/gp"
+      },
+      {
+        "en": "Misano World Circuit Marco Simoncelli - Grand Prix - Historic",
+        "path": "misano/historicgp"
+      },
+      {
+        "en": "Misano World Circuit Marco Simoncelli - Grand Prix 2007",
+        "path": "misano/gp2007"
+      },
+      {
+        "en": "Misano World Circuit Marco Simoncelli - Truck",
+        "path": "misano/truck"
+      },
+      {
+        "en": "Mobility Resort Motegi",
+        "path": "twinring"
+      },
+      {
+        "en": "Mobility Resort Motegi - East",
+        "path": "twinring/east"
+      },
+      {
+        "en": "Mobility Resort Motegi - Grand Prix",
+        "path": "twinring/fullrc"
+      },
+      {
+        "en": "Mobility Resort Motegi - Oval",
+        "path": "twinring/oval"
+      },
+      {
+        "en": "Mobility Resort Motegi - West",
+        "path": "twinring/west"
+      },
+      {
+        "en": "MotorLand Aragón",
+        "path": "aragon"
+      },
+      {
+        "en": "MotorLand Aragón - Grand Prix",
+        "path": "aragon/gp"
+      },
+      {
+        "en": "MotorLand Aragón - Motorcycle Grand Prix",
+        "path": "aragon/moto"
+      },
+      {
+        "en": "MotorLand Aragón - Motorcycle National",
+        "path": "aragon/nationalmoto"
+      },
+      {
+        "en": "MotorLand Aragón - National",
+        "path": "aragon/national"
+      },
+      {
+        "en": "MotorLand Aragón - Outer",
+        "path": "aragon/outer"
+      },
+      {
+        "en": "MotorLand Aragón - Touring Car",
+        "path": "aragon/tc"
+      },
+      {
+        "en": "MotorLand Aragón - West",
+        "path": "aragon/west"
+      },
+      {
+        "en": "Motorsport Arena Oschersleben",
+        "path": "oschersleben"
+      },
+      {
+        "en": "Motorsport Arena Oschersleben - Alternate",
+        "path": "oschersleben/alt"
+      },
+      {
+        "en": "Motorsport Arena Oschersleben - B Course",
+        "path": "oschersleben/bcourse"
+      },
+      {
+        "en": "Motorsport Arena Oschersleben - C Course",
+        "path": "oschersleben/ccourse"
+      },
+      {
+        "en": "Motorsport Arena Oschersleben - Grand Prix",
+        "path": "oschersleben/gp"
+      },
+      {
+        "en": "Mount Panorama Circuit",
+        "path": "bathurst"
+      },
+      {
+        "en": "Mount Washington Auto Road",
+        "path": "mtwashington"
+      },
+      {
+        "en": "Mount Washington Auto Road - Descent",
+        "path": "mtwashington/reverse"
+      },
+      {
+        "en": "Mount Washington Auto Road - Hillclimb",
+        "path": "mtwashington/climb"
+      },
+      {
+        "en": "Myrtle Beach Speedway",
+        "path": "myrtlebeach"
+      },
+      {
+        "en": "Nashville Fairgrounds Speedway",
+        "path": "nashville"
+      },
+      {
+        "en": "Nashville Fairgrounds Speedway - Mini",
+        "path": "nashville/mini"
+      },
+      {
+        "en": "Nashville Fairgrounds Speedway - Oval",
+        "path": "nashville/oval"
+      },
+      {
+        "en": "Nashville Superspeedway",
+        "path": "nashvilless"
+      },
+      {
+        "en": "New Hampshire Motor Speedway",
+        "path": "newhampshire"
+      },
+      {
+        "en": "New Hampshire Motor Speedway - Legends",
+        "path": "newhampshire/legends"
+      },
+      {
+        "en": "New Hampshire Motor Speedway - Oval",
+        "path": "newhampshire/oval"
+      },
+      {
+        "en": "New Hampshire Motor Speedway - Road Course",
+        "path": "newhampshire/chicane"
+      },
+      {
+        "en": "New Hampshire Motor Speedway - Road Course with North Oval",
+        "path": "newhampshire/northoval"
+      },
+      {
+        "en": "New Hampshire Motor Speedway - Road Course with South Oval",
+        "path": "newhampshire/southoval"
+      },
+      {
+        "en": "New Jersey Motorsports Park",
+        "path": "newjersey"
+      },
+      {
+        "en": "New Jersey Motorsports Park - Thunderbolt",
+        "path": "newjersey/full"
+      },
+      {
+        "en": "New Jersey Motorsports Park - Thunderbolt w/both chicanes",
+        "path": "newjersey/chicane"
+      },
+      {
+        "en": "New Jersey Motorsports Park - Thunderbolt w/first chicane",
+        "path": "newjersey/firstchicane"
+      },
+      {
+        "en": "New Jersey Motorsports Park - Thunderbolt w/second chicane",
+        "path": "newjersey/secondchicane"
+      },
+      {
+        "en": "New Smyrna Speedway",
+        "path": "newsmyrna"
+      },
+      {
+        "en": "North Wilkesboro Speedway",
+        "path": "northwilkesboro"
+      },
+      {
+        "en": "North Wilkesboro Speedway",
+        "path": "northwilkesboro/2025"
+      },
+      {
+        "en": "North Wilkesboro Speedway - 1987",
+        "path": "northwilkesboro"
+      },
+      {
+        "en": "Nürburgring",
+        "path": "nurburgring"
+      },
+      {
+        "en": "Nürburgring Combined",
+        "path": "nurburgring/combined"
+      },
+      {
+        "en": "Nürburgring Combined - Gesamtstrecke 24h",
+        "path": "nurburgring/combined"
+      },
+      {
+        "en": "Nürburgring Combined - Gesamtstrecke Long",
+        "path": "nurburgring/combinedLong"
+      },
+      {
+        "en": "Nürburgring Combined - Gesamtstrecke Short w/o Arena",
+        "path": "nurburgring/combinedShortA"
+      },
+      {
+        "en": "Nürburgring Combined - Gesamtstrecke VLN",
+        "path": "nurburgring/combinedShortB"
+      },
+      {
+        "en": "Nürburgring Grand-Prix-Strecke",
+        "path": "nurburgring/gp"
+      },
+      {
+        "en": "Nürburgring Nordschleife",
+        "path": "nurburgring/nordschleife"
+      },
+      {
+        "en": "Nürburgring Nordschleife - Industriefahrten",
+        "path": "nurburgring/nordschleife"
+      },
+      {
+        "en": "Nürburgring Nordschleife - Touristenfahrten",
+        "path": "nurburgring/nordschleifetourist"
+      },
+      {
+        "en": "Okayama International Circuit",
+        "path": "okayama"
+      },
+      {
+        "en": "Okayama International Circuit - Full Course",
+        "path": "okayama/full"
+      },
+      {
+        "en": "Okayama International Circuit - Short",
+        "path": "okayama/short"
+      },
+      {
+        "en": "Oran Park Raceway",
+        "path": "oran"
+      },
+      {
+        "en": "Oran Park Raceway - Grand Prix",
+        "path": "oran/gp"
+      },
+      {
+        "en": "Oran Park Raceway - Moto",
+        "path": "oran/moto"
+      },
+      {
+        "en": "Oran Park Raceway - North",
+        "path": "oran/north"
+      },
+      {
+        "en": "Oran Park Raceway - North A",
+        "path": "oran/northa"
+      },
+      {
+        "en": "Oran Park Raceway - North B",
+        "path": "oran/northb"
+      },
+      {
+        "en": "Oran Park Raceway - South",
+        "path": "oran/south"
+      },
+      {
+        "en": "Oswego Speedway",
+        "path": "oswego"
+      },
+      {
+        "en": "Oswego Speedway - Dirt",
+        "path": "oswego/dirtoval"
+      },
+      {
+        "en": "Oswego Speedway - Mini Oval",
+        "path": "oswego/mini"
+      },
+      {
+        "en": "Oswego Speedway - Oval",
+        "path": "oswego/oval"
+      },
+      {
+        "en": "Oulton Park Circuit",
+        "path": "oulton"
+      },
+      {
+        "en": "Oulton Park Circuit - Fosters",
+        "path": "oulton/fosters"
+      },
+      {
+        "en": "Oulton Park Circuit - Fosters w/Hislop",
+        "path": "oulton/fosterswithhislop"
+      },
+      {
+        "en": "Oulton Park Circuit - International",
+        "path": "oulton/international"
+      },
+      {
+        "en": "Oulton Park Circuit - Intl w/out Brittens",
+        "path": "oulton/intbrittens"
+      },
+      {
+        "en": "Oulton Park Circuit - Intl w/out Chicane",
+        "path": "oulton/intnochicane"
+      },
+      {
+        "en": "Oulton Park Circuit - Intl w/out Hislop",
+        "path": "oulton/inthislop"
+      },
+      {
+        "en": "Oulton Park Circuit - Island",
+        "path": "oulton/island"
+      },
+      {
+        "en": "Oulton Park Circuit - Island Historic",
+        "path": "oulton/islandhistoric"
+      },
+      {
+        "en": "Oxford Plains Speedway",
+        "path": "oxford/oval"
+      },
+      {
+        "en": "Phillip Island Circuit",
+        "path": "phillipisland"
+      },
+      {
+        "en": "Phoenix Raceway",
+        "path": "phoenix/2021"
+      },
+      {
+        "en": "Phoenix Raceway - Oval",
+        "path": "phoenix/2021/oval"
+      },
+      {
+        "en": "Phoenix Raceway - Oval w/open Dogleg",
+        "path": "phoenix/2021/ovalopen"
+      },
+      {
+        "en": "Pocono Raceway",
+        "path": "pocono/2016"
+      },
+      {
+        "en": "Portland International Raceway",
+        "path": "portland"
+      },
+      {
+        "en": "Portland International Raceway - Full",
+        "path": "portland/full"
+      },
+      {
+        "en": "Portland International Raceway - No Chicane",
+        "path": "portland/nochicane"
+      },
+      {
+        "en": "Port Royal Speedway",
+        "path": "portroyal"
+      },
+      {
+        "en": "Red Bull Ring",
+        "path": "spielberg"
+      },
+      {
+        "en": "Red Bull Ring - Grand Prix",
+        "path": "spielberg/gp"
+      },
+      {
+        "en": "Red Bull Ring - National",
+        "path": "spielberg/national"
+      },
+      {
+        "en": "Red Bull Ring - North",
+        "path": "spielberg/north"
+      },
+      {
+        "en": "Richmond Raceway",
+        "path": "richmond/2025"
+      },
+      {
+        "en": "Road America",
+        "path": "roadamerica"
+      },
+      {
+        "en": "Road America - Bend",
+        "path": "roadamerica/bend"
+      },
+      {
+        "en": "Road America - Full",
+        "path": "roadamerica/full"
+      },
+      {
+        "en": "Road Atlanta",
+        "path": "roadatlanta"
+      },
+      {
+        "en": "Road Atlanta - Club",
+        "path": "roadatlanta/club"
+      },
+      {
+        "en": "Road Atlanta - Full Course",
+        "path": "roadatlanta/full"
+      },
+      {
+        "en": "Road Atlanta - Short",
+        "path": "roadatlanta/short"
+      },
+      {
+        "en": "Rockingham Speedway",
+        "path": "rockingham"
+      },
+      {
+        "en": "Rockingham Speedway - Oval",
+        "path": "rockingham/2025/oval"
+      },
+      {
+        "en": "Rockingham Speedway - Infield Road Course",
+        "path": "rockingham/infroad"
+      },
+      {
+        "en": "Rockingham Speedway - Oval",
+        "path": "rockingham/oval"
+      },
+      {
+        "en": "Rockingham Speedway - Road Course",
+        "path": "rockingham/road"
+      },
+      {
+        "en": "Rockingham Speedway - Short Road Course",
+        "path": "rockingham/shortroad"
+      },
+      {
+        "en": "Rudskogen Motorsenter",
+        "path": "rudskogen"
+      },
+      {
+        "en": "Sachsenring",
+        "path": "sachsenring"
+      },
+      {
+        "en": "Sandown International Motor Raceway",
+        "path": "sandown"
+      },
+      {
+        "en": "Sebring International Raceway",
+        "path": "sebring"
+      },
+      {
+        "en": "Sebring International Raceway - Club",
+        "path": "sebring/club"
+      },
+      {
+        "en": "Sebring International Raceway - International",
+        "path": "sebring/international"
+      },
+      {
+        "en": "Sebring International Raceway - Modified",
+        "path": "sebring/modified"
+      },
+      {
+        "en": "Silverstone Circuit",
+        "path": "silverstone/2019"
+      },
+      {
+        "en": "Silverstone Circuit - Grand Prix",
+        "path": "silverstone/2019/gp"
+      },
+      {
+        "en": "Silverstone Circuit - International",
+        "path": "silverstone/2019/international"
+      },
+      {
+        "en": "Silverstone Circuit - National",
+        "path": "silverstone/2019/national"
+      },
+      {
+        "en": "Slinger Speedway",
+        "path": "slinger"
+      },
+      {
+        "en": "Slinger Speedway - Figure Eight",
+        "path": "slinger/figure8"
+      },
+      {
+        "en": "Slinger Speedway - Oval",
+        "path": "slinger/oval"
+      },
+      {
+        "en": "Snetterton Circuit",
+        "path": "snetterton"
+      },
+      {
+        "en": "Snetterton Circuit - 100",
+        "path": "snetterton/100"
+      },
+      {
+        "en": "Snetterton Circuit - 200",
+        "path": "snetterton/200"
+      },
+      {
+        "en": "Snetterton Circuit - 300",
+        "path": "snetterton/300"
+      },
+      {
+        "en": "Sonoma Raceway",
+        "path": "sonoma"
+      },
+      {
+        "en": "Sonoma Raceway - NASCAR Long",
+        "path": "sonoma/long"
+      },
+      {
+        "en": "Sonoma Raceway - NASCAR Short",
+        "path": "sonoma/cup"
+      },
+      {
+        "en": "Sonoma Raceway - Open Wheel 2008-2011",
+        "path": "sonoma/irl2"
+      },
+      {
+        "en": "Sonoma Raceway - Open Wheel 2012-2018",
+        "path": "sonoma/indycar"
+      },
+      {
+        "en": "Sonoma Raceway - Open Wheel pre-2008",
+        "path": "sonoma/irl"
+      },
+      {
+        "en": "Sonoma Raceway - Rallycross",
+        "path": "sonoma/rallycross"
+      },
+      {
+        "en": "Sonoma Raceway - NASCAR Long",
+        "path": "sonoma/2025/nascarlong"
+      },
+      {
+        "en": "Sonoma Raceway - NASCAR Short",
+        "path": "sonoma/2025/nascarshort"
+      },
+      {
+        "en": "Sonoma Raceway - Open Wheel 2008-2011",
+        "path": "sonoma/2025/irl08"
+      },
+      {
+        "en": "Sonoma Raceway - Open Wheel 2012-2018",
+        "path": "sonoma/2025/irl12"
+      },
+      {
+        "en": "Sonoma Raceway - Open Wheel pre-2008",
+        "path": "sonoma/2025/irl05"
+      },
+      {
+        "en": "South Boston Speedway",
+        "path": "southboston"
+      },
+      {
+        "en": "Southern National Motorsports Park",
+        "path": "southernnational"
+      },
+      {
+        "en": "Stafford Motor Speedway",
+        "path": "stafford"
+      },
+      {
+        "en": "Stafford Motor Speedway - Full Course",
+        "path": "stafford/oval"
+      },
+      {
+        "en": "Stafford Motor Speedway - Mini Mile",
+        "path": "stafford/short"
+      },
+      {
+        "en": "Summit Point Raceway",
+        "path": "summit"
+      },
+      {
+        "en": "Summit Point Raceway - Jefferson Circuit",
+        "path": "summit/jefferson"
+      },
+      {
+        "en": "Summit Point Raceway - Jefferson Reverse",
+        "path": "summit/jefferson/rev"
+      },
+      {
+        "en": "Summit Point Raceway - Oval",
+        "path": "summit/summit/oval"
+      },
+      {
+        "en": "Summit Point Raceway - School",
+        "path": "summit/summit/raceway/school"
+      },
+      {
+        "en": "Summit Point Raceway - Short",
+        "path": "summit/summit/short"
+      },
+      {
+        "en": "Summit Point Raceway - Summit Point Raceway",
+        "path": "summit/summit/raceway"
+      },
+      {
+        "en": "Suzuka International Racing Course",
+        "path": "suzuka"
+      },
+      {
+        "en": "Suzuka International Racing Course - East",
+        "path": "suzuka/east"
+      },
+      {
+        "en": "Suzuka International Racing Course - Grand Prix",
+        "path": "suzuka/grandprix"
+      },
+      {
+        "en": "Suzuka International Racing Course - Moto",
+        "path": "suzuka/moto"
+      },
+      {
+        "en": "Suzuka International Racing Course - West",
+        "path": "suzuka/west"
+      },
+      {
+        "en": "Suzuka International Racing Course - West w/chicane",
+        "path": "suzuka/westchicane"
+      },
+      {
+        "en": "Talladega Superspeedway",
+        "path": "talladega"
+      },
+      {
+        "en": "Texas Motor Speedway",
+        "path": "texas/2020"
+      },
+      {
+        "en": "Texas Motor Speedway - Legends Oval",
+        "path": "texas/2020/legendsoval"
+      },
+      {
+        "en": "Texas Motor Speedway - Oval",
+        "path": "texas/2020/oval"
+      },
+      {
+        "en": "Shell V-Power Motorsport Park at The Bend",
+        "path": "thebend"
+      },
+      {
+        "en": "Shell V-Power Motorsport Park at The Bend - International Circuit",
+        "path": "thebend/international"
+      },
+      {
+        "en": "Shell V-Power Motorsport Park at The Bend - GT Circuit",
+        "path": "thebend/gt"
+      },
+      {
+        "en": "Shell V-Power Motorsport Park at The Bend - Sprint Circuit",
+        "path": "thebend/sprint"
+      },
+      {
+        "en": "Shell V-Power Motorsport Park at The Bend - East Circuit",
+        "path": "thebend/east"
+      },
+      {
+        "en": "Shell V-Power Motorsport Park at The Bend - South-West Circuit",
+        "path": "thebend/southwest"
+      },
+      {
+        "en": "Shell V-Power Motorsport Park at The Bend - West Circuit",
+        "path": "thebend/west"
+      },
+      {
+        "en": "Shell V-Power Motorsport Park at The Bend - West Plus Circuit",
+        "path": "thebend/westplus"
+      },
+      {
+        "en": "The Bullring",
+        "path": "bullring"
+      },
+      {
+        "en": "The Dirt Track at Charlotte",
+        "path": "charlottedirt"
+      },
+      {
+        "en": "The Milwaukee Mile",
+        "path": "milwaukee"
+      },
+      {
+        "en": "Thompson Speedway Motorsports Park",
+        "path": "thompson"
+      },
+      {
+        "en": "Thruxton Circuit",
+        "path": "thruxton"
+      },
+      {
+        "en": "Tsukuba Circuit",
+        "path": "tsukuba"
+      },
+      {
+        "en": "Tsukuba Circuit - 1000 - Chicane",
+        "path": "tsukuba/1kchicane"
+      },
+      {
+        "en": "Tsukuba Circuit - 1000 - Full",
+        "path": "tsukuba/1kfull"
+      },
+      {
+        "en": "Tsukuba Circuit - 1000 - Outer",
+        "path": "tsukuba/1kouter"
+      },
+      {
+        "en": "Tsukuba Circuit - 1000 - Reverse",
+        "path": "tsukuba/1kreverse"
+      },
+      {
+        "en": "Tsukuba Circuit - 2000 - Full",
+        "path": "tsukuba/2kfull"
+      },
+      {
+        "en": "Tsukuba Circuit - 2000 - Moto",
+        "path": "tsukuba/2kchicane"
+      },
+      {
+        "en": "Tsukuba Circuit - 2000 - Short",
+        "path": "tsukuba/2kshort"
+      },
+      {
+        "en": "USA International Speedway",
+        "path": "lakeland"
+      },
+      {
+        "en": "USA International Speedway - Asphalt",
+        "path": "lakeland"
+      },
+      {
+        "en": "USA International Speedway - Dirt",
+        "path": "lakeland/dirt"
+      },
+      {
+        "en": "Virginia International Raceway",
+        "path": "virginia/2022"
+      },
+      {
+        "en": "Virginia International Raceway - Full Course",
+        "path": "virginia/2022/full"
+      },
+      {
+        "en": "Virginia International Raceway - Grand Course",
+        "path": "virginia/2022/grand"
+      },
+      {
+        "en": "Virginia International Raceway - North Course",
+        "path": "virginia/2022/north"
+      },
+      {
+        "en": "Virginia International Raceway - Patriot Course",
+        "path": "virginia/2022/patriot"
+      },
+      {
+        "en": "Virginia International Raceway - South Course",
+        "path": "virginia/2022/south"
+      },
+      {
+        "en": "Volusia Speedway Park",
+        "path": "volusia"
+      },
+      {
+        "en": "Watkins Glen International",
+        "path": "watkinsglen/2021"
+      },
+      {
+        "en": "Watkins Glen International - Boot",
+        "path": "watkinsglen/2021/fullcourse"
+      },
+      {
+        "en": "Watkins Glen International - Classic",
+        "path": "watkinsglen/2021/classic"
+      },
+      {
+        "en": "Watkins Glen International - Classic Boot",
+        "path": "watkinsglen/2021/fullnoloop"
+      },
+      {
+        "en": "Watkins Glen International - Cup",
+        "path": "watkinsglen/2021/cupcircuit"
+      },
+      {
+        "en": "WeatherTech Raceway Laguna Seca",
+        "path": "lagunaseca"
+      },
+      {
+        "en": "WeatherTech Raceway Laguna Seca",
+        "path": "lagunaseca"
+      },
+      {
+        "en": "WeatherTech Raceway Laguna Seca - School",
+        "path": "lagunaseca/school"
+      },
+      {
+        "en": "Weedsport Speedway",
+        "path": "weedsport"
+      },
+      {
+        "en": "Wild West Motorsports Park",
+        "path": "wildwest"
+      },
+      {
+        "en": "Williams Grove Speedway",
+        "path": "williamsgrove"
+      },
+      {
+        "en": "Willow Springs International Raceway",
+        "path": "willow"
+      },
+      {
+        "en": "Winton Motor Raceway",
+        "path": "winton"
+      },
+      {
+        "en": "Winton Motor Raceway - Club",
+        "path": "winton/club"
+      },
+      {
+        "en": "Winton Motor Raceway - National",
+        "path": "winton/national"
+      },
+      {
+        "en": "Winton Motor Raceway - Rallycross",
+        "path": "winton/rallycross"
+      },
+      {
+        "en": "World Wide Technology Raceway (Gateway)",
+        "path": "gateway"
+      },
+      {
+        "en": "World Wide Technology Raceway (Gateway) - Oval",
+        "path": "gateway/oval"
+      },
+      {
+        "en": "World Wide Technology Raceway (Gateway) - Road Course",
+        "path": "gateway/road"
+      },
+      {
+        "en": "World Wide Technology Raceway (Gateway) - 2025 - Oval",
+        "path": "gateway/2025/oval"
+      },
+      {
+        "en": "[Legacy] Charlotte Motor Speedway - 2008",
+        "path": "charlotte"
+      },
+      {
+        "en": "[Legacy] Charlotte Motor Speedway - 2008 - Infield Road Course",
+        "path": "charlotte/infieldrc"
+      },
+      {
+        "en": "[Legacy] Charlotte Motor Speedway - 2008 - Legends Oval",
+        "path": "charlotte/legendsoval"
+      },
+      {
+        "en": "[Legacy] Charlotte Motor Speedway - 2008 - Oval",
+        "path": "charlotte/quadoval"
+      },
+      {
+        "en": "[Legacy] Charlotte Motor Speedway - 2008 - Road Course",
+        "path": "charlotte/fullroadcourse"
+      },
+      {
+        "en": "[Legacy] Kentucky Speedway - 2011",
+        "path": "kentucky"
+      },
+      {
+        "en": "[Legacy] Kentucky Speedway - Legends",
+        "path": "kentucky/legend"
+      },
+      {
+        "en": "[Legacy] Kentucky Speedway - Oval",
+        "path": "kentucky/oval"
+      },
+      {
+        "en": "[Legacy] Michigan International Speedway - 2009",
+        "path": "michigan2014"
+      },
+      {
+        "en": "[Legacy] Phoenix Raceway - 2008",
+        "path": "phoenix"
+      },
+      {
+        "en": "[Legacy] Phoenix Raceway - 2008 - Dirt Road",
+        "path": "phoenix/rallycross/nojoker"
+      },
+      {
+        "en": "[Legacy] Phoenix Raceway - 2008 - Oval",
+        "path": "phoenix/oval"
+      },
+      {
+        "en": "[Legacy] Phoenix Raceway - 2008 - Rallycross",
+        "path": "phoenix/rallycross"
+      },
+      {
+        "en": "[Legacy] Phoenix Raceway - 2008 - Road Course",
+        "path": "phoenix/road"
+      },
+      {
+        "en": "[Legacy] Pocono Raceway - 2009",
+        "path": "pocono"
+      },
+      {
+        "en": "[Legacy] Pocono Raceway - 2009 - East",
+        "path": "pocono/east"
+      },
+      {
+        "en": "[Legacy] Pocono Raceway - 2009 - International",
+        "path": "pocono/international"
+      },
+      {
+        "en": "[Legacy] Pocono Raceway - 2009 - North",
+        "path": "pocono/north"
+      },
+      {
+        "en": "[Legacy] Pocono Raceway - 2009 - Oval",
+        "path": "pocono/oval"
+      },
+      {
+        "en": "[Legacy] Pocono Raceway - 2009 - South",
+        "path": "pocono/south"
+      },
+      {
+        "en": "[Legacy] Silverstone Circuit - 2008",
+        "path": "silverstone"
+      },
+      {
+        "en": "[Legacy] Silverstone Circuit - 2008 - Grand Prix",
+        "path": "silverstone/gp"
+      },
+      {
+        "en": "[Legacy] Silverstone Circuit - 2008 - Historical Grand Prix",
+        "path": "silverstone/historicgp"
+      },
+      {
+        "en": "[Legacy] Silverstone Circuit - 2008 - International",
+        "path": "silverstone/international"
+      },
+      {
+        "en": "[Legacy] Silverstone Circuit - 2008 - National",
+        "path": "silverstone/national"
+      },
+      {
+        "en": "[Legacy] Silverstone Circuit - 2008 - Southern",
+        "path": "silverstone/southern"
+      },
+      {
+        "en": "[Legacy] Texas Motor Speedway - 2009",
+        "path": "texas"
+      },
+      {
+        "en": "[Legacy] Texas Motor Speedway - 2009 - Legends Oval",
+        "path": "texas/legendsoval"
+      },
+      {
+        "en": "[Legacy] Texas Motor Speedway - 2009 - Oval",
+        "path": "texas/oval"
+      },
+      {
+        "en": "[Legacy] Texas Motor Speedway - 2009 - Road Course Combined",
+        "path": "texas/roadcourse"
+      },
+      {
+        "en": "[Legacy] Texas Motor Speedway - 2009 - Road Course Long",
+        "path": "texas/infieldrclong"
+      },
+      {
+        "en": "[Legacy] Texas Motor Speedway - 2009 - Road Course Short A",
+        "path": "texas/infieldrcshorta"
+      },
+      {
+        "en": "[Legacy] Texas Motor Speedway - 2009 - Road Course Short B",
+        "path": "texas/infieldrcshortb"
+      }
+    ]
+  }
+}
