@@ -1,0 +1,736 @@
+﻿类别,目录标识,英文名,中文名,播报文本,前端归一化,音素,结果
+tracks,adelaide,Adelaide Street Circuit,阿德莱德街道赛道,阿德莱德街道赛道,阿德莱德街道赛道,AA a1 d e2 l ai2 d e2 j ie1 d ao4 s ai4 d ao4,frontend_pass
+tracks,algarve,Algarve International Circuit,波尔蒂芒赛道,波尔蒂芒赛道,波尔蒂芒赛道,b o1 EE er3 d i4 m ang2 s ai4 d ao4,frontend_pass
+tracks,algarve/gp,Algarve International Circuit - Grand Prix,波尔蒂芒赛道，大奖赛布局,波尔蒂芒赛道，大奖赛布局,"波尔蒂芒赛道,大奖赛布局","b o1 EE er3 d i4 m ang2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,algarve/gpchicane,Algarve International Circuit - Grand Prix - Chicanes,波尔蒂芒赛道，大奖赛布局，含减速弯,波尔蒂芒赛道，大奖赛布局，含减速弯,"波尔蒂芒赛道,大奖赛布局,含减速弯","b o1 EE er3 d i4 m ang2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2 , h an2 j ian3 s u4 w an1",frontend_pass
+tracks,algarve/moto,Algarve International Circuit - Moto,波尔蒂芒赛道，摩托车布局,波尔蒂芒赛道，摩托车布局,"波尔蒂芒赛道,摩托车布局","b o1 EE er3 d i4 m ang2 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,algarve/motochicane,Algarve International Circuit - Moto - Chicanes,波尔蒂芒赛道，摩托车布局，含减速弯,波尔蒂芒赛道，摩托车布局，含减速弯,"波尔蒂芒赛道,摩托车布局,含减速弯","b o1 EE er3 d i4 m ang2 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2 , h an2 j ian3 s u4 w an1",frontend_pass
+tracks,california,Auto Club Speedway,丰塔纳赛车场,丰塔纳赛车场,丰塔纳赛车场,f eng1 t a3 n a4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,california/oval,Auto Club Speedway - Oval,丰塔纳赛车场，椭圆布局,丰塔纳赛车场，椭圆布局,"丰塔纳赛车场,椭圆布局","f eng1 t a3 n a4 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,california/competition,Auto Club Speedway - Competition,丰塔纳赛车场，比赛布局,丰塔纳赛车场，比赛布局,"丰塔纳赛车场,比赛布局","f eng1 t a3 n a4 s ai4 ch e1 ch ang3 , b i3 s ai4 b u4 j v2",frontend_pass
+tracks,california/interior,Auto Club Speedway - Interior,丰塔纳赛车场，内场布局,丰塔纳赛车场，内场布局,"丰塔纳赛车场,内场布局","f eng1 t a3 n a4 s ai4 ch e1 ch ang3 , n ei4 ch ang2 b u4 j v2",frontend_pass
+tracks,california/moto,Auto Club Speedway - Moto,丰塔纳赛车场，摩托车布局,丰塔纳赛车场，摩托车布局,"丰塔纳赛车场,摩托车布局","f eng1 t a3 n a4 s ai4 ch e1 ch ang3 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,mexicocity,Autódromo Hermanos Rodríguez (Mexico City),罗德里格斯兄弟赛道,罗德里格斯兄弟赛道,罗德里格斯兄弟赛道,l uo2 d e2 l i3 g e2 s i01 x iong1 d i5 s ai4 d ao4,frontend_pass
+tracks,mexicocity/gp,Autódromo Hermanos Rodríguez (Mexico City) - Grand Prix,罗德里格斯兄弟赛道，大奖赛布局,罗德里格斯兄弟赛道，大奖赛布局,"罗德里格斯兄弟赛道,大奖赛布局","l uo2 d e2 l i3 g e2 s i01 x iong1 d i5 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,mexicocity/gphistoric,Autódromo Hermanos Rodríguez (Mexico City) - Grand Prix Historic,罗德里格斯兄弟赛道，历史大奖赛布局,罗德里格斯兄弟赛道，历史大奖赛布局,"罗德里格斯兄弟赛道,历史大奖赛布局","l uo2 d e2 l i3 g e2 s i01 x iong1 d i5 s ai4 d ao4 , l i4 sh ir3 d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,mexicocity/national,Autódromo Hermanos Rodríguez (Mexico City) - National,罗德里格斯兄弟赛道，国家布局,罗德里格斯兄弟赛道，国家布局,"罗德里格斯兄弟赛道,国家布局","l uo2 d e2 l i3 g e2 s i01 x iong1 d i5 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,mexicocity/nationalhistoric,Autódromo Hermanos Rodríguez (Mexico City) - National Historic,罗德里格斯兄弟赛道，国家历史布局,罗德里格斯兄弟赛道，国家历史布局,"罗德里格斯兄弟赛道,国家历史布局","l uo2 d e2 l i3 g e2 s i01 x iong1 d i5 s ai4 d ao4 , g uo2 j ia1 l i4 sh ir3 b u4 j v2",frontend_pass
+tracks,mexicocity/ev,Autódromo Hermanos Rodríguez (Mexico City) - EV Circuit,罗德里格斯兄弟赛道，电动车布局,罗德里格斯兄弟赛道，电动车布局,"罗德里格斯兄弟赛道,电动车布局","l uo2 d e2 l i3 g e2 s i01 x iong1 d i5 s ai4 d ao4 , d ian4 d ong4 ch e1 b u4 j v2",frontend_pass
+tracks,mexicocity/oval,Autódromo Hermanos Rodríguez (Mexico City) - Oval,罗德里格斯兄弟赛道，椭圆布局,罗德里格斯兄弟赛道，椭圆布局,"罗德里格斯兄弟赛道,椭圆布局","l uo2 d e2 l i3 g e2 s i01 x iong1 d i5 s ai4 d ao4 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,mexicocity/ovalstadium,Autódromo Hermanos Rodríguez (Mexico City) - Oval Stadium,罗德里格斯兄弟赛道，体育场椭圆布局,罗德里格斯兄弟赛道，体育场椭圆布局,"罗德里格斯兄弟赛道,体育场椭圆布局","l uo2 d e2 l i3 g e2 s i01 x iong1 d i5 s ai4 d ao4 , t i3 y v4 ch ang3 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,mugello/short,Autodromo Internazionale del Mugello - Short,穆杰罗赛道，短布局,穆杰罗赛道，短布局,"穆杰罗赛道,短布局","m u4 j ie2 l uo2 s ai4 d ao4 , d uan3 b u4 j v2",frontend_pass
+tracks,imola,Autodromo Internazionale Enzo e Dino Ferrari,伊莫拉赛道,伊莫拉赛道,伊莫拉赛道,y i1 m o4 l a1 s ai4 d ao4,frontend_pass
+tracks,imola/gp,Autodromo Internazionale Enzo e Dino Ferrari - Grand Prix,伊莫拉赛道，大奖赛布局,伊莫拉赛道，大奖赛布局,"伊莫拉赛道,大奖赛布局","y i1 m o4 l a1 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,imola/moto,Autodromo Internazionale Enzo e Dino Ferrari - Moto,伊莫拉赛道，摩托车布局,伊莫拉赛道，摩托车布局,"伊莫拉赛道,摩托车布局","y i1 m o4 l a1 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,interlagos,Autódromo José Carlos Pace,英特拉格斯赛道,英特拉格斯赛道,英特拉格斯赛道,y ing1 t e4 l a1 g e2 s i01 s ai4 d ao4,frontend_pass
+tracks,interlagos/gp,Autódromo José Carlos Pace - Grand Prix,英特拉格斯赛道，大奖赛布局,英特拉格斯赛道，大奖赛布局,"英特拉格斯赛道,大奖赛布局","y ing1 t e4 l a1 g e2 s i01 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,interlagos/moto,Autódromo José Carlos Pace - Moto,英特拉格斯赛道，摩托车布局,英特拉格斯赛道，摩托车布局,"英特拉格斯赛道,摩托车布局","y ing1 t e4 l a1 g e2 s i01 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,monza,Autodromo Nazionale Monza,蒙扎赛道,蒙扎赛道,蒙扎赛道,m eng2 zh a1 s ai4 d ao4,frontend_pass
+tracks,monza/full,Autodromo Nazionale Monza - Grand Prix,蒙扎赛道，大奖赛布局,蒙扎赛道，大奖赛布局,"蒙扎赛道,大奖赛布局","m eng2 zh a1 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,monza/nochicane,Autodromo Nazionale Monza - GP without chicanes,蒙扎赛道，大奖赛布局，无减速弯,蒙扎赛道，大奖赛布局，无减速弯,"蒙扎赛道,大奖赛布局,无减速弯","m eng2 zh a1 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2 , w u2 j ian3 s u4 w an1",frontend_pass
+tracks,monza/gpsecondchicane,Autodromo Nazionale Monza - GP without first chicane,蒙扎赛道，大奖赛布局，不含第一组减速弯,蒙扎赛道，大奖赛布局，不含第一组减速弯,"蒙扎赛道,大奖赛布局,不含第一组减速弯","m eng2 zh a1 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2 , b u4 h an2 d i4 y i1 z u3 j ian3 s u4 w an1",frontend_pass
+tracks,monza/combinedchicanes,Autodromo Nazionale Monza - Combined,蒙扎赛道，联合布局,蒙扎赛道，联合布局,"蒙扎赛道,联合布局","m eng2 zh a1 s ai4 d ao4 , l ian2 h e2 b u4 j v2",frontend_pass
+tracks,monza/historic,Autodromo Nazionale Monza - Combined without chicanes,蒙扎赛道，联合布局，无减速弯,蒙扎赛道，联合布局，无减速弯,"蒙扎赛道,联合布局,无减速弯","m eng2 zh a1 s ai4 d ao4 , l ian2 h e2 b u4 j v2 , w u2 j ian3 s u4 w an1",frontend_pass
+tracks,monza/historicsecondchicane,Autodromo Nazionale Monza - Combined without first chicane,蒙扎赛道，联合布局，不含第一组减速弯,蒙扎赛道，联合布局，不含第一组减速弯,"蒙扎赛道,联合布局,不含第一组减速弯","m eng2 zh a1 s ai4 d ao4 , l ian2 h e2 b u4 j v2 , b u4 h an2 d i4 y i1 z u3 j ian3 s u4 w an1",frontend_pass
+tracks,monza/junior,Autodromo Nazionale Monza - Junior,蒙扎赛道，初级布局,蒙扎赛道，初级布局,"蒙扎赛道,初级布局","m eng2 zh a1 s ai4 d ao4 , ch u1 j i2 b u4 j v2",frontend_pass
+tracks,monza/ovalleft,Autodromo Nazionale Monza - Oval - Left turning,蒙扎赛道，椭圆布局，逆时针方向,蒙扎赛道，椭圆布局，逆时针方向,"蒙扎赛道,椭圆布局,逆时针方向","m eng2 zh a1 s ai4 d ao4 , t uo3 y van2 b u4 j v2 , n i4 sh ir2 zh en1 f ang1 x iang4",frontend_pass
+tracks,monza/oval,Autodromo Nazionale Monza - Oval - Right turning,蒙扎赛道，椭圆布局，顺时针方向,蒙扎赛道，椭圆布局，顺时针方向,"蒙扎赛道,椭圆布局,顺时针方向","m eng2 zh a1 s ai4 d ao4 , t uo3 y van2 b u4 j v2 , sh un4 sh ir2 zh en1 f ang1 x iang4",frontend_pass
+tracks,barber,Barber Motorsports Park,巴伯赛道,巴伯赛道,巴伯赛道,b a1 b o2 s ai4 d ao4,frontend_pass
+tracks,barber/full,Barber Motorsports Park - Full Course,巴伯赛道，完整布局,巴伯赛道，完整布局,"巴伯赛道,完整布局","b a1 b o2 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,barber/shorta,Barber Motorsports Park - Short A,巴伯赛道，短布局A,巴伯赛道，短布局诶,"巴伯赛道,短布局诶","b a1 b o2 s ai4 d ao4 , d uan3 b u4 j v2 EE ei5",frontend_pass
+tracks,barber/shortb,Barber Motorsports Park - Short B,巴伯赛道，短布局B,巴伯赛道，短布局比,"巴伯赛道,短布局比","b a1 b o2 s ai4 d ao4 , d uan3 b u4 j v2 b i3",frontend_pass
+tracks,barkriver,Bark River International Raceway,巴克里弗越野赛道,巴克里弗越野赛道,巴克里弗越野赛道,b a1 k e4 l i3 f u2 y ve4 y E3 s ai4 d ao4,frontend_pass
+tracks,brandshatch,Brands Hatch Circuit,布兰兹哈奇赛道,布兰兹哈奇赛道,布兰兹哈奇赛道,b u4 l an2 z i01 h a1 q i2 s ai4 d ao4,frontend_pass
+tracks,brandshatch/grandprix,Brands Hatch Circuit - Grand Prix,布兰兹哈奇赛道，大奖赛布局,布兰兹哈奇赛道，大奖赛布局,"布兰兹哈奇赛道,大奖赛布局","b u4 l an2 z i01 h a1 q i2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,brandshatch/indy,Brands Hatch Circuit - Indy,布兰兹哈奇赛道，印地布局,布兰兹哈奇赛道，印地布局,"布兰兹哈奇赛道,印地布局","b u4 l an2 z i01 h a1 q i2 s ai4 d ao4 , y in4 d i5 b u4 j v2",frontend_pass
+tracks,brandshatch/rallycross,Brands Hatch Circuit - Rallycross,布兰兹哈奇赛道，拉力越野布局,布兰兹哈奇赛道，拉力越野布局,"布兰兹哈奇赛道,拉力越野布局","b u4 l an2 z i01 h a1 q i2 s ai4 d ao4 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,bristol,Bristol Motor Speedway,布里斯托尔赛车场,布里斯托尔赛车场,布里斯托尔赛车场,b u4 l i3 s i01 t uo1 EE er3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,bristol,Bristol Motor Speedway - Dual Pit Roads,布里斯托尔赛车场，双维修区布局,布里斯托尔赛车场，双维修区布局,"布里斯托尔赛车场,双维修区布局","b u4 l i3 s i01 t uo1 EE er3 s ai4 ch e1 ch ang3 , sh uang1 w ei2 x iu1 q v1 b u4 j v2",frontend_pass
+tracks,bristol/fullpit,Bristol Motor Speedway - Single Pit Road,布里斯托尔赛车场，单维修区布局,布里斯托尔赛车场，单维修区布局,"布里斯托尔赛车场,单维修区布局","b u4 l i3 s i01 t uo1 EE er3 s ai4 ch e1 ch ang3 , d an1 w ei2 x iu1 q v1 b u4 j v2",frontend_pass
+tracks,bristol/dirt/2022,Bristol Motor Speedway - Dirt,布里斯托尔赛车场，泥地布局,布里斯托尔赛车场，泥地布局,"布里斯托尔赛车场,泥地布局","b u4 l i3 s i01 t uo1 EE er3 s ai4 ch e1 ch ang3 , n i2 d i5 b u4 j v2",frontend_pass
+tracks,bristol/dirt,Bristol Motor Speedway - Dirt - 2021,布里斯托尔赛车场，泥地布局，2021版,布里斯托尔赛车场，泥地布局，二零二一版,"布里斯托尔赛车场,泥地布局,二零二一版","b u4 l i3 s i01 t uo1 EE er3 s ai4 ch e1 ch ang3 , n i2 d i5 b u4 j v2 , EE er4 l ing2 EE er4 y i1 b an3",frontend_pass
+tracks,cadwell,Cadwell Park Circuit,卡德韦尔公园赛道,卡德韦尔公园赛道,卡德韦尔公园赛道,k a3 d e2 w ei2 EE er3 g ong1 y van2 s ai4 d ao4,frontend_pass
+tracks,cadwell/full,Cadwell Park Circuit - Full,卡德韦尔公园赛道，完整布局,卡德韦尔公园赛道，完整布局,"卡德韦尔公园赛道,完整布局","k a3 d e2 w ei2 EE er3 g ong1 y van2 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,cadwell/club,Cadwell Park Circuit - Club,卡德韦尔公园赛道，俱乐部布局,卡德韦尔公园赛道，俱乐部布局,"卡德韦尔公园赛道,俱乐部布局","k a3 d e2 w ei2 EE er3 g ong1 y van2 s ai4 d ao4 , j v4 l e4 b u4 b u4 j v2",frontend_pass
+tracks,cadwell/moto,Cadwell Park Circuit - Moto,卡德韦尔公园赛道，摩托车布局,卡德韦尔公园赛道，摩托车布局,"卡德韦尔公园赛道,摩托车布局","k a3 d e2 w ei2 EE er3 g ong1 y van2 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,cadwell/woodlands,Cadwell Park Circuit - Woodlands,卡德韦尔公园赛道，林地区布局,卡德韦尔公园赛道，林地区布局,"卡德韦尔公园赛道,林地区布局","k a3 d e2 w ei2 EE er3 g ong1 y van2 s ai4 d ao4 , l in2 d i4 q v1 b u4 j v2",frontend_pass
+tracks,mosport,Canadian Tire Motorsports Park,莫斯波特赛道,莫斯波特赛道,莫斯波特赛道,m o4 s i01 b o1 t e4 s ai4 d ao4,frontend_pass
+tracks,cedarlake,Cedar Lake Speedway,锡达莱克泥地赛道,锡达莱克泥地赛道,锡达莱克泥地赛道,x i1 d a2 l ai2 k e4 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,skidpad,Centripetal Circuit,圆环测试场,圆环测试场,圆环测试场,y van2 h uan2 c e4 sh ir4 ch ang3,frontend_pass
+tracks,charlotte/2018,Charlotte Motor Speedway,夏洛特赛车场,夏洛特赛车场,夏洛特赛车场,x ia4 l uo4 t e4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,charlotte/2018/oval,Charlotte Motor Speedway - Oval - 2018,夏洛特赛车场，椭圆布局，2018版,夏洛特赛车场，椭圆布局，二零一八版,"夏洛特赛车场,椭圆布局,二零一八版","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2 , EE er4 l ing2 y i1 b a1 b an3",frontend_pass
+tracks,charlotte/2018/2019/roval,Charlotte Motor Speedway - Roval,夏洛特赛车场，椭圆公路混合布局,夏洛特赛车场，椭圆公路混合布局,"夏洛特赛车场,椭圆公路混合布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , t uo3 y van2 g ong1 l u4 h un4 h e2 b u4 j v2",frontend_pass
+tracks,charlotte/2018/rovallong,Charlotte Motor Speedway - Roval Long,夏洛特赛车场，椭圆公路混合长布局,夏洛特赛车场，椭圆公路混合长布局,"夏洛特赛车场,椭圆公路混合长布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , t uo3 y van2 g ong1 l u4 h un4 h e2 ch ang2 b u4 j v2",frontend_pass
+tracks,charlotte/2018/roval,Charlotte Motor Speedway - Roval - 2018,夏洛特赛车场，椭圆公路混合布局，2018版,夏洛特赛车场，椭圆公路混合布局，二零一八版,"夏洛特赛车场,椭圆公路混合布局,二零一八版","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , t uo3 y van2 g ong1 l u4 h un4 h e2 b u4 j v2 , EE er4 l ing2 y i1 b a1 b an3",frontend_pass
+tracks,charlotte/2018/legendsoval,Charlotte Motor Speedway - Legends Oval,夏洛特赛车场，传奇赛车椭圆布局,夏洛特赛车场，传奇赛车椭圆布局,"夏洛特赛车场,传奇赛车椭圆布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,charlotte/2018/legendsrclong,Charlotte Motor Speedway - Legends RC Oval Long,夏洛特赛车场，传奇赛车公路椭圆长布局,夏洛特赛车场，传奇赛车公路椭圆长布局,"夏洛特赛车场,传奇赛车公路椭圆长布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 g ong1 l u4 t uo3 y van2 ch ang2 b u4 j v2",frontend_pass
+tracks,charlotte/2018/legendsrcmed,Charlotte Motor Speedway - Legends RC Oval Medium,夏洛特赛车场，传奇赛车公路椭圆中布局,夏洛特赛车场，传奇赛车公路椭圆中布局,"夏洛特赛车场,传奇赛车公路椭圆中布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 g ong1 l u4 t uo3 y van2 zh ong1 b u4 j v2",frontend_pass
+tracks,charlotte/2018/legendsrcshort,Charlotte Motor Speedway - Legends RC Oval Short,夏洛特赛车场，传奇赛车公路椭圆短布局,夏洛特赛车场，传奇赛车公路椭圆短布局,"夏洛特赛车场,传奇赛车公路椭圆短布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 g ong1 l u4 t uo3 y van2 d uan3 b u4 j v2",frontend_pass
+tracks,charlotte/2018/2019/rallycrosslong,Charlotte Motor Speedway - Rallycross,夏洛特赛车场，拉力越野布局,夏洛特赛车场，拉力越野布局,"夏洛特赛车场,拉力越野布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,charlotte/2025/oval,Charlotte Motor Speedway - Oval - 2018,夏洛特赛车场，椭圆布局，2018版,夏洛特赛车场，椭圆布局，二零一八版,"夏洛特赛车场,椭圆布局,二零一八版","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2 , EE er4 l ing2 y i1 b a1 b an3",frontend_pass
+tracks,charlotte/2025/roval2025,Charlotte Motor Speedway - Roval,夏洛特赛车场，椭圆公路混合布局,夏洛特赛车场，椭圆公路混合布局,"夏洛特赛车场,椭圆公路混合布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , t uo3 y van2 g ong1 l u4 h un4 h e2 b u4 j v2",frontend_pass
+tracks,charlotte/2025/rovalnochicanes,Charlotte Motor Speedway - Roval Long,夏洛特赛车场，椭圆公路混合长布局,夏洛特赛车场，椭圆公路混合长布局,"夏洛特赛车场,椭圆公路混合长布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , t uo3 y van2 g ong1 l u4 h un4 h e2 ch ang2 b u4 j v2",frontend_pass
+tracks,charlotte/2025/roval2019,Charlotte Motor Speedway - Roval - 2018,夏洛特赛车场，椭圆公路混合布局，2018版,夏洛特赛车场，椭圆公路混合布局，二零一八版,"夏洛特赛车场,椭圆公路混合布局,二零一八版","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , t uo3 y van2 g ong1 l u4 h un4 h e2 b u4 j v2 , EE er4 l ing2 y i1 b a1 b an3",frontend_pass
+tracks,charlotte/2025/legendsoval,Charlotte Motor Speedway - Legends Oval,夏洛特赛车场，传奇赛车椭圆布局,夏洛特赛车场，传奇赛车椭圆布局,"夏洛特赛车场,传奇赛车椭圆布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,charlotte/2025/legendsrclong,Charlotte Motor Speedway - Legends RC Oval Long,夏洛特赛车场，传奇赛车公路椭圆长布局,夏洛特赛车场，传奇赛车公路椭圆长布局,"夏洛特赛车场,传奇赛车公路椭圆长布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 g ong1 l u4 t uo3 y van2 ch ang2 b u4 j v2",frontend_pass
+tracks,charlotte/2025/legendsrc2025,Charlotte Motor Speedway - Legends RC Oval Medium,夏洛特赛车场，传奇赛车公路椭圆中布局,夏洛特赛车场，传奇赛车公路椭圆中布局,"夏洛特赛车场,传奇赛车公路椭圆中布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 g ong1 l u4 t uo3 y van2 zh ong1 b u4 j v2",frontend_pass
+tracks,charlotte/2025/legendsrcshort,Charlotte Motor Speedway - Legends RC Oval Short,夏洛特赛车场，传奇赛车公路椭圆短布局,夏洛特赛车场，传奇赛车公路椭圆短布局,"夏洛特赛车场,传奇赛车公路椭圆短布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 g ong1 l u4 t uo3 y van2 d uan3 b u4 j v2",frontend_pass
+tracks,charlotte/2025/rallycrosslong,Charlotte Motor Speedway - Rallycross,夏洛特赛车场，拉力越野布局,夏洛特赛车场，拉力越野布局,"夏洛特赛车场,拉力越野布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,chicago,Chicago Street Course,芝加哥街道赛道,芝加哥街道赛道,芝加哥街道赛道,zh ir1 j ia1 g e1 j ie1 d ao4 s ai4 d ao4,frontend_pass
+tracks,chicago/2023,Chicago Street Course - 2023 Cup,芝加哥街道赛道，2023杯赛布局,芝加哥街道赛道，二零二三杯赛布局,"芝加哥街道赛道,二零二三杯赛布局","zh ir1 j ia1 g e1 j ie1 d ao4 s ai4 d ao4 , EE er4 l ing2 EE er4 s an1 b ei1 s ai4 b u4 j v2",frontend_pass
+tracks,chicago,Chicago Street Course - Prototype,芝加哥街道赛道，原型布局,芝加哥街道赛道，原型布局,"芝加哥街道赛道,原型布局","zh ir1 j ia1 g e1 j ie1 d ao4 s ai4 d ao4 , y van2 x ing2 b u4 j v2",frontend_pass
+tracks,chicagoland,Chicagoland Speedway,芝加哥兰赛车场,芝加哥兰赛车场,芝加哥兰赛车场,zh ir1 j ia1 g e1 l an2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,chilibowl,Chili Bowl,奇利碗室内泥地赛道,奇利碗室内泥地赛道,奇利碗室内泥地赛道,q i2 l i4 w an3 sh ir4 n ei4 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,barcelona,Circuit de Barcelona Catalunya,巴塞罗那加泰罗尼亚赛道,巴塞罗那加泰罗尼亚赛道,巴塞罗那加泰罗尼亚赛道,b a1 s ai1 l uo2 n a4 j ia1 t ai4 l uo2 n i2 y a4 s ai4 d ao4,frontend_pass
+tracks,barcelona/gp,Circuit de Barcelona-Catalunya - Grand Prix,巴塞罗那加泰罗尼亚赛道，大奖赛布局,巴塞罗那加泰罗尼亚赛道，大奖赛布局,"巴塞罗那加泰罗尼亚赛道,大奖赛布局","b a1 s ai1 l uo2 n a4 j ia1 t ai4 l uo2 n i2 y a4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,barcelona/national,Circuit de Barcelona-Catalunya - National,巴塞罗那加泰罗尼亚赛道，国家布局,巴塞罗那加泰罗尼亚赛道，国家布局,"巴塞罗那加泰罗尼亚赛道,国家布局","b a1 s ai1 l uo2 n a4 j ia1 t ai4 l uo2 n i2 y a4 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,barcelona/moto,Circuit de Barcelona-Catalunya - Moto,巴塞罗那加泰罗尼亚赛道，摩托车布局,巴塞罗那加泰罗尼亚赛道，摩托车布局,"巴塞罗那加泰罗尼亚赛道,摩托车布局","b a1 s ai1 l uo2 n a4 j ia1 t ai4 l uo2 n i2 y a4 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,barcelona/club,Circuit de Barcelona-Catalunya - Club,巴塞罗那加泰罗尼亚赛道，俱乐部布局,巴塞罗那加泰罗尼亚赛道，俱乐部布局,"巴塞罗那加泰罗尼亚赛道,俱乐部布局","b a1 s ai1 l uo2 n a4 j ia1 t ai4 l uo2 n i2 y a4 s ai4 d ao4 , j v4 l e4 b u4 b u4 j v2",frontend_pass
+tracks,barcelona/historic,Circuit de Barcelona-Catalunya - Historic,巴塞罗那加泰罗尼亚赛道，历史布局,巴塞罗那加泰罗尼亚赛道，历史布局,"巴塞罗那加泰罗尼亚赛道,历史布局","b a1 s ai1 l uo2 n a4 j ia1 t ai4 l uo2 n i2 y a4 s ai4 d ao4 , l i4 sh ir3 b u4 j v2",frontend_pass
+tracks,barcelona/rallycross,Circuit de Barcelona-Catalunya - Rallycross,巴塞罗那加泰罗尼亚赛道，拉力越野布局,巴塞罗那加泰罗尼亚赛道，拉力越野布局,"巴塞罗那加泰罗尼亚赛道,拉力越野布局","b a1 s ai1 l uo2 n a4 j ia1 t ai4 l uo2 n i2 y a4 s ai4 d ao4 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,ledenon,Circuit de Lédenon,莱德农赛道,莱德农赛道,莱德农赛道,l ai2 d e2 n ong2 s ai4 d ao4,frontend_pass
+tracks,magnycours,Circuit de Nevers Magny-Cours,马尼库尔赛道,马尼库尔赛道,马尼库尔赛道,m a3 n i2 k u4 EE er3 s ai4 d ao4,frontend_pass
+tracks,magnycours/grandprix,Circuit de Nevers Magny-Cours - Grand Prix,马尼库尔赛道，大奖赛布局,马尼库尔赛道，大奖赛布局,"马尼库尔赛道,大奖赛布局","m a3 n i2 k u4 EE er3 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,spa,Circuit de Spa-Francorchamps,斯帕赛道,斯帕赛道,斯帕赛道,s i01 p a4 s ai4 d ao4,frontend_pass
+tracks,spa/2024/up,Circuit de Spa-Francorchamps - Grand Prix Pits,斯帕赛道，大奖赛维修区布局,斯帕赛道，大奖赛维修区布局,"斯帕赛道,大奖赛维修区布局","s i01 p a4 s ai4 d ao4 , d a4 j iang3 s ai4 w ei2 x iu1 q v1 b u4 j v2",frontend_pass
+tracks,spa/2024/low,Circuit de Spa-Francorchamps - Classic Pits,斯帕赛道，经典维修区布局,斯帕赛道，经典维修区布局,"斯帕赛道,经典维修区布局","s i01 p a4 s ai4 d ao4 , j ing1 d ian3 w ei2 x iu1 q v1 b u4 j v2",frontend_pass
+tracks,spa/2024/combined,Circuit de Spa-Francorchamps - Endurance,斯帕赛道，耐力赛布局,斯帕赛道，耐力赛布局,"斯帕赛道,耐力赛布局","s i01 p a4 s ai4 d ao4 , n ai4 l i4 s ai4 b u4 j v2",frontend_pass
+tracks,spa/2024/bike,Circuit de Spa-Francorchamps - Bike,斯帕赛道，摩托车布局,斯帕赛道，摩托车布局,"斯帕赛道,摩托车布局","s i01 p a4 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,spa/up,Circuit de Spa-Francorchamps - Grand Prix Pits - 2010,斯帕赛道，大奖赛维修区布局，2010版,斯帕赛道，大奖赛维修区布局，二零一零版,"斯帕赛道,大奖赛维修区布局,二零一零版","s i01 p a4 s ai4 d ao4 , d a4 j iang3 s ai4 w ei2 x iu1 q v1 b u4 j v2 , EE er4 l ing2 y i1 l ing2 b an3",frontend_pass
+tracks,spa/low,Circuit de Spa-Francorchamps - Classic Pits - 2010,斯帕赛道，经典维修区布局，2010版,斯帕赛道，经典维修区布局，二零一零版,"斯帕赛道,经典维修区布局,二零一零版","s i01 p a4 s ai4 d ao4 , j ing1 d ian3 w ei2 x iu1 q v1 b u4 j v2 , EE er4 l ing2 y i1 l ing2 b an3",frontend_pass
+tracks,spa/combined,Circuit de Spa-Francorchamps - Endurance - 2010,斯帕赛道，耐力赛布局，2010版,斯帕赛道，耐力赛布局，二零一零版,"斯帕赛道,耐力赛布局,二零一零版","s i01 p a4 s ai4 d ao4 , n ai4 l i4 s ai4 b u4 j v2 , EE er4 l ing2 y i1 l ing2 b an3",frontend_pass
+tracks,lemans,Circuit des 24 Heures du Mans,勒芒赛道,勒芒赛道,勒芒赛道,l e4 m ang2 s ai4 d ao4,frontend_pass
+tracks,lemans/full,Circuit des 24 Heures du Mans - 24 Heures du Man,勒芒赛道，24小时赛布局,勒芒赛道，二十四小时赛布局,"勒芒赛道,二十四小时赛布局","l e4 m ang2 s ai4 d ao4 , EE er4 sh ir2 s i04 x iao3 sh ir2 s ai4 b u4 j v2",frontend_pass
+tracks,lemans/nochicane,Circuit des 24 Heures du Mans - Historic,勒芒赛道，历史布局,勒芒赛道，历史布局,"勒芒赛道,历史布局","l e4 m ang2 s ai4 d ao4 , l i4 sh ir3 b u4 j v2",frontend_pass
+tracks,montreal,Circuit Gilles Villeneuve,吉尔维伦纽夫赛道,吉尔维伦纽夫赛道,吉尔维伦纽夫赛道,j i2 EE er3 w ei2 l un2 n iu3 f u1 s ai4 d ao4,frontend_pass
+tracks,cota,Circuit of the Americas,美洲赛道,美洲赛道,美洲赛道,m ei3 zh ou1 s ai4 d ao4,frontend_pass
+tracks,cota/gp,Circuit of the Americas - Grand Prix,美洲赛道，大奖赛布局,美洲赛道，大奖赛布局,"美洲赛道,大奖赛布局","m ei3 zh ou1 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,cota/east,Circuit of the Americas - East,美洲赛道，东布局,美洲赛道，东布局,"美洲赛道,东布局","m ei3 zh ou1 s ai4 d ao4 , d ong1 b u4 j v2",frontend_pass
+tracks,cota/west,Circuit of the Americas - West,美洲赛道，西布局,美洲赛道，西布局,"美洲赛道,西布局","m ei3 zh ou1 s ai4 d ao4 , x i1 b u4 j v2",frontend_pass
+tracks,zandvoort,Circuit Park Zandvoort,赞德沃特赛道,赞德沃特赛道,赞德沃特赛道,z an4 d e2 w o4 t e4 s ai4 d ao4,frontend_pass
+tracks,zandvoort/grandprix,Circuit Park Zandvoort - Grand Prix - 2009,赞德沃特赛道，大奖赛布局，2009版,赞德沃特赛道，大奖赛布局，二零零九版,"赞德沃特赛道,大奖赛布局,二零零九版","z an4 d e2 w o4 t e4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,zandvoort/national,Circuit Park Zandvoort - National - 2009,赞德沃特赛道，国家布局，2009版,赞德沃特赛道，国家布局，二零零九版,"赞德沃特赛道,国家布局,二零零九版","z an4 d e2 w o4 t e4 s ai4 d ao4 , g uo2 j ia1 b u4 j v2 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,zandvoort/chicane,Circuit Park Zandvoort - Chicane - 2009,赞德沃特赛道，减速弯布局，2009版,赞德沃特赛道，减速弯布局，二零零九版,"赞德沃特赛道,减速弯布局,二零零九版","z an4 d e2 w o4 t e4 s ai4 d ao4 , j ian3 s u4 w an1 b u4 j v2 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,zandvoort/club,Circuit Park Zandvoort - Club - 2009,赞德沃特赛道，俱乐部布局，2009版,赞德沃特赛道，俱乐部布局，二零零九版,"赞德沃特赛道,俱乐部布局,二零零九版","z an4 d e2 w o4 t e4 s ai4 d ao4 , j v4 l e4 b u4 b u4 j v2 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,zandvoort/oostelijk,Circuit Park Zandvoort - Oostelijk - 2009,赞德沃特赛道，东布局，2009版,赞德沃特赛道，东布局，二零零九版,"赞德沃特赛道,东布局,二零零九版","z an4 d e2 w o4 t e4 s ai4 d ao4 , d ong1 b u4 j v2 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,zandvoort/2023,Circuit Zandvoort,赞德沃特赛道,赞德沃特赛道,赞德沃特赛道,z an4 d e2 w o4 t e4 s ai4 d ao4,frontend_pass
+tracks,zandvoort/2023/gp,Circuit Zandvoort - Grand Prix,赞德沃特赛道，大奖赛布局,赞德沃特赛道，大奖赛布局,"赞德沃特赛道,大奖赛布局","z an4 d e2 w o4 t e4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,zandvoort/2023/gpchicane,Circuit Zandvoort - Grand Prix w/2 Chicane,赞德沃特赛道，大奖赛布局，含两组减速弯,赞德沃特赛道，大奖赛布局，含两组减速弯,"赞德沃特赛道,大奖赛布局,含两组减速弯","z an4 d e2 w o4 t e4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2 , h an2 l iang2 z u3 j ian3 s u4 w an1",frontend_pass
+tracks,zandvoort/2023/nationaal,Circuit Zandvoort - Nationaal,赞德沃特赛道，国家布局,赞德沃特赛道，国家布局,"赞德沃特赛道,国家布局","z an4 d e2 w o4 t e4 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,zandvoort/2023/ostelijk,Circuit Zandvoort - Oostelijk,赞德沃特赛道，东布局,赞德沃特赛道，东布局,"赞德沃特赛道,东布局","z an4 d e2 w o4 t e4 s ai4 d ao4 , d ong1 b u4 j v2",frontend_pass
+tracks,zolder,Circuit Zolder,佐尔德赛道,佐尔德赛道,佐尔德赛道,z uo3 EE er3 d e2 s ai4 d ao4,frontend_pass
+tracks,zolder/gp,Circuit Zolder - Grand Prix,佐尔德赛道，大奖赛布局,佐尔德赛道，大奖赛布局,"佐尔德赛道,大奖赛布局","z uo3 EE er3 d e2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,zolder/alt,Circuit Zolder - Alternate,佐尔德赛道，备用布局,佐尔德赛道，备用布局,"佐尔德赛道,备用布局","z uo3 EE er3 d e2 s ai4 d ao4 , b ei4 y ong4 b u4 j v2",frontend_pass
+tracks,zolder/2024,Circuit Zolder,佐尔德赛道,佐尔德赛道,佐尔德赛道,z uo3 EE er3 d e2 s ai4 d ao4,frontend_pass
+tracks,zolder/2024/gp,Circuit Zolder - Grand Prix,佐尔德赛道，大奖赛布局,佐尔德赛道，大奖赛布局,"佐尔德赛道,大奖赛布局","z uo3 EE er3 d e2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,zolder/2024/alt,Circuit Zolder - Alternate,佐尔德赛道，备用布局,佐尔德赛道，备用布局,"佐尔德赛道,备用布局","z uo3 EE er3 d e2 s ai4 d ao4 , b ei4 y ong4 b u4 j v2",frontend_pass
+tracks,jerez,Circuito de Jerez - Ángel Nieto,赫雷斯赛道,赫雷斯赛道,赫雷斯赛道,h e4 l ei2 s i01 s ai4 d ao4,frontend_pass
+tracks,jerez/gp,Circuito de Jerez - Ángel Nieto - Grand Prix,赫雷斯赛道，大奖赛布局,赫雷斯赛道，大奖赛布局,"赫雷斯赛道,大奖赛布局","h e4 l ei2 s i01 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,jerez/moto,Circuito de Jerez - Ángel Nieto - Moto,赫雷斯赛道，摩托车布局,赫雷斯赛道，摩托车布局,"赫雷斯赛道,摩托车布局","h e4 l ei2 s i01 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,navarra,Circuito de Navarra,纳瓦拉赛道,纳瓦拉赛道,纳瓦拉赛道,n a4 w a3 l a1 s ai4 d ao4,frontend_pass
+tracks,navarra/speedlong,Circuito de Navarra - Speed Circuit,纳瓦拉赛道，高速布局,纳瓦拉赛道，高速布局,"纳瓦拉赛道,高速布局","n a4 w a3 l a1 s ai4 d ao4 , g ao1 s u4 b u4 j v2",frontend_pass
+tracks,navarra/speedmedium,Circuito de Navarra - Speed Circuit - Medium,纳瓦拉赛道，高速中布局,纳瓦拉赛道，高速中布局,"纳瓦拉赛道,高速中布局","n a4 w a3 l a1 s ai4 d ao4 , g ao1 s u4 zh ong1 b u4 j v2",frontend_pass
+tracks,navarra/speedshort,Circuito de Navarra - Speed Circuit - Short,纳瓦拉赛道，高速短布局,纳瓦拉赛道，高速短布局,"纳瓦拉赛道,高速短布局","n a4 w a3 l a1 s ai4 d ao4 , g ao1 s u4 d uan3 b u4 j v2",frontend_pass
+tracks,concordhalf,Concord Speedway,康科德赛车场,康科德赛车场,康科德赛车场,k ang1 k e1 d e2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,crandon,Crandon International Raceway,克兰登越野赛道,克兰登越野赛道,克兰登越野赛道,k e4 l an2 d eng1 y ve4 y E3 s ai4 d ao4,frontend_pass
+tracks,crandon,Crandon International Raceway - Full,克兰登越野赛道，完整布局,克兰登越野赛道，完整布局,"克兰登越野赛道,完整布局","k e4 l an2 d eng1 y ve4 y E3 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,crandon/short,Crandon International Raceway - Short,克兰登越野赛道，短布局,克兰登越野赛道，短布局,"克兰登越野赛道,短布局","k e4 l an2 d eng1 y ve4 y E3 s ai4 d ao4 , d uan3 b u4 j v2",frontend_pass
+tracks,darlington,Darlington Raceway,达灵顿赛车场,达灵顿赛车场,达灵顿赛车场,d a2 l ing2 d un4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,daytona/2011,Daytona International Speedway,代托纳赛车场,代托纳赛车场,代托纳赛车场,d ai4 t uo1 n a4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,daytona/2011/oval,Daytona International Speedway - Oval,代托纳赛车场，椭圆布局,代托纳赛车场，椭圆布局,"代托纳赛车场,椭圆布局","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,daytona/2011/road,Daytona International Speedway - Road Course,代托纳赛车场，公路布局,代托纳赛车场，公路布局,"代托纳赛车场,公路布局","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,daytona/2011/roadnascar2020,Daytona International Speedway - NASCAR Road Course,代托纳赛车场，纳斯卡公路布局,代托纳赛车场，纳斯卡公路布局,"代托纳赛车场,纳斯卡公路布局","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , n a4 s i01 k a3 g ong1 l u4 b u4 j v2",frontend_pass
+tracks,daytona/2011/bike,Daytona International Speedway - Moto,代托纳赛车场，摩托车布局,代托纳赛车场，摩托车布局,"代托纳赛车场,摩托车布局","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,daytona/2011/short,Daytona International Speedway - Short,代托纳赛车场，短布局,代托纳赛车场，短布局,"代托纳赛车场,短布局","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , d uan3 b u4 j v2",frontend_pass
+tracks,daytona/oval,Daytona International Speedway - Oval - 2008,代托纳赛车场，椭圆布局，2008版,代托纳赛车场，椭圆布局，二零零八版,"代托纳赛车场,椭圆布局,二零零八版","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,daytona/road,Daytona International Speedway - Road Course - 2008,代托纳赛车场，公路布局，2008版,代托纳赛车场，公路布局，二零零八版,"代托纳赛车场,公路布局,二零零八版","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,daytona/bike,Daytona International Speedway - Moto - 2008,代托纳赛车场，摩托车布局，2008版,代托纳赛车场，摩托车布局，二零零八版,"代托纳赛车场,摩托车布局,二零零八版","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , m o2 t uo1 ch e1 b u4 j v2 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,daytona/short,Daytona International Speedway - Short - 2008,代托纳赛车场，短布局，2008版,代托纳赛车场，短布局，二零零八版,"代托纳赛车场,短布局,二零零八版","d ai4 t uo1 n a4 s ai4 ch e1 ch ang3 , d uan3 b u4 j v2 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,daytona,Daytona Rallycross and Dirt Road,代托纳越野赛道,代托纳越野赛道,代托纳越野赛道,d ai4 t uo1 n a4 y ve4 y E3 s ai4 d ao4,frontend_pass
+tracks,daytona/rallycross/long/nojoker,Daytona Rallycross and Dirt Road - Dirt Road Long,代托纳越野赛道，泥地公路长布局,代托纳越野赛道，泥地公路长布局,"代托纳越野赛道,泥地公路长布局","d ai4 t uo1 n a4 y ve4 y E3 s ai4 d ao4 , n i2 d i5 g ong1 l u4 ch ang2 b u4 j v2",frontend_pass
+tracks,daytona/rallycross/short/nojoker,Daytona Rallycross and Dirt Road - Dirt Road Short,代托纳越野赛道，泥地公路短布局,代托纳越野赛道，泥地公路短布局,"代托纳越野赛道,泥地公路短布局","d ai4 t uo1 n a4 y ve4 y E3 s ai4 d ao4 , n i2 d i5 g ong1 l u4 d uan3 b u4 j v2",frontend_pass
+tracks,daytona/rallycross/long,Daytona Rallycross and Dirt Road - Rallycross Long,代托纳越野赛道，拉力越野长布局,代托纳越野赛道，拉力越野长布局,"代托纳越野赛道,拉力越野长布局","d ai4 t uo1 n a4 y ve4 y E3 s ai4 d ao4 , l a1 l i4 y ve4 y E3 ch ang2 b u4 j v2",frontend_pass
+tracks,daytona/rallycross/short,Daytona Rallycross and Dirt Road - Rallycross Short,代托纳越野赛道，拉力越野短布局,代托纳越野赛道，拉力越野短布局,"代托纳越野赛道,拉力越野短布局","d ai4 t uo1 n a4 y ve4 y E3 s ai4 d ao4 , l a1 l i4 y ve4 y E3 d uan3 b u4 j v2",frontend_pass
+tracks,belleisle,Detroit Grand Prix at Belle Isle,底特律贝尔岛赛道,底特律贝尔岛赛道,底特律贝尔岛赛道,d i3 t e4 l v4 b ei4 EE er3 d ao3 s ai4 d ao4,frontend_pass
+tracks,donington,Donington Park Racing Circuit,多宁顿公园赛道,多宁顿公园赛道,多宁顿公园赛道,d uo1 n ing2 d un4 g ong1 y van2 s ai4 d ao4,frontend_pass
+tracks,donington/gp,Donington Park Racing Circuit - Grand Prix,多宁顿公园赛道，大奖赛布局,多宁顿公园赛道，大奖赛布局,"多宁顿公园赛道,大奖赛布局","d uo1 n ing2 d un4 g ong1 y van2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,donington/national,Donington Park Racing Circuit - National,多宁顿公园赛道，国家布局,多宁顿公园赛道，国家布局,"多宁顿公园赛道,国家布局","d uo1 n ing2 d un4 g ong1 y van2 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,dover,Dover Motor Speedway,多佛赛车场,多佛赛车场,多佛赛车场,d uo1 f u2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,atlanta,EchoPark Speedway (Atlanta),亚特兰大赛车场,亚特兰大赛车场,亚特兰大赛车场,y a4 t e4 l an2 d a4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,atlanta/2022/oval,EchoPark Speedway (Atlanta) - Oval,亚特兰大赛车场，椭圆布局,亚特兰大赛车场，椭圆布局,"亚特兰大赛车场,椭圆布局","y a4 t e4 l an2 d a4 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,atlanta/rallycross/long,EchoPark Speedway (Atlanta) - Rallycross Long,亚特兰大赛车场，拉力越野长布局,亚特兰大赛车场，拉力越野长布局,"亚特兰大赛车场,拉力越野长布局","y a4 t e4 l an2 d a4 s ai4 ch e1 ch ang3 , l a1 l i4 y ve4 y E3 ch ang2 b u4 j v2",frontend_pass
+tracks,atlanta/rallycross/short,EchoPark Speedway (Atlanta) - Rallycross Short,亚特兰大赛车场，拉力越野短布局,亚特兰大赛车场，拉力越野短布局,"亚特兰大赛车场,拉力越野短布局","y a4 t e4 l an2 d a4 s ai4 ch e1 ch ang3 , l a1 l i4 y ve4 y E3 d uan3 b u4 j v2",frontend_pass
+tracks,atlanta/quadoval,EchoPark Speedway (Atlanta) - Oval - 2008,亚特兰大赛车场，椭圆布局，2008版,亚特兰大赛车场，椭圆布局，二零零八版,"亚特兰大赛车场,椭圆布局,二零零八版","y a4 t e4 l an2 d a4 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,atlanta/legendsoval,EchoPark Speedway (Atlanta) - Legends Oval - 2008,亚特兰大赛车场，传奇赛车椭圆布局，2008版,亚特兰大赛车场，传奇赛车椭圆布局，二零零八版,"亚特兰大赛车场,传奇赛车椭圆布局,二零零八版","y a4 t e4 l an2 d a4 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 t uo3 y van2 b u4 j v2 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,atlanta/roadcourse,EchoPark Speedway (Atlanta) - Road Course - 2008,亚特兰大赛车场，公路布局，2008版,亚特兰大赛车场，公路布局，二零零八版,"亚特兰大赛车场,公路布局,二零零八版","y a4 t e4 l an2 d a4 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,eldora,Eldora Speedway,埃尔多拉泥地赛道,埃尔多拉泥地赛道,埃尔多拉泥地赛道,AA ai1 EE er3 d uo1 l a1 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,fairbury,Fairbury Speedway,费尔伯里泥地赛道,费尔伯里泥地赛道,费尔伯里泥地赛道,f ei4 EE er3 b o2 l i3 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,pevely,Federated Auto Parts Raceway at I-55,佩韦利泥地赛道,佩韦利泥地赛道,佩韦利泥地赛道,p ei4 w ei2 l i4 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,wildhorse,Firebird Motorsports Park,火鸟越野赛道,火鸟越野赛道,火鸟越野赛道,h uo3 n iao3 y ve4 y E3 s ai4 d ao4,frontend_pass
+tracks,fiveflags,Five Flags Speedway,五旗赛车场,五旗赛车场,五旗赛车场,w u3 q i2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,fuji,Fuji International Speedway,富士赛道,富士赛道,富士赛道,f u4 sh ir4 s ai4 d ao4,frontend_pass
+tracks,fuji/gp,Fuji International Speedway - Grand Prix,富士赛道，大奖赛布局,富士赛道，大奖赛布局,"富士赛道,大奖赛布局","f u4 sh ir4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,fuji/nochicane,Fuji International Speedway - No Chicane,富士赛道，无减速弯布局,富士赛道，无减速弯布局,"富士赛道,无减速弯布局","f u4 sh ir4 s ai4 d ao4 , w u2 j ian3 s u4 w an1 b u4 j v2",frontend_pass
+tracks,hickory,Hickory Motor Speedway,希科里赛车场,希科里赛车场,希科里赛车场,x i1 k e1 l i3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,hockenheim,Hockenheimring Baden-Württemberg,霍根海姆赛道,霍根海姆赛道,霍根海姆赛道,h uo4 g en1 h ai3 m u3 s ai4 d ao4,frontend_pass
+tracks,hockenheim/gp,Hockenheimring Baden-Württemberg - Grand Prix,霍根海姆赛道，大奖赛布局,霍根海姆赛道，大奖赛布局,"霍根海姆赛道,大奖赛布局","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,hockenheim/nationala,Hockenheimring Baden-Württemberg - National A,霍根海姆赛道，国家A布局,霍根海姆赛道，国家诶布局,"霍根海姆赛道,国家诶布局","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , g uo2 j ia1 EE ei5 b u4 j v2",frontend_pass
+tracks,hockenheim/nationalb,Hockenheimring Baden-Württemberg - National B,霍根海姆赛道，国家B布局,霍根海姆赛道，国家比布局,"霍根海姆赛道,国家比布局","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , g uo2 j ia1 b i3 b u4 j v2",frontend_pass
+tracks,hockenheim/outer,Hockenheimring Baden-Württemberg - Outer,霍根海姆赛道，外环布局,霍根海姆赛道，外环布局,"霍根海姆赛道,外环布局","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , w ai4 h uan2 b u4 j v2",frontend_pass
+tracks,hockenheim/peceast,Hockenheimring Baden-Württemberg - PEC - East,霍根海姆赛道，保时捷体验中心，东布局,霍根海姆赛道，保时捷体验中心，东布局,"霍根海姆赛道,保时捷体验中心,东布局","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , b ao3 sh ir2 j ie2 t i3 y En4 zh ong1 x in1 , d ong1 b u4 j v2",frontend_pass
+tracks,hockenheim/pechandling,Hockenheimring Baden-Württemberg - PEC - Handling,霍根海姆赛道，保时捷体验中心，操控布局,霍根海姆赛道，保时捷体验中心，操控布局,"霍根海姆赛道,保时捷体验中心,操控布局","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , b ao3 sh ir2 j ie2 t i3 y En4 zh ong1 x in1 , c ao1 k ong4 b u4 j v2",frontend_pass
+tracks,hockenheim/pecouter,Hockenheimring Baden-Württemberg - PEC - Outer,霍根海姆赛道，保时捷体验中心，外环布局,霍根海姆赛道，保时捷体验中心，外环布局,"霍根海姆赛道,保时捷体验中心,外环布局","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , b ao3 sh ir2 j ie2 t i3 y En4 zh ong1 x in1 , w ai4 h uan2 b u4 j v2",frontend_pass
+tracks,hockenheim/pecwest,Hockenheimring Baden-Württemberg - PEC - West,霍根海姆赛道，保时捷体验中心，西布局,霍根海姆赛道，保时捷体验中心，西布局,"霍根海姆赛道,保时捷体验中心,西布局","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , b ao3 sh ir2 j ie2 t i3 y En4 zh ong1 x in1 , x i1 b u4 j v2",frontend_pass
+tracks,hockenheim/shorta,Hockenheimring Baden-Württemberg - Short A,霍根海姆赛道，短布局A,霍根海姆赛道，短布局诶,"霍根海姆赛道,短布局诶","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , d uan3 b u4 j v2 EE ei5",frontend_pass
+tracks,hockenheim/shortb,Hockenheimring Baden-Württemberg - Short B,霍根海姆赛道，短布局B,霍根海姆赛道，短布局比,"霍根海姆赛道,短布局比","h uo4 g en1 h ai3 m u3 s ai4 d ao4 , d uan3 b u4 j v2 b i3",frontend_pass
+tracks,homestead,Homestead Miami Speedway,霍姆斯特德迈阿密赛车场,霍姆斯特德迈阿密赛车场,霍姆斯特德迈阿密赛车场,h uo4 m u3 s i01 t e4 d e2 m ai4 AA a1 m i4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,homestead/oval,Homestead Miami Speedway - Oval,霍姆斯特德迈阿密赛车场，椭圆布局,霍姆斯特德迈阿密赛车场，椭圆布局,"霍姆斯特德迈阿密赛车场,椭圆布局","h uo4 m u3 s i01 t e4 d e2 m ai4 AA a1 m i4 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,homestead/ovalindy,Homestead Miami Speedway - Open Wheel Oval,霍姆斯特德迈阿密赛车场，方程式椭圆布局,霍姆斯特德迈阿密赛车场，方程式椭圆布局,"霍姆斯特德迈阿密赛车场,方程式椭圆布局","h uo4 m u3 s i01 t e4 d e2 m ai4 AA a1 m i4 s ai4 ch e1 ch ang3 , f ang1 ch eng2 sh ir4 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,homestead/roada,Homestead Miami Speedway - Road Course A,霍姆斯特德迈阿密赛车场，公路A布局,霍姆斯特德迈阿密赛车场，公路诶布局,"霍姆斯特德迈阿密赛车场,公路诶布局","h uo4 m u3 s i01 t e4 d e2 m ai4 AA a1 m i4 s ai4 ch e1 ch ang3 , g ong1 l u4 EE ei5 b u4 j v2",frontend_pass
+tracks,homestead/roadb,Homestead Miami Speedway - Road Course B,霍姆斯特德迈阿密赛车场，公路B布局,霍姆斯特德迈阿密赛车场，公路比布局,"霍姆斯特德迈阿密赛车场,公路比布局","h uo4 m u3 s i01 t e4 d e2 m ai4 AA a1 m i4 s ai4 ch e1 ch ang3 , g ong1 l u4 b i3 b u4 j v2",frontend_pass
+tracks,hungaroring,Hungaroring Circuit,匈牙利赛道,匈牙利赛道,匈牙利赛道,x iong1 y a2 l i4 s ai4 d ao4,frontend_pass
+tracks,husets,Huset's Speedway,胡塞特泥地赛道,胡塞特泥地赛道,胡塞特泥地赛道,h u2 s ai1 t e4 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,indianapolis,Indianapolis Motor Speedway,印第安纳波利斯赛车场,印第安纳波利斯赛车场,印第安纳波利斯赛车场,y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 ch e1 ch ang3,frontend_pass
+tracks,indianapolis/2022/ovalnascar,Indianapolis Motor Speedway - Oval,印第安纳波利斯赛车场，椭圆布局,印第安纳波利斯赛车场，椭圆布局,"印第安纳波利斯赛车场,椭圆布局","y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,indianapolis/2022/oval,Indianapolis Motor Speedway - Open Wheel Oval,印第安纳波利斯赛车场，方程式椭圆布局,印第安纳波利斯赛车场，方程式椭圆布局,"印第安纳波利斯赛车场,方程式椭圆布局","y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 ch e1 ch ang3 , f ang1 ch eng2 sh ir4 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,indianapolis/2022/road,Indianapolis Motor Speedway - Road Course,印第安纳波利斯赛车场，公路布局,印第安纳波利斯赛车场，公路布局,"印第安纳波利斯赛车场,公路布局","y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,indianapolis/motogp,Indianapolis Motor Speedway - Bike,印第安纳波利斯赛车场，摩托车布局,印第安纳波利斯赛车场，摩托车布局,"印第安纳波利斯赛车场,摩托车布局","y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 ch e1 ch ang3 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,indianapolis/oval,Indianapolis Motor Speedway - Oval - 2009,印第安纳波利斯赛车场，椭圆布局，2009版,印第安纳波利斯赛车场，椭圆布局，二零零九版,"印第安纳波利斯赛车场,椭圆布局,二零零九版","y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,indianapolis/ovalindypit,Indianapolis Motor Speedway - Open Wheel Oval - 2009,印第安纳波利斯赛车场，方程式椭圆布局，2009版,印第安纳波利斯赛车场，方程式椭圆布局，二零零九版,"印第安纳波利斯赛车场,方程式椭圆布局,二零零九版","y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 ch e1 ch ang3 , f ang1 ch eng2 sh ir4 t uo3 y van2 b u4 j v2 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,indianapolis/road,Indianapolis Motor Speedway - Road Course - 2009,印第安纳波利斯赛车场，公路布局，2009版,印第安纳波利斯赛车场，公路布局，二零零九版,"印第安纳波利斯赛车场,公路布局,二零零九版","y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,iowa,Iowa Speedway,爱荷华赛车场,爱荷华赛车场,爱荷华赛车场,AA ai4 h e2 h ua2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,iowa/2025/oval,Iowa Speedway - Oval,爱荷华赛车场，椭圆布局,爱荷华赛车场，椭圆布局,"爱荷华赛车场,椭圆布局","AA ai4 h e2 h ua2 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,iowa/oval,Iowa Speedway - Oval - 2011,爱荷华赛车场，椭圆布局，2011版,爱荷华赛车场，椭圆布局，二零一一版,"爱荷华赛车场,椭圆布局,二零一一版","AA ai4 h e2 h ua2 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2 , EE er4 l ing2 y i1 y i1 b an3",frontend_pass
+tracks,iowa/road,Iowa Speedway - Road Course,爱荷华赛车场，公路布局,爱荷华赛车场，公路布局,"爱荷华赛车场,公路布局","AA ai4 h e2 h ua2 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,iowa/infroad,Iowa Speedway - Infield Road Course,爱荷华赛车场，内场公路布局,爱荷华赛车场，内场公路布局,"爱荷华赛车场,内场公路布局","AA ai4 h e2 h ua2 s ai4 ch e1 ch ang3 , n ei4 ch ang3 g ong1 l u4 b u4 j v2",frontend_pass
+tracks,iowa/legends,Iowa Speedway - Legends,爱荷华赛车场，传奇赛车布局,爱荷华赛车场，传奇赛车布局,"爱荷华赛车场,传奇赛车布局","AA ai4 h e2 h ua2 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 b u4 j v2",frontend_pass
+tracks,iowa/inflegends,Iowa Speedway - Infield Legends,爱荷华赛车场，内场传奇赛车布局,爱荷华赛车场，内场传奇赛车布局,"爱荷华赛车场,内场传奇赛车布局","AA ai4 h e2 h ua2 s ai4 ch e1 ch ang3 , n ei4 ch ang3 ch uan2 q i2 s ai4 ch e1 b u4 j v2",frontend_pass
+tracks,iowa/rallycross,Iowa Speedway - Rallycross,爱荷华赛车场，拉力越野布局,爱荷华赛车场，拉力越野布局,"爱荷华赛车场,拉力越野布局","AA ai4 h e2 h ua2 s ai4 ch e1 ch ang3 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,iracingss,iRacing Superspeedway,iRacing超级椭圆赛道,艾瑞星超级椭圆赛道,艾瑞星超级椭圆赛道,AA ai4 r ui4 x ing1 ch ao1 j i2 t uo3 y van2 s ai4 d ao4,frontend_pass
+tracks,irwindale,Irwindale Speedway,欧文代尔赛车场,欧文代尔赛车场,欧文代尔赛车场,OO ou1 w en2 d ai4 EE er3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,irwindale/outer,Irwindale Speedway - Outer,欧文代尔赛车场，外环布局,欧文代尔赛车场，外环布局,"欧文代尔赛车场,外环布局","OO ou1 w en2 d ai4 EE er3 s ai4 ch e1 ch ang3 , w ai4 h uan2 b u4 j v2",frontend_pass
+tracks,irwindale/inner,Irwindale Speedway - Inner,欧文代尔赛车场，内环布局,欧文代尔赛车场，内环布局,"欧文代尔赛车场,内环布局","OO ou1 w en2 d ai4 EE er3 s ai4 ch e1 ch ang3 , n ei4 h uan2 b u4 j v2",frontend_pass
+tracks,irwindale/outerinner,Irwindale Speedway - Outer - Inner,欧文代尔赛车场，外环内环联合布局,欧文代尔赛车场，外环内环联合布局,"欧文代尔赛车场,外环内环联合布局","OO ou1 w en2 d ai4 EE er3 s ai4 ch e1 ch ang3 , w ai4 h uan2 n ei4 h uan2 l ian2 h e2 b u4 j v2",frontend_pass
+tracks,irwindale/figureeight,Irwindale Speedway - Figure Eight,欧文代尔赛车场，八字布局,欧文代尔赛车场，八字布局,"欧文代尔赛车场,八字布局","OO ou1 w en2 d ai4 EE er3 s ai4 ch e1 ch ang3 , b a1 z i04 b u4 j v2",frontend_pass
+tracks,irwindale/figureeightjump,Irwindale Speedway - Figure Eight Jump,欧文代尔赛车场，八字跳台布局,欧文代尔赛车场，八字跳台布局,"欧文代尔赛车场,八字跳台布局","OO ou1 w en2 d ai4 EE er3 s ai4 ch e1 ch ang3 , b a1 z i04 t iao4 t ai2 b u4 j v2",frontend_pass
+tracks,kansas,Kansas Speedway,堪萨斯赛车场,堪萨斯赛车场,堪萨斯赛车场,k an1 s a4 s i01 s ai4 ch e1 ch ang3,frontend_pass
+tracks,kansas/oval,Kansas Speedway - Oval,堪萨斯赛车场，椭圆布局,堪萨斯赛车场，椭圆布局,"堪萨斯赛车场,椭圆布局","k an1 s a4 s i01 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,kansas/full,Kansas Speedway - Road Course,堪萨斯赛车场，公路布局,堪萨斯赛车场，公路布局,"堪萨斯赛车场,公路布局","k an1 s a4 s i01 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,kansas/short,Kansas Speedway - Infield Road Course,堪萨斯赛车场，内场公路布局,堪萨斯赛车场，内场公路布局,"堪萨斯赛车场,内场公路布局","k an1 s a4 s i01 s ai4 ch e1 ch ang3 , n ei4 ch ang3 g ong1 l u4 b u4 j v2",frontend_pass
+tracks,kentucky/2020,Kentucky Speedway,肯塔基赛车场,肯塔基赛车场,肯塔基赛车场,k en3 t a3 j i1 s ai4 ch e1 ch ang3,frontend_pass
+tracks,kentucky/2020/oval,Kentucky Speedway - Oval,肯塔基赛车场，椭圆布局,肯塔基赛车场，椭圆布局,"肯塔基赛车场,椭圆布局","k en3 t a3 j i1 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,kern,Kevin Harvick's Kern Raceway,克恩赛车场,克恩赛车场,克恩赛车场,k e4 EE en1 s ai4 ch e1 ch ang3,frontend_pass
+tracks,kern/oval,Kevin Harvick's Kern Raceway - Asphalt Track,克恩赛车场，沥青布局,克恩赛车场，沥青布局,"克恩赛车场,沥青布局","k e4 EE en1 s ai4 ch e1 ch ang3 , l i4 q ing1 b u4 j v2",frontend_pass
+tracks,kern/legends,Kevin Harvick's Kern Raceway - Legends,克恩赛车场，传奇赛车布局,克恩赛车场，传奇赛车布局,"克恩赛车场,传奇赛车布局","k e4 EE en1 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 b u4 j v2",frontend_pass
+tracks,kern/dirt,Kevin Harvick's Kern Raceway - Dirt Track,克恩赛车场，泥地布局,克恩赛车场，泥地布局,"克恩赛车场,泥地布局","k e4 EE en1 s ai4 ch e1 ch ang3 , n i2 d i5 b u4 j v2",frontend_pass
+tracks,kern/dirtmini,Kevin Harvick's Kern Raceway - Dirt Mini Oval,克恩赛车场，泥地小椭圆布局,克恩赛车场，泥地小椭圆布局,"克恩赛车场,泥地小椭圆布局","k e4 EE en1 s ai4 ch e1 ch ang3 , n i2 d i5 x iao2 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,knockhill,Knockhill Racing Circuit,诺克希尔赛道,诺克希尔赛道,诺克希尔赛道,n uo4 k e4 x i1 EE er3 s ai4 d ao4,frontend_pass
+tracks,knockhill/international,Knockhill Racing Circuit - International,诺克希尔赛道，国际布局,诺克希尔赛道，国际布局,"诺克希尔赛道,国际布局","n uo4 k e4 x i1 EE er3 s ai4 d ao4 , g uo2 j i4 b u4 j v2",frontend_pass
+tracks,knockhill/internationalrev,Knockhill Racing Circuit - International Reverse,诺克希尔赛道，国际反向布局,诺克希尔赛道，国际反向布局,"诺克希尔赛道,国际反向布局","n uo4 k e4 x i1 EE er3 s ai4 d ao4 , g uo2 j i4 f an3 x iang4 b u4 j v2",frontend_pass
+tracks,knockhill/national,Knockhill Racing Circuit - National,诺克希尔赛道，国家布局,诺克希尔赛道，国家布局,"诺克希尔赛道,国家布局","n uo4 k e4 x i1 EE er3 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,knockhill/nationalrev,Knockhill Racing Circuit - National Reverse,诺克希尔赛道，国家反向布局,诺克希尔赛道，国家反向布局,"诺克希尔赛道,国家反向布局","n uo4 k e4 x i1 EE er3 s ai4 d ao4 , g uo2 j ia1 f an3 x iang4 b u4 j v2",frontend_pass
+tracks,knockhill/trioval,Knockhill Racing Circuit - Tri-Oval,诺克希尔赛道，三角椭圆布局,诺克希尔赛道，三角椭圆布局,"诺克希尔赛道,三角椭圆布局","n uo4 k e4 x i1 EE er3 s ai4 d ao4 , s an1 j iao3 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,knockhill/rallycross,Knockhill Racing Circuit - Rallycross,诺克希尔赛道，拉力越野布局,诺克希尔赛道，拉力越野布局,"诺克希尔赛道,拉力越野布局","n uo4 k e4 x i1 EE er3 s ai4 d ao4 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,knoxville,Knoxville Raceway,诺克斯维尔泥地赛道,诺克斯维尔泥地赛道,诺克斯维尔泥地赛道,n uo4 k e4 s i01 w ei2 EE er3 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,kokomo,Kokomo Speedway,科科莫泥地赛道,科科莫泥地赛道,科科莫泥地赛道,k e1 k e1 m o4 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,kokomo,Kokomo Speedway - Tires In,科科莫泥地赛道，轮胎标记内侧布局,科科莫泥地赛道，轮胎标记内侧布局,"科科莫泥地赛道,轮胎标记内侧布局","k e1 k e1 m o4 n i2 d i4 s ai4 d ao4 , l un2 t ai1 b iao1 j i4 n ei4 c e4 b u4 j v2",frontend_pass
+tracks,kokomo/tiresout,Kokomo Speedway - Tires Out,科科莫泥地赛道，轮胎标记外侧布局,科科莫泥地赛道，轮胎标记外侧布局,"科科莫泥地赛道,轮胎标记外侧布局","k e1 k e1 m o4 n i2 d i4 s ai4 d ao4 , l un2 t ai1 b iao1 j i4 w ai4 c e4 b u4 j v2",frontend_pass
+tracks,langley,Langley Speedway,兰利赛车场,兰利赛车场,兰利赛车场,l an2 l i4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,lanier,Lanier National Speedway,拉尼尔赛车场,拉尼尔赛车场,拉尼尔赛车场,l a1 n i2 EE er3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,lanier,Lanier National Speedway - Asphalt,拉尼尔赛车场，沥青布局,拉尼尔赛车场，沥青布局,"拉尼尔赛车场,沥青布局","l a1 n i2 EE er3 s ai4 ch e1 ch ang3 , l i4 q ing1 b u4 j v2",frontend_pass
+tracks,lanier/dirt,Lanier National Speedway - Dirt,拉尼尔赛车场，泥地布局,拉尼尔赛车场，泥地布局,"拉尼尔赛车场,泥地布局","l a1 n i2 EE er3 s ai4 ch e1 ch ang3 , n i2 d i5 b u4 j v2",frontend_pass
+tracks,lankebanen,Lånkebanen (Hell RX),赫尔拉力越野赛道,赫尔拉力越野赛道,赫尔拉力越野赛道,h e4 EE er3 l a1 l i4 y ve4 y E3 s ai4 d ao4,frontend_pass
+tracks,lankebanen/club,Lånkebanen (Hell RX) - Club,赫尔拉力越野赛道，俱乐部布局,赫尔拉力越野赛道，俱乐部布局,"赫尔拉力越野赛道,俱乐部布局","h e4 EE er3 l a1 l i4 y ve4 y E3 s ai4 d ao4 , j v4 l e4 b u4 b u4 j v2",frontend_pass
+tracks,lankebanen/hellrx,Lånkebanen (Hell RX) - Hell Rallycross,赫尔拉力越野赛道,赫尔拉力越野赛道,赫尔拉力越野赛道,h e4 EE er3 l a1 l i4 y ve4 y E3 s ai4 d ao4,frontend_pass
+tracks,lankebanen/rallyshort,Lånkebanen (Hell RX) - Rallycross Short,赫尔拉力越野赛道，拉力越野短布局,赫尔拉力越野赛道，拉力越野短布局,"赫尔拉力越野赛道,拉力越野短布局","h e4 EE er3 l a1 l i4 y ve4 y E3 s ai4 d ao4 , l a1 l i4 y ve4 y E3 d uan3 b u4 j v2",frontend_pass
+tracks,lankebanen/road/roadlong,Lånkebanen (Hell RX) - Road Long,赫尔拉力越野赛道，公路长布局,赫尔拉力越野赛道，公路长布局,"赫尔拉力越野赛道,公路长布局","h e4 EE er3 l a1 l i4 y ve4 y E3 s ai4 d ao4 , g ong1 l u4 ch ang2 b u4 j v2",frontend_pass
+tracks,lankebanen/road/roadshort,Lånkebanen (Hell RX) - Road Short,赫尔拉力越野赛道，公路短布局,赫尔拉力越野赛道，公路短布局,"赫尔拉力越野赛道,公路短布局","h e4 EE er3 l a1 l i4 y ve4 y E3 s ai4 d ao4 , g ong1 l u4 d uan3 b u4 j v2",frontend_pass
+tracks,vegas,Las Vegas Motor Speedway,拉斯维加斯赛车场,拉斯维加斯赛车场,拉斯维加斯赛车场,l a1 s i01 w ei2 j ia1 s i01 s ai4 ch e1 ch ang3,frontend_pass
+tracks,vegas/inflegends,Las Vegas Motor Speedway - Infield Legends Oval,拉斯维加斯赛车场，内场传奇赛车椭圆布局,拉斯维加斯赛车场，内场传奇赛车椭圆布局,"拉斯维加斯赛车场,内场传奇赛车椭圆布局","l a1 s i01 w ei2 j ia1 s i01 s ai4 ch e1 ch ang3 , n ei4 ch ang3 ch uan2 q i2 s ai4 ch e1 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,vegas/legends,Las Vegas Motor Speedway - Legends Oval,拉斯维加斯赛车场，传奇赛车椭圆布局,拉斯维加斯赛车场，传奇赛车椭圆布局,"拉斯维加斯赛车场,传奇赛车椭圆布局","l a1 s i01 w ei2 j ia1 s i01 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,vegas/oval,Las Vegas Motor Speedway - Oval,拉斯维加斯赛车场，椭圆布局,拉斯维加斯赛车场，椭圆布局,"拉斯维加斯赛车场,椭圆布局","l a1 s i01 w ei2 j ia1 s i01 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,vegas/roadcombined,Las Vegas Motor Speedway - Road Course Combined,拉斯维加斯赛车场，联合公路布局,拉斯维加斯赛车场，联合公路布局,"拉斯维加斯赛车场,联合公路布局","l a1 s i01 w ei2 j ia1 s i01 s ai4 ch e1 ch ang3 , l ian2 h e2 g ong1 l u4 b u4 j v2",frontend_pass
+tracks,vegas/roadlong,Las Vegas Motor Speedway - Road Course Long,拉斯维加斯赛车场，公路长布局,拉斯维加斯赛车场，公路长布局,"拉斯维加斯赛车场,公路长布局","l a1 s i01 w ei2 j ia1 s i01 s ai4 ch e1 ch ang3 , g ong1 l u4 ch ang2 b u4 j v2",frontend_pass
+tracks,vegas/roadshort,Las Vegas Motor Speedway - Road Course Short,拉斯维加斯赛车场，公路短布局,拉斯维加斯赛车场，公路短布局,"拉斯维加斯赛车场,公路短布局","l a1 s i01 w ei2 j ia1 s i01 s ai4 ch e1 ch ang3 , g ong1 l u4 d uan3 b u4 j v2",frontend_pass
+tracks,lernerville,Lernerville Speedway,勒纳维尔泥地赛道,勒纳维尔泥地赛道,勒纳维尔泥地赛道,l ei1 n a4 w ei2 EE er3 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,limaland,Limaland Motorsports Park,利马兰泥地赛道,利马兰泥地赛道,利马兰泥地赛道,l i4 m a3 l an2 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,limerock/2019,Lime Rock Park,莱姆罗克赛道,莱姆罗克赛道,莱姆罗克赛道,l ai2 m u3 l uo2 k e4 s ai4 d ao4,frontend_pass
+tracks,limerock/2019/chicanes,Lime Rock Park - Chicanes,莱姆罗克赛道，含减速弯,莱姆罗克赛道，含减速弯,"莱姆罗克赛道,含减速弯","l ai2 m u3 l uo2 k e4 s ai4 d ao4 , h an2 j ian3 s u4 w an1",frontend_pass
+tracks,limerock/2019/classic,Lime Rock Park - Classic,莱姆罗克赛道，经典布局,莱姆罗克赛道，经典布局,"莱姆罗克赛道,经典布局","l ai2 m u3 l uo2 k e4 s ai4 d ao4 , j ing1 d ian3 b u4 j v2",frontend_pass
+tracks,limerock/2019/gp,Lime Rock Park - Grand Prix,莱姆罗克赛道，大奖赛布局,莱姆罗克赛道，大奖赛布局,"莱姆罗克赛道,大奖赛布局","l ai2 m u3 l uo2 k e4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,limerock/2019/school,Lime Rock Park - School,莱姆罗克赛道，教学布局,莱姆罗克赛道，教学布局,"莱姆罗克赛道,教学布局","l ai2 m u3 l uo2 k e4 s ai4 d ao4 , j iao4 x ve2 b u4 j v2",frontend_pass
+tracks,limerock/2019/chicanewestb,Lime Rock Park - West Bend Chicane,莱姆罗克赛道，西弯减速弯布局,莱姆罗克赛道，西弯减速弯布局,"莱姆罗克赛道,西弯减速弯布局","l ai2 m u3 l uo2 k e4 s ai4 d ao4 , x i1 w an1 j ian3 s u4 w an1 b u4 j v2",frontend_pass
+tracks,lincoln,Lincoln Speedway,林肯泥地赛道,林肯泥地赛道,林肯泥地赛道,l in2 k en3 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,longbeach,Long Beach Street Circuit,长滩街道赛道,长滩街道赛道,长滩街道赛道,ch ang2 t an1 j ie1 d ao4 s ai4 d ao4,frontend_pass
+tracks,lacoliseum,Los Angeles Memorial Coliseum,洛杉矶纪念体育馆赛道,洛杉矶纪念体育馆赛道,洛杉矶纪念体育馆赛道,l uo4 sh an1 j i1 j i4 n ian4 t i3 y v4 g uan3 s ai4 d ao4,frontend_pass
+tracks,irp,Lucas Oil Indianapolis Raceway Park,卢卡斯石油印第安纳波利斯赛道,卢卡斯石油印第安纳波利斯赛道,卢卡斯石油印第安纳波利斯赛道,l u2 k a3 s i01 sh ir2 y ou2 y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 d ao4,frontend_pass
+tracks,irp,Lucas Oil Indianapolis Raceway Park - Oval,卢卡斯石油印第安纳波利斯赛道，椭圆布局,卢卡斯石油印第安纳波利斯赛道，椭圆布局,"卢卡斯石油印第安纳波利斯赛道,椭圆布局","l u2 k a3 s i01 sh ir2 y ou2 y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 d ao4 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,irp/rallycross,Lucas Oil Indianapolis Raceway Park - Rallycross,卢卡斯石油印第安纳波利斯赛道，拉力越野布局,卢卡斯石油印第安纳波利斯赛道，拉力越野布局,"卢卡斯石油印第安纳波利斯赛道,拉力越野布局","l u2 k a3 s i01 sh ir2 y ou2 y in4 d i4 AA an1 n a4 b o1 l i4 s i01 s ai4 d ao4 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,wheatland,Lucas Oil Speedway,卢卡斯石油赛道,卢卡斯石油赛道,卢卡斯石油赛道,l u2 k a3 s i01 sh ir2 y ou2 s ai4 d ao4,frontend_pass
+tracks,wheatland,Lucas Oil Speedway - Dirt Oval,卢卡斯石油赛道，泥地椭圆布局,卢卡斯石油赛道，泥地椭圆布局,"卢卡斯石油赛道,泥地椭圆布局","l u2 k a3 s i01 sh ir2 y ou2 s ai4 d ao4 , n i2 d i5 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,wheatland/road,Lucas Oil Speedway - Off Road,卢卡斯石油赛道，越野布局,卢卡斯石油赛道，越野布局,"卢卡斯石油赛道,越野布局","l u2 k a3 s i01 sh ir2 y ou2 s ai4 d ao4 , y ve4 y E3 b u4 j v2",frontend_pass
+tracks,martinsville,Martinsville Speedway,马丁斯维尔赛车场,马丁斯维尔赛车场,马丁斯维尔赛车场,m a3 d ing1 s i01 w ei2 EE er3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,miami,Miami International Autodrome,迈阿密国际赛道,迈阿密国际赛道,迈阿密国际赛道,m ai4 AA a1 m i4 g uo2 j i4 s ai4 d ao4,frontend_pass
+tracks,miami/gp,Miami International Autodrome - Grand Prix,迈阿密国际赛道，大奖赛布局,迈阿密国际赛道，大奖赛布局,"迈阿密国际赛道,大奖赛布局","m ai4 AA a1 m i4 g uo2 j i4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,miami/marinaloop,Miami International Autodrome - Marina Loop,迈阿密国际赛道，码头环线布局,迈阿密国际赛道，码头环线布局,"迈阿密国际赛道,码头环线布局","m ai4 AA a1 m i4 g uo2 j i4 s ai4 d ao4 , m a3 t ou5 h uan2 x ian4 b u4 j v2",frontend_pass
+tracks,miami/mialoop,Miami International Autodrome - MIA Loop,迈阿密国际赛道，迈阿密环线布局,迈阿密国际赛道，迈阿密环线布局,"迈阿密国际赛道,迈阿密环线布局","m ai4 AA a1 m i4 g uo2 j i4 s ai4 d ao4 , m ai4 AA a1 m i4 h uan2 x ian4 b u4 j v2",frontend_pass
+tracks,miami/extendedmialoop,Miami International Autodrome - Extended MIA Loop,迈阿密国际赛道，迈阿密延长环线布局,迈阿密国际赛道，迈阿密延长环线布局,"迈阿密国际赛道,迈阿密延长环线布局","m ai4 AA a1 m i4 g uo2 j i4 s ai4 d ao4 , m ai4 AA a1 m i4 y En2 ch ang2 h uan2 x ian4 b u4 j v2",frontend_pass
+tracks,miami/exmarinaloop,Miami International Autodrome - Extended Marina Loop,迈阿密国际赛道，延长码头环线布局,迈阿密国际赛道，延长码头环线布局,"迈阿密国际赛道,延长码头环线布局","m ai4 AA a1 m i4 g uo2 j i4 s ai4 d ao4 , y En2 ch ang2 m a3 t ou5 h uan2 x ian4 b u4 j v2",frontend_pass
+tracks,michigan2018,Michigan International Speedway,密歇根赛车场,密歇根赛车场,密歇根赛车场,m i4 x ie1 g en1 s ai4 ch e1 ch ang3,frontend_pass
+tracks,midohio,Mid-Ohio Sports Car Course,中俄亥俄赛道,中俄亥俄赛道,中俄亥俄赛道,zh ong1 EE e2 h ai4 EE e2 s ai4 d ao4,frontend_pass
+tracks,midohio/altoval,Mid-Ohio Sports Car Course - Alt Oval,中俄亥俄赛道，椭圆备用布局,中俄亥俄赛道，椭圆备用布局,"中俄亥俄赛道,椭圆备用布局","zh ong1 EE e2 h ai4 EE e2 s ai4 d ao4 , t uo3 y van2 b ei4 y ong4 b u4 j v2",frontend_pass
+tracks,midohio/chicane,Mid-Ohio Sports Car Course - Chicane,中俄亥俄赛道，减速弯布局,中俄亥俄赛道，减速弯布局,"中俄亥俄赛道,减速弯布局","zh ong1 EE e2 h ai4 EE e2 s ai4 d ao4 , j ian3 s u4 w an1 b u4 j v2",frontend_pass
+tracks,midohio/full,Mid-Ohio Sports Car Course - Full Course,中俄亥俄赛道，完整布局,中俄亥俄赛道，完整布局,"中俄亥俄赛道,完整布局","zh ong1 EE e2 h ai4 EE e2 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,midohio/oval,Mid-Ohio Sports Car Course - Oval,中俄亥俄赛道，椭圆布局,中俄亥俄赛道，椭圆布局,"中俄亥俄赛道,椭圆布局","zh ong1 EE e2 h ai4 EE e2 s ai4 d ao4 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,midohio/short,Mid-Ohio Sports Car Course - Short,中俄亥俄赛道，短布局,中俄亥俄赛道，短布局,"中俄亥俄赛道,短布局","zh ong1 EE e2 h ai4 EE e2 s ai4 d ao4 , d uan3 b u4 j v2",frontend_pass
+tracks,millbridge,Millbridge Speedway,米尔布里奇泥地赛道,米尔布里奇泥地赛道,米尔布里奇泥地赛道,m i3 EE er3 b u4 l i3 q i2 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,misano,Misano World Circuit Marco Simoncelli,米萨诺赛道,米萨诺赛道,米萨诺赛道,m i3 s a4 n uo4 s ai4 d ao4,frontend_pass
+tracks,misano/club,Misano World Circuit Marco Simoncelli - Club,米萨诺赛道，俱乐部布局,米萨诺赛道，俱乐部布局,"米萨诺赛道,俱乐部布局","m i3 s a4 n uo4 s ai4 d ao4 , j v4 l e4 b u4 b u4 j v2",frontend_pass
+tracks,misano/gp,Misano World Circuit Marco Simoncelli - Grand Prix,米萨诺赛道，大奖赛布局,米萨诺赛道，大奖赛布局,"米萨诺赛道,大奖赛布局","m i3 s a4 n uo4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,misano/historicgp,Misano World Circuit Marco Simoncelli - Grand Prix - Historic,米萨诺赛道，大奖赛布局，历史布局,米萨诺赛道，大奖赛布局，历史布局,"米萨诺赛道,大奖赛布局,历史布局","m i3 s a4 n uo4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2 , l i4 sh ir3 b u4 j v2",frontend_pass
+tracks,misano/gp2007,Misano World Circuit Marco Simoncelli - Grand Prix 2007,米萨诺赛道，2007大奖赛布局,米萨诺赛道，二零零七大奖赛布局,"米萨诺赛道,二零零七大奖赛布局","m i3 s a4 n uo4 s ai4 d ao4 , EE er4 l ing2 l ing2 q i1 d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,misano/truck,Misano World Circuit Marco Simoncelli - Truck,米萨诺赛道，卡车布局,米萨诺赛道，卡车布局,"米萨诺赛道,卡车布局","m i3 s a4 n uo4 s ai4 d ao4 , k a3 ch e1 b u4 j v2",frontend_pass
+tracks,twinring,Mobility Resort Motegi,茂木赛道,茂木赛道,茂木赛道,m ao4 m u4 s ai4 d ao4,frontend_pass
+tracks,twinring/east,Mobility Resort Motegi - East,茂木赛道，东布局,茂木赛道，东布局,"茂木赛道,东布局","m ao4 m u4 s ai4 d ao4 , d ong1 b u4 j v2",frontend_pass
+tracks,twinring/fullrc,Mobility Resort Motegi - Grand Prix,茂木赛道，大奖赛布局,茂木赛道，大奖赛布局,"茂木赛道,大奖赛布局","m ao4 m u4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,twinring/oval,Mobility Resort Motegi - Oval,茂木赛道，椭圆布局,茂木赛道，椭圆布局,"茂木赛道,椭圆布局","m ao4 m u4 s ai4 d ao4 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,twinring/west,Mobility Resort Motegi - West,茂木赛道，西布局,茂木赛道，西布局,"茂木赛道,西布局","m ao4 m u4 s ai4 d ao4 , x i1 b u4 j v2",frontend_pass
+tracks,aragon,MotorLand Aragón,阿拉贡赛道,阿拉贡赛道,阿拉贡赛道,AA a1 l a1 g ong4 s ai4 d ao4,frontend_pass
+tracks,aragon/gp,MotorLand Aragón - Grand Prix,阿拉贡赛道，大奖赛布局,阿拉贡赛道，大奖赛布局,"阿拉贡赛道,大奖赛布局","AA a1 l a1 g ong4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,aragon/moto,MotorLand Aragón - Motorcycle Grand Prix,阿拉贡赛道，摩托车大奖赛布局,阿拉贡赛道，摩托车大奖赛布局,"阿拉贡赛道,摩托车大奖赛布局","AA a1 l a1 g ong4 s ai4 d ao4 , m o2 t uo1 ch e1 d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,aragon/nationalmoto,MotorLand Aragón - Motorcycle National,阿拉贡赛道，摩托车国家布局,阿拉贡赛道，摩托车国家布局,"阿拉贡赛道,摩托车国家布局","AA a1 l a1 g ong4 s ai4 d ao4 , m o2 t uo1 ch e1 g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,aragon/national,MotorLand Aragón - National,阿拉贡赛道，国家布局,阿拉贡赛道，国家布局,"阿拉贡赛道,国家布局","AA a1 l a1 g ong4 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,aragon/outer,MotorLand Aragón - Outer,阿拉贡赛道，外环布局,阿拉贡赛道，外环布局,"阿拉贡赛道,外环布局","AA a1 l a1 g ong4 s ai4 d ao4 , w ai4 h uan2 b u4 j v2",frontend_pass
+tracks,aragon/tc,MotorLand Aragón - Touring Car,阿拉贡赛道，房车布局,阿拉贡赛道，房车布局,"阿拉贡赛道,房车布局","AA a1 l a1 g ong4 s ai4 d ao4 , f ang2 ch e1 b u4 j v2",frontend_pass
+tracks,aragon/west,MotorLand Aragón - West,阿拉贡赛道，西布局,阿拉贡赛道，西布局,"阿拉贡赛道,西布局","AA a1 l a1 g ong4 s ai4 d ao4 , x i1 b u4 j v2",frontend_pass
+tracks,oschersleben,Motorsport Arena Oschersleben,奥舍斯莱本赛道,奥舍斯莱本赛道,奥舍斯莱本赛道,AA ao4 sh e3 s i01 l ai2 b en3 s ai4 d ao4,frontend_pass
+tracks,oschersleben/alt,Motorsport Arena Oschersleben - Alternate,奥舍斯莱本赛道，备用布局,奥舍斯莱本赛道，备用布局,"奥舍斯莱本赛道,备用布局","AA ao4 sh e3 s i01 l ai2 b en3 s ai4 d ao4 , b ei4 y ong4 b u4 j v2",frontend_pass
+tracks,oschersleben/bcourse,Motorsport Arena Oschersleben - B Course,奥舍斯莱本赛道，B布局,奥舍斯莱本赛道，比布局,"奥舍斯莱本赛道,比布局","AA ao4 sh e3 s i01 l ai2 b en3 s ai4 d ao4 , b i3 b u4 j v2",frontend_pass
+tracks,oschersleben/ccourse,Motorsport Arena Oschersleben - C Course,奥舍斯莱本赛道，C布局,奥舍斯莱本赛道，西布局,"奥舍斯莱本赛道,西布局","AA ao4 sh e3 s i01 l ai2 b en3 s ai4 d ao4 , x i1 b u4 j v2",frontend_pass
+tracks,oschersleben/gp,Motorsport Arena Oschersleben - Grand Prix,奥舍斯莱本赛道，大奖赛布局,奥舍斯莱本赛道，大奖赛布局,"奥舍斯莱本赛道,大奖赛布局","AA ao4 sh e3 s i01 l ai2 b en3 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,bathurst,Mount Panorama Circuit,巴瑟斯特全景山赛道,巴瑟斯特全景山赛道,巴瑟斯特全景山赛道,b a1 s e4 s i01 t e4 q van2 j ing3 sh an1 s ai4 d ao4,frontend_pass
+tracks,mtwashington,Mount Washington Auto Road,华盛顿山爬山赛道,华盛顿山爬山赛道,华盛顿山爬山赛道,h ua2 sh eng4 d un4 sh an1 p a2 sh an1 s ai4 d ao4,frontend_pass
+tracks,mtwashington/reverse,Mount Washington Auto Road - Descent,华盛顿山爬山赛道，下山方向,华盛顿山爬山赛道，下山方向,"华盛顿山爬山赛道,下山方向","h ua2 sh eng4 d un4 sh an1 p a2 sh an1 s ai4 d ao4 , x ia4 sh an1 f ang1 x iang4",frontend_pass
+tracks,mtwashington/climb,Mount Washington Auto Road - Hillclimb,华盛顿山爬山赛道，爬山方向,华盛顿山爬山赛道，爬山方向,"华盛顿山爬山赛道,爬山方向","h ua2 sh eng4 d un4 sh an1 p a2 sh an1 s ai4 d ao4 , p a2 sh an1 f ang1 x iang4",frontend_pass
+tracks,myrtlebeach,Myrtle Beach Speedway,默特尔比奇赛车场,默特尔比奇赛车场,默特尔比奇赛车场,m o4 t e4 EE er3 b i3 q i2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,nashville,Nashville Fairgrounds Speedway,纳什维尔展览场赛车场,纳什维尔展览场赛车场,纳什维尔展览场赛车场,n a4 sh en2 w ei2 EE er3 zh an3 l an3 ch ang3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,nashville/mini,Nashville Fairgrounds Speedway - Mini,纳什维尔展览场赛车场，迷你布局,纳什维尔展览场赛车场，迷你布局,"纳什维尔展览场赛车场,迷你布局","n a4 sh en2 w ei2 EE er3 zh an3 l an3 ch ang3 s ai4 ch e1 ch ang3 , m i2 n i3 b u4 j v2",frontend_pass
+tracks,nashville/oval,Nashville Fairgrounds Speedway - Oval,纳什维尔展览场赛车场，椭圆布局,纳什维尔展览场赛车场，椭圆布局,"纳什维尔展览场赛车场,椭圆布局","n a4 sh en2 w ei2 EE er3 zh an3 l an3 ch ang3 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,nashvilless,Nashville Superspeedway,纳什维尔超级赛车场,纳什维尔超级赛车场,纳什维尔超级赛车场,n a4 sh en2 w ei2 EE er3 ch ao1 j i2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,newhampshire,New Hampshire Motor Speedway,新罕布什尔赛车场,新罕布什尔赛车场,新罕布什尔赛车场,x in1 h an3 b u4 sh en2 EE er3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,newhampshire/legends,New Hampshire Motor Speedway - Legends,新罕布什尔赛车场，传奇赛车布局,新罕布什尔赛车场，传奇赛车布局,"新罕布什尔赛车场,传奇赛车布局","x in1 h an3 b u4 sh en2 EE er3 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 b u4 j v2",frontend_pass
+tracks,newhampshire/oval,New Hampshire Motor Speedway - Oval,新罕布什尔赛车场，椭圆布局,新罕布什尔赛车场，椭圆布局,"新罕布什尔赛车场,椭圆布局","x in1 h an3 b u4 sh en2 EE er3 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,newhampshire/chicane,New Hampshire Motor Speedway - Road Course,新罕布什尔赛车场，公路布局,新罕布什尔赛车场，公路布局,"新罕布什尔赛车场,公路布局","x in1 h an3 b u4 sh en2 EE er3 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,newhampshire/northoval,New Hampshire Motor Speedway - Road Course with North Oval,新罕布什尔赛车场，公路与北椭圆联合布局,新罕布什尔赛车场，公路与北椭圆联合布局,"新罕布什尔赛车场,公路与北椭圆联合布局","x in1 h an3 b u4 sh en2 EE er3 s ai4 ch e1 ch ang3 , g ong1 l u4 y v2 b ei3 t uo3 y van2 l ian2 h e2 b u4 j v2",frontend_pass
+tracks,newhampshire/southoval,New Hampshire Motor Speedway - Road Course with South Oval,新罕布什尔赛车场，公路与南椭圆联合布局,新罕布什尔赛车场，公路与南椭圆联合布局,"新罕布什尔赛车场,公路与南椭圆联合布局","x in1 h an3 b u4 sh en2 EE er3 s ai4 ch e1 ch ang3 , g ong1 l u4 y v3 n an2 t uo3 y van2 l ian2 h e2 b u4 j v2",frontend_pass
+tracks,newjersey,New Jersey Motorsports Park,新泽西赛道,新泽西赛道,新泽西赛道,x in1 z e2 x i1 s ai4 d ao4,frontend_pass
+tracks,newjersey/full,New Jersey Motorsports Park - Thunderbolt,新泽西赛道，雷电布局,新泽西赛道，雷电布局,"新泽西赛道,雷电布局","x in1 z e2 x i1 s ai4 d ao4 , l ei2 d ian4 b u4 j v2",frontend_pass
+tracks,newjersey/chicane,New Jersey Motorsports Park - Thunderbolt w/both chicanes,新泽西赛道，雷电布局，含两组减速弯,新泽西赛道，雷电布局，含两组减速弯,"新泽西赛道,雷电布局,含两组减速弯","x in1 z e2 x i1 s ai4 d ao4 , l ei2 d ian4 b u4 j v2 , h an2 l iang2 z u3 j ian3 s u4 w an1",frontend_pass
+tracks,newjersey/firstchicane,New Jersey Motorsports Park - Thunderbolt w/first chicane,新泽西赛道，雷电布局，含第一组减速弯,新泽西赛道，雷电布局，含第一组减速弯,"新泽西赛道,雷电布局,含第一组减速弯","x in1 z e2 x i1 s ai4 d ao4 , l ei2 d ian4 b u4 j v2 , h an2 d i4 y i1 z u3 j ian3 s u4 w an1",frontend_pass
+tracks,newjersey/secondchicane,New Jersey Motorsports Park - Thunderbolt w/second chicane,新泽西赛道，雷电布局，含第二组减速弯,新泽西赛道，雷电布局，含第二组减速弯,"新泽西赛道,雷电布局,含第二组减速弯","x in1 z e2 x i1 s ai4 d ao4 , l ei2 d ian4 b u4 j v2 , h an2 d i4 EE er4 z u3 j ian3 s u4 w an1",frontend_pass
+tracks,newsmyrna,New Smyrna Speedway,新斯米尔纳赛车场,新斯米尔纳赛车场,新斯米尔纳赛车场,x in1 s i01 m i3 EE er3 n a4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,northwilkesboro,North Wilkesboro Speedway,北威尔克斯伯勒赛车场,北威尔克斯伯勒赛车场,北威尔克斯伯勒赛车场,b ei3 w ei1 EE er3 k e4 s i01 b o2 l e4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,northwilkesboro/2025,North Wilkesboro Speedway,北威尔克斯伯勒赛车场,北威尔克斯伯勒赛车场,北威尔克斯伯勒赛车场,b ei3 w ei1 EE er3 k e4 s i01 b o2 l e4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,northwilkesboro,North Wilkesboro Speedway - 1987,北威尔克斯伯勒赛车场，1987版,北威尔克斯伯勒赛车场，一九八七版,"北威尔克斯伯勒赛车场,一九八七版","b ei3 w ei1 EE er3 k e4 s i01 b o2 l e4 s ai4 ch e1 ch ang3 , y i1 j iu3 b a1 q i1 b an3",frontend_pass
+tracks,nurburgring,Nürburgring,纽博格林赛道,纽博格林赛道,纽博格林赛道,n iu3 b o2 g e2 l in2 s ai4 d ao4,frontend_pass
+tracks,nurburgring/combined,Nürburgring Combined,纽博格林联合赛道,纽博格林联合赛道,纽博格林联合赛道,n iu3 b o2 g e2 l in2 l ian2 h e2 s ai4 d ao4,frontend_pass
+tracks,nurburgring/combined,Nürburgring Combined - Gesamtstrecke 24h,纽博格林联合赛道，24小时赛联合布局,纽博格林联合赛道，二十四小时赛联合布局,"纽博格林联合赛道,二十四小时赛联合布局","n iu3 b o2 g e2 l in2 l ian2 h e2 s ai4 d ao4 , EE er4 sh ir2 s i04 x iao3 sh ir2 s ai4 l ian2 h e2 b u4 j v2",frontend_pass
+tracks,nurburgring/combinedlong,Nürburgring Combined - Gesamtstrecke Long,纽博格林联合赛道，联合长布局,纽博格林联合赛道，联合长布局,"纽博格林联合赛道,联合长布局","n iu3 b o2 g e2 l in2 l ian2 h e2 s ai4 d ao4 , l ian2 h e2 ch ang2 b u4 j v2",frontend_pass
+tracks,nurburgring/combinedshorta,Nürburgring Combined - Gesamtstrecke Short w/o Arena,纽博格林联合赛道，联合短布局，不含竞技场段,纽博格林联合赛道，联合短布局，不含竞技场段,"纽博格林联合赛道,联合短布局,不含竞技场段","n iu3 b o2 g e2 l in2 l ian2 h e2 s ai4 d ao4 , l ian2 h e2 d uan3 b u4 j v2 , b u4 h an2 j ing4 j i4 ch ang3 d uan4",frontend_pass
+tracks,nurburgring/combinedshortb,Nürburgring Combined - Gesamtstrecke VLN,纽博格林联合赛道，北环耐力赛联合布局,纽博格林联合赛道，北环耐力赛联合布局,"纽博格林联合赛道,北环耐力赛联合布局","n iu3 b o2 g e2 l in2 l ian2 h e2 s ai4 d ao4 , b ei3 h uan2 n ai4 l i4 s ai4 l ian2 h e2 b u4 j v2",frontend_pass
+tracks,nurburgring/gp,Nürburgring Grand-Prix-Strecke,纽博格林大奖赛赛道,纽博格林大奖赛赛道,纽博格林大奖赛赛道,n iu3 b o2 g e2 l in2 d a4 j iang3 s ai4 s ai4 d ao4,frontend_pass
+tracks,nurburgring/nordschleife,Nürburgring Nordschleife,纽博格林北环赛道,纽博格林北环赛道,纽博格林北环赛道,n iu3 b o2 g e2 l in2 b ei3 h uan2 s ai4 d ao4,frontend_pass
+tracks,nurburgring/nordschleife,Nürburgring Nordschleife - Industriefahrten,纽博格林北环赛道，工业测试布局,纽博格林北环赛道，工业测试布局,"纽博格林北环赛道,工业测试布局","n iu3 b o2 g e2 l in2 b ei3 h uan2 s ai4 d ao4 , g ong1 y E4 c e4 sh ir4 b u4 j v2",frontend_pass
+tracks,nurburgring/nordschleifetourist,Nürburgring Nordschleife - Touristenfahrten,纽博格林北环赛道，游客开放布局,纽博格林北环赛道，游客开放布局,"纽博格林北环赛道,游客开放布局","n iu3 b o2 g e2 l in2 b ei3 h uan2 s ai4 d ao4 , y ou2 k e4 k ai1 f ang4 b u4 j v2",frontend_pass
+tracks,okayama,Okayama International Circuit,冈山赛道,冈山赛道,冈山赛道,g ang1 sh an1 s ai4 d ao4,frontend_pass
+tracks,okayama/full,Okayama International Circuit - Full Course,冈山赛道，完整布局,冈山赛道，完整布局,"冈山赛道,完整布局","g ang1 sh an1 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,okayama/short,Okayama International Circuit - Short,冈山赛道，短布局,冈山赛道，短布局,"冈山赛道,短布局","g ang1 sh an1 s ai4 d ao4 , d uan3 b u4 j v2",frontend_pass
+tracks,oran,Oran Park Raceway,奥兰公园赛道,奥兰公园赛道,奥兰公园赛道,AA ao4 l an2 g ong1 y van2 s ai4 d ao4,frontend_pass
+tracks,oran/gp,Oran Park Raceway - Grand Prix,奥兰公园赛道，大奖赛布局,奥兰公园赛道，大奖赛布局,"奥兰公园赛道,大奖赛布局","AA ao4 l an2 g ong1 y van2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,oran/moto,Oran Park Raceway - Moto,奥兰公园赛道，摩托车布局,奥兰公园赛道，摩托车布局,"奥兰公园赛道,摩托车布局","AA ao4 l an2 g ong1 y van2 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,oran/north,Oran Park Raceway - North,奥兰公园赛道，北布局,奥兰公园赛道，北布局,"奥兰公园赛道,北布局","AA ao4 l an2 g ong1 y van2 s ai4 d ao4 , b ei3 b u4 j v2",frontend_pass
+tracks,oran/northa,Oran Park Raceway - North A,奥兰公园赛道，北区A布局,奥兰公园赛道，北区诶布局,"奥兰公园赛道,北区诶布局","AA ao4 l an2 g ong1 y van2 s ai4 d ao4 , b ei3 q v1 EE ei5 b u4 j v2",frontend_pass
+tracks,oran/northb,Oran Park Raceway - North B,奥兰公园赛道，北区B布局,奥兰公园赛道，北区比布局,"奥兰公园赛道,北区比布局","AA ao4 l an2 g ong1 y van2 s ai4 d ao4 , b ei3 q v1 b i3 b u4 j v2",frontend_pass
+tracks,oran/south,Oran Park Raceway - South,奥兰公园赛道，南布局,奥兰公园赛道，南布局,"奥兰公园赛道,南布局","AA ao4 l an2 g ong1 y van2 s ai4 d ao4 , n an2 b u4 j v2",frontend_pass
+tracks,oswego,Oswego Speedway,奥斯威戈赛车场,奥斯威戈赛车场,奥斯威戈赛车场,AA ao4 s i01 w ei1 g e1 s ai4 ch e1 ch ang3,frontend_pass
+tracks,oswego/dirtoval,Oswego Speedway - Dirt,奥斯威戈赛车场，泥地布局,奥斯威戈赛车场，泥地布局,"奥斯威戈赛车场,泥地布局","AA ao4 s i01 w ei1 g e1 s ai4 ch e1 ch ang3 , n i2 d i5 b u4 j v2",frontend_pass
+tracks,oswego/mini,Oswego Speedway - Mini Oval,奥斯威戈赛车场，小椭圆布局,奥斯威戈赛车场，小椭圆布局,"奥斯威戈赛车场,小椭圆布局","AA ao4 s i01 w ei1 g e1 s ai4 ch e1 ch ang3 , x iao2 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,oswego/oval,Oswego Speedway - Oval,奥斯威戈赛车场，椭圆布局,奥斯威戈赛车场，椭圆布局,"奥斯威戈赛车场,椭圆布局","AA ao4 s i01 w ei1 g e1 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,oulton,Oulton Park Circuit,奥尔顿公园赛道,奥尔顿公园赛道,奥尔顿公园赛道,AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4,frontend_pass
+tracks,oulton/fosters,Oulton Park Circuit - Fosters,奥尔顿公园赛道，福斯特布局,奥尔顿公园赛道，福斯特布局,"奥尔顿公园赛道,福斯特布局","AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4 , f u2 s i01 t e4 b u4 j v2",frontend_pass
+tracks,oulton/fosterswithhislop,Oulton Park Circuit - Fosters w/Hislop,奥尔顿公园赛道，福斯特布局，含希斯洛普减速弯,奥尔顿公园赛道，福斯特布局，含希斯洛普减速弯,"奥尔顿公园赛道,福斯特布局,含希斯洛普减速弯","AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4 , f u2 s i01 t e4 b u4 j v2 , h an2 x i1 s i01 l uo4 p u3 j ian3 s u4 w an1",frontend_pass
+tracks,oulton/international,Oulton Park Circuit - International,奥尔顿公园赛道，国际布局,奥尔顿公园赛道，国际布局,"奥尔顿公园赛道,国际布局","AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4 , g uo2 j i4 b u4 j v2",frontend_pass
+tracks,oulton/intbrittens,Oulton Park Circuit - Intl w/out Brittens,奥尔顿公园赛道，国际布局，不含布里滕斯减速弯,奥尔顿公园赛道，国际布局，不含布里滕斯减速弯,"奥尔顿公园赛道,国际布局,不含布里滕斯减速弯","AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4 , g uo2 j i4 b u4 j v2 , b u4 h an2 b u4 l i3 t eng2 s i01 j ian3 s u4 w an1",frontend_pass
+tracks,oulton/intnochicane,Oulton Park Circuit - Intl w/out Chicane,奥尔顿公园赛道，国际布局，无减速弯,奥尔顿公园赛道，国际布局，无减速弯,"奥尔顿公园赛道,国际布局,无减速弯","AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4 , g uo2 j i4 b u4 j v2 , w u2 j ian3 s u4 w an1",frontend_pass
+tracks,oulton/inthislop,Oulton Park Circuit - Intl w/out Hislop,奥尔顿公园赛道，国际布局，不含希斯洛普减速弯,奥尔顿公园赛道，国际布局，不含希斯洛普减速弯,"奥尔顿公园赛道,国际布局,不含希斯洛普减速弯","AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4 , g uo2 j i4 b u4 j v2 , b u4 h an2 x i1 s i01 l uo4 p u3 j ian3 s u4 w an1",frontend_pass
+tracks,oulton/island,Oulton Park Circuit - Island,奥尔顿公园赛道，岛区布局,奥尔顿公园赛道，岛区布局,"奥尔顿公园赛道,岛区布局","AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4 , d ao3 q v1 b u4 j v2",frontend_pass
+tracks,oulton/islandhistoric,Oulton Park Circuit - Island Historic,奥尔顿公园赛道，岛区历史布局,奥尔顿公园赛道，岛区历史布局,"奥尔顿公园赛道,岛区历史布局","AA ao4 EE er3 d un4 g ong1 y van2 s ai4 d ao4 , d ao3 q v1 l i4 sh ir3 b u4 j v2",frontend_pass
+tracks,oxford/oval,Oxford Plains Speedway,牛津平原赛车场,牛津平原赛车场,牛津平原赛车场,n iu2 j in1 p ing2 y van2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,phillipisland,Phillip Island Circuit,菲利普岛赛道,菲利普岛赛道,菲利普岛赛道,f ei1 l i4 p u3 d ao3 s ai4 d ao4,frontend_pass
+tracks,phoenix/2021,Phoenix Raceway,凤凰城赛车场,凤凰城赛车场,凤凰城赛车场,f eng4 h uang5 ch eng2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,phoenix/2021/oval,Phoenix Raceway - Oval,凤凰城赛车场，椭圆布局,凤凰城赛车场，椭圆布局,"凤凰城赛车场,椭圆布局","f eng4 h uang5 ch eng2 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,phoenix/2021/ovalopen,Phoenix Raceway - Oval w/open Dogleg,凤凰城赛车场，椭圆布局，开放折线弯,凤凰城赛车场，椭圆布局，开放折线弯,"凤凰城赛车场,椭圆布局,开放折线弯","f eng4 h uang5 ch eng2 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2 , k ai1 f ang4 zh e2 x ian4 w an1",frontend_pass
+tracks,pocono/2016,Pocono Raceway,波科诺赛车场,波科诺赛车场,波科诺赛车场,b o1 k e1 n uo4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,portland,Portland International Raceway,波特兰赛道,波特兰赛道,波特兰赛道,b o1 t e4 l an2 s ai4 d ao4,frontend_pass
+tracks,portland/full,Portland International Raceway - Full,波特兰赛道，完整布局,波特兰赛道，完整布局,"波特兰赛道,完整布局","b o1 t e4 l an2 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,portland/nochicane,Portland International Raceway - No Chicane,波特兰赛道，无减速弯布局,波特兰赛道，无减速弯布局,"波特兰赛道,无减速弯布局","b o1 t e4 l an2 s ai4 d ao4 , w u2 j ian3 s u4 w an1 b u4 j v2",frontend_pass
+tracks,portroyal,Port Royal Speedway,波特罗亚尔泥地赛道,波特罗亚尔泥地赛道,波特罗亚尔泥地赛道,b o1 t e4 l uo2 y a4 EE er3 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,spielberg,Red Bull Ring,红牛赛道,红牛赛道,红牛赛道,h ong2 n iu2 s ai4 d ao4,frontend_pass
+tracks,spielberg/gp,Red Bull Ring - Grand Prix,红牛赛道，大奖赛布局,红牛赛道，大奖赛布局,"红牛赛道,大奖赛布局","h ong2 n iu2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,spielberg/national,Red Bull Ring - National,红牛赛道，国家布局,红牛赛道，国家布局,"红牛赛道,国家布局","h ong2 n iu2 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,spielberg/north,Red Bull Ring - North,红牛赛道，北布局,红牛赛道，北布局,"红牛赛道,北布局","h ong2 n iu2 s ai4 d ao4 , b ei3 b u4 j v2",frontend_pass
+tracks,richmond/2025,Richmond Raceway,里士满赛车场,里士满赛车场,里士满赛车场,l i3 sh ir4 m an3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,roadamerica,Road America,美国之路赛道,美国之路赛道,美国之路赛道,m ei3 g uo2 zh ir1 l u4 s ai4 d ao4,frontend_pass
+tracks,roadamerica/bend,Road America - Bend,美国之路赛道，大弯布局,美国之路赛道，大弯布局,"美国之路赛道,大弯布局","m ei3 g uo2 zh ir1 l u4 s ai4 d ao4 , d a4 w an1 b u4 j v2",frontend_pass
+tracks,roadamerica/full,Road America - Full,美国之路赛道，完整布局,美国之路赛道，完整布局,"美国之路赛道,完整布局","m ei3 g uo2 zh ir1 l u4 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,roadatlanta,Road Atlanta,亚特兰大公路赛道,亚特兰大公路赛道,亚特兰大公路赛道,y a4 t e4 l an2 d a4 g ong1 l u4 s ai4 d ao4,frontend_pass
+tracks,roadatlanta/club,Road Atlanta - Club,亚特兰大公路赛道，俱乐部布局,亚特兰大公路赛道，俱乐部布局,"亚特兰大公路赛道,俱乐部布局","y a4 t e4 l an2 d a4 g ong1 l u4 s ai4 d ao4 , j v4 l e4 b u4 b u4 j v2",frontend_pass
+tracks,roadatlanta/full,Road Atlanta - Full Course,亚特兰大公路赛道，完整布局,亚特兰大公路赛道，完整布局,"亚特兰大公路赛道,完整布局","y a4 t e4 l an2 d a4 g ong1 l u4 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,roadatlanta/short,Road Atlanta - Short,亚特兰大公路赛道，短布局,亚特兰大公路赛道，短布局,"亚特兰大公路赛道,短布局","y a4 t e4 l an2 d a4 g ong1 l u4 s ai4 d ao4 , d uan3 b u4 j v2",frontend_pass
+tracks,rockingham,Rockingham Speedway,罗金厄姆赛车场,罗金厄姆赛车场,罗金厄姆赛车场,l uo2 j in1 EE e4 m u3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,rockingham/2025/oval,Rockingham Speedway - Oval,罗金厄姆赛车场，椭圆布局,罗金厄姆赛车场，椭圆布局,"罗金厄姆赛车场,椭圆布局","l uo2 j in1 EE e4 m u3 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,rockingham/infroad,Rockingham Speedway - Infield Road Course,罗金厄姆赛车场，内场公路布局,罗金厄姆赛车场，内场公路布局,"罗金厄姆赛车场,内场公路布局","l uo2 j in1 EE e4 m u3 s ai4 ch e1 ch ang3 , n ei4 ch ang3 g ong1 l u4 b u4 j v2",frontend_pass
+tracks,rockingham/oval,Rockingham Speedway - Oval,罗金厄姆赛车场，椭圆布局,罗金厄姆赛车场，椭圆布局,"罗金厄姆赛车场,椭圆布局","l uo2 j in1 EE e4 m u3 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,rockingham/road,Rockingham Speedway - Road Course,罗金厄姆赛车场，公路布局,罗金厄姆赛车场，公路布局,"罗金厄姆赛车场,公路布局","l uo2 j in1 EE e4 m u3 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,rockingham/shortroad,Rockingham Speedway - Short Road Course,罗金厄姆赛车场，公路短布局,罗金厄姆赛车场，公路短布局,"罗金厄姆赛车场,公路短布局","l uo2 j in1 EE e4 m u3 s ai4 ch e1 ch ang3 , g ong1 l u4 d uan3 b u4 j v2",frontend_pass
+tracks,rudskogen,Rudskogen Motorsenter,鲁兹科根赛道,鲁兹科根赛道,鲁兹科根赛道,l u3 z i01 k e1 g en1 s ai4 d ao4,frontend_pass
+tracks,sachsenring,Sachsenring,萨克森赛道,萨克森赛道,萨克森赛道,s a4 k e4 s en1 s ai4 d ao4,frontend_pass
+tracks,sandown,Sandown International Motor Raceway,桑当赛道,桑当赛道,桑当赛道,s ang1 d ang1 s ai4 d ao4,frontend_pass
+tracks,sebring,Sebring International Raceway,赛百灵赛道,赛百灵赛道,赛百灵赛道,s ai4 b ai3 l ing2 s ai4 d ao4,frontend_pass
+tracks,sebring/club,Sebring International Raceway - Club,赛百灵赛道，俱乐部布局,赛百灵赛道，俱乐部布局,"赛百灵赛道,俱乐部布局","s ai4 b ai3 l ing2 s ai4 d ao4 , j v4 l e4 b u4 b u4 j v2",frontend_pass
+tracks,sebring/international,Sebring International Raceway - International,赛百灵赛道，国际布局,赛百灵赛道，国际布局,"赛百灵赛道,国际布局","s ai4 b ai3 l ing2 s ai4 d ao4 , g uo2 j i4 b u4 j v2",frontend_pass
+tracks,sebring/modified,Sebring International Raceway - Modified,赛百灵赛道，改版布局,赛百灵赛道，改版布局,"赛百灵赛道,改版布局","s ai4 b ai3 l ing2 s ai4 d ao4 , g ai2 b an3 b u4 j v2",frontend_pass
+tracks,silverstone/2019,Silverstone Circuit,银石赛道,银石赛道,银石赛道,y in2 sh ir2 s ai4 d ao4,frontend_pass
+tracks,silverstone/2019/gp,Silverstone Circuit - Grand Prix,银石赛道，大奖赛布局,银石赛道，大奖赛布局,"银石赛道,大奖赛布局","y in2 sh ir2 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,silverstone/2019/international,Silverstone Circuit - International,银石赛道，国际布局,银石赛道，国际布局,"银石赛道,国际布局","y in2 sh ir2 s ai4 d ao4 , g uo2 j i4 b u4 j v2",frontend_pass
+tracks,silverstone/2019/national,Silverstone Circuit - National,银石赛道，国家布局,银石赛道，国家布局,"银石赛道,国家布局","y in2 sh ir2 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,slinger,Slinger Speedway,斯林格赛车场,斯林格赛车场,斯林格赛车场,s i01 l in2 g e2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,slinger/figure8,Slinger Speedway - Figure Eight,斯林格赛车场，八字布局,斯林格赛车场，八字布局,"斯林格赛车场,八字布局","s i01 l in2 g e2 s ai4 ch e1 ch ang3 , b a1 z i04 b u4 j v2",frontend_pass
+tracks,slinger/oval,Slinger Speedway - Oval,斯林格赛车场，椭圆布局,斯林格赛车场，椭圆布局,"斯林格赛车场,椭圆布局","s i01 l in2 g e2 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,snetterton,Snetterton Circuit,斯内特顿赛道,斯内特顿赛道,斯内特顿赛道,s i01 n ei4 t e4 d un4 s ai4 d ao4,frontend_pass
+tracks,snetterton/100,Snetterton Circuit - 100,斯内特顿赛道，100布局,斯内特顿赛道，一百布局,"斯内特顿赛道,一百布局","s i01 n ei4 t e4 d un4 s ai4 d ao4 , y i4 b ai3 b u4 j v2",frontend_pass
+tracks,snetterton/200,Snetterton Circuit - 200,斯内特顿赛道，200布局,斯内特顿赛道，二百布局,"斯内特顿赛道,二百布局","s i01 n ei4 t e4 d un4 s ai4 d ao4 , EE er4 b ai3 b u4 j v2",frontend_pass
+tracks,snetterton/300,Snetterton Circuit - 300,斯内特顿赛道，300布局,斯内特顿赛道，三百布局,"斯内特顿赛道,三百布局","s i01 n ei4 t e4 d un4 s ai4 d ao4 , s an1 b ai3 b u4 j v2",frontend_pass
+tracks,sonoma,Sonoma Raceway,索诺马赛道,索诺马赛道,索诺马赛道,s uo3 n uo4 m a3 s ai4 d ao4,frontend_pass
+tracks,sonoma/long,Sonoma Raceway - NASCAR Long,索诺马赛道，纳斯卡长布局,索诺马赛道，纳斯卡长布局,"索诺马赛道,纳斯卡长布局","s uo3 n uo4 m a3 s ai4 d ao4 , n a4 s i01 k a3 ch ang2 b u4 j v2",frontend_pass
+tracks,sonoma/cup,Sonoma Raceway - NASCAR Short,索诺马赛道，纳斯卡短布局,索诺马赛道，纳斯卡短布局,"索诺马赛道,纳斯卡短布局","s uo3 n uo4 m a3 s ai4 d ao4 , n a4 s i01 k a3 d uan3 b u4 j v2",frontend_pass
+tracks,sonoma/irl2,Sonoma Raceway - Open Wheel 2008-2011,索诺马赛道，2008至2011方程式布局,索诺马赛道，二零零八至二零一一方程式布局,"索诺马赛道,二零零八至二零一一方程式布局","s uo3 n uo4 m a3 s ai4 d ao4 , EE er4 l ing2 l ing2 b a1 zh ir4 EE er4 l ing2 y i1 y i1 f ang1 ch eng2 sh ir4 b u4 j v2",frontend_pass
+tracks,sonoma/indycar,Sonoma Raceway - Open Wheel 2012-2018,索诺马赛道，2012至2018方程式布局,索诺马赛道，二零一二至二零一八方程式布局,"索诺马赛道,二零一二至二零一八方程式布局","s uo3 n uo4 m a3 s ai4 d ao4 , EE er4 l ing2 y i1 EE er4 zh ir4 EE er4 l ing2 y i1 b a1 f ang1 ch eng2 sh ir4 b u4 j v2",frontend_pass
+tracks,sonoma/irl,Sonoma Raceway - Open Wheel pre-2008,索诺马赛道，2008年以前的方程式布局,索诺马赛道，二零零八年以前的方程式布局,"索诺马赛道,二零零八年以前的方程式布局","s uo3 n uo4 m a3 s ai4 d ao4 , EE er4 l ing2 l ing2 b a1 n ian2 y i3 q ian2 d e5 f ang1 ch eng2 sh ir4 b u4 j v2",frontend_pass
+tracks,sonoma/rallycross,Sonoma Raceway - Rallycross,索诺马赛道，拉力越野布局,索诺马赛道，拉力越野布局,"索诺马赛道,拉力越野布局","s uo3 n uo4 m a3 s ai4 d ao4 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,sonoma/2025/nascarlong,Sonoma Raceway - NASCAR Long,索诺马赛道，纳斯卡长布局,索诺马赛道，纳斯卡长布局,"索诺马赛道,纳斯卡长布局","s uo3 n uo4 m a3 s ai4 d ao4 , n a4 s i01 k a3 ch ang2 b u4 j v2",frontend_pass
+tracks,sonoma/2025/nascarshort,Sonoma Raceway - NASCAR Short,索诺马赛道，纳斯卡短布局,索诺马赛道，纳斯卡短布局,"索诺马赛道,纳斯卡短布局","s uo3 n uo4 m a3 s ai4 d ao4 , n a4 s i01 k a3 d uan3 b u4 j v2",frontend_pass
+tracks,sonoma/2025/irl08,Sonoma Raceway - Open Wheel 2008-2011,索诺马赛道，2008至2011方程式布局,索诺马赛道，二零零八至二零一一方程式布局,"索诺马赛道,二零零八至二零一一方程式布局","s uo3 n uo4 m a3 s ai4 d ao4 , EE er4 l ing2 l ing2 b a1 zh ir4 EE er4 l ing2 y i1 y i1 f ang1 ch eng2 sh ir4 b u4 j v2",frontend_pass
+tracks,sonoma/2025/irl12,Sonoma Raceway - Open Wheel 2012-2018,索诺马赛道，2012至2018方程式布局,索诺马赛道，二零一二至二零一八方程式布局,"索诺马赛道,二零一二至二零一八方程式布局","s uo3 n uo4 m a3 s ai4 d ao4 , EE er4 l ing2 y i1 EE er4 zh ir4 EE er4 l ing2 y i1 b a1 f ang1 ch eng2 sh ir4 b u4 j v2",frontend_pass
+tracks,sonoma/2025/irl05,Sonoma Raceway - Open Wheel pre-2008,索诺马赛道，2008年以前的方程式布局,索诺马赛道，二零零八年以前的方程式布局,"索诺马赛道,二零零八年以前的方程式布局","s uo3 n uo4 m a3 s ai4 d ao4 , EE er4 l ing2 l ing2 b a1 n ian2 y i3 q ian2 d e5 f ang1 ch eng2 sh ir4 b u4 j v2",frontend_pass
+tracks,southboston,South Boston Speedway,南波士顿赛车场,南波士顿赛车场,南波士顿赛车场,n an2 b o1 sh ir4 d un4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,southernnational,Southern National Motorsports Park,南方国家赛车场,南方国家赛车场,南方国家赛车场,n an2 f ang1 g uo2 j ia1 s ai4 ch e1 ch ang3,frontend_pass
+tracks,stafford,Stafford Motor Speedway,斯塔福德赛车场,斯塔福德赛车场,斯塔福德赛车场,s i01 t a3 f u2 d e2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,stafford/oval,Stafford Motor Speedway - Full Course,斯塔福德赛车场，完整布局,斯塔福德赛车场，完整布局,"斯塔福德赛车场,完整布局","s i01 t a3 f u2 d e2 s ai4 ch e1 ch ang3 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,stafford/short,Stafford Motor Speedway - Mini Mile,斯塔福德赛车场，小英里布局,斯塔福德赛车场，小英里布局,"斯塔福德赛车场,小英里布局","s i01 t a3 f u2 d e2 s ai4 ch e1 ch ang3 , x iao3 y ing1 l i3 b u4 j v2",frontend_pass
+tracks,summit,Summit Point Raceway,萨米特波因特赛道,萨米特波因特赛道,萨米特波因特赛道,s a4 m i3 t e4 b o1 y in1 t e4 s ai4 d ao4,frontend_pass
+tracks,summit/jefferson,Summit Point Raceway - Jefferson Circuit,萨米特波因特赛道，杰斐逊布局,萨米特波因特赛道，杰斐逊布局,"萨米特波因特赛道,杰斐逊布局","s a4 m i3 t e4 b o1 y in1 t e4 s ai4 d ao4 , j ie2 f ei3 x vn4 b u4 j v2",frontend_pass
+tracks,summit/jefferson/rev,Summit Point Raceway - Jefferson Reverse,萨米特波因特赛道，杰斐逊反向布局,萨米特波因特赛道，杰斐逊反向布局,"萨米特波因特赛道,杰斐逊反向布局","s a4 m i3 t e4 b o1 y in1 t e4 s ai4 d ao4 , j ie2 f ei3 x vn4 f an3 x iang4 b u4 j v2",frontend_pass
+tracks,summit/summit/oval,Summit Point Raceway - Oval,萨米特波因特赛道，椭圆布局,萨米特波因特赛道，椭圆布局,"萨米特波因特赛道,椭圆布局","s a4 m i3 t e4 b o1 y in1 t e4 s ai4 d ao4 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,summit/summit/raceway/school,Summit Point Raceway - School,萨米特波因特赛道，教学布局,萨米特波因特赛道，教学布局,"萨米特波因特赛道,教学布局","s a4 m i3 t e4 b o1 y in1 t e4 s ai4 d ao4 , j iao4 x ve2 b u4 j v2",frontend_pass
+tracks,summit/summit/short,Summit Point Raceway - Short,萨米特波因特赛道，短布局,萨米特波因特赛道，短布局,"萨米特波因特赛道,短布局","s a4 m i3 t e4 b o1 y in1 t e4 s ai4 d ao4 , d uan3 b u4 j v2",frontend_pass
+tracks,summit/summit/raceway,Summit Point Raceway - Summit Point Raceway,萨米特波因特赛道，主布局,萨米特波因特赛道，主布局,"萨米特波因特赛道,主布局","s a4 m i3 t e4 b o1 y in1 t e4 s ai4 d ao4 , zh u3 b u4 j v2",frontend_pass
+tracks,suzuka,Suzuka International Racing Course,铃鹿赛道,铃鹿赛道,铃鹿赛道,l ing2 l u4 s ai4 d ao4,frontend_pass
+tracks,suzuka/east,Suzuka International Racing Course - East,铃鹿赛道，东布局,铃鹿赛道，东布局,"铃鹿赛道,东布局","l ing2 l u4 s ai4 d ao4 , d ong1 b u4 j v2",frontend_pass
+tracks,suzuka/grandprix,Suzuka International Racing Course - Grand Prix,铃鹿赛道，大奖赛布局,铃鹿赛道，大奖赛布局,"铃鹿赛道,大奖赛布局","l ing2 l u4 s ai4 d ao4 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,suzuka/moto,Suzuka International Racing Course - Moto,铃鹿赛道，摩托车布局,铃鹿赛道，摩托车布局,"铃鹿赛道,摩托车布局","l ing2 l u4 s ai4 d ao4 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,suzuka/west,Suzuka International Racing Course - West,铃鹿赛道，西布局,铃鹿赛道，西布局,"铃鹿赛道,西布局","l ing2 l u4 s ai4 d ao4 , x i1 b u4 j v2",frontend_pass
+tracks,suzuka/westchicane,Suzuka International Racing Course - West w/chicane,铃鹿赛道，西布局，含减速弯,铃鹿赛道，西布局，含减速弯,"铃鹿赛道,西布局,含减速弯","l ing2 l u4 s ai4 d ao4 , x i1 b u4 j v2 , h an2 j ian3 s u4 w an1",frontend_pass
+tracks,talladega,Talladega Superspeedway,塔拉迪加超级赛车场,塔拉迪加超级赛车场,塔拉迪加超级赛车场,t a3 l a1 d i2 j ia1 ch ao1 j i2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,texas/2020,Texas Motor Speedway,得克萨斯赛车场,得克萨斯赛车场,得克萨斯赛车场,d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3,frontend_pass
+tracks,texas/2020/legendsoval,Texas Motor Speedway - Legends Oval,得克萨斯赛车场，传奇赛车椭圆布局,得克萨斯赛车场，传奇赛车椭圆布局,"得克萨斯赛车场,传奇赛车椭圆布局","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 , ch uan2 q i2 s ai4 ch e1 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,texas/2020/oval,Texas Motor Speedway - Oval,得克萨斯赛车场，椭圆布局,得克萨斯赛车场，椭圆布局,"得克萨斯赛车场,椭圆布局","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,thebend,Shell V-Power Motorsport Park at The Bend,本德赛道,本德赛道,本德赛道,b en3 d e2 s ai4 d ao4,frontend_pass
+tracks,thebend/international,Shell V-Power Motorsport Park at The Bend - International Circuit,本德赛道，国际布局,本德赛道，国际布局,"本德赛道,国际布局","b en3 d e2 s ai4 d ao4 , g uo2 j i4 b u4 j v2",frontend_pass
+tracks,thebend/gt,Shell V-Power Motorsport Park at The Bend - GT Circuit,本德赛道，GT布局,本德赛道，吉提布局,"本德赛道,吉提布局","b en3 d e2 s ai4 d ao4 , j i2 t i2 b u4 j v2",frontend_pass
+tracks,thebend/sprint,Shell V-Power Motorsport Park at The Bend - Sprint Circuit,本德赛道，短程布局,本德赛道，短程布局,"本德赛道,短程布局","b en3 d e2 s ai4 d ao4 , d uan3 ch eng2 b u4 j v2",frontend_pass
+tracks,thebend/east,Shell V-Power Motorsport Park at The Bend - East Circuit,本德赛道，东布局,本德赛道，东布局,"本德赛道,东布局","b en3 d e2 s ai4 d ao4 , d ong1 b u4 j v2",frontend_pass
+tracks,thebend/southwest,Shell V-Power Motorsport Park at The Bend - South-West Circuit,本德赛道，西南布局,本德赛道，西南布局,"本德赛道,西南布局","b en3 d e2 s ai4 d ao4 , x i1 n an2 b u4 j v2",frontend_pass
+tracks,thebend/west,Shell V-Power Motorsport Park at The Bend - West Circuit,本德赛道，西布局,本德赛道，西布局,"本德赛道,西布局","b en3 d e2 s ai4 d ao4 , x i1 b u4 j v2",frontend_pass
+tracks,thebend/westplus,Shell V-Power Motorsport Park at The Bend - West Plus Circuit,本德赛道，西区加长布局,本德赛道，西区加长布局,"本德赛道,西区加长布局","b en3 d e2 s ai4 d ao4 , x i1 q v1 j ia1 ch ang2 b u4 j v2",frontend_pass
+tracks,bullring,The Bullring,拉斯维加斯布林赛车场,拉斯维加斯布林赛车场,拉斯维加斯布林赛车场,l a1 s i01 w ei2 j ia1 s i01 b u4 l in2 s ai4 ch e1 ch ang3,frontend_pass
+tracks,charlottedirt,The Dirt Track at Charlotte,夏洛特泥地赛道,夏洛特泥地赛道,夏洛特泥地赛道,x ia4 l uo4 t e4 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,milwaukee,The Milwaukee Mile,密尔沃基英里赛车场,密尔沃基英里赛车场,密尔沃基英里赛车场,m i4 EE er3 w o4 j i1 y ing1 l i3 s ai4 ch e1 ch ang3,frontend_pass
+tracks,thompson,Thompson Speedway Motorsports Park,汤普森赛道,汤普森赛道,汤普森赛道,t ang1 p u3 s en1 s ai4 d ao4,frontend_pass
+tracks,thruxton,Thruxton Circuit,斯拉克斯顿赛道,斯拉克斯顿赛道,斯拉克斯顿赛道,s i01 l a1 k e4 s i01 d un4 s ai4 d ao4,frontend_pass
+tracks,tsukuba,Tsukuba Circuit,筑波赛道,筑波赛道,筑波赛道,zh u4 b o1 s ai4 d ao4,frontend_pass
+tracks,tsukuba/1kchicane,Tsukuba Circuit - 1000 - Chicane,筑波赛道，1000布局，减速弯布局,筑波赛道，一千布局，减速弯布局,"筑波赛道,一千布局,减速弯布局","zh u4 b o1 s ai4 d ao4 , y i1 q ian1 b u4 j v2 , j ian3 s u4 w an1 b u4 j v2",frontend_pass
+tracks,tsukuba/1kfull,Tsukuba Circuit - 1000 - Full,筑波赛道，1000布局，完整布局,筑波赛道，一千布局，完整布局,"筑波赛道,一千布局,完整布局","zh u4 b o1 s ai4 d ao4 , y i1 q ian1 b u4 j v2 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,tsukuba/1kouter,Tsukuba Circuit - 1000 - Outer,筑波赛道，1000布局，外环布局,筑波赛道，一千布局，外环布局,"筑波赛道,一千布局,外环布局","zh u4 b o1 s ai4 d ao4 , y i1 q ian1 b u4 j v2 , w ai4 h uan2 b u4 j v2",frontend_pass
+tracks,tsukuba/1kreverse,Tsukuba Circuit - 1000 - Reverse,筑波赛道，1000布局，反向布局,筑波赛道，一千布局，反向布局,"筑波赛道,一千布局,反向布局","zh u4 b o1 s ai4 d ao4 , y i1 q ian1 b u4 j v2 , f an3 x iang4 b u4 j v2",frontend_pass
+tracks,tsukuba/2kfull,Tsukuba Circuit - 2000 - Full,筑波赛道，2000布局，完整布局,筑波赛道，两千布局，完整布局,"筑波赛道,两千布局,完整布局","zh u4 b o1 s ai4 d ao4 , l iang3 q ian1 b u4 j v2 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,tsukuba/2kchicane,Tsukuba Circuit - 2000 - Moto,筑波赛道，2000布局，摩托车布局,筑波赛道，两千布局，摩托车布局,"筑波赛道,两千布局,摩托车布局","zh u4 b o1 s ai4 d ao4 , l iang3 q ian1 b u4 j v2 , m o2 t uo1 ch e1 b u4 j v2",frontend_pass
+tracks,tsukuba/2kshort,Tsukuba Circuit - 2000 - Short,筑波赛道，2000布局，短布局,筑波赛道，两千布局，短布局,"筑波赛道,两千布局,短布局","zh u4 b o1 s ai4 d ao4 , l iang3 q ian1 b u4 j v2 , d uan3 b u4 j v2",frontend_pass
+tracks,lakeland,USA International Speedway,美国国际赛车场,美国国际赛车场,美国国际赛车场,m ei3 g uo2 g uo2 j i4 s ai4 ch e1 ch ang3,frontend_pass
+tracks,lakeland,USA International Speedway - Asphalt,美国国际赛车场，沥青布局,美国国际赛车场，沥青布局,"美国国际赛车场,沥青布局","m ei3 g uo2 g uo2 j i4 s ai4 ch e1 ch ang3 , l i4 q ing1 b u4 j v2",frontend_pass
+tracks,lakeland/dirt,USA International Speedway - Dirt,美国国际赛车场，泥地布局,美国国际赛车场，泥地布局,"美国国际赛车场,泥地布局","m ei3 g uo2 g uo2 j i4 s ai4 ch e1 ch ang3 , n i2 d i5 b u4 j v2",frontend_pass
+tracks,virginia/2022,Virginia International Raceway,弗吉尼亚赛道,弗吉尼亚赛道,弗吉尼亚赛道,f u2 j i2 n i2 y a4 s ai4 d ao4,frontend_pass
+tracks,virginia/2022/full,Virginia International Raceway - Full Course,弗吉尼亚赛道，完整布局,弗吉尼亚赛道，完整布局,"弗吉尼亚赛道,完整布局","f u2 j i2 n i2 y a4 s ai4 d ao4 , w an2 zh eng3 b u4 j v2",frontend_pass
+tracks,virginia/2022/grand,Virginia International Raceway - Grand Course,弗吉尼亚赛道，大环布局,弗吉尼亚赛道，大环布局,"弗吉尼亚赛道,大环布局","f u2 j i2 n i2 y a4 s ai4 d ao4 , d a4 h uan2 b u4 j v2",frontend_pass
+tracks,virginia/2022/north,Virginia International Raceway - North Course,弗吉尼亚赛道，北布局,弗吉尼亚赛道，北布局,"弗吉尼亚赛道,北布局","f u2 j i2 n i2 y a4 s ai4 d ao4 , b ei3 b u4 j v2",frontend_pass
+tracks,virginia/2022/patriot,Virginia International Raceway - Patriot Course,弗吉尼亚赛道，爱国者布局,弗吉尼亚赛道，爱国者布局,"弗吉尼亚赛道,爱国者布局","f u2 j i2 n i2 y a4 s ai4 d ao4 , AA ai4 g uo2 zh e3 b u4 j v2",frontend_pass
+tracks,virginia/2022/south,Virginia International Raceway - South Course,弗吉尼亚赛道，南布局,弗吉尼亚赛道，南布局,"弗吉尼亚赛道,南布局","f u2 j i2 n i2 y a4 s ai4 d ao4 , n an2 b u4 j v2",frontend_pass
+tracks,volusia,Volusia Speedway Park,沃卢西亚泥地赛道,沃卢西亚泥地赛道,沃卢西亚泥地赛道,w o4 l u2 x i1 y a4 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,watkinsglen/2021,Watkins Glen International,沃特金斯格伦赛道,沃特金斯格伦赛道,沃特金斯格伦赛道,w o4 t e4 j in1 s i01 g e2 l un2 s ai4 d ao4,frontend_pass
+tracks,watkinsglen/2021/fullcourse,Watkins Glen International - Boot,沃特金斯格伦赛道，含靴形区布局,沃特金斯格伦赛道，含靴形区布局,"沃特金斯格伦赛道,含靴形区布局","w o4 t e4 j in1 s i01 g e2 l un2 s ai4 d ao4 , h an2 x ve1 x ing2 q v1 b u4 j v2",frontend_pass
+tracks,watkinsglen/2021/classic,Watkins Glen International - Classic,沃特金斯格伦赛道，经典布局,沃特金斯格伦赛道，经典布局,"沃特金斯格伦赛道,经典布局","w o4 t e4 j in1 s i01 g e2 l un2 s ai4 d ao4 , j ing1 d ian3 b u4 j v2",frontend_pass
+tracks,watkinsglen/2021/fullnoloop,Watkins Glen International - Classic Boot,沃特金斯格伦赛道，经典靴形区布局,沃特金斯格伦赛道，经典靴形区布局,"沃特金斯格伦赛道,经典靴形区布局","w o4 t e4 j in1 s i01 g e2 l un2 s ai4 d ao4 , j ing1 d ian3 x ve1 x ing2 q v1 b u4 j v2",frontend_pass
+tracks,watkinsglen/2021/cupcircuit,Watkins Glen International - Cup,沃特金斯格伦赛道，杯赛布局,沃特金斯格伦赛道，杯赛布局,"沃特金斯格伦赛道,杯赛布局","w o4 t e4 j in1 s i01 g e2 l un2 s ai4 d ao4 , b ei1 s ai4 b u4 j v2",frontend_pass
+tracks,lagunaseca,WeatherTech Raceway Laguna Seca,拉古纳塞卡赛道,拉古纳塞卡赛道,拉古纳塞卡赛道,l a1 g u3 n a4 s ai1 k a3 s ai4 d ao4,frontend_pass
+tracks,lagunaseca,WeatherTech Raceway Laguna Seca,拉古纳塞卡赛道,拉古纳塞卡赛道,拉古纳塞卡赛道,l a1 g u3 n a4 s ai1 k a3 s ai4 d ao4,frontend_pass
+tracks,lagunaseca/school,WeatherTech Raceway Laguna Seca - School,拉古纳塞卡赛道，教学布局,拉古纳塞卡赛道，教学布局,"拉古纳塞卡赛道,教学布局","l a1 g u3 n a4 s ai1 k a3 s ai4 d ao4 , j iao4 x ve2 b u4 j v2",frontend_pass
+tracks,weedsport,Weedsport Speedway,韦兹波特泥地赛道,韦兹波特泥地赛道,韦兹波特泥地赛道,w ei2 z i01 b o1 t e4 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,wildwest,Wild West Motorsports Park,狂野西部越野赛道,狂野西部越野赛道,狂野西部越野赛道,k uang2 y E3 x i1 b u4 y ve4 y E3 s ai4 d ao4,frontend_pass
+tracks,williamsgrove,Williams Grove Speedway,威廉斯格罗夫泥地赛道,威廉斯格罗夫泥地赛道,威廉斯格罗夫泥地赛道,w ei1 l ian2 s i01 g e2 l uo2 f u1 n i2 d i4 s ai4 d ao4,frontend_pass
+tracks,willow,Willow Springs International Raceway,柳泉赛道,柳泉赛道,柳泉赛道,l iu3 q van2 s ai4 d ao4,frontend_pass
+tracks,winton,Winton Motor Raceway,温顿赛道,温顿赛道,温顿赛道,w en1 d un4 s ai4 d ao4,frontend_pass
+tracks,winton/club,Winton Motor Raceway - Club,温顿赛道，俱乐部布局,温顿赛道，俱乐部布局,"温顿赛道,俱乐部布局","w en1 d un4 s ai4 d ao4 , j v4 l e4 b u4 b u4 j v2",frontend_pass
+tracks,winton/national,Winton Motor Raceway - National,温顿赛道，国家布局,温顿赛道，国家布局,"温顿赛道,国家布局","w en1 d un4 s ai4 d ao4 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,winton/rallycross,Winton Motor Raceway - Rallycross,温顿赛道，拉力越野布局,温顿赛道，拉力越野布局,"温顿赛道,拉力越野布局","w en1 d un4 s ai4 d ao4 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,gateway,World Wide Technology Raceway (Gateway),盖特威赛车场,盖特威赛车场,盖特威赛车场,g ai4 t e4 w ei1 s ai4 ch e1 ch ang3,frontend_pass
+tracks,gateway/oval,World Wide Technology Raceway (Gateway) - Oval,盖特威赛车场，椭圆布局,盖特威赛车场，椭圆布局,"盖特威赛车场,椭圆布局","g ai4 t e4 w ei1 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,gateway/road,World Wide Technology Raceway (Gateway) - Road Course,盖特威赛车场，公路布局,盖特威赛车场，公路布局,"盖特威赛车场,公路布局","g ai4 t e4 w ei1 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,gateway/2025/oval,World Wide Technology Raceway (Gateway) - 2025 - Oval,盖特威赛车场，2025版，椭圆布局,盖特威赛车场，二零二五版，椭圆布局,"盖特威赛车场,二零二五版,椭圆布局","g ai4 t e4 w ei1 s ai4 ch e1 ch ang3 , EE er4 l ing2 EE er4 w u3 b an3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,charlotte,[Legacy] Charlotte Motor Speedway - 2008,夏洛特赛车场旧版，2008版,夏洛特赛车场旧版，二零零八版,"夏洛特赛车场旧版,二零零八版","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,charlotte/infieldrc,[Legacy] Charlotte Motor Speedway - 2008 - Infield Road Course,夏洛特赛车场旧版，2008版，内场公路布局,夏洛特赛车场旧版，二零零八版，内场公路布局,"夏洛特赛车场旧版,二零零八版,内场公路布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , n ei4 ch ang3 g ong1 l u4 b u4 j v2",frontend_pass
+tracks,charlotte/legendsoval,[Legacy] Charlotte Motor Speedway - 2008 - Legends Oval,夏洛特赛车场旧版，2008版，传奇赛车椭圆布局,夏洛特赛车场旧版，二零零八版，传奇赛车椭圆布局,"夏洛特赛车场旧版,二零零八版,传奇赛车椭圆布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , ch uan2 q i2 s ai4 ch e1 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,charlotte/quadoval,[Legacy] Charlotte Motor Speedway - 2008 - Oval,夏洛特赛车场旧版，2008版，椭圆布局,夏洛特赛车场旧版，二零零八版，椭圆布局,"夏洛特赛车场旧版,二零零八版,椭圆布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,charlotte/fullroadcourse,[Legacy] Charlotte Motor Speedway - 2008 - Road Course,夏洛特赛车场旧版，2008版，公路布局,夏洛特赛车场旧版，二零零八版，公路布局,"夏洛特赛车场旧版,二零零八版,公路布局","x ia4 l uo4 t e4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,kentucky,[Legacy] Kentucky Speedway - 2011,肯塔基赛车场旧版，2011版,肯塔基赛车场旧版，二零一一版,"肯塔基赛车场旧版,二零一一版","k en3 t a3 j i1 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 y i1 y i1 b an3",frontend_pass
+tracks,kentucky/legend,[Legacy] Kentucky Speedway - Legends,肯塔基赛车场旧版，传奇赛车布局,肯塔基赛车场旧版，传奇赛车布局,"肯塔基赛车场旧版,传奇赛车布局","k en3 t a3 j i1 s ai4 ch e1 ch ang3 j iu4 b an3 , ch uan2 q i2 s ai4 ch e1 b u4 j v2",frontend_pass
+tracks,kentucky/oval,[Legacy] Kentucky Speedway - Oval,肯塔基赛车场旧版，椭圆布局,肯塔基赛车场旧版，椭圆布局,"肯塔基赛车场旧版,椭圆布局","k en3 t a3 j i1 s ai4 ch e1 ch ang3 j iu4 b an3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,michigan2014,[Legacy] Michigan International Speedway - 2009,密歇根赛车场旧版，2009版,密歇根赛车场旧版，二零零九版,"密歇根赛车场旧版,二零零九版","m i4 x ie1 g en1 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,phoenix,[Legacy] Phoenix Raceway - 2008,凤凰城赛车场旧版，2008版,凤凰城赛车场旧版，二零零八版,"凤凰城赛车场旧版,二零零八版","f eng4 h uang5 ch eng2 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,phoenix/rallycross/nojoker,[Legacy] Phoenix Raceway - 2008 - Dirt Road,凤凰城赛车场旧版，2008版，泥地公路布局,凤凰城赛车场旧版，二零零八版，泥地公路布局,"凤凰城赛车场旧版,二零零八版,泥地公路布局","f eng4 h uang5 ch eng2 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , n i2 d i5 g ong1 l u4 b u4 j v2",frontend_pass
+tracks,phoenix/oval,[Legacy] Phoenix Raceway - 2008 - Oval,凤凰城赛车场旧版，2008版，椭圆布局,凤凰城赛车场旧版，二零零八版，椭圆布局,"凤凰城赛车场旧版,二零零八版,椭圆布局","f eng4 h uang5 ch eng2 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,phoenix/rallycross,[Legacy] Phoenix Raceway - 2008 - Rallycross,凤凰城赛车场旧版，2008版，拉力越野布局,凤凰城赛车场旧版，二零零八版，拉力越野布局,"凤凰城赛车场旧版,二零零八版,拉力越野布局","f eng4 h uang5 ch eng2 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , l a1 l i4 y ve4 y E3 b u4 j v2",frontend_pass
+tracks,phoenix/road,[Legacy] Phoenix Raceway - 2008 - Road Course,凤凰城赛车场旧版，2008版，公路布局,凤凰城赛车场旧版，二零零八版，公路布局,"凤凰城赛车场旧版,二零零八版,公路布局","f eng4 h uang5 ch eng2 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , g ong1 l u4 b u4 j v2",frontend_pass
+tracks,pocono,[Legacy] Pocono Raceway - 2009,波科诺赛车场旧版，2009版,波科诺赛车场旧版，二零零九版,"波科诺赛车场旧版,二零零九版","b o1 k e1 n uo4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,pocono/east,[Legacy] Pocono Raceway - 2009 - East,波科诺赛车场旧版，2009版，东布局,波科诺赛车场旧版，二零零九版，东布局,"波科诺赛车场旧版,二零零九版,东布局","b o1 k e1 n uo4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , d ong1 b u4 j v2",frontend_pass
+tracks,pocono/international,[Legacy] Pocono Raceway - 2009 - International,波科诺赛车场旧版，2009版，国际布局,波科诺赛车场旧版，二零零九版，国际布局,"波科诺赛车场旧版,二零零九版,国际布局","b o1 k e1 n uo4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , g uo2 j i4 b u4 j v2",frontend_pass
+tracks,pocono/north,[Legacy] Pocono Raceway - 2009 - North,波科诺赛车场旧版，2009版，北布局,波科诺赛车场旧版，二零零九版，北布局,"波科诺赛车场旧版,二零零九版,北布局","b o1 k e1 n uo4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , b ei3 b u4 j v2",frontend_pass
+tracks,pocono/oval,[Legacy] Pocono Raceway - 2009 - Oval,波科诺赛车场旧版，2009版，椭圆布局,波科诺赛车场旧版，二零零九版，椭圆布局,"波科诺赛车场旧版,二零零九版,椭圆布局","b o1 k e1 n uo4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,pocono/south,[Legacy] Pocono Raceway - 2009 - South,波科诺赛车场旧版，2009版，南布局,波科诺赛车场旧版，二零零九版，南布局,"波科诺赛车场旧版,二零零九版,南布局","b o1 k e1 n uo4 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , n an2 b u4 j v2",frontend_pass
+tracks,silverstone,[Legacy] Silverstone Circuit - 2008,银石赛道旧版，2008版,银石赛道旧版，二零零八版,"银石赛道旧版,二零零八版","y in2 sh ir2 s ai4 d ao4 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3",frontend_pass
+tracks,silverstone/gp,[Legacy] Silverstone Circuit - 2008 - Grand Prix,银石赛道旧版，2008版，大奖赛布局,银石赛道旧版，二零零八版，大奖赛布局,"银石赛道旧版,二零零八版,大奖赛布局","y in2 sh ir2 s ai4 d ao4 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,silverstone/historicgp,[Legacy] Silverstone Circuit - 2008 - Historical Grand Prix,银石赛道旧版，2008版，历史大奖赛布局,银石赛道旧版，二零零八版，历史大奖赛布局,"银石赛道旧版,二零零八版,历史大奖赛布局","y in2 sh ir2 s ai4 d ao4 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , l i4 sh ir3 d a4 j iang3 s ai4 b u4 j v2",frontend_pass
+tracks,silverstone/international,[Legacy] Silverstone Circuit - 2008 - International,银石赛道旧版，2008版，国际布局,银石赛道旧版，二零零八版，国际布局,"银石赛道旧版,二零零八版,国际布局","y in2 sh ir2 s ai4 d ao4 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , g uo2 j i4 b u4 j v2",frontend_pass
+tracks,silverstone/national,[Legacy] Silverstone Circuit - 2008 - National,银石赛道旧版，2008版，国家布局,银石赛道旧版，二零零八版，国家布局,"银石赛道旧版,二零零八版,国家布局","y in2 sh ir2 s ai4 d ao4 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , g uo2 j ia1 b u4 j v2",frontend_pass
+tracks,silverstone/southern,[Legacy] Silverstone Circuit - 2008 - Southern,银石赛道旧版，2008版，南部布局,银石赛道旧版，二零零八版，南部布局,"银石赛道旧版,二零零八版,南部布局","y in2 sh ir2 s ai4 d ao4 j iu4 b an3 , EE er4 l ing2 l ing2 b a1 b an3 , n an2 b u4 b u4 j v2",frontend_pass
+tracks,texas,[Legacy] Texas Motor Speedway - 2009,得克萨斯赛车场旧版，2009版,得克萨斯赛车场旧版，二零零九版,"得克萨斯赛车场旧版,二零零九版","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3",frontend_pass
+tracks,texas/legendsoval,[Legacy] Texas Motor Speedway - 2009 - Legends Oval,得克萨斯赛车场旧版，2009版，传奇赛车椭圆布局,得克萨斯赛车场旧版，二零零九版，传奇赛车椭圆布局,"得克萨斯赛车场旧版,二零零九版,传奇赛车椭圆布局","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , ch uan2 q i2 s ai4 ch e1 t uo3 y van2 b u4 j v2",frontend_pass
+tracks,texas/oval,[Legacy] Texas Motor Speedway - 2009 - Oval,得克萨斯赛车场旧版，2009版，椭圆布局,得克萨斯赛车场旧版，二零零九版，椭圆布局,"得克萨斯赛车场旧版,二零零九版,椭圆布局","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,texas/roadcourse,[Legacy] Texas Motor Speedway - 2009 - Road Course Combined,得克萨斯赛车场旧版，2009版，联合公路布局,得克萨斯赛车场旧版，二零零九版，联合公路布局,"得克萨斯赛车场旧版,二零零九版,联合公路布局","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , l ian2 h e2 g ong1 l u4 b u4 j v2",frontend_pass
+tracks,texas/infieldrclong,[Legacy] Texas Motor Speedway - 2009 - Road Course Long,得克萨斯赛车场旧版，2009版，公路长布局,得克萨斯赛车场旧版，二零零九版，公路长布局,"得克萨斯赛车场旧版,二零零九版,公路长布局","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , g ong1 l u4 ch ang2 b u4 j v2",frontend_pass
+tracks,texas/infieldrcshorta,[Legacy] Texas Motor Speedway - 2009 - Road Course Short A,得克萨斯赛车场旧版，2009版，公路短布局A,得克萨斯赛车场旧版，二零零九版，公路短布局诶,"得克萨斯赛车场旧版,二零零九版,公路短布局诶","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , g ong1 l u4 d uan3 b u4 j v2 EE ei5",frontend_pass
+tracks,texas/infieldrcshortb,[Legacy] Texas Motor Speedway - 2009 - Road Course Short B,得克萨斯赛车场旧版，2009版，公路短布局B,得克萨斯赛车场旧版，二零零九版，公路短布局比,"得克萨斯赛车场旧版,二零零九版,公路短布局比","d e2 k e4 s a4 s i01 s ai4 ch e1 ch ang3 j iu4 b an3 , EE er4 l ing2 l ing2 j iu2 b an3 , g ong1 l u4 d uan3 b u4 j v2 b i3",frontend_pass
+tracks,coronado,Qualcomm Circuit at Naval Base Coronado,科罗纳多海军基地高通赛道,科罗纳多海军基地高通赛道,科罗纳多海军基地高通赛道,k e1 l uo2 n a4 d uo1 h ai3 j vn1 j i1 d i4 g ao1 t ong1 s ai4 d ao4,frontend_pass
+tracks,stpete,St Petersburg Grand Prix,美国圣彼得斯堡街道赛道,美国圣彼得斯堡街道赛道,美国圣彼得斯堡街道赛道,m ei3 g uo2 sh eng4 b i3 d e2 s i01 b ao3 j ie1 d ao4 s ai4 d ao4,frontend_pass
+tracks,michigan,Michigan International Speedway,密歇根赛车场,密歇根赛车场,密歇根赛车场,m i4 x ie1 g en1 s ai4 ch e1 ch ang3,frontend_pass
+tracks,roadamerica/2026/east,美国之路赛道，东部短布局,美国之路赛道，东部短布局,美国之路赛道，东部短布局,"美国之路赛道,东部短布局","m ei3 g uo2 zh ir1 l u4 s ai4 d ao4 , d ong1 b u4 d uan3 b u4 j v2",frontend_pass
+tracks,roadamerica/2026/west,美国之路赛道，西部短布局,美国之路赛道，西部短布局,美国之路赛道，西部短布局,"美国之路赛道,西部短布局","m ei3 g uo2 zh ir1 l u4 s ai4 d ao4 , x i1 b u4 d uan3 b u4 j v2",frontend_pass
+tracks,milwaukee/2026/oval,密尔沃基英里赛车场，椭圆布局,密尔沃基英里赛车场，椭圆布局,密尔沃基英里赛车场，椭圆布局,"密尔沃基英里赛车场,椭圆布局","m i4 EE er3 w o4 j i1 y ing1 l i3 s ai4 ch e1 ch ang3 , t uo3 y van2 b u4 j v2",frontend_pass
+tracks,milwaukee/2026/road,密尔沃基英里赛车场，公路布局,密尔沃基英里赛车场，公路布局,密尔沃基英里赛车场，公路布局,"密尔沃基英里赛车场,公路布局","m i4 EE er3 w o4 j i1 y ing1 l i3 s ai4 ch e1 ch ang3 , g ong1 l u4 b u4 j v2",frontend_pass
+cars,acuraarx06gtp,Acura ARX-06 GTP,讴歌 ARX-06 GTP,讴歌诶阿尔艾克斯零六吉提皮,讴歌诶阿尔艾克斯零六吉提皮,OO ou1 g e1 EE ei5 AA a1 EE er3 AA ai4 k e4 s i01 l ing2 l iu4 j i2 t i2 p i2,frontend_pass
+cars,acuransxevo22gt3,Acura NSX GT3 EVO 22,讴歌 NSX GT3 升级版 22,讴歌恩艾斯艾克斯吉提三升级版二二,讴歌恩艾斯艾克斯吉提三升级版二二,OO ou1 g e1 EE en1 AA ai4 s i01 AA ai4 k e4 s i01 j i2 t i2 s an1 sh eng1 j i2 b an3 EE er4 EE er4,frontend_pass
+cars,stockcars2/arcachevy25,ARCA Chevrolet SS,阿尔卡 雪佛兰 SS,阿尔卡雪佛兰艾斯艾斯,阿尔卡雪佛兰艾斯艾斯,AA a1 EE er3 k a3 x ve3 f o2 l an2 AA ai4 s i01 AA ai4 s i01,frontend_pass
+cars,stockcars2/arcaford25,ARCA Ford Mustang,阿尔卡 福特 野马,阿尔卡福特野马,阿尔卡福特野马,AA a1 EE er3 k a3 f u2 t e4 y E2 m a3,frontend_pass
+cars,stockcars2/arcatoyota25,ARCA Toyota Camry,阿尔卡 丰田 凯美瑞,阿尔卡丰田凯美瑞,阿尔卡丰田凯美瑞,AA a1 EE er3 k a3 f eng1 t ian2 k ai3 m ei3 r ui4,frontend_pass
+cars,astonmartin/dbr9,Aston Martin DBR9 GT1,阿斯顿马丁 DBR9 GT1,阿斯顿马丁迪比阿尔九吉提幺,阿斯顿马丁迪比阿尔九吉提幺,AA a1 s i01 d un4 m a3 d ing1 d i2 b i3 AA a1 EE er3 j iu3 j i2 t i2 y ao1,frontend_pass
+cars,amvantageevogt3,Aston Martin Vantage GT3 EVO,阿斯顿马丁 万塔格 GT3 升级版,阿斯顿马丁万塔格吉提三升级版,阿斯顿马丁万塔格吉提三升级版,AA a1 s i01 d un4 m a3 d ing1 w an4 t a3 g e2 j i2 t i2 s an1 sh eng1 j i2 b an3,frontend_pass
+cars,amvantagegt4,Aston Martin Vantage GT4,阿斯顿马丁 万塔格 GT4,阿斯顿马丁万塔格吉提四,阿斯顿马丁万塔格吉提四,AA a1 s i01 d un4 m a3 d ing1 w an4 t a3 g e2 j i2 t i2 s i04,frontend_pass
+cars,audi90gto,Audi 90 GTO,奥迪 90 GTO,奥迪九十吉提欧,奥迪九十吉提欧,AA ao4 d i2 j iu3 sh ir2 j i2 t i2 OO ou1,frontend_pass
+cars,audir18,Audi R18,奥迪 R18,奥迪阿尔幺八,奥迪阿尔幺八,AA ao4 d i2 AA a1 EE er3 y ao1 b a1,frontend_pass
+cars,audir8lmsevo2gt3,Audi R8 LMS EVO II GT3,奥迪 R8 LMS 升级版 II GT3,奥迪阿尔八艾勒艾姆艾斯第二代升级版吉提三,奥迪阿尔八艾勒艾姆艾斯第二代升级版吉提三,AA ao4 d i2 AA a1 EE er3 b a1 AA ai4 l e4 AA ai4 m u3 AA ai4 s i01 d i4 EE er4 d ai4 sh eng1 j i2 b an3 j i2 t i2 s an1,frontend_pass
+cars,audirs3lms,Audi RS3 LMS TCR,奥迪 RS3 LMS TCR,奥迪阿尔艾斯三艾勒艾姆艾斯提西阿尔,奥迪阿尔艾斯三艾勒艾姆艾斯提西阿尔,AA ao4 d i2 AA a1 EE er3 AA ai4 s i01 s an1 AA ai4 l e4 AA ai4 m u3 AA ai4 s i01 t i2 x i1 AA a1 EE er3,frontend_pass
+cars,audirs3lms#alias,Audi RS 3 LMS TCR,Audi RS 3 LMS TCR,奥迪阿尔艾斯三艾勒艾姆艾斯提西阿尔,奥迪阿尔艾斯三艾勒艾姆艾斯提西阿尔,AA ao4 d i2 AA a1 EE er3 AA ai4 s i01 s an1 AA ai4 l e4 AA ai4 m u3 AA ai4 s i01 t i2 x i1 AA a1 EE er3,frontend_pass
+cars,bmwlmdh,BMW M Hybrid V8,宝马 M 混合动力 V8,宝马艾姆混合动力维八,宝马艾姆混合动力维八,b ao2 m a3 AA ai4 m u3 h un4 h e2 d ong4 l i4 w ei2 b a1,frontend_pass
+cars,bmwrn2csr,BMW M2 CSR,宝马 M2 CS 赛车版,宝马艾姆二西艾斯赛车版,宝马艾姆二西艾斯赛车版,b ao2 m a3 AA ai4 m u3 EE er4 x i1 AA ai4 s i01 s ai4 ch e1 b an3,frontend_pass
+cars,bmwm4gt3,BMW M4 GT3,宝马 M4 GT3,宝马艾姆四吉提三,宝马艾姆四吉提三,b ao2 m a3 AA ai4 m u3 s i04 j i2 t i2 s an1,frontend_pass
+cars,bmwm4gt3#alias,BMW M4 GT3 EVO,BMW M4 GT3 EVO,宝马艾姆四吉提三升级版,宝马艾姆四吉提三升级版,b ao2 m a3 AA ai4 m u3 s i04 j i2 t i2 s an1 sh eng1 j i2 b an3,frontend_pass
+cars,bmwm4evogt4,BMW M4 G82 GT4,宝马 M4 G82 GT4,宝马艾姆四吉八二吉提四,宝马艾姆四吉八二吉提四,b ao2 m a3 AA ai4 m u3 s i04 j i2 b a1 EE er4 j i2 t i2 s i04,frontend_pass
+cars,bmwm4evogt4#alias,BMW M4 G82 GT4 Evo,BMW M4 G82 GT4 Evo,宝马艾姆四吉八二吉提四升级版,宝马艾姆四吉八二吉提四升级版,b ao2 m a3 AA ai4 m u3 s i04 j i2 b a1 EE er4 j i2 t i2 s i04 sh eng1 j i2 b an3,frontend_pass
+cars,bmwm4gt4,BMW M4 F82 GT4 - 2018,宝马 M4 F82 GT4，2018,宝马艾姆四艾弗八二吉提四，二零一八,"宝马艾姆四艾弗八二吉提四,二零一八","b ao2 m a3 AA ai4 m u3 s i04 AA ai4 f u2 b a1 EE er4 j i2 t i2 s i04 , EE er4 l ing2 y i1 b a1",frontend_pass
+cars,bmwm8gte,BMW M8 GTE,宝马 M8 GTE,宝马艾姆八吉提伊,宝马艾姆八吉提伊,b ao2 m a3 AA ai4 m u3 b a1 j i2 t i2 y i1,frontend_pass
+cars,cadillacctsvr,Cadillac CTS-V Racecar,凯迪拉克 CTS-V 赛车,凯迪拉克西提艾斯维赛车,凯迪拉克西提艾斯维赛车,k ai3 d i2 l a1 k e4 x i1 t i2 AA ai4 s i01 w ei2 s ai4 ch e1,frontend_pass
+cars,cadillacvseriesgtp,Cadillac V-Series.R GTP,凯迪拉克 V系列R GTP,凯迪拉克维系列阿尔吉提皮,凯迪拉克维系列阿尔吉提皮,k ai3 d i2 l a1 k e4 w ei2 x i4 l ie4 AA a1 EE er3 j i2 t i2 p i2,frontend_pass
+cars,c6r,Chevrolet Corvette C6.R GT1,雪佛兰 科尔维特 C6.R GT1,雪佛兰科尔维特西六.阿尔吉提幺,雪佛兰科尔维特西六.阿尔吉提幺,x ve3 f o2 l an2 k e1 EE er3 w ei2 t e4 x i1 l iu4 . AA a1 EE er3 j i2 t i2 y ao1,frontend_pass
+cars,c7vettedp,Chevrolet Corvette C7 Daytona Prototype,雪佛兰 科尔维特 C7 代托纳原型车,雪佛兰科尔维特西七代托纳原型车,雪佛兰科尔维特西七代托纳原型车,x ve3 f o2 l an2 k e1 EE er3 w ei2 t e4 x i1 q i1 d ai4 t uo1 n a4 y van2 x ing2 ch e1,frontend_pass
+cars,c8rvettegte,Chevrolet Corvette C8.R GTE,雪佛兰 科尔维特 C8.R GTE,雪佛兰科尔维特西八.阿尔吉提伊,雪佛兰科尔维特西八.阿尔吉提伊,x ve3 f o2 l an2 k e1 EE er3 w ei2 t e4 x i1 b a1 . AA a1 EE er3 j i2 t i2 y i1,frontend_pass
+cars,chevyvettez06rgt3,Chevrolet Corvette Z06 GT3.R,雪佛兰 科尔维特 Z06 GT3.R,雪佛兰科尔维特泽德零六吉提三.阿尔,雪佛兰科尔维特泽德零六吉提三.阿尔,x ve3 f o2 l an2 k e1 EE er3 w ei2 t e4 z e2 d e2 l ing2 l iu4 j i2 t i2 s an1 . AA a1 EE er3,frontend_pass
+cars,dallaraf3,Dallara F3,达拉拉 F3,达拉拉艾弗三,达拉拉艾弗三,d a2 l a1 l a1 AA ai4 f u2 s an1,frontend_pass
+cars,dallarail15,Dallara IL-15 (INDY NXT),达拉拉 IL-15 ，印地新秀,达拉拉艾艾勒幺五，印地新秀,"达拉拉艾艾勒幺五,印地新秀","d a2 l a1 l a1 AA ai4 AA ai5 l e4 y ao1 w u3 , y in4 d i5 x in1 x iu4",frontend_pass
+cars,dallarair01,Dallara iR-01,达拉拉 iR-01,达拉拉艾阿尔零幺,达拉拉艾阿尔零幺,d a2 l a1 l a1 AA ai4 AA a1 EE er3 l ing2 y ao1,frontend_pass
+cars,dallarair18,Dallara IR18,达拉拉 IR18,达拉拉艾阿尔幺八,达拉拉艾阿尔幺八,d a2 l a1 l a1 AA ai4 AA a1 EE er3 y ao1 b a1,frontend_pass
+cars,dallarap217,Dallara P217,达拉拉 P217,达拉拉皮二幺七,达拉拉皮二幺七,d a2 l a1 l a1 p i2 EE er4 y ao1 q i1,frontend_pass
+cars,dirtmodified/bigblock,Dirt Big Block Modified,泥地 大排量改装赛车,泥地大排量改装赛车,泥地大排量改装赛车,n i2 d i5 d a4 p ai2 l iang4 g ai3 zh uang1 s ai4 ch e1,frontend_pass
+cars,dirtmodified/358,Dirt 358 Modified,泥地 358 改装赛车,泥地三五八改装赛车,泥地三五八改装赛车,n i2 d i5 s an1 w u3 b a1 g ai3 zh uang1 s ai4 ch e1,frontend_pass
+cars,dirtlatemodel/350,Limited Dirt Late Model,限级泥地晚期型赛车,限级泥地晚期型赛车,限级泥地晚期型赛车,x ian4 j i2 n i2 d i4 w an3 q i1 x ing2 s ai4 ch e1,frontend_pass
+cars,dirtlatemodel/358,Pro Dirt Late Model,专业泥地晚期型赛车,专业泥地晚期型赛车,专业泥地晚期型赛车,zh uan1 y E4 n i2 d i4 w an3 q i1 x ing2 s ai4 ch e1,frontend_pass
+cars,dirtlatemodel/438,Super Dirt Late Model,超级泥地晚期型赛车,超级泥地晚期型赛车,超级泥地晚期型赛车,ch ao1 j i2 n i2 d i4 w an3 q i1 x ing2 s ai4 ch e1,frontend_pass
+cars,dirtmicrosprint/winged,Dirt Micro Sprint Car - Winged,泥地 微型冲刺赛车，有翼型,泥地微型冲刺赛车，有翼型,"泥地微型冲刺赛车,有翼型","n i2 d i5 w ei1 x ing2 ch ong1 c i04 s ai4 ch e1 , y ou3 y i4 x ing2",frontend_pass
+cars,dirtmicrosprint/nonwinged,Dirt Micro Sprint Car - Non-Winged,泥地 微型冲刺赛车，无翼型,泥地微型冲刺赛车，无翼型,"泥地微型冲刺赛车,无翼型","n i2 d i5 w ei1 x ing2 ch ong1 c i04 s ai4 ch e1 , w u2 y i4 x ing2",frontend_pass
+cars,dirtmidget,Dirt Midget,泥地小型赛车,泥地小型赛车,泥地小型赛车,n i2 d i4 x iao3 x ing2 s ai4 ch e1,frontend_pass
+cars,dirtministock,Dirt Mini Stock,泥地小型房车,泥地小型房车,泥地小型房车,n i2 d i4 x iao3 x ing2 f ang2 ch e1,frontend_pass
+cars,dirtsprint/winged/305,Dirt Sprint Car - 305,泥地 冲刺赛车，305,泥地冲刺赛车，三零五,"泥地冲刺赛车,三零五","n i2 d i5 ch ong1 c i04 s ai4 ch e1 , s an1 l ing2 w u3",frontend_pass
+cars,dirtsprint/winged/360,Dirt Sprint Car - 360,泥地 冲刺赛车，360,泥地冲刺赛车，三六零,"泥地冲刺赛车,三六零","n i2 d i5 ch ong1 c i04 s ai4 ch e1 , s an1 l iu4 l ing2",frontend_pass
+cars,dirtsprint/winged/410,Dirt Sprint Car - 410,泥地 冲刺赛车，410,泥地冲刺赛车，四幺零,"泥地冲刺赛车,四幺零","n i2 d i5 ch ong1 c i04 s ai4 ch e1 , s i04 y ao1 l ing2",frontend_pass
+cars,dirtsprint/nonwinged/360,Dirt Sprint Car Non-Winged - 360,泥地 冲刺赛车 无翼型，360,泥地冲刺赛车无翼型，三六零,"泥地冲刺赛车无翼型,三六零","n i2 d i5 ch ong1 c i04 s ai4 ch e1 w u2 y i4 x ing2 , s an1 l iu4 l ing2",frontend_pass
+cars,dirtsprint/nonwinged/410,Dirt Sprint Car Non-Winged - 410,泥地 冲刺赛车 无翼型，410,泥地冲刺赛车无翼型，四幺零,"泥地冲刺赛车无翼型,四幺零","n i2 d i5 ch ong1 c i04 s ai4 ch e1 w u2 y i4 x ing2 , s i04 y ao1 l ing2",frontend_pass
+cars,dirtstreetstock,Dirt Street Stock,泥地 街道赛车,泥地街道赛车,泥地街道赛车,n i2 d i5 j ie1 d ao4 s ai4 ch e1,frontend_pass
+cars,dirtumpmod,Dirt UMP Modified,泥地 统一改装组 改装赛车,泥地统一改装组改装赛车,泥地统一改装组改装赛车,n i2 d i5 t ong3 y i1 g ai3 zh uang1 z u3 g ai3 zh uang1 s ai4 ch e1,frontend_pass
+cars,ferrari296challenge,Ferrari 296 Challenge,法拉利 296 挑战赛,法拉利二九六挑战赛,法拉利二九六挑战赛,f a3 l a1 l i4 EE er4 j iu3 l iu4 t iao3 zh an4 s ai4,frontend_pass
+cars,ferrari296gt3,Ferrari 296 GT3,法拉利 296 GT3,法拉利二九六吉提三,法拉利二九六吉提三,f a3 l a1 l i4 EE er4 j iu3 l iu4 j i2 t i2 s an1,frontend_pass
+cars,ferrarievogt3,Ferrari 488 GT3 Evo 2020,法拉利 488 GT3 升级版，2020版,法拉利四八八吉提三升级版，二零二零版,"法拉利四八八吉提三升级版,二零二零版","f a3 l a1 l i4 s i04 b a1 b a1 j i2 t i2 s an1 sh eng1 j i2 b an3 , EE er4 l ing2 EE er4 l ing2 b an3",frontend_pass
+cars,ferrari499p,Ferrari 499P,法拉利 499P,法拉利四九九皮,法拉利四九九皮,f a3 l a1 l i4 s i04 j iu2 j iu3 p i2,frontend_pass
+cars,ferrari488gte,Ferrari 488 GTE,法拉利 488 GTE,法拉利四八八吉提伊,法拉利四八八吉提伊,f a3 l a1 l i4 s i04 b a1 b a1 j i2 t i2 y i1,frontend_pass
+cars,crosscartn11,FIA Cross Car,国际汽联 越野小赛车,国际汽联越野小赛车,国际汽联越野小赛车,g uo2 j i4 q i4 l ian2 y ve4 y E3 x iao3 s ai4 ch e1,frontend_pass
+cars,formulair04,FIA F4,国际汽联 F4,国际汽联艾弗四,国际汽联艾弗四,g uo2 j i4 q i4 l ian2 AA ai4 f u2 s i04,frontend_pass
+cars,fordfiestarswrc,Ford Fiesta RS WRC,福特 嘉年华 RS WRC,福特嘉年华阿尔艾斯达布留阿尔西,福特嘉年华阿尔艾斯达布留阿尔西,f u2 t e4 j ia1 n ian2 h ua2 AA a1 EE er3 AA ai4 s i01 d a2 b u4 l iu2 AA a1 EE er3 x i1,frontend_pass
+cars,fordgt2017,Ford GTE,福特 GTE,福特吉提伊,福特吉提伊,f u2 t e4 j i2 t i2 y i1,frontend_pass
+cars,fordgt,Ford GT GT2,福特 GT GT2,福特吉提吉提二,福特吉提吉提二,f u2 t e4 j i2 t i2 j i2 t i2 EE er4,frontend_pass
+cars,fordgt/gt3,Ford GT GT3,福特 GT GT3,福特吉提吉提三,福特吉提吉提三,f u2 t e4 j i2 t i2 j i2 t i2 s an1,frontend_pass
+cars,fr500s,Ford Mustang FR500S,福特 野马 FR500S,福特野马艾弗阿尔五零零艾斯,福特野马艾弗阿尔五零零艾斯,f u2 t e4 y E2 m a3 AA ai4 f u2 AA a1 EE er3 w u3 l ing2 l ing2 AA ai4 s i01,frontend_pass
+cars,fordmustanggt3,Ford Mustang GT3,福特 野马 GT3,福特野马吉提三,福特野马吉提三,f u2 t e4 y E2 m a3 j i2 t i2 s an1,frontend_pass
+cars,fordmustanggt4,Ford Mustang GT4,福特 野马 GT4,福特野马吉提四,福特野马吉提四,f u2 t e4 y E2 m a3 j i2 t i2 s i04,frontend_pass
+cars,formularenault20,Formula Renault 2.0,雷诺方程式 2.0,雷诺方程式二点零,雷诺方程式二点零,l ei2 n uo4 f ang1 ch eng2 sh ir4 EE er4 d ian3 l ing2,frontend_pass
+cars,formularenault35,Formula Renault 3.5,雷诺方程式 3.5,雷诺方程式三点五,雷诺方程式三点五,l ei2 n uo4 f ang1 ch eng2 sh ir4 s an1 d ian3 w u3,frontend_pass
+cars,formulavee,Formula Vee,维式方程式,维式方程式,维式方程式,w ei2 sh ir4 f ang1 ch eng2 sh ir4,frontend_pass
+cars,mx5/mx52016,Global Mazda MX-5 Cup,全球 马自达 MX-5 杯赛,全球马自达艾姆艾克斯五杯赛,全球马自达艾姆艾克斯五杯赛,q van2 q iu2 m a3 z i04 d a2 AA ai4 m u3 AA ai4 k e4 s i01 w u3 b ei1 s ai4,frontend_pass
+cars,hondacivictyper,Honda Civic Type R TCR,本田 思域 R型 TCR,本田思域阿尔型提西阿尔,本田思域阿尔型提西阿尔,b en3 t ian2 s i01 y v4 AA a1 EE er3 x ing2 t i2 x i1 AA a1 EE er3,frontend_pass
+cars,hpdarx01c,HPD ARX-01c,本田性能研发 ARX-01c,本田性能研发诶阿尔艾克斯零幺西,本田性能研发诶阿尔艾克斯零幺西,b en3 t ian2 x ing4 n eng2 y En2 f a1 EE ei5 AA a1 EE er3 AA ai4 k e4 s i01 l ing2 y ao1 x i1,frontend_pass
+cars,hyundaielantracn7,Hyundai Elantra N TCR,现代 伊兰特 N TCR,现代伊兰特恩提西阿尔,现代伊兰特恩提西阿尔,x ian4 d ai4 y i1 l an2 t e4 EE en1 t i2 x i1 AA a1 EE er3,frontend_pass
+cars,hyundaivelostern,Hyundai Veloster N TCR,现代 飞思 N TCR,现代飞思恩提西阿尔,现代飞思恩提西阿尔,x ian4 d ai4 f ei1 s i01 EE en1 t i2 x i1 AA a1 EE er3,frontend_pass
+cars,indypropm18,Indy Pro 2000 PM-18,印地专业级 2000 PM-18,印地专业级两千皮艾姆幺八,印地专业级两千皮艾姆幺八,y in4 d i4 zh uan1 y E4 j i2 l iang3 q ian1 p i2 AA ai4 m u3 y ao1 b a1,frontend_pass
+cars,kiaoptima,Kia Optima,起亚 远舰,起亚远舰,起亚远舰,q i3 y a4 y van3 j ian4,frontend_pass
+cars,lamborghinievogt3,Lamborghini Huracán GT3 EVO,兰博基尼 飓风 GT3 升级版,兰博基尼飓风吉提三升级版,兰博基尼飓风吉提三升级版,l an2 b o2 j i1 n i2 j v4 f eng1 j i2 t i2 s an1 sh eng1 j i2 b an3,frontend_pass
+cars,latemodel2023,Late Model Stock,晚期型房车,晚期型房车,晚期型房车,w an3 q i1 x ing2 f ang2 ch e1,frontend_pass
+cars,legends/ford34c,Legends Ford '34 Coupe,传奇赛车 福特 1934款 双门轿跑,传奇赛车福特一九三四款双门轿跑,传奇赛车福特一九三四款双门轿跑,ch uan2 q i2 s ai4 ch e1 f u2 t e4 y i1 j iu3 s an1 s i04 k uan3 sh uang1 m en2 j iao4 p ao3,frontend_pass
+cars,legends/ford34c/rookie,Legends Ford '34 Coupe - Rookie,传奇赛车 福特 1934款 双门轿跑，新手版,传奇赛车福特一九三四款双门轿跑，新手版,"传奇赛车福特一九三四款双门轿跑,新手版","ch uan2 q i2 s ai4 ch e1 f u2 t e4 y i1 j iu3 s an1 s i04 k uan3 sh uang1 m en2 j iao4 p ao3 , x in1 sh ou3 b an3",frontend_pass
+cars,ligierjsp320,Ligier JS P320,利吉耶 JS P320,利吉耶杰艾斯皮三二零,利吉耶杰艾斯皮三二零,l i4 j i2 y E5 j ie2 AA ai4 s i01 p i2 s an1 EE er4 l ing2,frontend_pass
+cars,lotus49,Lotus 49,路特斯 49,路特斯四十九,路特斯四十九,l u4 t e4 s i01 s i04 sh ir2 j iu3,frontend_pass
+cars,lotus79,Lotus 79,路特斯 79,路特斯七十九,路特斯七十九,l u4 t e4 s i01 q i1 sh ir2 j iu3,frontend_pass
+cars,protrucks/pro2lite,Lucas Oil Off Road Pro 2 Lite,卢卡斯石油越野 专业级 2 轻量版,卢卡斯石油越野专业级二轻量版,卢卡斯石油越野专业级二轻量版,l u2 k a3 s i01 sh ir2 y ou2 y ve4 y E3 zh uan1 y E4 j i2 EE er4 q ing1 l iang4 b an3,frontend_pass
+cars,protrucks/pro2truck,Lucas Oil Off Road Pro 2 Truck,卢卡斯石油越野 专业级 2 卡车,卢卡斯石油越野专业级二卡车,卢卡斯石油越野专业级二卡车,l u2 k a3 s i01 sh ir2 y ou2 y ve4 y E3 zh uan1 y E4 j i2 EE er4 k a3 ch e1,frontend_pass
+cars,protrucks/pro4truck,Lucas Oil Off Road Pro 4 Truck,卢卡斯石油越野 专业级 4 卡车,卢卡斯石油越野专业级四卡车,卢卡斯石油越野专业级四卡车,l u2 k a3 s i01 sh ir2 y ou2 y ve4 y E3 zh uan1 y E4 j i2 s i04 k a3 ch e1,frontend_pass
+cars,mclaren570sgt4,McLaren 570S GT4,迈凯伦 570S GT4,迈凯伦五七零艾斯吉提四,迈凯伦五七零艾斯吉提四,m ai4 k ai3 l un2 w u3 q i1 l ing2 AA ai4 s i01 j i2 t i2 s i04,frontend_pass
+cars,mclaren720sgt3,McLaren 720S GT3 EVO,迈凯伦 720S GT3 升级版,迈凯伦七二零艾斯吉提三升级版,迈凯伦七二零艾斯吉提三升级版,m ai4 k ai3 l un2 q i1 EE er4 l ing2 AA ai4 s i01 j i2 t i2 s an1 sh eng1 j i2 b an3,frontend_pass
+cars,mclarenmp4,McLaren MP4-12C GT3,迈凯伦 MP4-12C GT3,迈凯伦艾姆皮四幺二西吉提三,迈凯伦艾姆皮四幺二西吉提三,m ai4 k ai3 l un2 AA ai4 m u3 p i2 s i04 y ao1 EE er4 x i1 j i2 t i2 s an1,frontend_pass
+cars,mclarenmp430,McLaren MP4-30,迈凯伦 MP4-30,迈凯伦艾姆皮四三零,迈凯伦艾姆皮四三零,m ai4 k ai3 l un2 AA ai4 m u3 p i2 s i04 s an1 l ing2,frontend_pass
+cars,mercedesamgevogt3,Mercedes-AMG GT3 2020,梅赛德斯 AMG GT3，2020版,梅赛德斯诶艾姆吉吉提三，二零二零版,"梅赛德斯诶艾姆吉吉提三,二零二零版","m ei2 s ai4 d e2 s i01 EE ei5 AA ai4 m u3 j i2 j i5 t i2 s an1 , EE er4 l ing2 EE er4 l ing2 b an3",frontend_pass
+cars,mercedesamggt4,Mercedes-AMG GT4,梅赛德斯AMG GT4,梅赛德斯诶艾姆吉吉提四,梅赛德斯诶艾姆吉吉提四,m ei2 s ai4 d e2 s i01 EE ei5 AA ai4 m u3 j i2 j i5 t i2 s i04,frontend_pass
+cars,mercedesw12,Mercedes-AMG W12 E Performance,梅赛德斯AMG W12 高性能版,梅赛德斯诶艾姆吉达布留幺二高性能版,梅赛德斯诶艾姆吉达布留幺二高性能版,m ei2 s ai4 d e2 s i01 EE ei5 AA ai4 m u3 j i2 d a2 b u4 l iu2 y ao1 EE er4 g ao1 x ing4 n eng2 b an3,frontend_pass
+cars,mercedesw13,Mercedes-AMG W13 E Performance,梅赛德斯AMG W13 高性能版,梅赛德斯诶艾姆吉达布留幺三高性能版,梅赛德斯诶艾姆吉达布留幺三高性能版,m ei2 s ai4 d e2 s i01 EE ei5 AA ai4 m u3 j i2 d a2 b u4 l iu2 y ao1 s an1 g ao1 x ing4 n eng2 b an3,frontend_pass
+cars,ministock,Mini Stock,小型房车,小型房车,小型房车,x iao3 x ing2 f ang2 ch e1,frontend_pass
+cars,stockcars/camarozl12018,NASCAR Cup Series Chevrolet Camaro ZL1,纳斯卡 杯赛系列 雪佛兰 科迈罗 ZL1,纳斯卡杯赛系列雪佛兰科迈罗泽德艾勒幺,纳斯卡杯赛系列雪佛兰科迈罗泽德艾勒幺,n a4 s i01 k a3 b ei1 s ai4 x i4 l ie4 x ve3 f o2 l an2 k e1 m ai4 l uo2 z e2 d e2 AA ai4 l e4 y ao1,frontend_pass
+cars,stockcars/fordmustang2019,NASCAR Cup Series Ford Mustang,纳斯卡 杯赛系列 福特 野马,纳斯卡杯赛系列福特野马,纳斯卡杯赛系列福特野马,n a4 s i01 k a3 b ei1 s ai4 x i4 l ie4 f u2 t e4 y E2 m a3,frontend_pass
+cars,stockcars/toyotacamry,NASCAR Cup Series Toyota Camry,纳斯卡 杯赛系列 丰田 凯美瑞,纳斯卡杯赛系列丰田凯美瑞,纳斯卡杯赛系列丰田凯美瑞,n a4 s i01 k a3 b ei1 s ai4 x i4 l ie4 f eng1 t ian2 k ai3 m ei3 r ui4,frontend_pass
+cars,stockcars/camarozl12022,NASCAR Cup Series Next Gen Chevrolet Camaro ZL1,纳斯卡 杯赛系列 新世代 雪佛兰 科迈罗 ZL1,纳斯卡杯赛系列新世代雪佛兰科迈罗泽德艾勒幺,纳斯卡杯赛系列新世代雪佛兰科迈罗泽德艾勒幺,n a4 s i01 k a3 b ei1 s ai4 x i4 l ie4 x in1 sh ir4 d ai4 x ve3 f o2 l an2 k e1 m ai4 l uo2 z e2 d e2 AA ai4 l e4 y ao1,frontend_pass
+cars,stockcars/fordmustang2022,NASCAR Cup Series Next Gen Ford Mustang,纳斯卡 杯赛系列 新世代 福特 野马,纳斯卡杯赛系列新世代福特野马,纳斯卡杯赛系列新世代福特野马,n a4 s i01 k a3 b ei1 s ai4 x i4 l ie4 x in1 sh ir4 d ai4 f u2 t e4 y E2 m a3,frontend_pass
+cars,stockcars/toyotacamry2022,NASCAR Cup Series Next Gen Toyota Camry,纳斯卡 杯赛系列 新世代 丰田 凯美瑞,纳斯卡杯赛系列新世代丰田凯美瑞,纳斯卡杯赛系列新世代丰田凯美瑞,n a4 s i01 k a3 b ei1 s ai4 x i4 l ie4 x in1 sh ir4 d ai4 f eng1 t ian2 k ai3 m ei3 r ui4,frontend_pass
+cars,stockcars/chevymontecarlo03,NASCAR Gen 4 Chevrolet Monte Carlo - 2003,纳斯卡 第四代 雪佛兰 蒙特卡洛，2003,纳斯卡第四代雪佛兰蒙特卡洛，二零零三,"纳斯卡第四代雪佛兰蒙特卡洛,二零零三","n a4 s i01 k a3 d i4 s i04 d ai4 x ve3 f o2 l an2 m eng2 t e4 k a3 l uo4 , EE er4 l ing2 l ing2 s an1",frontend_pass
+cars,stockcars/fordtaurus03,NASCAR Gen 4 Ford Taurus - 2003,纳斯卡 第四代 福特 金牛座，2003,纳斯卡第四代福特金牛座，二零零三,"纳斯卡第四代福特金牛座,二零零三","n a4 s i01 k a3 d i4 s i04 d ai4 f u2 t e4 j in1 n iu2 z uo4 , EE er4 l ing2 l ing2 s an1",frontend_pass
+cars,stockcars/buicklesabre87,NASCAR Legends Buick LeSabre - 1987,纳斯卡 传奇赛车 别克 勒萨布尔，1987,纳斯卡传奇赛车别克勒萨布尔，一九八七,"纳斯卡传奇赛车别克勒萨布尔,一九八七","n a4 s i01 k a3 ch uan2 q i2 s ai4 ch e1 b ie2 k e4 l e4 s a4 b u4 EE er3 , y i1 j iu3 b a1 q i1",frontend_pass
+cars,stockcars/chevymontecarlo87,NASCAR Legends Chevrolet Monte Carlo - 1987,纳斯卡 传奇赛车 雪佛兰 蒙特卡洛，1987,纳斯卡传奇赛车雪佛兰蒙特卡洛，一九八七,"纳斯卡传奇赛车雪佛兰蒙特卡洛,一九八七","n a4 s i01 k a3 ch uan2 q i2 s ai4 ch e1 x ve3 f o2 l an2 m eng2 t e4 k a3 l uo4 , y i1 j iu3 b a1 q i1",frontend_pass
+cars,stockcars/fordthunderbird87,NASCAR Legends Ford Thunderbird - 1987,纳斯卡 传奇赛车 福特 雷鸟，1987,纳斯卡传奇赛车福特雷鸟，一九八七,"纳斯卡传奇赛车福特雷鸟,一九八七","n a4 s i01 k a3 ch uan2 q i2 s ai4 ch e1 f u2 t e4 l ei2 n iao3 , y i1 j iu3 b a1 q i1",frontend_pass
+cars,stockcars/pontiacgrandprix87,NASCAR Legends Pontiac Grand Prix - 1987,纳斯卡 传奇赛车 庞蒂亚克 大奖赛，1987,纳斯卡传奇赛车庞蒂亚克大奖赛，一九八七,"纳斯卡传奇赛车庞蒂亚克大奖赛,一九八七","n a4 s i01 k a3 ch uan2 q i2 s ai4 ch e1 p ang2 d i4 y a4 k e4 d a4 j iang3 s ai4 , y i1 j iu3 b a1 q i1",frontend_pass
+cars,trucks/silverado2019,NASCAR Truck Chevrolet Silverado,纳斯卡 卡车 雪佛兰 索罗德,纳斯卡卡车雪佛兰索罗德,纳斯卡卡车雪佛兰索罗德,n a4 s i01 k a3 k a3 ch e1 x ve3 f o2 l an2 s uo3 l uo2 d e2,frontend_pass
+cars,trucks/fordf150,NASCAR Truck Ford F150,纳斯卡 卡车 福特 F150,纳斯卡卡车福特艾弗幺五零,纳斯卡卡车福特艾弗幺五零,n a4 s i01 k a3 k a3 ch e1 f u2 t e4 AA ai4 f u2 y ao1 w u3 l ing2,frontend_pass
+cars,trucks/toyotatundra2022,NASCAR Truck Toyota Tundra TRD Pro,纳斯卡 卡车 丰田 坦途 TRD 专业级,纳斯卡卡车丰田坦途提阿尔迪专业级,纳斯卡卡车丰田坦途提阿尔迪专业级,n a4 s i01 k a3 k a3 ch e1 f eng1 t ian2 t an3 t u2 t i2 AA a1 EE er3 d i2 zh uan1 y E4 j i2,frontend_pass
+cars,skmodified/tour,NASCAR Whelen Tour Modified,纳斯卡 惠伦巡回赛 改装赛车,纳斯卡惠伦巡回赛改装赛车,纳斯卡惠伦巡回赛改装赛车,n a4 s i01 k a3 h ui4 l un2 x vn2 h ui2 s ai4 g ai3 zh uang1 s ai4 ch e1,frontend_pass
+cars,skmodified,Modified - SK,改装赛车，SK,改装赛车，艾斯开,"改装赛车,艾斯开","g ai3 zh uang1 s ai4 ch e1 , AA ai4 s i01 k ai1",frontend_pass
+cars,stockcars2/camaro2019,NASCAR Xfinity Chevrolet Camaro,纳斯卡 无限系列 雪佛兰 科迈罗,纳斯卡无限系列雪佛兰科迈罗,纳斯卡无限系列雪佛兰科迈罗,n a4 s i01 k a3 w u2 x ian4 x i4 l ie4 x ve3 f o2 l an2 k e1 m ai4 l uo2,frontend_pass
+cars,stockcars2/mustang2019,NASCAR Xfinity Ford Mustang,纳斯卡 无限系列 福特 野马,纳斯卡无限系列福特野马,纳斯卡无限系列福特野马,n a4 s i01 k a3 w u2 x ian4 x i4 l ie4 f u2 t e4 y E2 m a3,frontend_pass
+cars,stockcars2/supra2019,NASCAR Xfinity Toyota Supra,纳斯卡 无限系列 丰田 苏普拉,纳斯卡无限系列丰田苏普拉,纳斯卡无限系列丰田苏普拉,n a4 s i01 k a3 w u2 x ian4 x i4 l ie4 f eng1 t ian2 s u1 p u3 l a1,frontend_pass
+cars,nissangtpzxt,Nissan GTP ZXT,日产 GTP ZXT,日产吉提皮泽德艾克斯提,日产吉提皮泽德艾克斯提,r ir4 ch an3 j i2 t i2 p i2 z e2 d e2 AA ai4 k e4 s i01 t i2,frontend_pass
+cars,solstice,Pontiac Solstice,庞蒂亚克 至日,庞蒂亚克至日,庞蒂亚克至日,p ang2 d i4 y a4 k e4 zh ir4 r ir4,frontend_pass
+cars,solstice/rookie,Pontiac Solstice - Rookie,庞蒂亚克 至日，新手版,庞蒂亚克至日，新手版,"庞蒂亚克至日,新手版","p ang2 d i4 y a4 k e4 zh ir4 r ir4 , x in1 sh ou3 b an3",frontend_pass
+cars,porsche718gt4,Porsche 718 Cayman GT4 Clubsport MR,保时捷 718 卡曼 GT4 俱乐部运动版 MR,保时捷七幺八卡曼吉提四俱乐部运动版艾姆阿尔,保时捷七幺八卡曼吉提四俱乐部运动版艾姆阿尔,b ao3 sh ir2 j ie2 q i1 y ao1 b a1 k a3 m an4 j i2 t i2 s i04 j v4 l e4 b u4 y vn4 d ong4 b an3 AA ai4 m u3 AA a1 EE er3,frontend_pass
+cars,porsche9922cup,Porsche 911 Cup (992.2),保时捷 911 杯赛 ，992.2,保时捷九幺幺杯赛，九九二点二,"保时捷九幺幺杯赛,九九二点二","b ao3 sh ir2 j ie2 j iu3 y ao1 y ao1 b ei1 s ai4 , j iu2 j iu3 EE er4 d ian3 EE er4",frontend_pass
+cars,porsche992rgt3,Porsche 911 GT3 R (992),保时捷 911 GT3 R ，992,保时捷九幺幺吉提三阿尔，九九二,"保时捷九幺幺吉提三阿尔,九九二","b ao3 sh ir2 j ie2 j iu3 y ao1 y ao1 j i2 t i2 s an1 AA a1 EE er3 , j iu2 j iu3 EE er4",frontend_pass
+cars,porsche991rsr,Porsche 911 RSR,保时捷 911 RSR,保时捷九幺幺阿尔艾斯阿尔,保时捷九幺幺阿尔艾斯阿尔,b ao3 sh ir2 j ie2 j iu3 y ao1 y ao1 AA a1 EE er3 AA ai4 s i01 AA a1 EE er3,frontend_pass
+cars,porsche919,Porsche 919,保时捷 919,保时捷九幺九,保时捷九幺九,b ao3 sh ir2 j ie2 j iu3 y ao1 j iu3,frontend_pass
+cars,porsche963gtp,Porsche 963 GTP,保时捷 963 GTP,保时捷九六三吉提皮,保时捷九六三吉提皮,b ao3 sh ir2 j ie2 j iu3 l iu4 s an1 j i2 t i2 p i2,frontend_pass
+cars,porschemissionr,Porsche Mission R,保时捷 使命R,保时捷使命阿尔,保时捷使命阿尔,b ao3 sh ir2 j ie2 sh ir3 m ing4 AA a1 EE er3,frontend_pass
+cars,radical/sr8,Radical SR8,瑞迪卡 SR8,瑞迪卡艾斯阿尔八,瑞迪卡艾斯阿尔八,r ui4 d i2 k a3 AA ai4 s i01 AA a1 EE er3 b a1,frontend_pass
+cars,radical/radicalsr10,Radical SR10,瑞迪卡 SR10,瑞迪卡艾斯阿尔幺零,瑞迪卡艾斯阿尔幺零,r ui4 d i2 k a3 AA ai4 s i01 AA a1 EE er3 y ao1 l ing2,frontend_pass
+cars,raygr22,Ray FF1600,雷 FF1600,雷艾弗艾弗一千六百,雷艾弗艾弗一千六百,l ei2 AA ai4 f u2 AA ai4 f u2 y i1 q ian1 l iu4 b ai3,frontend_pass
+cars,renaultcliocup,Renault Clio,雷诺 克里欧,雷诺克里欧,雷诺克里欧,l ei2 n uo4 k e4 l i3 OO ou1,frontend_pass
+cars,renaultcliocup#alias,Renault Clio R.S. V,Renault Clio R.S. V,雷诺克里欧阿尔艾斯维,雷诺克里欧阿尔艾斯维,l ei2 n uo4 k e4 l i3 OO ou1 AA a1 EE er3 AA ai4 s i01 w ei2,frontend_pass
+cars,rufrt12r/awd,Ruf RT 12R AWD,鲁夫 RT 12R AWD,鲁夫阿尔提幺二阿尔诶达布留迪,鲁夫阿尔提幺二阿尔诶达布留迪,l u3 f u1 AA a1 EE er3 t i2 y ao1 EE er4 AA a1 EE er3 EE ei5 d a2 b u4 l iu2 d i2,frontend_pass
+cars,rufrt12r/track/cspec,Ruf RT 12R C-Spec,鲁夫 RT 12R C规格,鲁夫阿尔提幺二阿尔西规格,鲁夫阿尔提幺二阿尔西规格,l u3 f u1 AA a1 EE er3 t i2 y ao1 EE er4 AA a1 EE er3 x i1 g ui1 g e2,frontend_pass
+cars,rufrt12r/rwd,Ruf RT 12R RWD,鲁夫 RT 12R RWD,鲁夫阿尔提幺二阿尔阿尔达布留迪,鲁夫阿尔提幺二阿尔阿尔达布留迪,l u3 f u1 AA a1 EE er3 t i2 y ao1 EE er4 AA a1 EE er3 AA a1 EE er3 d a2 b u4 l iu2 d i2,frontend_pass
+cars,rufrt12r/track,Ruf RT 12R Track,鲁夫 RT 12R 赛道版,鲁夫阿尔提幺二阿尔赛道版,鲁夫阿尔提幺二阿尔赛道版,l u3 f u1 AA a1 EE er3 t i2 y ao1 EE er4 AA a1 EE er3 s ai4 d ao4 b an3,frontend_pass
+cars,specracer,SCCA Spec Racer Ford,美国跑车俱乐部 规格赛车 福特,美国跑车俱乐部规格赛车福特,美国跑车俱乐部规格赛车福特,m ei3 g uo2 p ao3 ch e1 j v4 l e4 b u4 g ui1 g e2 s ai4 ch e1 f u2 t e4,frontend_pass
+cars,silvercrown,Silver Crown,银冠赛车,银冠赛车,银冠赛车,y in2 g uan1 s ai4 ch e1,frontend_pass
+cars,rt2000,Skip Barber Formula 2000,斯基普巴伯 方程式 2000,斯基普巴伯方程式两千,斯基普巴伯方程式两千,s i01 j i1 p u3 b a1 b o2 f ang1 ch eng2 sh ir4 l iang3 q ian1,frontend_pass
+cars,sprint,Sprint Car,冲刺赛车,冲刺赛车,冲刺赛车,ch ong1 c i04 s ai4 ch e1,frontend_pass
+cars,stockcarbrasil/cruze,Stock Car Pro Series Chevrolet Cruze,专业房车系列 雪佛兰 科鲁兹,专业房车系列雪佛兰科鲁兹,专业房车系列雪佛兰科鲁兹,zh uan1 y E4 f ang2 ch e1 x i4 l ie4 x ve3 f o2 l an2 k e1 l u3 z i01,frontend_pass
+cars,stockcarbrasil/corolla,Stock Car Pro Series Toyota Corolla,专业房车系列 丰田 卡罗拉,专业房车系列丰田卡罗拉,专业房车系列丰田卡罗拉,zh uan1 y E4 f ang2 ch e1 x i4 l ie4 f eng1 t ian2 k a3 l uo2 l a1,frontend_pass
+cars,streetstock,Street Stock,街道赛车,街道赛车,街道赛车,j ie1 d ao4 s ai4 ch e1,frontend_pass
+cars,streetstock/streetstock2,Street Stock - Casino,街道赛车，赌场版,街道赛车，赌场版,"街道赛车,赌场版","j ie1 d ao4 s ai4 ch e1 , d u2 ch ang2 b an3",frontend_pass
+cars,streetstock/streetstock3,Street Stock - Eagle,街道赛车，雄鹰版,街道赛车，雄鹰版,"街道赛车,雄鹰版","j ie1 d ao4 s ai4 ch e1 , x iong2 y ing1 b an3",frontend_pass
+cars,subaruwrxsti,Subaru WRX STI,斯巴鲁 WRX STI,斯巴鲁达布留阿尔艾克斯艾斯提艾,斯巴鲁达布留阿尔艾克斯艾斯提艾,s i01 b a1 l u3 d a2 b u4 l iu2 AA a1 EE er3 AA ai4 k e4 s i01 AA ai4 s i01 t i2 AA ai4,frontend_pass
+cars,supercars/fordmustanggen3,Supercars Ford Mustang Gen 3,澳洲超级房车 福特 野马 第三代,澳洲超级房车福特野马第三代,澳洲超级房车福特野马第三代,AA ao4 zh ou1 ch ao1 j i2 f ang2 ch e1 f u2 t e4 y E2 m a3 d i4 s an1 d ai4,frontend_pass
+cars,v8supercars/fordmustanggt,Supercars Ford Mustang GT,澳洲超级房车 福特 野马 GT,澳洲超级房车福特野马吉提,澳洲超级房车福特野马吉提,AA ao4 zh ou1 ch ao1 j i2 f ang2 ch e1 f u2 t e4 y E2 m a3 j i2 t i2,frontend_pass
+cars,superformulasf23/toyota,Super Formula SF23 - Toyota,超级方程式 SF23，丰田,超级方程式艾斯艾弗二三，丰田,"超级方程式艾斯艾弗二三,丰田","ch ao1 j i2 f ang1 ch eng2 sh ir4 AA ai4 s i01 AA ai4 f u2 EE er4 s an1 , f eng1 t ian2",frontend_pass
+cars,superformulasf23/honda,Super Formula SF23 - Honda,超级方程式 SF23，本田,超级方程式艾斯艾弗二三，本田,"超级方程式艾斯艾弗二三,本田","ch ao1 j i2 f ang1 ch eng2 sh ir4 AA ai4 s i01 AA ai4 f u2 EE er4 s an1 , b en3 t ian2",frontend_pass
+cars,superlatemodel,Super Late Model,超级晚期型赛车,超级晚期型赛车,超级晚期型赛车,ch ao1 j i2 w an3 q i1 x ing2 s ai4 ch e1,frontend_pass
+cars,v8supercars/holden2019,Supercars Holden ZB Commodore,澳洲超级房车 霍顿 ZB 康莫多尔,澳洲超级房车霍顿泽德比康莫多尔,澳洲超级房车霍顿泽德比康莫多尔,AA ao4 zh ou1 ch ao1 j i2 f ang2 ch e1 h uo4 d un4 z e2 d e2 b i3 k ang1 m o4 d uo1 EE er3,frontend_pass
+cars,superformulalights324,Super Formula Lights,超级方程式轻量级,超级方程式轻量级,超级方程式轻量级,ch ao1 j i2 f ang1 ch eng2 sh ir4 q ing1 l iang4 j i2,frontend_pass
+cars,toyotagr86,Toyota GR86,丰田 GR86,丰田吉阿尔八六,丰田吉阿尔八六,f eng1 t ian2 j i2 AA a1 EE er3 b a1 l iu4,frontend_pass
+cars,usf2000usf17,USF 2000,USF 2000,优艾斯艾弗两千,优艾斯艾弗两千,y ou1 AA ai4 s i01 AA ai4 f u2 l iang3 q ian1,frontend_pass
+cars,vwbeetlegrc,VW Beetle,大众 甲壳虫,大众甲壳虫,大众甲壳虫,d a4 zh ong4 j ia3 k e2 ch ong2,frontend_pass
+cars,vwbeetlegrc/lite,VW Beetle Lite,大众 甲壳虫 轻量版,大众甲壳虫轻量版,大众甲壳虫轻量版,d a4 zh ong4 j ia3 k e2 ch ong2 q ing1 l iang4 b an3,frontend_pass
+cars,jettatdi,VW Jetta TDI Cup,大众 捷达 TDI 杯赛,大众捷达提迪艾杯赛,大众捷达提迪艾杯赛,d a4 zh ong4 j ie2 d a2 t i2 d i2 AA ai4 b ei1 s ai4,frontend_pass
+cars,williamsfw31,Williams FW31,威廉姆斯 FW31,威廉姆斯艾弗达布留三幺,威廉姆斯艾弗达布留三幺,w ei1 l ian2 m u3 s i01 AA ai4 f u2 d a2 b u4 l iu2 s an1 y ao1,frontend_pass
+cars,williamsfw31#alias,Williams Toyota FW31,Williams Toyota FW31,威廉姆斯丰田艾弗达布留三幺,威廉姆斯丰田艾弗达布留三幺,w ei1 l ian2 m u3 s i01 f eng1 t ian2 AA ai4 f u2 d a2 b u4 l iu2 s an1 y ao1,frontend_pass
+cars,stockcars2/chevy,[Legacy] ARCA Menards Chevrolet Impala,旧版 阿尔卡 梅纳兹 雪佛兰 英帕拉,旧版阿尔卡梅纳兹雪佛兰英帕拉,旧版阿尔卡梅纳兹雪佛兰英帕拉,j iu4 b an3 AA a1 EE er3 k a3 m ei2 n a4 z i01 x ve3 f o2 l an2 y ing1 p a4 l a1,frontend_pass
+cars,stockcars2/chevy/gen4cup,[Legacy] Gen 4 Cup,旧版 第四代 杯赛,旧版第四代杯赛,旧版第四代杯赛,j iu4 b an3 d i4 s i04 d ai4 b ei1 s ai4,frontend_pass
+cars,audir8gt3,[Legacy] Audi R8 LMS GT3,旧版 奥迪 R8 LMS GT3,旧版奥迪阿尔八艾勒艾姆艾斯吉提三,旧版奥迪阿尔八艾勒艾姆艾斯吉提三,j iu4 b an3 AA ao4 d i2 AA a1 EE er3 b a1 AA ai4 l e4 AA ai4 m u3 AA ai4 s i01 j i2 t i2 s an1,frontend_pass
+cars,bmwz4gt3,[Legacy] BMW Z4 GT3,旧版 宝马 Z4 GT3,旧版宝马泽德四吉提三,旧版宝马泽德四吉提三,j iu4 b an3 b ao2 m a3 z e2 d e2 s i04 j i2 t i2 s an1,frontend_pass
+cars,dallaradw12,[Legacy] Dallara DW12,旧版 达拉拉 DW12,旧版达拉拉迪达布留幺二,旧版达拉拉迪达布留幺二,j iu4 b an3 d a2 l a1 l a1 d i2 d a2 b u4 l iu2 y ao1 EE er4,frontend_pass
+cars,dallara,[Legacy] Dallara IR-05,旧版 达拉拉 IR-05,旧版达拉拉艾阿尔零五,旧版达拉拉艾阿尔零五,j iu4 b an3 d a2 l a1 l a1 AA ai4 AA a1 EE er3 l ing2 w u3,frontend_pass
+cars,ferrari488gt3,[Legacy] Ferrari 488 GT3,旧版 法拉利 488 GT3,旧版法拉利四八八吉提三,旧版法拉利四八八吉提三,j iu4 b an3 f a3 l a1 l i4 s i04 b a1 b a1 j i2 t i2 s an1,frontend_pass
+cars,mx5/cup,[Legacy] Mazda MX-5 Cup - 2010,旧版 马自达 MX-5 杯赛，2010,旧版马自达艾姆艾克斯五杯赛，二零一零,"旧版马自达艾姆艾克斯五杯赛,二零一零","j iu4 b an3 m a3 z i04 d a2 AA ai4 m u3 AA ai4 k e4 s i01 w u3 b ei1 s ai4 , EE er4 l ing2 y i1 l ing2",frontend_pass
+cars,mx5/roadster,[Legacy] Mazda MX-5 Roadster - 2010,旧版 马自达 MX-5 敞篷版，2010,旧版马自达艾姆艾克斯五敞篷版，二零一零,"旧版马自达艾姆艾克斯五敞篷版,二零一零","j iu4 b an3 m a3 z i04 d a2 AA ai4 m u3 AA ai4 k e4 s i01 w u3 ch ang3 p eng2 b an3 , EE er4 l ing2 y i1 l ing2",frontend_pass
+cars,mercedesamggt3,[Legacy] Mercedes-AMG GT3,旧版 梅赛德斯AMG GT3,旧版梅赛德斯诶艾姆吉吉提三,旧版梅赛德斯诶艾姆吉吉提三,j iu4 b an3 m ei2 s ai4 d e2 s i01 EE ei5 AA ai4 m u3 j i2 j i5 t i2 s an1,frontend_pass
+cars,stockcars/impala,[Legacy] NASCAR Cup Chevrolet Impala COT - 2009,旧版 纳斯卡 杯赛 雪佛兰 英帕拉 COT，2009,旧版纳斯卡杯赛雪佛兰英帕拉西欧提，二零零九,"旧版纳斯卡杯赛雪佛兰英帕拉西欧提,二零零九","j iu4 b an3 n a4 s i01 k a3 b ei1 s ai4 x ve3 f o2 l an2 y ing1 p a4 l a1 x i1 OO ou1 t i2 , EE er4 l ing2 l ing2 j iu3",frontend_pass
+cars,stockcars/chevyss,[Legacy] NASCAR Cup Chevrolet SS - 2013,旧版 纳斯卡 杯赛 雪佛兰 SS，2013,旧版纳斯卡杯赛雪佛兰艾斯艾斯，二零一三,"旧版纳斯卡杯赛雪佛兰艾斯艾斯,二零一三","j iu4 b an3 n a4 s i01 k a3 b ei1 s ai4 x ve3 f o2 l an2 AA ai4 s i01 AA ai4 s i01 , EE er4 l ing2 y i1 s an1",frontend_pass
+cars,stockcars/fordfusion,[Legacy] NASCAR Cup Ford Fusion - 2016,旧版 纳斯卡 杯赛 福特 蒙迪欧，2016,旧版纳斯卡杯赛福特蒙迪欧，二零一六,"旧版纳斯卡杯赛福特蒙迪欧,二零一六","j iu4 b an3 n a4 s i01 k a3 b ei1 s ai4 f u2 t e4 m eng2 d i2 OO ou1 , EE er4 l ing2 y i1 l iu4",frontend_pass
+cars,stockcars2/chevy/cot,[Legacy] NASCAR Nationwide Chevrolet Impala - 2012,旧版 纳斯卡 全国系列 雪佛兰 英帕拉，2012,旧版纳斯卡全国系列雪佛兰英帕拉，二零一二,"旧版纳斯卡全国系列雪佛兰英帕拉,二零一二","j iu4 b an3 n a4 s i01 k a3 q van2 g uo2 x i4 l ie4 x ve3 f o2 l an2 y ing1 p a4 l a1 , EE er4 l ing2 y i1 EE er4",frontend_pass
+cars,trucks/silverado,[Legacy] NASCAR Truck Chevrolet Silverado - 2008,旧版 纳斯卡 卡车 雪佛兰 索罗德，2008,旧版纳斯卡卡车雪佛兰索罗德，二零零八,"旧版纳斯卡卡车雪佛兰索罗德,二零零八","j iu4 b an3 n a4 s i01 k a3 k a3 ch e1 x ve3 f o2 l an2 s uo3 l uo2 d e2 , EE er4 l ing2 l ing2 b a1",frontend_pass
+cars,stockcars2/nwcamaro2014,[Legacy] NASCAR Xfinity Chevrolet Camaro - 2014,旧版 纳斯卡 无限系列 雪佛兰 科迈罗，2014,旧版纳斯卡无限系列雪佛兰科迈罗，二零一四,"旧版纳斯卡无限系列雪佛兰科迈罗,二零一四","j iu4 b an3 n a4 s i01 k a3 w u2 x ian4 x i4 l ie4 x ve3 f o2 l an2 k e1 m ai4 l uo2 , EE er4 l ing2 y i1 s i04",frontend_pass
+cars,stockcars2/nwford2013,[Legacy] NASCAR Xfinity Ford Mustang - 2016,旧版 纳斯卡 无限系列 福特 野马，2016,旧版纳斯卡无限系列福特野马，二零一六,"旧版纳斯卡无限系列福特野马,二零一六","j iu4 b an3 n a4 s i01 k a3 w u2 x ian4 x i4 l ie4 f u2 t e4 y E2 m a3 , EE er4 l ing2 y i1 l iu4",frontend_pass
+cars,stockcars2/camry2015,[Legacy] NASCAR Xfinity Toyota Camry - 2015,旧版 纳斯卡 无限系列 丰田 凯美瑞，2015,旧版纳斯卡无限系列丰田凯美瑞，二零一五,"旧版纳斯卡无限系列丰田凯美瑞,二零一五","j iu4 b an3 n a4 s i01 k a3 w u2 x ian4 x i4 l ie4 f eng1 t ian2 k ai3 m ei3 r ui4 , EE er4 l ing2 y i1 w u3",frontend_pass
+cars,porsche911cup,[Legacy] Porsche 911 GT3 Cup (991),旧版 保时捷 911 GT3 杯赛 ，991,旧版保时捷九幺幺吉提三杯赛，九九幺,"旧版保时捷九幺幺吉提三杯赛,九九幺","j iu4 b an3 b ao3 sh ir2 j ie2 j iu3 y ao1 y ao5 j i2 t i2 s an1 b ei1 s ai4 , j iu2 j iu3 y ao1",frontend_pass
+cars,porsche992cup,[Legacy] Porsche 911 GT3 Cup (992.1),旧版 保时捷 911 GT3 杯赛 ，992.1,旧版保时捷九幺幺吉提三杯赛，九九二点幺,"旧版保时捷九幺幺吉提三杯赛,九九二点幺","j iu4 b an3 b ao3 sh ir2 j ie2 j iu3 y ao1 y ao5 j i2 t i2 s an1 b ei1 s ai4 , j iu2 j iu3 EE er4 d ian3 y ao1",frontend_pass
+cars,porsche911rgt3,[Legacy] Porsche 911 GT3 R,旧版 保时捷 911 GT3 R,旧版保时捷九幺幺吉提三阿尔,旧版保时捷九幺幺吉提三阿尔,j iu4 b an3 b ao3 sh ir2 j ie2 j iu3 y ao1 y ao1 j i2 t i2 s an1 AA a1 EE er3,frontend_pass
+cars,formulamazda,[Legacy] Pro Mazda,旧版 专业级 马自达,旧版专业级马自达,旧版专业级马自达,j iu4 b an3 zh uan1 y E4 j i2 m a3 z i04 d a2,frontend_pass
+cars,rileydp,[Legacy] Riley MkXX Daytona Prototype - 2008,旧版 莱利 马克二十 代托纳原型车，2008,旧版莱利马克二十代托纳原型车，二零零八,"旧版莱利马克二十代托纳原型车,二零零八","j iu4 b an3 l ai2 l i4 m a3 k e4 EE er4 sh ir2 d ai4 t uo1 n a4 y van2 x ing2 ch e1 , EE er4 l ing2 l ing2 b a1",frontend_pass
+cars,fordv8sc,[Legacy] V8 Supercar Ford Falcon - 2009,旧版 V8 超级房车 福特 猎鹰，2009,旧版维八超级房车福特猎鹰，二零零九,"旧版维八超级房车福特猎鹰,二零零九","j iu4 b an3 w ei2 b a1 ch ao1 j i2 f ang2 ch e1 f u2 t e4 l ie4 y ing1 , EE er4 l ing2 l ing2 j iu3",frontend_pass
+cars,v8supercars/ford2014,[Legacy] V8 Supercar Ford FG Falcon - 2014,旧版 V8 超级房车 福特 FG 猎鹰，2014,旧版维八超级房车福特艾弗吉猎鹰，二零一四,"旧版维八超级房车福特艾弗吉猎鹰,二零一四","j iu4 b an3 w ei2 b a1 ch ao1 j i2 f ang2 ch e1 f u2 t e4 AA ai4 f u2 j i2 l ie4 y ing1 , EE er4 l ing2 y i1 s i04",frontend_pass
+cars,v8supercars/holden2014,[Legacy] V8 Supercar Holden VF Commodore - 2014,旧版 V8 超级房车 霍顿 VF 康莫多尔，2014,旧版维八超级房车霍顿维艾弗康莫多尔，二零一四,"旧版维八超级房车霍顿维艾弗康莫多尔,二零一四","j iu4 b an3 w ei2 b a1 ch ao1 j i2 f ang2 ch e1 h uo4 d un4 w ei2 AA ai4 f u2 k ang1 m o4 d uo1 EE er3 , EE er4 l ing2 y i1 s i04",frontend_pass
+cars,bmwm2g87,BMW M2 Racing (G87),宝马 M2 赛车版，G87,宝马艾姆二赛车版，吉八七,"宝马艾姆二赛车版,吉八七","b ao2 m a3 AA ai4 m u3 EE er4 s ai4 ch e1 b an3 , j i2 b a1 q i1",frontend_pass
+cars,bmwm2csr,BMW M2 CS Racing (F87) - 2020,宝马 M2 CS 赛车版，F87，2020版,宝马艾姆二西艾斯赛车版，艾弗八七，二零二零版,"宝马艾姆二西艾斯赛车版,艾弗八七,二零二零版","b ao2 m a3 AA ai4 m u3 EE er4 x i1 AA ai4 s i01 s ai4 ch e1 b an3 , AA ai4 f u2 b a1 q i1 , EE er4 l ing2 EE er4 l ing2 b an3",frontend_pass
+cars,audirs3lmsgen2,Audi RS3 LMS Gen2 TCR,奥迪 RS3 LMS 第二代 TCR,奥迪阿尔艾斯三艾勒艾姆艾斯第二代提西阿尔,奥迪阿尔艾斯三艾勒艾姆艾斯第二代提西阿尔,AA ao4 d i2 AA a1 EE er3 AA ai4 s i01 s an1 AA ai4 l e4 AA ai4 m u3 AA ai4 s i01 d i4 EE er4 d ai4 t i2 x i1 AA a1 EE er3,frontend_pass
+cars,audirs3lmsgen2#alias,Audi RS 3 LMS Gen2 TCR,Audi RS 3 LMS Gen2 TCR,奥迪阿尔艾斯三艾勒艾姆艾斯第二代提西阿尔,奥迪阿尔艾斯三艾勒艾姆艾斯第二代提西阿尔,AA ao4 d i2 AA a1 EE er3 AA ai4 s i01 s an1 AA ai4 l e4 AA ai4 m u3 AA ai4 s i01 d i4 EE er4 d ai4 t i2 x i1 AA a1 EE er3,frontend_pass
+cars,amvalkyriegtp,Aston Martin Valkyrie AMR-LMH,阿斯顿马丁 瓦尔基里 AMR-LMH,阿斯顿马丁瓦尔基里诶艾姆阿尔艾勒艾姆艾尺,阿斯顿马丁瓦尔基里诶艾姆阿尔艾勒艾姆艾尺,AA a1 s i01 d un4 m a3 d ing1 w a2 EE er3 j i1 l i3 EE ei5 AA ai4 m u3 AA a1 EE er3 AA ai4 l e4 AA ai4 m u3 AA ai4 ch ir3,frontend_pass
+cars,caterham/caterhamacademy,Caterham Academy,卡特汉姆 学院版,卡特汉姆学院版,卡特汉姆学院版,k a3 t e4 h an4 m u3 x ve2 y van4 b an3,frontend_pass
+cars,caterham/caterham420r,Caterham 420R,卡特汉姆 420R,卡特汉姆四二零阿尔,卡特汉姆四二零阿尔,k a3 t e4 h an4 m u3 s i04 EE er4 l ing2 AA a1 EE er3,frontend_pass
+cars,euronascar,Euro NASCAR V8GP,欧洲纳斯卡 V8GP,欧洲纳斯卡维八吉皮,欧洲纳斯卡维八吉皮,OO ou1 zh ou1 n a4 s i01 k a3 w ei2 b a1 j i2 p i2,frontend_pass
+cars,supercars/chevycamarogen3,Supercars Chevrolet Camaro Gen 3,澳洲超级房车 雪佛兰 科迈罗 第三代,澳洲超级房车雪佛兰科迈罗第三代,澳洲超级房车雪佛兰科迈罗第三代,AA ao4 zh ou1 ch ao1 j i2 f ang2 ch e1 x ve3 f o2 l an2 k e1 m ai4 l uo2 d i4 s an1 d ai4,frontend_pass
+cars,stockcars2/chevy/national,NASCAR Gen 4 Grand National,纳斯卡第四代全国系列赛车,纳斯卡第四代全国系列赛车,纳斯卡第四代全国系列赛车,n a4 s i01 k a3 d i4 s i04 d ai4 q van2 g uo2 x i4 l ie4 s ai4 ch e1,frontend_pass
+cars,srx,SRX,SRX,艾斯阿尔艾克斯,艾斯阿尔艾克斯,AA ai4 s i01 AA a1 EE er3 AA ai4 k e4 s i01,frontend_pass
+cars,dirtmicrosprint/winged/outlaw,Dirt Outlaw Micro Sprint Car - Winged,泥地 自由规格 微型冲刺赛车，有翼型,泥地自由规格微型冲刺赛车，有翼型,"泥地自由规格微型冲刺赛车,有翼型","n i2 d i5 z i04 y ou2 g ui1 g e2 w ei1 x ing2 ch ong1 c i04 s ai4 ch e1 , y ou3 y i4 x ing2",frontend_pass
+cars,dirtmicrosprint/nonwinged/outlaw,Dirt Outlaw Micro Sprint Car - Non-Winged,泥地 自由规格 微型冲刺赛车，无翼型,泥地自由规格微型冲刺赛车，无翼型,"泥地自由规格微型冲刺赛车,无翼型","n i2 d i5 z i04 y ou2 g ui1 g e2 w ei1 x ing2 ch ong1 c i04 s ai4 ch e1 , w u2 y i4 x ing2",frontend_pass
+cars,formulavee/formulavee2,Formula Vee - Cutlass,维式方程式，卡特拉斯,维式方程式，卡特拉斯,"维式方程式,卡特拉斯","w ei2 sh ir4 f ang1 ch eng2 sh ir4 , k a3 t e4 l a1 s i01",frontend_pass
+cars,formulavee/formulavee3,Formula Vee - Conqueror,维式方程式，征服者,维式方程式，征服者,"维式方程式,征服者","w ei2 sh ir4 f ang1 ch eng2 sh ir4 , zh eng1 f u2 zh e3",frontend_pass
+cars,legends/dirtford34c,Dirt Legends Ford 1934 Coupe,泥地 传奇赛车 福特 1934款 双门轿跑,泥地传奇赛车福特一九三四款双门轿跑,泥地传奇赛车福特一九三四款双门轿跑,n i2 d i5 ch uan2 q i2 s ai4 ch e1 f u2 t e4 y i1 j iu3 s an1 s i04 k uan3 sh uang1 m en2 j iao4 p ao3,frontend_pass
+cars,trucks/ram2026,NASCAR Truck RAM,纳斯卡公羊卡车,纳斯卡公羊卡车,纳斯卡公羊卡车,n a4 s i01 k a3 g ong1 y ang2 k a3 ch e1,frontend_pass
+cars,trucks/silverado2015,[Legacy] NASCAR Truck Chevrolet Silverado - 2015,旧版纳斯卡雪佛兰索罗德卡车，2015版,旧版纳斯卡雪佛兰索罗德卡车，二零一五版,"旧版纳斯卡雪佛兰索罗德卡车,二零一五版","j iu4 b an3 n a4 s i01 k a3 x ve3 f o2 l an2 s uo3 l uo2 d e2 k a3 ch e1 , EE er4 l ing2 y i1 w u2 b an3",frontend_pass
