@@ -1,9 +1,9 @@
 ﻿[Speaker Phrases]
 GreetingWeather.1=气温%air%度，赛道温度%track%度。%weather%。赛道抓地状态：%grip%。
 GreetingWeather.2=气温%air%度，赛道温度%track%度。%weather%。赛道抓地状态：%grip%。
-GreetingIntro.1=我是芙宁娜，会帮你留意周围的赛车。
-GreetingIntro.2=我是芙宁娜，会帮你留意周围的赛车。
-GreetingIntro.3=我是芙宁娜，会帮你留意周围的赛车。
+GreetingIntro.1=我是芙宁娜，比赛中的圈速播报和周围赛车提醒由我负责，我也会留意天气变化与进站策略。
+GreetingIntro.2=我是芙宁娜，比赛中的圈速播报和周围赛车提醒由我负责，我也会留意天气变化与进站策略。
+GreetingIntro.3=我是芙宁娜，比赛中的圈速播报和周围赛车提醒由我负责，我也会留意天气变化与进站策略。
 GreetingPosition.1=你排在第%position%位，%overall%。
 GreetingPosition.2=你排在第%position%位，%overall%。
 GreetingPosition.3=你排在第%position%位，%overall%。

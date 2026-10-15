@@ -121,6 +121,8 @@ def prepare_config(root, docs):
         location = str(Path(root).resolve()).replace('\\', '\\\\').replace('=', '\\=')
         user = str(Path(docs) / 'Simulator Controller').replace('\\', '\\\\').replace('=', '\\=')
         installation.write_text('[Install]\nType=Portable\nLocation=' + location + '\nUser=' + user + '\n[Updates]\nAutomatic=true\nVerbose=false\n[Shortcuts]\nDesktop=false\nStartMenu=false\n', encoding='utf-8-sig')
+    from simulator_identity import ensure_identity
+    ensure_identity(folder.parent)
     return target
 
 def enable_iracing(text):

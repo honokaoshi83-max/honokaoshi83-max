@@ -39,7 +39,10 @@ class DamageTests(unittest.TestCase):
     def test_optional_escalates_to_required(self):
         m = DamageMonitor()
         m.update(self.sample(warnings=256), 0)
-        self.assertIn('可选维修', ''.join(m.update(self.sample(warnings=256), 2.1)))
+        self.assertEqual(m.update(self.sample(warnings=256),1.9),[])
+        self.assertEqual(m.update(self.sample(warnings=256), 2.1),[
+            '检测到车辆碰撞，请安全驾驶。方向、制动或动力异常时提前回站进行维修。'])
+        self.assertEqual(m.update(self.sample(warnings=256),2.5),[])
         m.update(self.sample(warnings=384), 3)
         self.assertIn('强制维修', ''.join(m.update(self.sample(warnings=384), 5.1)))
 

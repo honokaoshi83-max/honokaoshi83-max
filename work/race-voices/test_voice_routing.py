@@ -3,6 +3,12 @@ from voice_routing import route_voice
 from flag_monitor import FlagMonitor
 
 class RoutingTests(unittest.TestCase):
+    def test_checkered_flag_keeps_furina_and_farewell_keeps_clorinde(self):
+        flag=FlagMonitor().update(0x1,0)
+        self.assertEqual(flag,['方格旗，本次比赛结束，请安全返回。'])
+        self.assertEqual(route_voice(flag[0],'clorinde'),'furina')
+        self.assertEqual(route_voice('本次比赛结束，期待下一次合作。','furina'),'clorinde')
+
     def test_interrupted_opening_keeps_its_original_place_after_flag(self):
         import queue,threading
         from unittest.mock import patch

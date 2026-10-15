@@ -52,6 +52,13 @@ class SimulatorLink:
             # Migrate our own controller from independent speakers to the broker.
             self.stop()
         if time.monotonic()<self.next_attempt:return 'waiting_to_retry'
+        if state.get('documents'):
+            from simulator_identity import ensure_identity
+            from slow_car_settings import ensure_slow_car_limit
+            home=state['documents']/'Simulator Controller'
+            ensure_identity(home)
+            if not ensure_slow_car_limit(home):
+                return 'needs_database_identity'
         self.next_attempt=time.monotonic()+30
         executable=state['root']/'Binaries/Simulator Controller.exe'
         broker_exe=executable.parent/'Voice Server.exe'

@@ -25,6 +25,24 @@ class LinkTests(unittest.TestCase):
                 self.assertEqual(link.ensure(True),'running_owned')
             launch.assert_called_once()
             self.assertEqual(launch.call_args.args[0],[str(exe),'-Voice','123'])
+    def test_native_slow_car_range_is_prepared_before_controller_launch(self):
+        with tempfile.TemporaryDirectory() as d:
+            link,exe=self.setup_link(d);link.inspect()['documents']=Path(d)/'documents'
+            process=Mock();process.pid=123;process.exe.return_value=str(exe);process.create_time.return_value=456.
+            order=[]
+            def prepare(home):order.append('settings');return True
+            def spawn(*args,**kwargs):order.append('launch');return process
+            with patch('slow_car_settings.ensure_slow_car_limit',side_effect=prepare) as settings,patch('simulator_link.running_controller',return_value=None),patch('simulator_link.running_voice_server',return_value=process),patch('simulator_link.psutil.Process',return_value=process),patch('simulator_link.subprocess.Popen',side_effect=spawn):
+                self.assertEqual(link.ensure(True),'started')
+            settings.assert_called_once_with(Path(d)/'documents/Simulator Controller')
+            self.assertEqual(order,['settings','launch'])
+
+    def test_missing_settings_identity_does_not_start_default_500m_spotter(self):
+        with tempfile.TemporaryDirectory() as d:
+            link,exe=self.setup_link(d);link.inspect()['documents']=Path(d)/'documents'
+            with patch('slow_car_settings.ensure_slow_car_limit',return_value=False),patch('simulator_link.running_controller',return_value=None),patch('simulator_link.subprocess.Popen') as launch:
+                self.assertEqual(link.ensure(True),'needs_database_identity')
+            launch.assert_not_called()
     def test_broker_starts_before_controller_and_owned_broker_stops(self):
         with tempfile.TemporaryDirectory() as d:
             link,exe=self.setup_link(d)

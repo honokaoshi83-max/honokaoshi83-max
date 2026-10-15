@@ -43,6 +43,11 @@ class SimulatorProxyTests(unittest.TestCase):
         (sc / 'Config/Simulator Configuration.ini').write_text('[Configuration]\nSimulators=\n')
         result = prepare_config(sc, self.root / 'documents').read_text(encoding='utf-8-sig')
         self.assertIn('Simulators=iRacing', result); self.assertIn('IRC=true|iRacing|', result)
+        identity=self.root/'documents/Simulator Controller/Config/ID'
+        self.assertTrue(identity.is_file(),'Fresh installation must create the component identity')
+        import uuid
+        self.assertEqual(uuid.UUID(identity.read_text()).version,4)
+        self.assertEqual(identity.read_bytes(),(self.root/'documents/Simulator Controller/Database/ID').read_bytes())
 
     def test_existing_controls_are_preserved_and_backed_up(self):
         folder = self.root / 'documents/Simulator Controller/Config'; folder.mkdir(parents=True)

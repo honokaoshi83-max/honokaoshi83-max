@@ -12,7 +12,7 @@ from functools import lru_cache
 from runtime_settings import data_path
 
 ENGINEER='我是克洛琳德，负责赛车状态、油量和维修提醒。'
-SPOTTER='我是芙宁娜，负责圈速、周围赛车、天气和策略提醒。'
+SPOTTER='我是芙宁娜，比赛中的圈速播报和周围赛车提醒由我负责，我也会留意天气变化与进站策略。'
 ACTIVE=Path(__file__).resolve().parent/'opening_active.json'
 PRIORITY=ACTIVE.with_name('component_speech_priority.json')
 PRIORITY_LOCK=threading.Lock()
@@ -78,7 +78,8 @@ def opening_sequence(name,air=None,track=None,wetness=None):
 
 @lru_cache(maxsize=1)
 def greeting_patterns():
-    templates={ENGINEER,SPOTTER,'我是芙宁娜，会帮你留意周围的赛车。','需要帮助随时叫我。',
+    templates={ENGINEER,SPOTTER,'我是芙宁娜，负责圈速、周围赛车、天气和策略提醒。',
+               '我是芙宁娜，会帮你留意周围的赛车。','需要帮助随时叫我。',
                '赛车状态和油量监控已就绪。','进站策略监控已就绪。','策略监控也已就绪。'}
     path=data_path('phrasebook.json')
     if path.exists():

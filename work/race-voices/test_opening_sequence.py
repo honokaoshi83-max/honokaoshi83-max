@@ -36,6 +36,8 @@ class OpeningTests(unittest.TestCase):
         self.assertEqual(len(opening_sequence('筑波2000',float('nan'),None,0)),5)
     def test_filter_only_native_greetings(self):
         self.assertTrue(native_greeting(ENGINEER))
+        self.assertTrue(native_greeting(SPOTTER))
+        self.assertTrue(native_greeting('我是芙宁娜，负责圈速、周围赛车、天气和策略提醒。'))
         self.assertTrue(native_greeting('气温20度，赛道温度32度。晴天。赛道抓地状态：Fast。'))
         self.assertFalse(native_greeting('左侧有车。'))
         self.assertFalse(native_greeting('温度在上升。气温20度，赛道温度32度。'))

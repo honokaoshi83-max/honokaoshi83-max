@@ -1,10 +1,10 @@
 # 完整离线安装版
 
-运行 `iracing-chinese-assistant-0.2.1-setup.exe`，选择安装位置，完成后从桌面快捷方式启动。安装器与同名数据 `.bin` 必须放在同一文件夹，复制到其他电脑时一并复制。
+运行 `iracing-chinese-assistant-0.2.5-setup.exe`，选择安装位置，完成后从桌面快捷方式启动。安装器与同名数据 `.bin` 必须放在同一文件夹，复制到其他电脑时一并复制。
 
 安装包包含桌面应用、独立 Python 3.10.11、CPU 版 PyTorch 2.5.1、GPT-SoVITS 推理源码与基础模型、中文发音组件、FFmpeg、克洛琳德和芙宁娜权重与参考录音。首次运行无需下载默认音色，不需要打开 GPT-SoVITS 网页界面。
 
-工程师默认使用克洛琳德，负责圈速、车辆、轮胎和按键状态摘要。观察员／策略师默认使用芙宁娜；邻车、旗号和策略播报依赖 Simulator Controller。安装完成页默认勾选“一键安装并接入 Simulator Controller”，需要联网获取官方发布包和组件，并自动创建 iRacing 中文基础配置、接入本地语音。取消勾选会缺少邻车、旗号和策略播报；本地车辆、轮胎、油量与按键状态播报仍可使用。
+工程师默认使用克洛琳德，负责车辆、油量、轮胎、维修和按键状态摘要。观察员／策略师默认使用芙宁娜，负责圈速、周围赛车、天气、旗号和策略；邻车、旗号和策略播报依赖 Simulator Controller。安装完成页默认勾选“一键安装并接入 Simulator Controller”，需要联网获取官方发布包和组件，并自动创建 iRacing 中文基础配置、接入本地语音。取消勾选会缺少邻车、旗号和策略播报；本地车辆、轮胎、油量与按键状态播报仍可使用。
 
 一键安装从上游官方 VERSION 清单获取正式发布包及配套组件，使用 HTTPS 官方镜像，校验 ZIP 和必需程序，完整下载后再提交到当前用户的 `AppData\Local\Programs\SimulatorController`。程序仍独立放置，个人数据仍位于 Windows“文档”的 Simulator Controller 目录。已有安装直接复用，已有配置先备份，保留原有 iRacing 进站按键；不会重复覆盖程序目录。下载来源、版本和文件 SHA256 保存在组件目录的 `chinese-assistant-install.json`。后续更新由上游维护。官方安装器保留为手动备用入口。请参阅[官方安装与配置指引](https://github.com/SeriousOldMan/Simulator-Controller/wiki/Installation-%26-Configuration)。
 
@@ -28,4 +28,10 @@
 
 应用源码引用来源见 `README.md` 和 `licenses`。默认音色来自 UnlimitedBurst/GPT-SoVITS 的克洛琳德目录以及 leletxh/Furina_GPT_SoVITS；下载地址和哈希见 `config/assets.json`，GPT-SoVITS 源码版本见 `config/upstream.json`。
 
-此含角色模型的完整安装包为本地个人使用构建。模型及角色素材的再分发授权未全部确认，不随源码仓库公开发布。
+源码仓库不存放模型二进制；完整安装版的发布附件包含默认模型和参考音频，各来源条款分别适用，见[第三方说明](../THIRD_PARTY.md)。
+
+## 0.2.5 首次安装与日志
+
+安装阶段与自动启动前补齐组件本地GUID，已有身份原样保留，无需填写iRacing Customer ID。先初始化身份与150米慢车范围，再启动组件。另一台设备实际安装仍待验证。
+
+左侧“诊断日志”提供查看入口；运行日志在安装目录`work/race-voices`，组件安装日志在`logs/simulator-install.log`。

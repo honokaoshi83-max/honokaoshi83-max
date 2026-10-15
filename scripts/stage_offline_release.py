@@ -30,5 +30,5 @@ manifest=[]
 for name in files+['iracing-assistant.exe','config/default.json','work/race-voices/status_button_settings.json']:
     path=target/name
     if path.is_file():manifest.append({'path':name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
-(target/'config/release-files.json').write_text(json.dumps({'version':'0.2.4','files':manifest},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(json.dumps({'version':'0.2.4','public_files':len(manifest),'engine':config['engine'],'first_install_button':'unbound'}))
+(target/'config/release-files.json').write_text(json.dumps({'version':'0.2.5','files':manifest},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({'version':'0.2.5','public_files':len(manifest),'engine':config['engine'],'first_install_button':'unbound'}))

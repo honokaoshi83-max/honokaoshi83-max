@@ -55,7 +55,7 @@ class DamageMonitor:
             if level == 'required':
                 parts.append('赛车需要强制维修，请尽快安全返回维修区。车辆无法控制时，在安全位置停车并呼叫拖车。')
             elif level == 'optional':
-                parts.append('检测到可选维修需求，部位和程度尚不明确。方向、制动或动力异常时提前回站，否则考虑计划进站时维修。')
+                parts.append('检测到车辆碰撞，请安全驾驶。方向、制动或动力异常时提前回站进行维修。')
             if engine & 4:
                 parts.append('发动机机油压力告警，请减轻负荷，尽快安全回站检查。')
             if engine & 1:

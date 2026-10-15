@@ -4,7 +4,8 @@ from pathlib import Path
 
 root=Path(sys.argv[1]).resolve()
 manifest=json.loads((root/'config/release-files.json').read_text(encoding='utf-8'))
-assert manifest['version']=='0.2.4'
+assert manifest['version']=='0.2.5'
+assert json.loads((root/'config/offline-bundle.json').read_text(encoding='utf-8'))['version']==manifest['version']
 for row in manifest['files']:
     path=root/row['path']
     assert hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256'],row['path']
