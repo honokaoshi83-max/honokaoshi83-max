@@ -5,7 +5,7 @@
   #define FromVersion "0.2.4"
 #endif
 #ifndef ToVersion
-  #define ToVersion "0.2.6"
+  #define ToVersion "0.2.7"
 #endif
 #ifndef OutputDir
   #define OutputDir "..\dist\updates"

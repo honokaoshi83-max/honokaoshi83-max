@@ -8,7 +8,7 @@
 
 更新日期：2026-10-16。
 
-- **0.2.6 源码进度**：新增最近一次正赛／Time Trial复盘、默认关闭的“赛事策略（测试中）”页面和手动联网检查更新。当前正式下载安装版仍为0.2.5；仓库源码同步不代表已更新安装包。[本版更新说明](docs/CHANGELOG_0.2.6.md)
+- **0.2.7 安装版**：将最新复盘、按键保护和安全优先级汇总到完整安装版，提供0.2.4／0.2.5／原始0.2.6构建的升级补丁；包含默认关闭的“赛事策略（测试中）”页面和手动联网检查更新。[本版更新说明](docs/CHANGELOG_0.2.7.md)
 - **播报按键保护**：监听与SDK、复盘和推理独立，驱动异常恢复，手动请求预留队列和合成通道。优先级为“快车／左右并排等安全提醒 > 手动状态摘要 > 普通信息”；安全提醒能打断摘要与确认音。原绑定和防重复设置保留，实体按键和长时间比赛仍待验收。
 - **自动复盘**：页面展示最近一次比赛，历史TXT与JSON保存在安装目录“复盘”文件夹。正赛包含排名，Time Trial关注圈速与有效圈；波动率显示实际百分比及括号分档规则，括号内容不朗读。[复盘说明](docs/REVIEWS.md)
 - **本次验证**：228项后台、49项桌面测试通过；实际EXE启动、双音色接口、13个模型与参考文件哈希及735条名称中文前端检查通过。完整听感、游戏触发和其他设备安装仍需实测。[自检记录](docs/程序自检-2026-10-16.md)
@@ -51,7 +51,7 @@
 | 状态摘要 | 防连发及数据规则已检查；实体按键与游戏验收待完成 |
 | 赛后复盘 | 正赛与Time Trial自动保存、最近一次页面及延迟复盘已实现；结束时机待游戏验收 |
 | 赛事策略（测试中） | 独立页面与主动开关已提供，默认关闭；不自动修改游戏进站服务 |
-| 应用内更新 | 手动检查、校验下载与保留设置的增量更新器已实现；最新改动尚未重新打包 |
+| 应用内更新 | 手动检查、校验下载与保留设置的增量更新器已实现；提供对应旧版的升级补丁，保留个人设置 |
 
 ## 工作方式
 
@@ -94,9 +94,9 @@ iRacing 遥测
 
 ## 安装与运行
 
-推荐下载 **[v0.2.5 完整桌面安装版](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/tag/v0.2.5)**。下载 `.zip.001` 和 `.zip.002` 两个分卷，放在同一文件夹，用 [7-Zip](https://www.7-zip.org/download.html) 打开 `.001` 解压，再运行其中的 **iracing-chinese-assistant-0.2.5-setup.exe**。不要逐卷分别解压，解压后的 `.exe` 与 `.bin` 保持同目录。分卷校验文件和中文安装说明均在发行页面。
+推荐下载 **[v0.2.7 完整桌面安装版](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/tag/v0.2.7)**。下载 `.zip.001` 和 `.zip.002` 两个分卷，放在同一文件夹，用 [7-Zip](https://www.7-zip.org/download.html) 打开 `.001` 解压，再运行其中的 **iracing-chinese-assistant-0.2.7-setup.exe**。不要逐卷分别解压，解压后的 `.exe` 与 `.bin` 保持同目录。分卷校验文件和中文安装说明均在发行页面。
 
-[下载安装包](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/latest) · [完整安装说明](docs/INSTALL.md) · [验证记录](docs/PORTABLE_VALIDATION.md)
+[下载安装包](https://github.com/honokaoshi83-max/iracing-chinese-assistant/releases/latest) · [完整安装说明](docs/SETUP_0.2.7.md) · [验证记录](docs/PORTABLE_VALIDATION.md)
 
 完整桌面安装版包含 Python、CPU PyTorch、GPT-SoVITS、基础模型与默认芙宁娜和克洛琳德音色，不需要另开语音网页。安装完成页默认勾选 Simulator Controller 一键安装并接入；需要联网获取官方组件，已有配置先备份。也可从应用首页打开安装引导。
 
