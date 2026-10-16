@@ -4,7 +4,6 @@ from pathlib import Path
 
 root=Path(sys.argv[1]).resolve()
 manifest=json.loads((root/'config/release-files.json').read_text(encoding='utf-8'))
-assert manifest['version']=='0.2.5'
 assert json.loads((root/'config/offline-bundle.json').read_text(encoding='utf-8'))['version']==manifest['version']
 for row in manifest['files']:
     path=root/row['path']
@@ -18,9 +17,10 @@ for row in assets:
     with path.open('rb') as stream:
         for block in iter(lambda:stream.read(4*1024*1024),b''):digest.update(block)
     assert digest.hexdigest()==row['sha256'],row['path']
-for name in ('local.json',):assert not (root/'config'/name).exists(),name
+assert not (root/'复盘').exists(),'个人复盘目录'
+for name in ('local.json','race-strategy.json'):assert not (root/'config'/name).exists(),name
 for name in ('driver_numbers.json','component_speech_priority.json','opening_active.json',
-             'voice_library.json','voice_import_request.json','playback_settings.json','simulator_controller_owner.json'):
+             'voice_library.json','voice_import_request.json','playback_settings.json','simulator_controller_owner.json','review_state.json','review_status.json','manual_speech_active.json'):
     assert not (root/'work/race-voices'/name).exists(),name
 print(json.dumps({'version':manifest['version'],'source_hashes':len(manifest['files']),
                   'verified_models':len(assets),'private_state':'absent'}))

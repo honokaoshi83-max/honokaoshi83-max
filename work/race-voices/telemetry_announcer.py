@@ -209,14 +209,20 @@ class LapTracker:
         return message
 
 def log(event, **data):
-    with (ROOT/'telemetry_events.jsonl').open('a', encoding='utf-8') as f:
-        f.write(json.dumps({'time':time.strftime('%Y-%m-%d %H:%M:%S'), 'event':event, **data}, ensure_ascii=False)+'\n')
+    try:
+        with (ROOT/'telemetry_events.jsonl').open('a', encoding='utf-8') as f:
+            f.write(json.dumps({'time':time.strftime('%Y-%m-%d %H:%M:%S'), 'event':event, **data}, ensure_ascii=False)+'\n')
+    except OSError:pass
 
 class Announcer:
     def __init__(self):
-        self.items = queue.PriorityQueue(maxsize=16)
+        from button_priority import SpeechQueue,AudioOwner,SynthesisInbox
+        self.items = SpeechQueue(capacity=16)
+        self.audio_owner=AudioOwner();self.synthesis=SynthesisInbox();self.manual_pending=threading.Event()
         self._sequence=count()
         self.urgent_pending=threading.Event()
+        self.safety_pending=threading.Event()
+        self.safety_active=threading.Event()
         self.opening_generation=0
         mark_opening(False)
         self.error_latched = False
@@ -239,10 +245,13 @@ class Announcer:
 
     def submit(self, text):
         try:
+            from button_priority import spotter_safety
+            safety=spotter_safety(text) and not isinstance(text,OpeningLine)
             urgent=getattr(text,'flag',False)
             sequence=self.__dict__.setdefault('_sequence',count())
-            item=(0 if urgent else 1,(time.monotonic(),next(sequence)),text,False)
+            item=(-2 if safety else 0 if urgent else 1,(time.monotonic(),next(sequence)),text,False)
             self.items.put_nowait(item)
+            if safety:self.__dict__.setdefault('safety_pending',threading.Event()).set()
             if urgent:self.urgent_pending.set()
             log('queued', text=text,order=item[1][1])
         except queue.Full:
@@ -267,32 +276,66 @@ class Announcer:
                 return False
             try:
                 sequence=self.__dict__.setdefault('_sequence',count())
-                self.items.put_nowait((1,(time.monotonic(),next(sequence)),text,True))
                 self.status_pending=True
+                manual=getattr(self,'manual_pending',None)
+                if manual is not None:
+                    manual.set()
+                    from button_priority import reserve_manual
+                    self.manual_owner=str(time.monotonic_ns())
+                    try:reserve_manual(ROOT,self.manual_owner)
+                    except OSError as error:log('manual_reservation_error',detail=str(error)[:100])
                 prompt=getattr(self,'status_prompt',None)
-                self.status_ack_until=prompt.play() if prompt else 0
+                self.status_ack_until=0
+                # Worker takes status_lock before playback, so acknowledgement
+                # still starts first. Reject unavailable slots without a false ACK.
+                self.items.put_nowait((-1,(time.monotonic(),next(sequence)),text,True))
+                if prompt:
+                    from button_priority import AudioOwner
+                    owner=self.__dict__.setdefault('audio_owner',AudioOwner())
+                    def acknowledge():self.status_ack_until=prompt.play(force=True)
+                    def can_acknowledge():
+                        return not any(getattr(self,name,threading.Event()).is_set() for name in ('safety_pending','safety_active'))
+                    try:owner.play(acknowledge,allowed=can_acknowledge)
+                    except Exception as error:log('status_ack_error',detail=str(error)[:150])
                 log('status_acknowledged' if self.status_ack_until else 'status_ack_skipped')
                 log('status_queued',text=text)
                 return True
             except queue.Full:
+                self.status_pending=False
+                if manual is not None:manual.clear()
+                from button_priority import release_manual
+                release_manual(ROOT,getattr(self,'manual_owner',None))
                 log('status_queue_full')
                 return False
 
     def play(self):
         import requests, winsound, wave
+        from button_priority import AudioOwner,SynthesisInbox,active_spotter_safety
+        self.__dict__.setdefault('audio_owner',AudioOwner())
+        self.__dict__.setdefault('synthesis',SynthesisInbox())
+        self.__dict__.setdefault('manual_pending',threading.Event())
+        self.__dict__.setdefault('safety_active',threading.Event())
         audio = ROOT/'telemetry_playback.wav'
         while True:
             item=self.items.get()
             if len(item)==3:priority=1;created,text,is_status=item
             else:priority,created,text,is_status=item
+            queue_created=created
             if isinstance(created,tuple):created=created[0]
             if priority==0:self.urgent_pending.clear()
+            if priority==-2:
+                self.safety_active.set()
+                getattr(self,'safety_pending',threading.Event()).clear()
             # A long requested summary may require uncached CPU synthesis.
             opening=isinstance(text,OpeningLine) or text.startswith("当前赛道是")
             cancelled=lambda:isinstance(text,OpeningLine) and getattr(text,'generation',self.opening_generation)!=self.opening_generation
             urgent_event=getattr(self,'urgent_pending',None)
-            preempted=lambda:priority>0 and urgent_event is not None and urgent_event.is_set()
-            limit=120 if is_status else (180 if opening else 25)
+            manual_event=getattr(self,'manual_pending',None)
+            safety_event=getattr(self,'safety_pending',None)
+            preempted=lambda:(priority>-2 and safety_event is not None and safety_event.is_set()) or (not is_status and priority>=0 and manual_event is not None and manual_event.is_set()) or (priority>0 and urgent_event is not None and urgent_event.is_set())
+            speaking=lambda:(SC_TEMP/'Speaking.status').exists() and (not is_status or active_spotter_safety())
+            audio_token=[None]
+            limit=120 if is_status else (180 if opening or getattr(text,'review',False) else 25)
             try:
                 if cancelled():
                     log('opening_cancelled',text=text);continue
@@ -300,17 +343,21 @@ class Announcer:
                     # Submission holds this lock until local acknowledgement starts.
                     with self.status_lock:ack_until=self.status_ack_until
                 else:ack_until=0
-                while (SC_TEMP/'Speaking.status').exists() and time.monotonic()-created < limit-5:
-                    if cancelled():break
+                while speaking() and time.monotonic()-created < limit-5:
+                    if cancelled() or preempted():break
                     time.sleep(.1)
+                if preempted():
+                    from button_priority import ManualPreemption
+                    raise ManualPreemption()
                 if cancelled():
                     log('opening_cancelled',text=text);continue
                 if time.monotonic()-created >= limit-5:
                     log('expired', text=text)
                     continue
-                response = requests.post(service_url()+'/v1/audio/speech', json={
+                payload={
                     'voice':'furina' if text.startswith('本圈') else getattr(text,'voice','clorinde'), 'input':text, 'speed':1.0,
-                    'response_format':'wav','opening':opening,'flag':getattr(text,'flag',False)}, timeout=90)
+                    'response_format':'wav','opening':opening,'flag':getattr(text,'flag',False),'review':getattr(text,'review',False),'manual':is_status}
+                response=self.synthesis.response((str(text),opening,is_status),lambda payload=payload:requests.post(service_url()+'/v1/audio/speech',json=payload,timeout=90),preempted,manual=is_status,safety=priority==-2)
                 response.raise_for_status()
                 self.audio_state()
                 audio.write_bytes(response.content)
@@ -325,31 +372,43 @@ class Announcer:
                     w.setsampwidth(width)
                     w.setframerate(rate)
                     w.writeframes(pcm)
-                while time.monotonic()<ack_until and not (SC_TEMP/'Speaking.status').exists():
+                while time.monotonic()<ack_until and not speaking():
                     time.sleep(.02)
-                while (SC_TEMP/'Speaking.status').exists() and time.monotonic()-created < limit:
-                    if cancelled():break
+                while speaking() and time.monotonic()-created < limit:
+                    if cancelled() or preempted():break
                     time.sleep(.1)
                 if time.monotonic()-created >= limit:
                     log('expired_after_synthesis', text=text)
                     continue
+                def start_audio():
+                    audio_token[0]=self.audio_owner.play(lambda:winsound.PlaySound(str(audio),winsound.SND_FILENAME|winsound.SND_ASYNC),allowed=lambda:not preempted())
                 played=play_with_priority(
-                    lambda:winsound.PlaySound(str(audio),winsound.SND_FILENAME|winsound.SND_ASYNC),
-                    lambda:winsound.PlaySound(None,winsound.SND_PURGE),
-                    lambda:(SC_TEMP/'Speaking.status').exists() and (not opening or component_interrupts_opening()),duration,created,limit,
+                    start_audio,
+                    lambda:self.audio_owner.stop(audio_token[0],lambda:winsound.PlaySound(None,winsound.SND_PURGE)),
+                    lambda:speaking() and (not opening or component_interrupts_opening()),duration,created,limit,
                     opening=opening,is_status=is_status,
                     on_interrupt=lambda:log('yield_to_spotter',text=text),cancelled=lambda:cancelled() or preempted())
                 log('played' if played else 'playback_not_completed',text=text,duration=round(duration,2))
                 if not played and preempted() and not is_status and not cancelled():
-                    self.items.put_nowait((priority,created,text,is_status))
+                    self.items.put_nowait((priority,queue_created,text,is_status))
             except Exception as e:
-                self.audio_state(e)
+                from button_priority import ManualPreemption
+                if isinstance(e,ManualPreemption):
+                    log('status_yield_to_safety' if is_status else 'yield_to_priority',text=text)
+                    if not is_status:
+                        try:self.items.put_nowait((priority,queue_created,text,is_status))
+                        except queue.Full:log('resume_queue_full',text=text)
+                else:self.audio_state(e)
             finally:
+                if priority==-2:self.safety_active.clear()
                 if isinstance(text,OpeningLine) and getattr(text,'last',False) and not cancelled() and not preempted():
                     mark_opening(False)
                 if is_status:
                     with self.status_lock:
                         self.status_pending=False
+                        self.manual_pending.clear()
+                        from button_priority import release_manual
+                        release_manual(ROOT,getattr(self,'manual_owner',None))
                 self.items.task_done()
 
 def run():
@@ -366,7 +425,17 @@ def run():
     ir = irsdk.IRSDK()
     catalog = TrackCatalog(data_path('tracks_zh.json'))
     announcer = Announcer()
-    button = StatusButton()
+    from session_review import ReviewCoordinator,snapshot as review_snapshot,simulator_is_running
+    from runtime_settings import project_root
+    reviews=ReviewCoordinator(project_root(),announcer.submit)
+    def review_action(method,*args):
+        try:return getattr(reviews,method)(*args)
+        except Exception as error:
+            log('review_error',detail=str(error)[:200])
+    from button_dispatch import StatusSnapshot,StatusDispatcher
+    button = StatusButton(on_event=log)
+    button_snapshot=StatusSnapshot()
+    StatusDispatcher(button,button_snapshot,announcer.submit_status,log=log).start()
     fuel_history = FuelHistory()
     session = None
     tracker = LapTracker()
@@ -382,12 +451,12 @@ def run():
     log('started')
     while True:
         try:
-            request_status=button.requested()
             if not ir.is_initialized:
                 ir.startup()
             if not ir.is_initialized or not ir.is_connected:
-                if request_status:
-                    announcer.submit_status(DISCONNECTED)
+                button_snapshot.update(DISCONNECTED,False)
+                review_action('disconnect',time.time(),simulator_is_running())
+                review_action('tick',time.time())
                 if session is not None:
                     log('disconnected')
                     announcer.cancel_opening()
@@ -437,10 +506,7 @@ def run():
                 fuel_history.update(completed,report_sample['fuel'],seconds,report_sample['pit'])
             else:
                 fuel_history=FuelHistory()
-            if request_status:
-                report=status_phrase(report_sample,fuel_history) if report_sample['active'] else DISCONNECTED
-                log('status_requested',connected=report_sample['active'],fuel_samples=len(fuel_history.samples))
-                announcer.submit_status(report)
+            button_snapshot.update(status_phrase(report_sample,fuel_history) if report_sample['active'] else DISCONNECTED,report_sample['active'])
             damage_sample = sdk_snapshot(ir)
             for warning in damage.update(damage_sample, time.monotonic()):
                 log('damage_detected', text=warning, evidence=damage_sample)
@@ -459,6 +525,8 @@ def run():
             sdk_lap=int(ir['Lap'] or 0)
             current_time=float(ir['LapCurrentLapTime'] or 0)
             lap_incidents.update(sdk_lap,incidents,completed,current_time,seconds)
+            try:review_action('observe',dict(review_snapshot(ir,name),lap_valid=lap_incidents.valid(completed)),time.time())
+            except (ValueError,TypeError,KeyError,AttributeError) as error:log('review_snapshot_error',detail=str(error)[:200])
             session_info=ir['SessionInfo'] or {}
             session_number=ir['SessionNum']
             kind=next((row.get('SessionType','') for row in session_info.get('Sessions',[]) if row.get('SessionNum')==session_number),'')
@@ -474,6 +542,7 @@ def run():
                 log('lap_detected', lap=completed, sdk_lap=sdk_lap, incidents=incidents, invalid_laps=sorted(lap_incidents.invalid), seconds=seconds, text=message)
                 announcer.submit(message)
             status.write_text(json.dumps({'state':'connected','completed_laps':completed,'last_lap_seconds':seconds,'track':name}, ensure_ascii=False), encoding='utf-8')
+            review_action('tick',time.time())
             time.sleep(.25)
         except Exception as e:
             log('telemetry_error', error=type(e).__name__, detail=str(e)[:200])

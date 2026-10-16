@@ -1,6 +1,8 @@
 """Read the existing 1Joy25 binding without consuming any game input."""
 import ctypes
 import json
+import math
+import os
 import queue
 import threading
 import time
@@ -58,52 +60,82 @@ def configured_reader(cfg):
     return WinMMButton(device,button)
 
 class StatusButton:
-    def __init__(self):
-        cfg=json.loads((ROOT/'status_button_settings.json').read_text(encoding='utf-8'))
-        self.reader=configured_reader(cfg)
-        self.latch=PressLatch(cfg.get('cooldown_seconds',8))
+    def __init__(self,on_event=None,start=True,root=None,reader_factory=None):
+        self.root=Path(root or ROOT);self.on_event=on_event;self.factory=reader_factory or configured_reader
+        self.reader=None;self.latch=PressLatch(8);self.stamp=None;self.cfg={}
+        self.last_error=None;self.last_press=None;self.last_consumed=None;self.last_status=0;self.last_reopen=0
         self.events=queue.Queue(maxsize=1)
-        threading.Thread(target=self.watch,daemon=True).start()
+        self.reload()
+        if start:threading.Thread(target=self.watch,name='protected-controller-watch',daemon=True).start()
+
+    def diagnostic(self,event,**data):
+        try:
+            callback=getattr(self,'on_event',None)
+            if callback:callback(event,**data)
+            else:
+                root=getattr(self,'root',ROOT)
+                with (root/'button_events.jsonl').open('a',encoding='utf-8') as stream:
+                    stream.write(json.dumps(dict(time=time.time(),event=event,**data),ensure_ascii=False)+'\n')
+        except Exception:pass # Diagnostics must never disable the button.
+
+    def fault(self,error):
+        detail=type(error).__name__+': '+str(error)[:150]
+        if detail!=self.last_error:self.diagnostic('button_error',detail=detail)
+        self.last_error=detail
+
+    def reload(self):
+        path=self.root/'status_button_settings.json'
+        try:
+            before=path.stat().st_mtime_ns
+            if before==self.stamp:return
+            cfg=json.loads(path.read_text(encoding='utf-8-sig'))
+            if not isinstance(cfg,dict):raise ValueError('Invalid button configuration')
+            if path.stat().st_mtime_ns!=before:return
+            cooldown=cfg.get('cooldown_seconds',8)
+            if type(cooldown) not in (int,float) or not math.isfinite(cooldown) or cooldown<0:raise ValueError('Invalid cooldown')
+            reader=self.factory(cfg)
+            self.reader=reader;self.cfg=cfg;self.latch=PressLatch(cooldown);self.stamp=before
+            self.last_error=None;self.diagnostic('button_binding_loaded',device=cfg.get('device'),button=cfg.get('button'))
+        except (OSError,ValueError,TypeError) as error:self.fault(error)
+
+    def poll(self,now):
+        self.reload();flag=self.root/'button_binding.active'
+        if flag.exists() and time.time()-flag.stat().st_mtime<40:
+            self.latch.previous=None
+            while not self.events.empty():
+                try:self.events.get_nowait()
+                except queue.Empty:break
+            return
+        down=self.reader.read() if self.reader else None
+        if self.latch.update(down,now):
+            self.last_press=time.time();self.diagnostic('button_captured')
+            try:self.events.put_nowait(now);self.diagnostic('button_enqueued')
+            except queue.Full:self.diagnostic('button_already_pending')
+        if down is None and self.cfg and now-self.last_reopen>=2:
+            self.last_reopen=now;self.reader=self.factory(self.cfg)
+        if now-self.last_status>=2:
+            detail=self.reader.describe() if self.reader else dict(binding=None,device_name=None,button_count=None,connected=False)
+            state={**detail,'mode':'single_press' if self.reader else 'unbound','cooldown_seconds':self.latch.cooldown,
+                'time':time.time(),'button_down':down,'last_press':self.last_press,'last_consumed':self.last_consumed,
+                'pending':self.events.qsize(),'last_error':self.last_error,'pid':os.getpid()}
+            temp=self.root/'status_button_status.tmp'
+            try:temp.write_text(json.dumps(state,ensure_ascii=False),encoding='utf-8');temp.replace(self.root/'status_button_status.json')
+            except OSError:pass
+            self.last_status=now
 
     def watch(self):
-        last_status=0
-        stamp=(ROOT/'status_button_settings.json').stat().st_mtime_ns
         while True:
-            now=time.monotonic()
-            flag=ROOT/'button_binding.active'
-            try:
-                learning=flag.exists() and time.time()-flag.stat().st_mtime<40
-                changed=(ROOT/'status_button_settings.json').stat().st_mtime_ns
-                if changed!=stamp:
-                    cfg=json.loads((ROOT/'status_button_settings.json').read_text(encoding='utf-8'))
-                    self.reader=configured_reader(cfg)
-                    self.latch=PressLatch(cfg.get('cooldown_seconds',8));stamp=changed
-                if learning:
-                    self.latch.previous=None
-                    while not self.events.empty():
-                        try:self.events.get_nowait()
-                        except queue.Empty:break
-                    time.sleep(.02);continue
-            except (OSError,ValueError,KeyError):
-                time.sleep(.02);continue
-            down=self.reader.read() if self.reader else None
-            if self.latch.update(down,now):
-                try: self.events.put_nowait(now)
-                except queue.Full: pass
-            if now-last_status>=2:
-                detail=self.reader.describe() if self.reader else dict(binding=None,device_name=None,button_count=None,connected=False)
-                state={**detail,'mode':'single_press' if self.reader else 'unbound','cooldown_seconds':self.latch.cooldown,'time':time.time()}
-                temp=ROOT/'status_button_status.tmp'
-                try:
-                    temp.write_text(json.dumps(state,ensure_ascii=False),encoding='utf-8')
-                    temp.replace(ROOT/'status_button_status.json')
-                except OSError: pass
-                last_status=now
+            try:self.poll(time.monotonic())
+            except Exception as error:
+                self.fault(error);self.latch.update(None,time.monotonic())
+                try:self.reader=self.factory(self.cfg)
+                except Exception:pass
             time.sleep(.02)
 
     def requested(self):
         try:
             created=self.events.get_nowait()
-            return time.monotonic()-created<=5
+            self.last_consumed=time.time();self.diagnostic('button_consumed',age_seconds=round(time.monotonic()-created,3))
+            return True
         except queue.Empty:
             return False

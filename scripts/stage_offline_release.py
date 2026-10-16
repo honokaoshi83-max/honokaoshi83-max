@@ -3,6 +3,7 @@ import hashlib,json,shutil,subprocess,sys
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
+VERSION=json.loads((ROOT/'config/offline-bundle.json').read_text(encoding='utf-8'))['version']
 target=Path(sys.argv[1]).resolve()
 if not (target/'.runtime/python/python.exe').is_file():
     raise SystemExit('Clone a verified offline payload first')
@@ -30,5 +31,5 @@ manifest=[]
 for name in files+['iracing-assistant.exe','config/default.json','work/race-voices/status_button_settings.json']:
     path=target/name
     if path.is_file():manifest.append({'path':name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
-(target/'config/release-files.json').write_text(json.dumps({'version':'0.2.5','files':manifest},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(json.dumps({'version':'0.2.5','public_files':len(manifest),'engine':config['engine'],'first_install_button':'unbound'}))
+(target/'config/release-files.json').write_text(json.dumps({'version':VERSION,'files':manifest},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({'version':VERSION,'public_files':len(manifest),'engine':config['engine'],'first_install_button':'unbound'}))

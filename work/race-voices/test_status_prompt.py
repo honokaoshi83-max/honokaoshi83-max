@@ -11,7 +11,7 @@ class StatusPromptTests(unittest.TestCase):
         with patch('telemetry_announcer.log'):
             self.assertTrue(a.submit_status('状态。'))
             self.assertFalse(a.submit_status('状态。'))
-        a.status_prompt.play.assert_called_once_with()
+        a.status_prompt.play.assert_called_once_with(force=True)
         self.assertEqual(a.status_ack_until,3.0)
     def test_full_queue_does_not_confirm_rejected_request(self):
         from telemetry_announcer import Announcer
@@ -51,6 +51,8 @@ class StatusPromptTests(unittest.TestCase):
         from telemetry_announcer import Announcer
         a=Announcer.__new__(Announcer);a.status_lock=threading.Lock();a.status_pending=True
         a.status_ack_until=1.;a.error_latched=False;a.items=Mock()
+        a.synthesis=Mock()
+        a.synthesis.response.side_effect=lambda key,fetch,preempted,manual=False,safety=False:fetch()
         a.items.get.side_effect=[(0,'状态。',True),StopIteration]
         stream=io.BytesIO()
         with wave.open(stream,'wb') as w:

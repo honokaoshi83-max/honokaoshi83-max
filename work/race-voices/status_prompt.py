@@ -27,16 +27,18 @@ class LocalStatusPrompt:
                 self.duration=len(self.audio)/(w.getnchannels()*w.getsampwidth()*w.getframerate())
         except (OSError,ValueError,wave.Error):self.audio=None
 
-    def monitor(self,until):
+    def monitor(self,until,force=False):
         import winsound
+        from button_priority import active_spotter_safety
         while time.monotonic()<until:
-            if self.speaking.exists():
+            if self.speaking.exists() and (not force or active_spotter_safety()):
                 (self.player or winsound.PlaySound)(None,winsound.SND_PURGE)
                 return
             time.sleep(.03)
 
-    def play(self):
-        if self.audio is None or self.speaking.exists():return 0
+    def play(self,force=False):
+        from button_priority import active_spotter_safety
+        if self.audio is None or (self.speaking.exists() and (not force or active_spotter_safety())):return 0
         volume=load_volume(self.root)
         if volume==0:return 0
         try:
@@ -54,6 +56,6 @@ class LocalStatusPrompt:
             (self.player or winsound.PlaySound)(str(path),winsound.SND_FILENAME|winsound.SND_ASYNC|winsound.SND_NODEFAULT)
             until=time.monotonic()+self.duration
             if self.player is None:
-                threading.Thread(target=self.monitor,args=(until,),daemon=True).start()
+                threading.Thread(target=self.monitor,args=(until,force),daemon=True).start()
             return until
         except (OSError,RuntimeError,ValueError):return 0

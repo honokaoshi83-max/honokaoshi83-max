@@ -37,14 +37,15 @@ class VoiceService:
     def __init__(self, cache, render, fingerprint, active_voice=None, postprocess=None, style_processor=None):
         self.cache, self.render, self.fingerprint = Path(cache), render, fingerprint
         self.cache.mkdir(parents=True, exist_ok=True)
-        self.lock = threading.Lock()
+        from button_priority import PriorityLock
+        self.lock = PriorityLock()
         self.voices = tuple(active_voice) if isinstance(active_voice, (tuple, list)) else (active_voice,) if active_voice else VOICES
         self.postprocess = postprocess
         from emotion_profiles import load_config
         self.emotions = load_config()
         self.style_processor = style_processor
 
-    def speech(self, voice, text, speed=1.0, fmt='mp3', emotion='auto'):
+    def speech(self, voice, text, speed=1.0, fmt='mp3', emotion='auto',manual=False,safety=False):
         if voice not in self.voices:
             raise ValueError('Unknown voice')
         if not isinstance(text, str) or not text.strip() or len(text) > 600:
@@ -80,8 +81,8 @@ class VoiceService:
             if output.exists():
                 return output.read_bytes()
             # Reuse original speech when no suitable emotional reference exists.
-            raw=None if delivery['reference_ready'] else self.speech(voice,text,speed,fmt,emotion='calm')
-            with self.lock:
+            raw=None if delivery['reference_ready'] else self.speech(voice,text,speed,fmt,emotion='calm',manual=manual,safety=safety)
+            with self.lock.hold(manual,safety):
                 if output.exists():
                     return output.read_bytes()
                 if delivery['reference_ready']:
@@ -101,7 +102,7 @@ class VoiceService:
             return output.read_bytes()
         # Shared model switching and inference must be serialized. Cache hits
         # bypass this lock so an urgent cached call is not held by inference.
-        with self.lock:
+        with self.lock.hold(manual,safety):
             if output.exists():
                 return output.read_bytes()
             data = file.read_bytes() if file.exists() else self.render(voice, text, speed, fmt)
@@ -193,6 +194,8 @@ def create_app(service):
         emotion: str = 'auto'
         opening: bool = False
         flag: bool = False
+        review: bool = False
+        manual: bool = False
     @app.get('/health')
     def health():
         return {'status':'ready', 'voices':list(service.voices), 'device':'cpu', 'instance':instance_id(), 'engine':settings()['engine'],
@@ -209,28 +212,56 @@ def create_app(service):
             raise HTTPException(400, 'Use model gpt-sovits')
         from opening_sequence import native_greeting,silent_audio,opening_active,split_opening_state
         from flag_monitor import native_flag,managed
+        from review_phrases import classify,record_event
+        review_phrase=classify(request.input) if not request.review and not request.opening else None
+        save_prompt=review_phrase is not None and review_phrase['kind']=='save'
         suppressed=not request.opening and (native_greeting(request.input) or
                     (opening_active() and split_opening_state(request.input)) or
                     (not request.flag and managed() and native_flag(request.input)))
-        if not request.opening:
+        suppressed=suppressed or save_prompt
+        if not request.opening and not request.manual:
             from opening_sequence import record_component_priority
             record_component_priority(request.input,suppressed)
         with (ROOT/'speech_requests.jsonl').open('a',encoding='utf-8') as record:
             from voice_routing import route_voice
             record.write(json.dumps({'time':time.strftime('%Y-%m-%d %H:%M:%S'),
-                'voice':request.voice,'text':request.input,'opening':request.opening,'flag':request.flag,
+                'voice':request.voice,'text':request.input,'opening':request.opening,'flag':request.flag,'manual':request.manual,
                 'effective_voice':route_voice(request.input,request.voice),
-                'action':'suppressed_opening_duplicate' if suppressed else 'speech_request'},ensure_ascii=False)+'\n')
+                'action':'suppressed_review_save_prompt' if save_prompt else 'suppressed_opening_duplicate' if suppressed else 'speech_request'},ensure_ascii=False)+'\n')
         if suppressed:
             if request.voice not in service.voices:
                 raise HTTPException(400,'Unknown voice')
             if request.response_format not in ('wav','mp3'):
                 raise HTTPException(400,'Only wav and mp3 are supported')
             return Response(silent_audio(request.response_format),media_type='audio/wav' if request.response_format=='wav' else 'audio/mpeg')
+        review_id=None
+        def journal(event):
+            nonlocal review_id
+            if review_phrase is None:return
+            try:
+                from telemetry_announcer import clean_phrase
+                row=dict(review_phrase,text=clean_phrase(request.input))
+                review_id=record_event(ROOT,row,event,review_id)
+            except (OSError,ValueError):pass # Disk errors must not interrupt existing speech.
+        journal('request')
+        from button_priority import spotter_safety
+        safety=not request.manual and not request.opening and spotter_safety(request.input)
+        def wait_for_manual():
+            if not request.manual and not safety:
+                from button_priority import manual_active
+                while manual_active(ROOT):time.sleep(.03)
+        wait_for_manual()
         try:
-            data = service.speech(request.voice, request.input, request.speed, request.response_format, request.emotion)
+            if safety:data=service.speech(request.voice,request.input,request.speed,request.response_format,request.emotion,safety=True)
+            elif request.manual:data=service.speech(request.voice,request.input,request.speed,request.response_format,request.emotion,manual=True)
+            else:data=service.speech(request.voice,request.input,request.speed,request.response_format,request.emotion)
         except ValueError as e:
+            journal('failed')
             raise HTTPException(400, str(e)) from e
+        except Exception:
+            journal('failed');raise
+        journal('ready')
+        wait_for_manual()
         from output_volume import apply_volume
         data=apply_volume(data,request.response_format,ROOT,FFMPEG)
         if request.response_format=='wav':

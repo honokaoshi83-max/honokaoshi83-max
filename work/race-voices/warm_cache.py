@@ -29,6 +29,8 @@ def catalog():
     base=simulator_root()/'Resources/Grammars'
     user=data_path('grammars')
     rows=set()
+    from review_phrases import SAVED,classify
+    rows.add(('furina',SAVED,'wav'));rows.add(('furina',SAVED,'mp3'))
     from opening_sequence import ENGINEER,SPOTTER
     rows.update((('clorinde',ENGINEER,'wav'),('furina',SPOTTER,'wav')))
     rows.add(('clorinde','赛车已经准备就绪。','wav'))
@@ -38,6 +40,8 @@ def catalog():
     rows.add(('clorinde','在比赛中如果想要查询赛车状态请按下通讯按钮，祝你比赛顺利。','wav'))
     for role,voice in [('Race Spotter','furina'),('Race Strategist','furina'),('Race Engineer','clorinde')]:
         for text in fixed_phrases(base,user,role):
+            found=classify(text)
+            if found and found['kind']=='save':continue
             rows.add((voice,text,'mp3'))
         for text in fixed_phrases(base,user,'Conversation'):
             if text=='本次比赛结束，期待下一次合作。':rows.add((voice,text,'mp3'))
@@ -77,7 +81,8 @@ def main():
             print('Paused: iRacing connected. Run again after driving.',flush=True)
             break
         started=time.perf_counter()
-        r=requests.post(service_url()+'/v1/audio/speech',json=dict(voice=voice,input=text,response_format=fmt,speed=1,opening=True,flag=True),timeout=180)
+        from review_phrases import SAVED
+        r=requests.post(service_url()+'/v1/audio/speech',json=dict(voice=voice,input=text,response_format=fmt,speed=1,opening=True,flag=True,review=text==SAVED),timeout=180)
         r.raise_for_status()
         if len(r.content)<1000:
             raise RuntimeError('Empty/short cache audio')

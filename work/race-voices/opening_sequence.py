@@ -19,15 +19,19 @@ PRIORITY_LOCK=threading.Lock()
 
 def record_component_priority(text,suppressed):
     from emotion_profiles import classify
-    urgent=not suppressed and classify(text)=='warning'
+    from button_priority import spotter_safety
+    safety=not suppressed and spotter_safety(text)
+    urgent=not suppressed and (classify(text)=='warning' or safety)
     with PRIORITY_LOCK:
+        until=time.time()+(15 if urgent else 3)
         if not urgent:
             try:
                 previous=json.loads(PRIORITY.read_text(encoding='utf-8'))
-                if previous.get('urgent') and previous.get('until',0)>time.time():return
+                if previous.get('urgent') and previous.get('until',0)>time.time():
+                    urgent=True;until=previous['until']
             except (OSError,ValueError):pass
         temporary=PRIORITY.with_suffix('.tmp')
-        temporary.write_text(json.dumps({'urgent':urgent,'until':time.time()+(15 if urgent else 3)}),encoding='utf-8')
+        temporary.write_text(json.dumps({'urgent':urgent,'safety':safety,'until':until}),encoding='utf-8')
         temporary.replace(PRIORITY)
 
 def component_interrupts_opening():

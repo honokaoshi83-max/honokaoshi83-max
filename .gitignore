@@ -35,3 +35,10 @@ config/local.json
 **/opening_active.tmp
 **/driver_numbers.json
 **/driver_numbers.tmp
+
+# Personal race strategy draft
+config/race-strategy.json
+复盘/
+**/review_state.json
+**/review_status.json
+**/manual_speech_active.json

@@ -119,12 +119,15 @@ class Window(QMainWindow):
         body=QWidget();shell.addWidget(body,1);outer=QHBoxLayout(body);outer.setContentsMargins(0,0,0,0);outer.setSpacing(0)
         sidebar=QFrame();sidebar.setObjectName('sidebar');sidebar.setFixedWidth(205);sl=QVBoxLayout(sidebar);sl.setContentsMargins(0,25,0,18)
         mark=label('');mark.setAccessibleName('中文播报助手标志');mark.setPixmap(QPixmap(str(backend.project/'app/assets/app-logo.png')).scaled(76,76,Qt.KeepAspectRatio,Qt.SmoothTransformation));mark.setAlignment(Qt.AlignCenter);sl.addWidget(mark);sl.addSpacing(22)
-        self.nav=QListWidget();self.nav.addItems(['运行概览','音色管理','诊断日志']);sl.addWidget(self.nav);sl.addWidget(label('   v0.2 · 中文播报助手','muted'));outer.addWidget(sidebar)
+        self.nav=QListWidget();self.nav.addItems(['运行概览','赛事策略\n测试中','音色管理','复盘','诊断日志']);sl.addWidget(self.nav)
+        self.nav.item(1).setToolTip('赛事策略 · 测试中：默认关闭，需手动开启。')
+        from update_client import current_version
+        sl.addWidget(label('   v'+current_version(backend.project)+' · 中文播报助手','muted'));sl.addWidget(button('检查更新',self.open_updates));outer.addWidget(sidebar)
         self.pages=QStackedWidget();outer.addWidget(self.pages,1);self.nav.currentRowChanged.connect(self.pages.setCurrentIndex)
-        self.build_home();self.build_voices();self.build_diagnostics();self.nav.setCurrentRow(0)
+        self.build_home();self.build_strategy();self.build_voices();self.build_reviews();self.build_diagnostics();self.nav.setCurrentRow(0)
         bottom=QHBoxLayout();bottom.setContentsMargins(0,0,4,3);bottom.addStretch();bottom.addWidget(QSizeGrip(self));shell.addLayout(bottom)
         self.tray=QSystemTrayIcon(icon(backend.project),self);self.tray.setToolTip('iracing中文播报助手');menu=QMenu()
-        menu.addAction('显示窗口',self.show_window);menu.addAction('停止播报',lambda:self.run_ps('stop'));menu.addSeparator();menu.addAction('退出界面（保留后台）',self.quit_ui)
+        menu.addAction('显示窗口',self.show_window);menu.addAction('检查更新',self.open_updates);menu.addAction('停止播报',lambda:self.run_ps('stop'));menu.addSeparator();menu.addAction('退出界面（保留后台）',self.quit_ui)
         self.tray.setContextMenu(menu);self.tray.activated.connect(lambda reason:self.show_window() if reason==QSystemTrayIcon.DoubleClick else None);self.tray.show()
         self.timer=QTimer(self);self.timer.timeout.connect(self.tick);self.timer.start(400);self.tick()
 
@@ -171,6 +174,10 @@ class Window(QMainWindow):
         self.binding_result=label('长按不连播；换设备后重新绑定。');self.binding_result.setWordWrap(True);c.addWidget(self.binding_result)
         self.bind_button.setToolTip('等待 30 秒；取消或超时保留原绑定。支持控制器前 32 个按钮。转向和踏板请在 iRacing 内校准。');c.addStretch();return card
 
+    def build_strategy(self):
+        from strategy_page import StrategyPage
+        self.strategy_page=StrategyPage(self.backend.project);self.pages.addWidget(self.strategy_page)
+
     def build_voices(self):
         from voices_ui import VoiceLibraryWidget
         v=self.page('音色管理','两个角色分别选择音色，默认音色始终保留')
@@ -182,6 +189,10 @@ class Window(QMainWindow):
         v=self.page('诊断日志','运行目录、服务健康状态与最近错误')
         self.diag=QPlainTextEdit();self.diag.setReadOnly(True);v.addWidget(self.diag,1)
         row=QHBoxLayout();row.addWidget(button('刷新诊断',self.refresh_diagnostics));row.addWidget(button('打开后台目录',self.open_backend));row.addWidget(button('打开安装说明',self.open_docs));v.addLayout(row)
+
+    def build_reviews(self):
+        from reviews_page import ReviewsPage
+        self.reviews_page=ReviewsPage(self.backend.project);self.pages.addWidget(self.reviews_page)
 
     def start_process(self,program,args,kind):
         if self.job and self.job.state()!=QProcess.NotRunning:
@@ -263,6 +274,7 @@ class Window(QMainWindow):
             remain=max(0,30-int(time.monotonic()-self.binding_started));self.binding_result.setText(f'等待按键……剩余 {remain} 秒。先松开，再按下一个按钮。')
 
     def update_state(self,s):
+        if self.strategy_page.enabled.isChecked():self.strategy_page.update_connection(s)
         entries=self.voice_library.catalog.entries();roles=self.voice_library.catalog.roles();engineer_name=entries[roles['engineer']]['name'];observer_name=entries[roles['observer']]['name']
         self.engineer_label.setText('工程师 · '+engineer_name);self.observer_label.setText('观察员／策略师 · '+observer_name)
         self.state=s;ready=s['health'].get('status')=='ready';self.running.setText('● 正在运行' if ready else '● 播报服务未启动');self.running.setStyleSheet('color:'+('#167347' if ready else '#946211'));self.start_button.setText('停止播报' if ready else '启动播报')
@@ -272,6 +284,12 @@ class Window(QMainWindow):
         bound=type(cfg.get('device')) is int and type(cfg.get('button')) is int and 1<=cfg['device']<=16 and 1<=cfg['button']<=32
         detail=f"设备 {cfg.get('device','—')} · 按钮 {cfg.get('button','—')}";self.binding_title.setText('当前绑定：'+detail if bound else '尚未绑定播报键');self.binding_detail.setText(('按键接口在线' if connected else '暂无在线按键读数，请连接控制器。') if bound else '点击下方按钮设置。')
         engine=s['health'].get('engine','gpt-sovits' if ready else '未连接');self.engine_info.setText('当前引擎：'+engine+'；可用音色：'+('、'.join(s['health'].get('voices',[])) or '暂无数据'))
+
+    def open_updates(self):
+        from update_dialog import UpdateDialog
+        if not getattr(self,'update_dialog',None) or not self.update_dialog.isVisible():
+            self.update_dialog=UpdateDialog(self.backend,self,can_apply=lambda:not self.state.get('game') and (not self.job or self.job.state()==QProcess.NotRunning),on_launch=self.quit_ui)
+        self.update_dialog.show();self.update_dialog.raise_();self.update_dialog.activateWindow()
 
     def show_window(self):self.showNormal();self.raise_();self.activateWindow()
     def closeEvent(self,event):
